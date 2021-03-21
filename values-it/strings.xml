@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Suffix added to a number to signify size in bytes. -->
+    <string name="byteShort">B</string>
+    <!-- Suffix added to a number to signify size in kilobytes. -->
+    <string name="kilobyteShort">KB</string>
+    <!-- Suffix added to a number to signify size in megabytes. -->
+    <string name="megabyteShort">MB</string>
+    <!-- Suffix added to a number to signify size in gigabytes. -->
+    <string name="gigabyteShort">GB</string>
+    <!-- Suffix added to a number to signify size in terabytes. -->
+    <string name="terabyteShort">TB</string>
+    <!-- Suffix added to a number to signify size in petabytes. -->
+    <string name="petabyteShort">PB</string>
+    <string name="kb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> KB/s</string>
+    <string name="mb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> MB/s</string>
+    <string name="gb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> GB/s</string>
+    <string name="tb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> TB/s</string>
+    <string name="permission_start_text">Per mostrare determinati tipi di informazioni, Inware richiede permessi aggiuntivi.</string>
+    <string name="read_phone_state">Read Phone State</string>
+    <string name="read_phone_text_explanation">Usato per mostrare il codice IMEI del dispositivo</string>
+    <string name="access_location">Accesso Localizzazione</string>
+    <string name="access_location_explanation">Usato per leggere informazioni dettagliate sulla tua connessione Wi-Fi</string>
+    <string name="permission_end_text">Questo è opzionale e tutti i tuoi dati rimangono confidenziali.</string>
+    <string name="read_storage">Leggere lo spazio di archiviazione</string>
+    <string name="read_storage_explanation">Usato per mostrare l\'utilizzo della memoria interna di archiviazione.</string>
+    <string name="deny">Nega</string>
+    <string name="allow">Consenti</string>
+    <string name="system_tab">Sistema</string>
+    <string name="device_tab">Dispositivo</string>
+    <string name="hardware_tab">Hardware</string>
+    <string name="memory_tab">Memoria</string>
+    <string name="camera_tab">Fotocamera</string>
+    <string name="network_tab">Rete</string>
+    <string name="connectivity_tab">Connettività</string>
+    <string name="battery_tab">Batteria</string>
+    <string name="new_version_available">Nuova versione disponibile</string>
+    <string name="new_version_dialog_message">Aggiorna all\'ultima versione per una migliore esperienza</string>
+    <string name="update">Aggiorna</string>
+    <string name="later">Dopo</string>
+    <string name="switch_theme">Cambia Tema</string>
+    <string name="settings">Impostazioni</string>
+    <string name="interface_category">Interfaccia</string>
+    <string name="hide_unavailable_data">Nascondi dati non disponibili</string>
+    <string name="hide_unavailable_data_summary">Non mostrare le sezioni senza informazioni disponibili</string>
+    <string name="temperature_unit">Unità di misura della temperatura</string>
+    <string name="clipboard">Appunti</string>
+    <string name="long_press_to_copy">Tieni premuto per copiare</string>
+    <string name="long_press_to_copy_sumarry">Copia i valori tenendo premuto sopra di essi</string>
+    <string name="copy_values_with_labels">Copia valori con etichette</string>
+    <string name="copy_values_with_labels_summary">Includi i nomi dei valori nella copia</string>
+    <string name="shake_to_report_category">Agita per segnalare</string>
+    <string name="shake_to_send_feedback">Agita per inviare un feedback</string>
+    <string name="shake_to_send_feedback_summary">Agita il tuo dispositivo per mandare velocemente un feedback da qualsiasi schermata</string>
+    <string name="sensitivity">Sensibilità</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="licenses">Licenze</string>
+    <string name="interface_category_description">Personalizza tema e layout</string>
+    <string name="notifications_category_description">Attiva/disattiva notifiche push</string>
+    <string name="experimental_category_description">Funzionalità non rilasciata, potrebbe essere instabile</string>
+    <string name="shake_to_report_category_description">Agita il dispositivo per mandare un feedback</string>
+    <string name="about_category_description">Contribuenti, supporto e changelog</string>
+    <string name="basics">Base</string>
+    <string name="unavailable">Non disponibile</string>
+    <string name="good">Buono</string>
+    <string name="supported">Supportato</string>
+    <string name="not_supported">Non Supportato</string>
+    <string name="copied_to_clipboard">Copiato negli appunti</string>
+    <string name="enabled">Abilitato</string>
+    <string name="disabled">Disabilitato</string>
+    <string name="features">Funzioni</string>
+    <string name="os">OS</string>
+    <string name="android_version">Versione Android</string>
+    <string name="release_with">Uscito con</string>
+    <string name="security_patch">Patch di sicurezza</string>
+    <string name="build_number">Numero Build</string>
+    <string name="build_id">Build ID</string>
+    <string name="kernel_version">Versione Kernel</string>
+    <string name="baseband_version">Versione Baseband</string>
+    <string name="tags">Tag</string>
+    <string name="fingerprint">Lettore impronte</string>
+    <string name="bootloader">Bootloader</string>
+    <string name="up_time">Acceso da</string>
+    <string name="extra">Extra</string>
+    <string name="treble">Treble</string>
+    <string name="seamless_updates">Seamless Update</string>
+    <string name="root">Root</string>
+    <string name="language">Lingua</string>
+    <string name="board">Piattaforma</string>
+    <string name="hardware">Hardware</string>
+    <string name="build_type">Tipo Build</string>
+    <string name="active_slot">Slot Attivo</string>
+    <string name="root_version">Versione Root</string>
+    <string name="detected">Rilevato</string>
+    <string name="not_detected">Non Rilevato</string>
+    <string name="usb_debugging">Debugging USB</string>
+    <string name="selinux">SELinux</string>
+    <string name="brand">Brand</string>
+    <string name="manufacturer">Produttore</string>
+    <string name="product">Prodotto</string>
+    <string name="model">Modello</string>
+    <string name="display">Schermo</string>
+    <string name="resolution">Risoluzione</string>
+    <string name="size">Dimensione</string>
+    <string name="aspect_ratio">Rapporto d\'aspetto</string>
+    <string name="frame_rate">Frame Rate</string>
+    <string name="default_orientation">Orientamento predefinito</string>
+    <string name="current_density">Attuale: <xliff:g example="420" id="density">%d</xliff:g>dpi (<xliff:g example="xxhdpi" id="density_qualifier">%s</xliff:g>)</string>
+    <string name="default_density">Predefinito: <xliff:g example="560" id="density">%d</xliff:g>dpi (<xliff:g example="xxxhdpi" id="density_qualifier">%s</xliff:g>)</string>
+    <string name="landscape">Orizzontale</string>
+    <string name="portrait">Verticale</string>
+    <string name="hdr">HDR</string>
+    <string name="fingerprint_authentication">Autenticazione con impronta</string>
+    <string name="face_authentication">Autenticazione con viso</string>
+    <string name="vulkan">Vulkan</string>
+    <string name="augmented_reality">Realtà Aumentata</string>
+    <string name="file_based_encryption">File Based Encryption</string>
+    <string name="indentifiers">Identificatori</string>
+    <string name="android_id">Android ID</string>
+    <string name="gsf_id">GSF ID</string>
+    <string name="serial_number">Numero di serie</string>
+    <string name="imei">IMEI <xliff:g example="1" id="imei_number">%d</xliff:g></string>
+    <string name="cpu_information">Informazioni CPU</string>
+    <string name="supported_abis">ABIS supportato</string>
+    <string name="cores">Core</string>
+    <string name="minimum_frequency">Frequenza Minima</string>
+    <string name="maximum_frequency">Frequenza Massima</string>
+    <string name="governor">Governor</string>
+    <string name="usage">Utilizzo</string>
+    <string name="cpu_usage">Utilizzo CPU</string>
+    <string name="gpu_information">Informazioni GPU</string>
+    <string name="vendor">Fornitore</string>
+    <string name="renderer">Renderizzatore</string>
+    <string name="current_frequency">Frequenza Attuale</string>
+    <string name="clusters">Cluster</string>
+    <string name="cluster_number">Cluster #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
+    <string name="core_number">Core <xliff:g example="3" id="number_of_core">%d</xliff:g></string>
+    <string name="value_frequency"><xliff:g example="857" id="frequency">%d</xliff:g> MHz</string>
+    <string name="stopped">Fermo</string>
+    <string name="offline">Offline</string>
+    <string name="device_memory">Memoria Dispositivo (RAM)</string>
+    <string name="total">Totale</string>
+    <string name="available">Disponibile</string>
+    <string name="used">Usata</string>
+    <string name="used_percentage">Usata (Percentuale)</string>
+    <string name="internal_storage">Memoria di archiviazione interna</string>
+    <string name="front_camera">Fotocamera Frontale</string>
+    <string name="back_camera">Fotocamera Posteriore</string>
+    <string name="external_camera">Fotocamera Esterna</string>
+    <string name="megapixels">Megapixel</string>
+    <string name="available_apertures">Aperture Disponibili</string>
+    <string name="optical_image_stabilization">Stabilizzazione ottica dell\'immagine (OIS)</string>
+    <string name="electronic_image_stabilization">Stabilizzazione elettronica dell\'immagine (EIS)</string>
+    <string name="flashlight">Torcia</string>
+    <string name="max_jpeg_thumbnail_size">Dimensione massima anteprima JPEG</string>
+    <string name="mpx"><xliff:g example="16" id="number_of_megapixel">%d</xliff:g> Mpx</string>
+    <string name="network_type">Tipo di Rete</string>
+    <string name="speed">Velocità</string>
+    <string name="download_speed">Velocità di Download</string>
+    <string name="upload_speed">Velocità di Upload</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="ssid">SSID</string>
+    <string name="hidden_ssid">SSID Nascosto</string>
+    <string name="frequency">Frequenza</string>
+    <string name="signal_strength">Potenza Segnale</string>
+    <string name="link_speed">Velocità del collegamento</string>
+    <string name="local_ip_ipv4">IP locale (IPv4)</string>
+    <string name="mac_address">Indirizzo MAC</string>
+    <string name="gateway">Gateway</string>
+    <string name="subnet_mask">Subnet Mask</string>
+    <string name="dns">DNS</string>
+    <string name="local_ip_ipv6">IP locale (IPv6)</string>
+    <string name="dhcp_lease_time">Lease Time DHCP</string>
+    <string name="excellent">Eccellente</string>
+    <string name="display_density">Densità</string>
+    <string name="device_unique_id">Device Unique ID</string>
+    <string name="version">Versione</string>
+    <string name="security_level">Livello Sicurezza</string>
+    <string name="media_drm">DRM multimediali</string>
+    <string name="mainline_module_version">Aggiornamento di sistema Google Play</string>
+</resources>

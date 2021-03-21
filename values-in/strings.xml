@@ -1,0 +1,206 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Suffix added to a number to signify size in bytes. -->
+    <string name="byteShort">B</string>
+    <!-- Suffix added to a number to signify size in kilobytes. -->
+    <string name="kilobyteShort">KB</string>
+    <!-- Suffix added to a number to signify size in megabytes. -->
+    <string name="megabyteShort">MB</string>
+    <!-- Suffix added to a number to signify size in gigabytes. -->
+    <string name="gigabyteShort">GB</string>
+    <!-- Suffix added to a number to signify size in terabytes. -->
+    <string name="terabyteShort">TB</string>
+    <!-- Suffix added to a number to signify size in petabytes. -->
+    <string name="petabyteShort">PB</string>
+
+    <string name="kb_on_sec"><xliff:g id="speed" example="36">%s</xliff:g> KB/detik</string>
+    <string name="mb_on_sec"><xliff:g id="speed" example="36">%s</xliff:g> MB/detik</string>
+    <string name="gb_on_sec"><xliff:g id="speed" example="36">%s</xliff:g> GB/detik</string>
+    <string name="tb_on_sec"><xliff:g id="speed" example="36">%s</xliff:g> TB/detik</string>
+
+    <string name="permission_start_text">Untuk menampilkan tipe informasi tertentu, Inware memperlukan perijinan tambahan.</string>
+    <string name="read_phone_state">Baca Status Perangkat</string>
+    <string name="read_phone_text_explanation">Digunakan untuk menampilkan nomor IMEI telepon.</string>
+    <string name="access_location">Akses Lokasi</string>
+    <string name="access_location_explanation">Digunakan untuk menampilkan informasi detail tentang koneksi Wi-Fi.</string>
+    <string name="permission_end_text">Ini opsional dan semua data anda tetap tersimpan secara pribadi.</string>
+    <string name="deny">Tolak</string>
+    <string name="allow">Ijinkan</string>
+    <string name="system_tab">Sistem</string>
+    <string name="device_tab">Telepon</string>
+    <string name="hardware_tab">Perangkat Keras</string>
+    <string name="memory_tab">Memori</string>
+    <string name="camera_tab">Kamera</string>
+    <string name="network_tab">Jaringan</string>
+    <string name="connectivity_tab">Konektivitas</string>
+    <string name="battery_tab">Baterai</string>
+    <string name="new_version_available">Versi baru tersedia</string>
+    <string name="new_version_dialog_message">Perbarui ke versi terbaru untuk pengalaman yang lebih baik</string>
+    <string name="update">Perbarui</string>
+    <string name="later">Nanti Saja</string>
+    <string name="switch_theme">Ganti Tema</string>
+    <string name="settings">Pengaturan</string>
+    <string name="interface_category">Antarmuka</string>
+    <string name="hide_unavailable_data">Sembunyikan Data Tidak Tersedia</string>
+    <string name="hide_unavailable_data_summary">Jangan Tampilkan data untuk informasi tidak tersedia</string>
+    <string name="temperature_unit">Satuan Suhu</string>
+    <string name="clipboard">Clipboard</string>
+    <string name="long_press_to_copy">Tekan lama untuk menyalin</string>
+    <string name="long_press_to_copy_sumarry">Salin data item dengan tekan lama</string>
+    <string name="copy_values_with_labels">Salin data dengan label</string>
+    <string name="copy_values_with_labels_summary">Termasuk data label ketika menyalin</string>
+    <string name="shake_to_report_category">Goncangkan dengan keras</string>
+    <string name="shake_to_send_feedback">Goncangkan untuk mengirim kritik &amp; saran</string>
+    <string name="shake_to_send_feedback_summary">Goncangkan perangkat untuk mengirim kritik &amp; saran secara cepat dari semua layar</string>
+    <string name="sensitivity">Sensitivitas</string>
+    <string name="basics">Dasar</string>
+    <string name="unavailable">Tidak Tersedia</string>
+    <string name="good">Bagus</string>
+    <string name="supported">Mendukung</string>
+    <string name="not_supported">Tidak Didukung</string>
+    <string name="copied_to_clipboard">Salin ke clipboard</string>
+    <string name="enabled">Diaktifkan</string>
+    <string name="disabled">Tidak Diaktifkan</string>
+    <string name="features">Fitur</string>
+    <string name="os">Sistem Operasi</string>
+    <string name="android_version">Versi Android</string>
+    <string name="release_with">Rilis Dengan</string>
+    <string name="security_patch">Patch Keamanan</string>
+    <string name="build_number">Nomor Pembuatan</string>
+    <string name="build_id">ID Pembuatan</string>
+    <string name="kernel_version">Versi Kernel</string>
+    <string name="baseband_version">Versi Baseband</string>
+    <string name="tags">Tags</string>
+    <string name="fingerprint">Sidik Jari</string>
+    <string name="bootloader">Bootloader</string>
+    <string name="up_time">Waktu Hidup</string>
+    <string name="extra">Ekstra</string>
+    <string name="treble">Treble</string>
+    <string name="seamless_updates">Pembaruan Lancar</string>
+    <string name="root">Root</string>
+    <string name="language">Bahasa</string>
+    <string name="board">Papan Sirkuit</string>
+    <string name="hardware">Perangkat Keras</string>
+    <string name="build_type">Tipe Pembuatan</string>
+    <string name="active_slot">Slot Aktif</string>
+    <string name="root_version">Versi Root</string>
+    <string name="detected">Terdeteksi</string>
+    <string name="not_detected">Tidak Terdeteksi</string>
+    <string name="usb_debugging">USB Debugging</string>
+    <string name="selinux">SELinux</string>
+    <string name="brand">Merek</string>
+    <string name="manufacturer">Manufaktur</string>
+    <string name="product">Produk</string>
+    <string name="model">Model</string>
+    <string name="display">Layar</string>
+    <string name="resolution">Resolusi</string>
+    <string name="size">Ukuran</string>
+    <string name="aspect_ratio">Aspek Rasio</string>
+    <string name="frame_rate">Tingkat Bingkai</string>
+    <string name="default_orientation">Standar Orientasi</string>
+    <string name="landscape">Landscape</string>
+    <string name="portrait">Portrait</string>
+    <string name="hdr">HDR</string>
+    <string name="fingerprint_authentication">Autentifikasi Sidik Jari</string>
+    <string name="face_authentication">Autentifikasi Wajah</string>
+    <string name="vulkan">Vulkan</string>
+    <string name="augmented_reality">Augmented Reality</string>
+    <string name="file_based_encryption">Enkripsi Berbasis File</string>
+    <string name="indentifiers">Identifikasi</string>
+    <string name="android_id">Android ID</string>
+    <string name="gsf_id">GSF ID</string>
+    <string name="serial_number">Nomor Serial</string>
+    <string name="imei">IMEI <xliff:g id="imei_number" example="1">%d</xliff:g></string>
+    <string name="cpu_information">Informasi CPU</string>
+    <string name="supported_abis">Mendukung ABIS</string>
+    <string name="cores">Jumlah Inti</string>
+    <string name="minimum_frequency">Frekuensi Minimum</string>
+    <string name="maximum_frequency">Frekuensi Maksimum</string>
+    <string name="governor">Pengatur</string>
+    <string name="usage">Penggunaan</string>
+    <string name="cpu_usage">Penggunaan CPU</string>
+    <string name="gpu_information">Informasi GPU</string>
+    <string name="vendor">Vendor</string>
+    <string name="renderer">Renderer</string>
+    <string name="current_frequency">Frekuensi Sekarang</string>
+    <string name="clusters">Jumlah Kelompok</string>
+    <string name="cluster_number">Kelompok #<xliff:g id="number_of_cluster" example="1">%d</xliff:g></string>
+    <string name="core_number">Inti <xliff:g id="number_of_core" example="3">%d</xliff:g></string>
+    <string name="value_frequency"><xliff:g id="frequency" example="857">%d</xliff:g> MHz</string>
+    <string name="stopped">Berhenti</string>
+    <string name="offline">Offline</string>
+    <string name="device_memory">Memori Perangkat (RAM)</string>
+    <string name="total">Total</string>
+    <string name="available">Tersedia</string>
+    <string name="used">Digunakan</string>
+    <string name="used_percentage">Digunakan (Persentase)</string>
+    <string name="internal_storage">Penyimpanan Internal</string>
+    <string name="front_camera">Kamera Depan</string>
+    <string name="back_camera">Kamera Belakang</string>
+    <string name="external_camera">Kamera Ekternal</string>
+    <string name="megapixels">Megapiksel</string>
+    <string name="available_apertures">Terdapat Bukaan</string>
+    <string name="optical_image_stabilization">Optical Image Stabilization (OIS)</string>
+    <string name="electronic_image_stabilization">Electronic Image Stabilization (EIS)</string>
+    <string name="flashlight">Lampu Flash</string>
+    <string name="max_jpeg_thumbnail_size">Ukuran Maksimal Thumbnail Jpeg</string>
+    <string name="mpx"><xliff:g id="number_of_megapixel" example="16">%d</xliff:g> Mpx</string>
+    <string name="network_type">Tipe Jaringan</string>
+    <string name="speed">Kecepatan</string>
+    <string name="download_speed">Kecepatan Download</string>
+    <string name="upload_speed">Kecepatan Upload</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="ssid">SSID</string>
+    <string name="hidden_ssid">SSID Tersembunyi</string>
+    <string name="frequency">Frekuensi</string>
+    <string name="signal_strength">Kekuatan Sinyal</string>
+    <string name="link_speed">Kecepatan Link</string>
+    <string name="local_ip_ipv4">Lokal IP (IPv4)</string>
+    <string name="mac_address">MAC Address</string>
+    <string name="gateway">Gateway</string>
+    <string name="subnet_mask">Subnet Mask</string>
+    <string name="dns">DNS</string>
+    <string name="local_ip_ipv6">Lokal IP (IPv6)</string>
+    <string name="dhcp_lease_time">DHCP Lease Time</string>
+    <string name="excellent">Sangat Bagus</string>
+    <string name="fair">Cukup</string>
+    <string name="weak">Lemah</string>
+    <string name="lease_time_more_than_a_week">Lebih dari seminggu: <xliff:g id="seconds">%d</xliff:g> detik</string>
+    <string name="connected">Terhubung</string>
+    <string name="disconnected">Tidak Terhubung</string>
+    <string name="bluetooth_enabled">Diaktifkan (%s)</string>
+    <string name="turning_on">Menyalakan</string>
+    <string name="turning_off">Mematikan</string>
+    <string name="turn_on_bluetooth">Nyalakan Bluetooth</string>
+    <string name="zero_device_connected">0 Perangkat Terhubung</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="name">Nama</string>
+    <string name="bluetooth_low_energy">Bluetooth Rendah Energi</string>
+    <string name="connected_devices">Perangkat Terhubung</string>
+    <string name="health">Kesehatan</string>
+    <string name="status">Status</string>
+    <string name="level">Level</string>
+    <string name="capacity">Kapasitas</string>
+    <string name="temperature">Temperatur</string>
+    <string name="technology">Teknologi</string>
+    <string name="null_string">Null</string>
+    <string name="unknown">Tidak Diketahui</string>
+    <string name="overheated">Terlalu Panas</string>
+    <string name="dead">Mati</string>
+    <string name="overvoltage">Kelebihan Tegangan</string>
+    <string name="unspecified_failure">Kegagalan Tidak Spesifik</string>
+    <string name="cold">Dingin</string>
+    <string name="charging">Megisi Daya</string>
+    <string name="discharging">Melepaskan Daya</string>
+    <string name="not_charging">Tidak Mengisi Daya</string>
+    <string name="full">Penuh</string>
+    <string name="whats_new">Apa yang Baru?</string>
+    <string name="about">Tentang</string>
+    <string name="thanks_to">Terima kasih</string>
+    <string name="privacy_policy">Kebijakan Privasi</string>
+    <string name="no_email_application_found">Tidak Dapat Menemukan Aplikasi Email.</string>
+    <string name="detect_battery_capacity">Deteksi kapasitas baterai</string>
+    <string name="experimental_options_summary">Dengan mengaktifkan ini mungkin menyebabkan hal tak terduga</string>
+    <string name="detect_all_cameras">Deteksi semua kamera</string>
+    <string name="experimental">Eksperimental</string>
+
+</resources>
