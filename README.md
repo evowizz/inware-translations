@@ -4,7 +4,7 @@ This repository is dedicated to the translation of the [Inware Android app](http
 
 ## Repository Structure
 
-The repository is split into folders — one per language. These are named *values-X*, where *X* represents an ISO 639-1 language code. For example, *values-de* represents the German language. Each folder houses a *strings.xml* file.
+The repository is split into folders — one per language. These are named *values-X*, where *X* represents an [ISO 639-1 language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes). For example, *values-de* represents the German language. Each folder houses a *strings.xml* file.
 
 ## Contributing
 
@@ -57,3 +57,21 @@ Localised _strings.xml_ files should only contain translated copy. Find all sour
 Although this isn’t required, maintaing the order of the `string` tags from the source file will help other translators.
 
 You are also welcome to correct existing translations. To do so, find the appropriate `string` tag in the localised _strings.xml_ file and edit its content. To submit a contribution for review, create a pull request. Thanks for your help!
+
+## License
+
+```
+Copyright 2021 Dylan Roussel
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
