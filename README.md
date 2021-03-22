@@ -43,7 +43,7 @@ If a directory exists for your target language, edit the *strings.xml* file insi
 </resources>
 ```
 
-Localised _strings.xml_ files should only contain translated copy. Find all source strings in [_values_/_strings.xml_](https://github.com/evowizz/inware-translations/blob/main/values/strings.xml), copy those you plan on translating into the localised _strings.xml_ file, and edit them. For example:
+Localized _strings.xml_ files should only contain translated copy. Find all source strings in [_values_/_strings.xml_](https://github.com/evowizz/inware-translations/blob/main/values/strings.xml), copy those you plan on translating into the localized _strings.xml_ file, and edit them. For example:
 
 ```xml
 <?xml version="1.0"?>
@@ -56,7 +56,7 @@ Localised _strings.xml_ files should only contain translated copy. Find all sour
 
 Although this isn’t required, maintaing the order of the `string` tags from the source file will help other translators.
 
-You are also welcome to correct existing translations. To do so, find the appropriate `string` tag in the localised _strings.xml_ file and edit its content. To submit a contribution for review, create a pull request. Thanks for your help!
+You are also welcome to correct existing translations. To do so, find the appropriate `string` tag in the localized _strings.xml_ file and edit its content. To submit a contribution for review, create a pull request. Thanks for your help!
 
 ## License
 
