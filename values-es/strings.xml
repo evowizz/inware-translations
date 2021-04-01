@@ -103,7 +103,7 @@
     <string name="resolution">Resolución</string>
     <string name="size">Tamaño</string>
     <string name="aspect_ratio">Relación de aspecto</string>
-    <string name="frame_rate">Frecuencia de actualización de fotogramas</string>
+    <string name="frame_rate">Frecuencia de actualización</string>
     <string name="default_orientation">Orientación por defecto</string>
     <string name="current_density">Actual: <xliff:g example="420" id="density">%d</xliff:g>dpi (<xliff:g example="xxhdpi" id="density_qualifier">%s</xliff:g>)</string>
     <string name="default_density">Predeterminada: <xliff:g example="560" id="density">%d</xliff:g>dpi (<xliff:g example="xxxhdpi" id="density_qualifier">%s</xliff:g>)</string>
