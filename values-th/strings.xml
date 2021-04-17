@@ -1,17 +1,11 @@
 <?xml version="1.0"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Suffix added to a number to signify size in bytes. -->
-    <string name="byteShort">B</string>
     <!-- Suffix added to a number to signify size in kilobytes. -->
-    <string name="kilobyteShort">KB</string>
     <!-- Suffix added to a number to signify size in megabytes. -->
-    <string name="megabyteShort">MB</string>
     <!-- Suffix added to a number to signify size in gigabytes. -->
-    <string name="gigabyteShort">GB</string>
     <!-- Suffix added to a number to signify size in terabytes. -->
-    <string name="terabyteShort">TB</string>
     <!-- Suffix added to a number to signify size in petabytes. -->
-    <string name="petabyteShort">PB</string>
 
     <string name="kb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> KB/s</string>
     <string name="mb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> MB/s</string>

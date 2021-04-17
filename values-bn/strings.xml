@@ -1,17 +1,11 @@
 <?xml version="1.0"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Suffix added to a number to signify size in bytes. -->
-    <string name="byteShort">বাইট</string>
     <!-- Suffix added to a number to signify size in kilobytes. -->
-    <string name="kilobyteShort">কিলোবাইট</string>
     <!-- Suffix added to a number to signify size in megabytes. -->
-    <string name="megabyteShort">মেগাবাইট</string>
     <!-- Suffix added to a number to signify size in gigabytes. -->
-    <string name="gigabyteShort">গিগাবাইট</string>
     <!-- Suffix added to a number to signify size in terabytes. -->
-    <string name="terabyteShort">টেরাবাইট</string>
     <!-- Suffix added to a number to signify size in petabytes. -->
-    <string name="petabyteShort">পেটাবাইট</string>
     <string name="kb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> কিলোবাইট প্রতি সেকেন্ডে</string>
     <string name="mb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g>
 মেগাবাইট প্রতি সেকেন্ডে</string>
@@ -230,7 +224,6 @@
     <string name="security_level">নিরাপত্তার মাত্রা</string>
     <string name="media_drm">মিডিয়া ডিআরএম</string>
     <string name="mainline_module_version">গুগল প্লে সিস্টেম আধুনিকায়ন</string>
-    <string name="title_dynamicfeatureexample">ডাইনামিক ফীচারের উদাহরণ</string>
     <string name="tap_for_more_information">আরও তথ্যের জন্য চাপুন</string>
     <string name="permission_required_title">অনুমতি প্রয়োজন</string>
     <string name="permission_required_content">নিম্নলিখিত তথ্যটি দেখতে অনুমতি প্রয়োজন:</string>
