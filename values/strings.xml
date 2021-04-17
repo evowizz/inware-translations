@@ -254,4 +254,5 @@
     <string name="demo_module_tag">Demo</string>
     <string name="beta_module_tag">Beta</string>
     <string name="preview_module_tag">Preview</string>
+    <string name="display_number">Display #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
 </resources>
