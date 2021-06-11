@@ -42,7 +42,7 @@
     <string name="long_press_to_copy">Țineți apăsat pentru a copia</string>
     <string name="long_press_to_copy_sumarry">Copiați valorile ținând apăsat pe acestea</string>
     <string name="copy_values_with_labels">Copiați valorile împreună cu etichetele</string>
-    <string name="copy_values_with_labels_summary">Include etichetele valorilor la copiere</string>
+    <string name="copy_values_with_labels_summary">Includeți etichetele valorilor la copiere</string>
     <string name="shake_to_report_category">Scuturați pentru a raporta</string>
     <string name="shake_to_send_feedback">Scuturați pentru a trimite feedback</string>
     <string name="shake_to_send_feedback_summary">Scuturați-vă dispozitivul pentru a trimite rapid feedback din orice ecran</string>
@@ -55,13 +55,13 @@
     <string name="shake_to_report_category_description">Scuturați dispozitivul pentru a trimite feedback</string>
     <string name="about_category_description">Contribuitori, asistență și jurnale de schimbări</string>
     <string name="basics">Informații de bază</string>
-    <string name="unavailable">Indisponibil</string>
-    <string name="good">În regulă</string>
-    <string name="supported">Acceptat</string>
-    <string name="not_supported">Neacceptat</string>
+    <string name="unavailable">Indisponibil(ă)</string>
+    <string name="good">Bun</string>
+    <string name="supported">Acceptat(ă)</string>
+    <string name="not_supported">Neacceptat(ă)</string>
     <string name="copied_to_clipboard">Copiat în clipboard</string>
-    <string name="enabled">Activat</string>
-    <string name="disabled">Dezactivat</string>
+    <string name="enabled">Activat(ă)</string>
+    <string name="disabled">Dezactivat(ă)</string>
     <string name="features">Caracteristici</string>
     <string name="os">SO</string>
     <string name="android_version">Versiune Android</string>
@@ -85,8 +85,8 @@
     <string name="build_type">Tip de generare</string>
     <string name="active_slot">Slot activ</string>
     <string name="root_version">Versiune root</string>
-    <string name="detected">S-a detectat</string>
-    <string name="not_detected">Nu s-a detectat</string>
+    <string name="detected">Detectat(ă)</string>
+    <string name="not_detected">Nedetectat(ă)</string>
     <string name="usb_debugging">Depanare prin USB</string>
     <string name="selinux">SELinux</string>
     <string name="brand">Marcă</string>
@@ -161,7 +161,7 @@
     <string name="local_ip_ipv4">Adresă IP locală (IPv4)</string>
     <string name="mac_address">Adresă MAC</string>
     <string name="gateway">Poartă de acces (Gateway)</string>
-    <string name="subnet_mask">Mască de rețea</string>
+    <string name="subnet_mask">Mască de subrețea</string>
     <string name="dns">DNS</string>
     <string name="local_ip_ipv6">Adresă IP locală (IPv6)</string>
     <string name="dhcp_lease_time">Perioadă de închiriere DHCP</string>
@@ -203,7 +203,7 @@
     <string name="battery_current_format"><xliff:g example="304" id="current">%s</xliff:g> mA</string>
     <string name="battery_voltage_format"><xliff:g example="4.384" id="voltage">%s</xliff:g> V</string>
     <string name="battery_current">Intensitate</string>
-    <string name="battery_power">Putere</string>
+    <string name="battery_power">Alimentare</string>
     <string name="battery_voltage">Tensiune</string>
     <string name="whats_new">Ce este nou</string>
     <string name="about">Despre</string>
@@ -240,7 +240,7 @@
     <string name="dark_mode_on">Pornit</string>
     <string name="dark_mode_follow_system">Urmați sistemul</string>
     <string name="dark_theme_original">Original</string>
-    <string name="dark_theme_slate">Ardezie</string>
+    <string name="dark_theme_slate">Ardeziu</string>
     <string name="dark_theme_grey">Gri</string>
     <string name="dark_theme_black">Negru</string>
     <string name="settings_module_manager_category_title">Module</string>
