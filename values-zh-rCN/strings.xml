@@ -7,9 +7,9 @@
     <!-- Suffix added to a number to signify size in terabytes. -->
     <!-- Suffix added to a number to signify size in petabytes. -->
     <string name="kb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> KB/秒</string>
-    <string name="mb_on_sec">MB/秒</string>
-    <string name="gb_on_sec">GB/秒</string>
-    <string name="tb_on_sec">TB/秒</string>
+    <string name="mb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> MB/秒</string>
+    <string name="gb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> GB/秒</string>
+    <string name="tb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> TB/秒</string>
     <string name="permission_start_text">Inware需要额外的权限来显示特定种类的信息。</string>
     <string name="read_phone_state">读取手机状态</string>
     <string name="read_phone_text_explanation">用于显示您设备的IMEI号码。</string>
@@ -71,16 +71,16 @@
     <string name="baseband_version">基带版本</string>
     <string name="tags">标签</string>
     <string name="fingerprint">指纹</string>
-    <string name="bootloader">启动程序</string>
+    <string name="bootloader">Bootloader</string>
     <string name="up_time">已开机时间</string>
     <string name="extra">附加</string>
     <string name="treble">Treble</string>
     <string name="seamless_updates">无缝更新</string>
     <string name="root">Root</string>
     <string name="language">语言</string>
-    <string name="board">板</string>
+    <string name="board">主板</string>
     <string name="hardware">硬件</string>
-    <string name="build_type">版本类型</string>
+    <string name="build_type">构建类型</string>
     <string name="active_slot">活动启动槽（A/B）</string>
     <string name="root_version">Root版本</string>
     <string name="detected">已检测到</string>
@@ -98,7 +98,7 @@
     <string name="frame_rate">刷新率</string>
     <string name="default_orientation">默认方向</string>
     <string name="current_density">目前: <xliff:g example="420" id="density">%d</xliff:g>dpi (<xliff:g example="xxhdpi" id="density_qualifier">%s</xliff:g>)</string>
-    <string name="default_density">Default: <xliff:g example="560" id="density">%d</xliff:g>dpi (<xliff:g example="xxxhdpi" id="density_qualifier">%s</xliff:g>)</string>
+    <string name="default_density">默认: <xliff:g example="560" id="density">%d</xliff:g>dpi (<xliff:g example="xxxhdpi" id="density_qualifier">%s</xliff:g>)</string>
     <string name="landscape">横向</string>
     <string name="portrait">竖向</string>
     <string name="hdr">高动态范围（HDR）</string>
@@ -113,7 +113,7 @@
     <string name="serial_number">序列号</string>
     <string name="imei">IMEI <xliff:g example="1" id="imei_number">%d</xliff:g></string>
     <string name="cpu_information">CPU信息</string>
-    <string name="supported_abis">支持的ABIS</string>
+    <string name="supported_abis">支持的ABI</string>
     <string name="cores">核心数</string>
     <string name="minimum_frequency">最低频率</string>
     <string name="maximum_frequency">最高频率</string>
@@ -124,9 +124,9 @@
     <string name="renderer">渲染器</string>
     <string name="current_frequency">目前频率</string>
     <string name="clusters">集群</string>
-    <string name="cluster_number">集群 #<xliff:g example="1" id="集群数目">%d</xliff:g></string>
-    <string name="core_number">核心数 <xliff:g example="3" id="核心数">%d</xliff:g></string>
-    <string name="value_frequency"><xliff:g example="857" id="频率">%d</xliff:g> MHz</string>
+    <string name="cluster_number">集群 <xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
+    <string name="core_number">核心 <xliff:g example="3" id="number_of_core">%d</xliff:g></string>
+    <string name="value_frequency"><xliff:g example="857" id="frequency">%d</xliff:g> MHz</string>
     <string name="stopped">已停止</string>
     <string name="offline">离线</string>
     <string name="device_memory">内存（RAM）</string>
@@ -137,14 +137,14 @@
     <string name="internal_storage">内置存储</string>
     <string name="front_camera">前置相机</string>
     <string name="back_camera">后置相机</string>
-    <string name="external_camera">外接相机</string>
-    <string name="megapixels">百万像素（MP）</string>
+    <string name="external_camera">外部相机</string>
+    <string name="megapixels">像素（百万）</string>
     <string name="available_apertures">可用光圈大小</string>
     <string name="optical_image_stabilization">光学防抖（OIS）</string>
     <string name="electronic_image_stabilization">电子防抖（EIS）</string>
     <string name="flashlight">闪光灯</string>
-    <string name="max_jpeg_thumbnail_size">最高Jpeg缩略图大小</string>
-    <string name="network_type">网络类别</string>
+    <string name="max_jpeg_thumbnail_size">最高JPEG缩略图大小</string>
+    <string name="network_type">网络类型</string>
     <string name="speed">速度</string>
     <string name="download_speed">下载速度</string>
     <string name="upload_speed">上传速度</string>
@@ -155,10 +155,22 @@
     <string name="signal_strength">信号强度</string>
     <string name="local_ip_ipv4">本地IP（IPv4）</string>
     <string name="mac_address">MAC地址</string>
+    <string name="gateway">网关</string>
+    <string name="subnet_mask">子网掩码</string>
+    <string name="dns">DNS</string>
+    <string name="local_ip_ipv6">本地IP（IPv6）</string>
+    <string name="dhcp_lease_time">DHCP租约期限</string>
+    <string name="excellent">极好</string>
+    <string name="fair">中等</string>
+    <string name="weak">较弱</string>
+    <string name="lease_time_more_than_a_week">长于一周：<xliff:g id="seconds">%d</xliff:g> seconds</string>
     <string name="connected">已连接</string>
     <string name="disconnected">已断开连接</string>
+    <string name="bluetooth_enabled">已启用（%s）</string>
+    <string name="turning_on">开启</string>
+    <string name="turning_off">关闭</string>
     <string name="turn_on_bluetooth">开启蓝牙</string>
-    <string name="zero_device_connected">0个设备连接</string>
+    <string name="zero_device_connected">无设备连接</string>
     <string name="bluetooth">蓝牙</string>
     <string name="name">名称</string>
     <string name="bluetooth_low_energy">低功耗蓝牙</string>
@@ -187,7 +199,7 @@
     <string name="detect_battery_capacity">检测电池容量</string>
     <string name="experimental_options_summary">启用此功能可能会导致意外行为</string>
     <string name="detect_all_cameras">检测所有相机</string>
-    <string name="experimental">试验性</string>
+    <string name="experimental">试验性功能</string>
     <string name="notifications_category">通知</string>
     <string name="translations_notification">翻译</string>
     <string name="display_density">密度</string>
@@ -206,4 +218,32 @@
     <string name="battery_charger_ac">充电器（交流电）</string>
     <string name="battery_charger_usb">USB</string>
     <string name="battery_charger_wireless">无线</string>
+    <string name="settings_category_appearance">外观</string>
+    <string name="settings_option_dark_mode">暗色模式</string>
+    <string name="settings_option_dark_theme">暗色主题</string>
+    <string name="dark_mode_off">关闭</string>
+    <string name="dark_mode_on">开启</string>
+    <string name="dark_mode_follow_system">跟随系统</string>
+    <string name="dark_theme_original">默认</string>
+    <string name="dark_theme_slate">石板色</string>
+    <string name="dark_theme_grey">灰色</string>
+    <string name="dark_theme_black">黑色</string>
+    <string name="settings_module_manager_category_title">模块</string>
+    <string name="settings_module_manager_category_description">管理可下载的模块</string>
+    <string name="module_manager_installed_category">已安装</string>
+    <string name="module_manager_available_category">可用模块</string>
+    <string name="module_manager_no_modules_installed"无已安装模块</string>
+    <string name="module_manager_no_modules_available">无可用模块</string>
+    <string name="module_installer_initializing">正在初始化</string>
+    <string name="module_installer_downloading">正在下载</string>
+    <string name="module_installer_installing">正在安装</string>
+    <string name="module_installer_pending">正在等待</string>
+    <string name="mdule_installer_cancel_result">已取消</string>
+    <string name="module_installer_success_result">安装成功</string>
+    <string name="module_installer_unknown_error">哦不…我们遇到了一个问题！</string>
+    <string name="experimental_module_tag">实验性</string>
+    <string name="demo_module_tag">演示</string>
+    <string name="beta_module_tag">测试版</string>
+    <string name="preview_module_tag">预览版</string>
+    <string name="display_number">显示屏 <xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
 </resources>
