@@ -231,7 +231,7 @@
     <string name="settings_module_manager_category_description">管理可下载的模块</string>
     <string name="module_manager_installed_category">已安装</string>
     <string name="module_manager_available_category">可用模块</string>
-    <string name="module_manager_no_modules_installed"无已安装模块</string>
+    <string name="module_manager_no_modules_installed">无已安装模块</string>
     <string name="module_manager_no_modules_available">无可用模块</string>
     <string name="module_installer_initializing">正在初始化</string>
     <string name="module_installer_downloading">正在下载</string>
