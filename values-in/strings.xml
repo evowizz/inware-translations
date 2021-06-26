@@ -136,7 +136,6 @@
     <string name="optical_image_stabilization">Optical Image Stabilization (OIS)</string>
     <string name="electronic_image_stabilization">Electronic Image Stabilization (EIS)</string>
     <string name="flashlight">Lampu Flash</string>
-    <string name="max_jpeg_thumbnail_size">Ukuran Maksimal Thumbnail Jpeg</string>
     <string name="mpx"><xliff:g id="number_of_megapixel" example="16">%d</xliff:g> Mpx</string>
     <string name="network_type">Tipe Jaringan</string>
     <string name="speed">Kecepatan</string>

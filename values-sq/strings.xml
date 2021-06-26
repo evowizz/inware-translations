@@ -137,7 +137,6 @@
     <string name="optical_image_stabilization">Stabilizim optik i imazhit (OIS)</string>
     <string name="electronic_image_stabilization">Stabilizim elektronik i imazhit (EIS)</string>
     <string name="flashlight">Blici</string>
-    <string name="max_jpeg_thumbnail_size">Madhesia maksimale e ikonave JPEG</string>
     <string name="mpx"><xliff:g example="16" id="number_of_megapixel">%d</xliff:g> Mpx</string>
     <string name="network_type">Tipi i rrjetit</string>
     <string name="speed">Shpejtesia</string>

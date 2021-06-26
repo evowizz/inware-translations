@@ -138,7 +138,6 @@
     <string name="optical_image_stabilization">Оптическая стабилизация изображения (OIS)</string>
     <string name="electronic_image_stabilization">Электронная стабилизация изображения (EIS)</string>
     <string name="flashlight">Фонарик</string>
-    <string name="max_jpeg_thumbnail_size">Максимальный размер миниатюры Jpeg</string>
     <string name="mpx"><xliff:g example="16" id="number_of_megapixel">%d</xliff:g> Мпикс</string>
     <string name="network_type">Тип сети</string>
     <string name="speed">Скорость</string>

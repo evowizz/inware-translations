@@ -140,7 +140,6 @@
     <string name="optical_image_stabilization">Optical Image Stabilization (OIS)</string>
     <string name="electronic_image_stabilization">Electronic Image Stabilization (EIS)</string>
     <string name="flashlight">Flashlight</string>
-    <string name="max_jpeg_thumbnail_size">Max Jpeg Thumbnail Size</string>
     <string name="mpx"><xliff:g example="16" id="number_of_megapixel">%d</xliff:g> Mpx</string>
     <string name="network_type">Network Type</string>
     <string name="speed">Speed</string>
@@ -255,4 +254,5 @@
     <string name="beta_module_tag">Beta</string>
     <string name="preview_module_tag">Preview</string>
     <string name="display_number">Display #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
+    <string name="no_browser_warning">Unable to find a browser</string>
 </resources>

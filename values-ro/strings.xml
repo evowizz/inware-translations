@@ -146,7 +146,6 @@
     <string name="optical_image_stabilization">Stabilizare optică a imaginii (OIS)</string>
     <string name="electronic_image_stabilization">Stabilizare electronică a imaginii (EIS)</string>
     <string name="flashlight">Lanternă</string>
-    <string name="max_jpeg_thumbnail_size">Mărime maximă miniaturi JPEG</string>
     <string name="mpx"><xliff:g example="16" id="number_of_megapixel">%d</xliff:g> Mpx</string>
     <string name="network_type">Tip de rețea</string>
     <string name="speed">Viteză</string>
