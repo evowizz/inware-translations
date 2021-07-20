@@ -11,14 +11,6 @@
     <string name="mb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> MB/s</string>
     <string name="gb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> GB/s</string>
     <string name="tb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> TB/s</string>
-    <string name="permission_start_text">Para exibir algumas informações, o Inware requer algumas permissões adicionais.</string>
-    <string name="read_phone_state">Ler o estado do aparelho.</string>
-    <string name="read_phone_text_explanation">Mostrar o número IMEI do aparelho.</string>
-    <string name="access_location">Acessar a localização.</string>
-    <string name="access_location_explanation">Acessar informações referentes a conexão Wi-Fi.</string>
-    <string name="permission_end_text">Esta é opcional e todos os seus dados são mantidos privados.</string>
-    <string name="read_storage">Acessar o armazenamento</string>
-    <string name="read_storage_explanation">Mostrar informações sobre o armazenamento interno.</string>
     <string name="deny">Negar</string>
     <string name="allow">Permitir</string>
     <string name="system_tab">Sistema</string>
@@ -33,28 +25,22 @@
     <string name="new_version_dialog_message">Atualize para a última versão para melhorar a experiência</string>
     <string name="update">Atualizar</string>
     <string name="later">Depois</string>
-    <string name="switch_theme">Mudar o Tema</string>
     <string name="settings">Ajustes</string>
-    <string name="interface_category">Interface</string>
-    <string name="hide_unavailable_data">Esconder informações não disponíveis</string>
-    <string name="hide_unavailable_data_summary">Não mostrar os campos com informações indisponíveis</string>
-    <string name="temperature_unit">Unidade de temperatura</string>
-    <string name="clipboard">Copiado</string>
-    <string name="long_press_to_copy">Pressionar e segurar para copiar</string>
-    <string name="long_press_to_copy_sumarry">Copiar o valor dos itens ao pressionar e segurar</string>
-    <string name="copy_values_with_labels">Copiar a informação com o título</string>
-    <string name="copy_values_with_labels_summary">Incluir o título ao copiar</string>
+    <string name="settings_category_clipboard">Copiado</string>
+    <string name="settings_option_long_press_to_copy">Pressionar e segurar para copiar</string>
+    <string name="settings_option_long_press_to_copy_sumarry">Copiar o valor dos itens ao pressionar e segurar</string>
+    <string name="settings_option_copy_values_with_labels">Copiar a informação com o título</string>
+    <string name="settings_option_copy_values_with_labels_summary">Incluir o título ao copiar</string>
     <string name="shake_to_report_category">Agitar para reportar</string>
     <string name="shake_to_send_feedback">Agitar para fazer uma sugestão</string>
     <string name="shake_to_send_feedback_summary">Agitar o aparelho para fazer uma sugestão de qualquer tela</string>
     <string name="sensitivity">Sensibilidade</string>
     <string name="privacy_policy">Política de Privacidade</string>
     <string name="licenses">Licenças</string>
-    <string name="interface_category_description">Customizar o tema e a interface</string>
     <string name="notifications_category_description">Mudar as notificações</string>
     <string name="experimental_category_description">Funções não lançadas, podem apresentar instabilidade</string>
     <string name="shake_to_report_category_description">Agitar o aparelho para fazer uma sugestão</string>
-    <string name="about_category_description">Contribuidores, suporte, e log de mudanças</string>
+    <string name="settings_category_about_description">Contribuidores, suporte, e log de mudanças</string>
     <string name="basics">Básicos</string>
     <string name="unavailable">Não disponível</string>
     <string name="good">Bom</string>
@@ -212,7 +198,7 @@
     <string name="detect_battery_capacity">Detectar a capacidade da bateria</string>
     <string name="experimental_options_summary">Ativar isto pode ocasionar algum comportamento inesperado</string>
     <string name="detect_all_cameras">Detectar todas as câmeras</string>
-    <string name="experimental">Experimental</string>
+    <string name="settings_category_experimental">Experimental</string>
     <string name="notifications_category">Notificações</string>
     <string name="translations_notification">Traduções</string>
     <string name="translations_notification_explanation">Seja notificado quando houverem novas traduções</string>

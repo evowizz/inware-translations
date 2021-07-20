@@ -11,12 +11,6 @@
     <string name="gb_on_sec"><xliff:g id="speed" example="36">%s</xliff:g> GB/detik</string>
     <string name="tb_on_sec"><xliff:g id="speed" example="36">%s</xliff:g> TB/detik</string>
 
-    <string name="permission_start_text">Untuk menampilkan tipe informasi tertentu, Inware memperlukan perijinan tambahan.</string>
-    <string name="read_phone_state">Baca Status Perangkat</string>
-    <string name="read_phone_text_explanation">Digunakan untuk menampilkan nomor IMEI telepon.</string>
-    <string name="access_location">Akses Lokasi</string>
-    <string name="access_location_explanation">Digunakan untuk menampilkan informasi detail tentang koneksi Wi-Fi.</string>
-    <string name="permission_end_text">Ini opsional dan semua data anda tetap tersimpan secara pribadi.</string>
     <string name="deny">Tolak</string>
     <string name="allow">Ijinkan</string>
     <string name="system_tab">Sistem</string>
@@ -31,17 +25,12 @@
     <string name="new_version_dialog_message">Perbarui ke versi terbaru untuk pengalaman yang lebih baik</string>
     <string name="update">Perbarui</string>
     <string name="later">Nanti Saja</string>
-    <string name="switch_theme">Ganti Tema</string>
     <string name="settings">Pengaturan</string>
-    <string name="interface_category">Antarmuka</string>
-    <string name="hide_unavailable_data">Sembunyikan Data Tidak Tersedia</string>
-    <string name="hide_unavailable_data_summary">Jangan Tampilkan data untuk informasi tidak tersedia</string>
-    <string name="temperature_unit">Satuan Suhu</string>
-    <string name="clipboard">Clipboard</string>
-    <string name="long_press_to_copy">Tekan lama untuk menyalin</string>
-    <string name="long_press_to_copy_sumarry">Salin data item dengan tekan lama</string>
-    <string name="copy_values_with_labels">Salin data dengan label</string>
-    <string name="copy_values_with_labels_summary">Termasuk data label ketika menyalin</string>
+    <string name="settings_category_clipboard">Clipboard</string>
+    <string name="settings_option_long_press_to_copy">Tekan lama untuk menyalin</string>
+    <string name="settings_option_long_press_to_copy_sumarry">Salin data item dengan tekan lama</string>
+    <string name="settings_option_copy_values_with_labels">Salin data dengan label</string>
+    <string name="settings_option_copy_values_with_labels_summary">Termasuk data label ketika menyalin</string>
     <string name="shake_to_report_category">Goncangkan dengan keras</string>
     <string name="shake_to_send_feedback">Goncangkan untuk mengirim kritik &amp; saran</string>
     <string name="shake_to_send_feedback_summary">Goncangkan perangkat untuk mengirim kritik &amp; saran secara cepat dari semua layar</string>
@@ -194,6 +183,6 @@
     <string name="detect_battery_capacity">Deteksi kapasitas baterai</string>
     <string name="experimental_options_summary">Dengan mengaktifkan ini mungkin menyebabkan hal tak terduga</string>
     <string name="detect_all_cameras">Deteksi semua kamera</string>
-    <string name="experimental">Eksperimental</string>
+    <string name="settings_category_experimental">Eksperimental</string>
 
 </resources>

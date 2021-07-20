@@ -4,14 +4,6 @@
     <string name="mb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> MB/s</string>
     <string name="gb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> GB/s</string>
     <string name="tb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> TB/s</string>
-    <string name="permission_start_text">Per mostrare determinati tipi di informazioni, Inware richiede permessi aggiuntivi.</string>
-    <string name="read_phone_state">Lettura dello stato del telefono</string>
-    <string name="read_phone_text_explanation">Utlizzato per mostrare il codice IMEI del dispositivo</string>
-    <string name="access_location">Accesso alla posizione</string>
-    <string name="access_location_explanation">Utilizzato per leggere informazioni dettagliate sulla tua connessione Wi-Fi</string>
-    <string name="permission_end_text">Questo è opzionale e tutti i tuoi dati rimangono confidenziali.</string>
-    <string name="read_storage">Lettura dello spazio di archiviazione</string>
-    <string name="read_storage_explanation">Utilizzato per mostrare l\'utilizzo della memoria interna di archiviazione.</string>
     <string name="deny">Nega</string>
     <string name="allow">Consenti</string>
     <string name="system_tab">Sistema</string>
@@ -26,28 +18,22 @@
     <string name="new_version_dialog_message">Aggiorna all\'ultima versione per una migliore esperienza</string>
     <string name="update">Aggiorna</string>
     <string name="later">Dopo</string>
-    <string name="switch_theme">Cambia tema</string>
     <string name="settings">Impostazioni</string>
-    <string name="interface_category">Interfaccia</string>
-    <string name="hide_unavailable_data">Nascondi dati non disponibili</string>
-    <string name="hide_unavailable_data_summary">Non mostrare le sezioni senza informazioni disponibili</string>
-    <string name="temperature_unit">Unità di misura della temperatura</string>
-    <string name="clipboard">Appunti</string>
-    <string name="long_press_to_copy">Tieni premuto per copiare</string>
-    <string name="long_press_to_copy_sumarry">Copia i valori tenendo premuto sopra di essi</string>
-    <string name="copy_values_with_labels">Copia valori con etichette</string>
-    <string name="copy_values_with_labels_summary">Includi i nomi dei valori nella copia</string>
+    <string name="settings_category_clipboard">Appunti</string>
+    <string name="settings_option_long_press_to_copy">Tieni premuto per copiare</string>
+    <string name="settings_option_long_press_to_copy_sumarry">Copia i valori tenendo premuto sopra di essi</string>
+    <string name="settings_option_copy_values_with_labels">Copia valori con etichette</string>
+    <string name="settings_option_copy_values_with_labels_summary">Includi i nomi dei valori nella copia</string>
     <string name="shake_to_report_category">Scuota per segnalare</string>
     <string name="shake_to_send_feedback">Scuota per inviare un feedback</string>
     <string name="shake_to_send_feedback_summary">Scuota il tuo dispositivo per mandare velocemente un feedback da qualsiasi schermata</string>
     <string name="sensitivity">Sensibilità</string>
     <string name="privacy_policy">Politica sulla privacy</string>
     <string name="licenses">Licenze</string>
-    <string name="interface_category_description">Personalizza tema e layout</string>
     <string name="notifications_category_description">Attiva/disattiva notifiche push</string>
     <string name="experimental_category_description">Funzionalità non rilasciata, potrebbe essere instabile</string>
     <string name="shake_to_report_category_description">Agita il dispositivo per mandare un feedback</string>
-    <string name="about_category_description">Collaboratori, supporto e registro delle modifiche</string>
+    <string name="settings_category_about_description">Collaboratori, supporto e registro delle modifiche</string>
     <string name="basics">Base</string>
     <string name="unavailable">Non disponibile</string>
     <string name="good">Buono</string>
@@ -205,7 +191,7 @@
     <string name="detect_battery_capacity">Rileva la capacità della batteria</string>
     <string name="experimental_options_summary">Può portare a comportamenti inaspettati</string>
     <string name="detect_all_cameras">Rileva tutte le fotocamere</string>
-    <string name="experimental">Sperimentale</string>
+    <string name="settings_category_experimental">Sperimentale</string>
     <string name="notifications_category">Notifiche</string>
     <string name="translations_notification">Traduzioni</string>
     <string name="translations_notification_explanation">Ricevi una notifica quando nuove frasi sono disponibili per la traduzione</string>

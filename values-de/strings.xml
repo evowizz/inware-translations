@@ -10,14 +10,6 @@
     <string name="mb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> MB/s</string>
     <string name="gb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> GB/s</string>
     <string name="tb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> TB/s</string>
-    <string name="permission_start_text">Um bestimmte Informationen anzeigen zu können, benötigt Inware zusätzliche Berechtigungen.</string>
-    <string name="read_phone_state">Telefonstatus lesen</string>
-    <string name="read_phone_text_explanation">Wird benutzt, um die IMEI-Nummer des Gerätes anzeigen zu können.</string>
-    <string name="access_location">Standortzugriff</string>
-    <string name="access_location_explanation">Wird benutzt, um detaillierte Informationen zur Wi-Fi-Verbindung anzeigen zu können.</string>
-    <string name="permission_end_text">Dies ist optional und alle deine Daten bleiben privat.</string>
-    <string name="read_storage">Speicher lesen</string>
-    <string name="read_storage_explanation">Wird benutzt um den internen Speicher des Geräts anzuzeigen</string>
     <string name="deny">ablehnen</string>
     <string name="allow">akzeptieren</string>
     <string name="system_tab">System</string>
@@ -32,27 +24,21 @@
     <string name="new_version_dialog_message">Aktualisiere auf die neuste Version, für eine bessere Nutzungserfahrung</string>
     <string name="update">Update</string>
     <string name="later">Später</string>
-    <string name="switch_theme">Theme wechseln</string>
     <string name="settings">Einstellungen</string>
-    <string name="interface_category">Interface</string>
-    <string name="hide_unavailable_data">Fehlende Daten ausblenden</string>
-    <string name="hide_unavailable_data_summary">Die anzeigen ohne informationen ausblenden lassen</string>
-    <string name="temperature_unit">Temperatureinheit</string>
-    <string name="clipboard">Zwischenablage</string>
-    <string name="long_press_to_copy">Länger drücken zum Kopieren</string>
-    <string name="long_press_to_copy_sumarry">Kopiert die Daten in den Feldern bei längerem Drücken</string>
-    <string name="copy_values_with_labels">Kopiere Feldnamen mit Daten</string>
-    <string name="copy_values_with_labels_summary">Kopiert die Daten mit den dazugehörigen Feldnamen</string>
+    <string name="settings_category_clipboard">Zwischenablage</string>
+    <string name="settings_option_long_press_to_copy">Länger drücken zum Kopieren</string>
+    <string name="settings_option_long_press_to_copy_sumarry">Kopiert die Daten in den Feldern bei längerem Drücken</string>
+    <string name="settings_option_copy_values_with_labels">Kopiere Feldnamen mit Daten</string>
+    <string name="settings_option_copy_values_with_labels_summary">Kopiert die Daten mit den dazugehörigen Feldnamen</string>
     <string name="shake_to_report_category">Schütteln um einen Report zu erstellen</string>
     <string name="shake_to_send_feedback">Schütteln, um Feedback zu senden</string>
     <string name="shake_to_send_feedback_summary">Schüttel dein Gerät, um von jeden Bildschirm der App aus schnell Feedback zu geben.</string>
     <string name="sensitivity">Empfindlichkeit</string>
     <string name="privacy_policy">Datenschutzerklärung</string>
     <string name="licenses">Lizenzen</string>
-    <string name="interface_category_description">Themes und Layout anpassen</string>
     <string name="experimental_category_description">Unveröffentliche Funktionen, diese können instabil sein</string>
     <string name="shake_to_report_category_description">Gerät schütteln um Feedback zu senden</string>
-    <string name="about_category_description">Mitwirkende, Unterstützung und Änderungsprotokolle</string>
+    <string name="settings_category_about_description">Mitwirkende, Unterstützung und Änderungsprotokolle</string>
     <string name="basics">Grundlegendes</string>
     <string name="unavailable">Nicht verfügbar</string>
     <string name="good">Gut</string>
@@ -203,7 +189,7 @@
     <string name="detect_battery_capacity">Batteriekapazität ermitteln</string>
     <string name="experimental_options_summary">Die Aktivierung kann zu unerwartetem Verhalten führen.</string>
     <string name="detect_all_cameras">Alle Kameras ermitteln</string>
-    <string name="experimental">Experimentell</string>
+    <string name="settings_category_experimental">Experimentell</string>
     <string name="notifications_category">Benachrichtigungen</string>
     <string name="translations_notification">Übersetzungen</string>
     <string name="translations_notification_explanation">Erhalte eine Benachrichtigung, wenn neue  Sätze zur Übersetzung da sind</string>

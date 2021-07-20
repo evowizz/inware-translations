@@ -10,14 +10,6 @@
     <string name="mb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> MB/s</string>
     <string name="gb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> GB/s</string>
     <string name="tb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> TB/s</string>
-    <string name="permission_start_text">Aby mohl Inware zobrazit určité informace, potřebuje dodatečné povolení.</string>
-    <string name="read_phone_state">Číst stav telefonu</string>
-    <string name="read_phone_text_explanation">Používáno pro zobrazení čísla IMEI vašeho zařízení.</string>
-    <string name="access_location">Přístup k  poloze</string>
-    <string name="access_location_explanation">Používáno pro zobrazení detailů o vašem Wi-Fi připojení.</string>
-    <string name="permission_end_text">Toto nastavení není povinné a všechny vaše data zůstanou zachovány v soukromí.</string>
-    <string name="read_storage">Číst úložiště</string>
-    <string name="read_storage_explanation">Používáno pro zobrazení stavu úložiště v zařízení.</string>
     <string name="deny">Zakázat</string>
     <string name="allow">Povolit</string>
     <string name="system_tab">Systém</string>
@@ -32,28 +24,22 @@
     <string name="new_version_dialog_message">Aktualizujte na nejnovější verzi pro lepší zážitek</string>
     <string name="update">Akualizovat</string>
     <string name="later">Později</string>
-    <string name="switch_theme">Přepnout vzhled</string>
     <string name="settings">Nastavení</string>
-    <string name="interface_category">Rozhraní</string>
-    <string name="hide_unavailable_data">Skrýt nedostupná data</string>
-    <string name="hide_unavailable_data_summary">Nezobrazovat položky, které nejsou dostupné</string>
-    <string name="temperature_unit">Jednotka teploty</string>
-    <string name="clipboard">Schránka</string>
-    <string name="long_press_to_copy">Dlouhým stiskem kopírujte</string>
-    <string name="long_press_to_copy_sumarry">Dlouhým stiskem zkopírujte hodnoty položek</string>
-    <string name="copy_values_with_labels">Kopírovat i názvy položek</string>
-    <string name="copy_values_with_labels_summary">S hodnotami kopírujte i název položky</string>
+    <string name="settings_category_clipboard">Schránka</string>
+    <string name="settings_option_long_press_to_copy">Dlouhým stiskem kopírujte</string>
+    <string name="settings_option_long_press_to_copy_sumarry">Dlouhým stiskem zkopírujte hodnoty položek</string>
+    <string name="settings_option_copy_values_with_labels">Kopírovat i názvy položek</string>
+    <string name="settings_option_copy_values_with_labels_summary">S hodnotami kopírujte i název položky</string>
     <string name="shake_to_report_category">Rozzuřené třesení</string>
     <string name="shake_to_send_feedback">Odeslání zpětné vazby zatřesením</string>
     <string name="shake_to_send_feedback_summary">Zatřeste zařízením pro rychlé posláni zpětné vazby. (Funguje z jakékoliv obrazovky)</string>
     <string name="sensitivity">Citlivost</string>
     <string name="privacy_policy">Zásady ochrany osobních údajů</string>
     <string name="licenses">Licence</string>
-    <string name="interface_category_description">Přispůsobit vzhled a rozhraní</string>
     <string name="notifications_category_description">Přepnout push oznámení</string>
     <string name="experimental_category_description">Nevydané funkce, můžou být nestabilní</string>
     <string name="shake_to_report_category_description">Zatřást zařízením pro poslání zpětné vazby</string>
-    <string name="about_category_description">Kontribuce, podpora a seznam změn</string>
+    <string name="settings_category_about_description">Kontribuce, podpora a seznam změn</string>
     <string name="basics">Základní</string>
     <string name="unavailable">Nedostupné</string>
     <string name="good">Dobré</string>
@@ -211,7 +197,7 @@
     <string name="detect_battery_capacity">Detekovat kapacitu baterie</string>
     <string name="experimental_options_summary">Zapnutím této volby může dojít k nesprávnému chování</string>
     <string name="detect_all_cameras">Detekovat všechny fotoaparáty</string>
-    <string name="experimental">Experimentální</string>
+    <string name="settings_category_experimental">Experimentální</string>
     <string name="notifications_category">Oznámení</string>
     <string name="translations_notification">Překlady</string>
     <string name="translations_notification_explanation">Dostávat oznámení pokud se objeví nové fráze pro překlad</string>

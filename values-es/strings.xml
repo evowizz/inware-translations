@@ -10,14 +10,6 @@
     <string name="mb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> MB/s</string>
     <string name="gb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> GB/s</string>
     <string name="tb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> TB/s</string>
-    <string name="permission_start_text">Para visualizar cierta información, Inware requiere permisos adicionales.</string>
-    <string name="read_phone_state">Acceso a llamadas telefónicas</string>
-    <string name="read_phone_text_explanation">Este permiso se usa para poder mostrar el número IMEI del dispositivo.</string>
-    <string name="access_location">Ubicación</string>
-    <string name="access_location_explanation">Se usa para obtener información detallada sobre su conexión Wi-Fi.</string>
-    <string name="permission_end_text">Aceptar estos permisos es opcional y todos tus datos seguirán siendo privados.</string>
-    <string name="read_storage">Acceso al almacenamiento</string>
-    <string name="read_storage_explanation">Se usa para mostrar los datos de uso del almacenamiento del dispositivo.</string>
     <string name="deny">Denegar</string>
     <string name="allow">Permitir</string>
     <string name="system_tab">Sistema</string>
@@ -32,28 +24,22 @@
     <string name="new_version_dialog_message">Actualiza a la versión más reciente para una mejor experiencia.</string>
     <string name="update">Actualizar</string>
     <string name="later">Más tarde</string>
-    <string name="switch_theme">Cambiar tema</string>
     <string name="settings">Ajustes</string>
-    <string name="interface_category">Interfaz</string>
-    <string name="hide_unavailable_data">Ocultar información no disponible</string>
-    <string name="hide_unavailable_data_summary">No se mostrarán los campos que no contengan datos</string>
-    <string name="temperature_unit">Unidad de temperatura</string>
-    <string name="clipboard">Portapapeles</string>
-    <string name="long_press_to_copy">Mantener pulsado para copiar</string>
-    <string name="long_press_to_copy_sumarry">Con una pulsación larga sobre el valor, este se copiará al portapapeles</string>
-    <string name="copy_values_with_labels">Incluir etiqueta</string>
-    <string name="copy_values_with_labels_summary">Se incluirá la etiqueta descriptiva en la copia</string>
+    <string name="settings_category_clipboard">Portapapeles</string>
+    <string name="settings_option_long_press_to_copy">Mantener pulsado para copiar</string>
+    <string name="settings_option_long_press_to_copy_sumarry">Con una pulsación larga sobre el valor, este se copiará al portapapeles</string>
+    <string name="settings_option_copy_values_with_labels">Incluir etiqueta</string>
+    <string name="settings_option_copy_values_with_labels_summary">Se incluirá la etiqueta descriptiva en la copia</string>
     <string name="shake_to_report_category">Enviar comentarios al desarrollador</string>
     <string name="shake_to_send_feedback">Agitar para enviar</string>
     <string name="shake_to_send_feedback_summary">Agita tu dispositivo para enviar comentarios rápidamente desde cualquier pantalla de la aplicación</string>
     <string name="sensitivity">Sensibilidad</string>
     <string name="privacy_policy">Política de privacidad</string>
     <string name="licenses">Licencias</string>
-    <string name="interface_category_description">Personaliza el tema y el diseño</string>
     <string name="notifications_category_description">Activar notificaciones de inserción</string>
     <string name="experimental_category_description">Características no lanzadas, podrían ser inestables</string>
     <string name="shake_to_report_category_description">Agita tu dispositivo para enviar comentarios</string>
-    <string name="about_category_description">Colaboradores, soporte y registro de cambios</string>
+    <string name="settings_category_about_description">Colaboradores, soporte y registro de cambios</string>
     <string name="basics">General</string>
     <string name="unavailable">No disponible</string>
     <string name="good">Buena</string>
@@ -211,7 +197,7 @@
     <string name="detect_battery_capacity">Mostrar capacidad detectada de batería</string>
     <string name="experimental_options_summary">Habilitar esto puede provocar inestabilidad</string>
     <string name="detect_all_cameras">Mostrar info. de todas las cámaras</string>
-    <string name="experimental">Experimental</string>
+    <string name="settings_category_experimental">Experimental</string>
     <string name="notifications_category">Notificaciones</string>
     <string name="translations_notification">Traducciones</string>
     <string name="translations_notification_explanation">Recibe una notificación cuando haya nuevas frases disponibles para traducir</string>

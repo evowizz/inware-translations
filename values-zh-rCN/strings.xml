@@ -10,14 +10,6 @@
     <string name="mb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> MB/秒</string>
     <string name="gb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> GB/秒</string>
     <string name="tb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> TB/秒</string>
-    <string name="permission_start_text">Inware需要额外的权限来显示特定种类的信息。</string>
-    <string name="read_phone_state">读取手机状态</string>
-    <string name="read_phone_text_explanation">用于显示您设备的IMEI号码。</string>
-    <string name="access_location">访问位置权限</string>
-    <string name="access_location_explanation">用于读取Wi-Fi连接的详细信息</string>
-    <string name="permission_end_text">这并非强制，且您的数据会保持隐私。</string>
-    <string name="read_storage">读取存储权限</string>
-    <string name="read_storage_explanation">用于显示设备的内置存储空间用量。</string>
     <string name="deny">拒绝</string>
     <string name="allow">允许</string>
     <string name="system_tab">系统</string>
@@ -32,27 +24,21 @@
     <string name="new_version_dialog_message">更新到最新版本以获得更好的体验</string>
     <string name="update">更新</string>
     <string name="later">稍后</string>
-    <string name="switch_theme">更改主题</string>
     <string name="settings">设置</string>
-    <string name="interface_category">界面</string>
-    <string name="hide_unavailable_data">隐藏不可用的信息</string>
-    <string name="hide_unavailable_data_summary">隐藏不可用信息的字段</string>
-    <string name="temperature_unit">温度单位</string>
-    <string name="clipboard">剪贴板</string>
-    <string name="long_press_to_copy">长按以复制</string>
-    <string name="long_press_to_copy_sumarry">长按以复制项目的值</string>
-    <string name="copy_values_with_labels">复制带有标签项目的值</string>
-    <string name="copy_values_with_labels_summary">复制时包含项目标签</string>
+    <string name="settings_category_clipboard">剪贴板</string>
+    <string name="settings_option_long_press_to_copy">长按以复制</string>
+    <string name="settings_option_long_press_to_copy_sumarry">长按以复制项目的值</string>
+    <string name="settings_option_copy_values_with_labels">复制带有标签项目的值</string>
+    <string name="settings_option_copy_values_with_labels_summary">复制时包含项目标签</string>
     <string name="shake_to_report_category">摇动来报告问题</string>
     <string name="shake_to_send_feedback">摇动来发送反馈</string>
     <string name="shake_to_send_feedback_summary">快速摇动设备来在所有界面发送反馈</string>
     <string name="sensitivity">灵敏度</string>
     <string name="privacy_policy">隐私政策</string>
     <string name="licenses">许可</string>
-    <string name="interface_category_description">自定义主题和布局</string>
     <string name="experimental_category_description">未发布的功能，可能不稳定</string>
     <string name="shake_to_report_category_description">摇动设备以发送反馈</string>
-    <string name="about_category_description">贡献者，支持和变更日志</string>
+    <string name="settings_category_about_description">贡献者，支持和变更日志</string>
     <string name="basics">基本</string>
     <string name="unavailable">不可用</string>
     <string name="good">良好</string>
@@ -198,7 +184,7 @@
     <string name="detect_battery_capacity">检测电池容量</string>
     <string name="experimental_options_summary">启用此功能可能会导致意外行为</string>
     <string name="detect_all_cameras">检测所有相机</string>
-    <string name="experimental">试验性功能</string>
+    <string name="settings_category_experimental">试验性功能</string>
     <string name="notifications_category">通知</string>
     <string name="translations_notification">翻译</string>
     <string name="display_density">密度</string>

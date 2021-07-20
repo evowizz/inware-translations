@@ -10,14 +10,6 @@
     <string name="mb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> MB/s</string>
     <string name="gb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> GB/s</string>
     <string name="tb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> TB/s</string>
-    <string name="permission_start_text">Per te shfaqur informacion sa me te plote, Inware kerkon lejime shtese.</string>
-    <string name="read_phone_state">Lexo gjendjen e telefonit</string>
-    <string name="read_phone_text_explanation">Perdoret per te shfaqur IMEI e pajisjes tuaj.</string>
-    <string name="access_location">Akseso vendndodhjen</string>
-    <string name="access_location_explanation">Perdoret per te shfaqur informacion te detajuar rreth lidhjes tuaj WIFI.</string>
-    <string name="permission_end_text">Kjo eshte me zgjedhje dhe te gjitha te dhenat tuaja jane te sigurta.</string>
-    <string name="read_storage">Lexo kujtesen</string>
-    <string name="read_storage_explanation">Perdoret per te shfaqur perdorimin e hapesires se brendshme te paisjes.</string>
     <string name="deny">Refuzo</string>
     <string name="allow">Lejo</string>
     <string name="system_tab">Sistemi</string>
@@ -32,17 +24,12 @@
     <string name="new_version_dialog_message">Kaloni ne versionin me te fundit per nje eksperience me te mire</string>
     <string name="update">Perditeso</string>
     <string name="later">Me vone</string>
-    <string name="switch_theme">Ndrysho pamjen</string>
     <string name="settings">Rregullimet</string>
-    <string name="interface_category">Nderfaqja</string>
-    <string name="hide_unavailable_data">Fshih te dhenat e padisponueshme</string>
-    <string name="hide_unavailable_data_summary">Mos i shfaq fushat per informacionin e padisponueshem</string>
-    <string name="temperature_unit">Njesia e temperatures</string>
-    <string name="clipboard">Ruajtesi</string>
-    <string name="long_press_to_copy">Mbaj shtypur gjate per te kopjuar</string>
-    <string name="long_press_to_copy_sumarry">Kopjo vlerat e artikujve duke i mbajtur shtypur gjate</string>
-    <string name="copy_values_with_labels">Kopjo vlerat me etiketa</string>
-    <string name="copy_values_with_labels_summary">Perfshi etiketat e vlerave gjate kopjimit</string>
+    <string name="settings_category_clipboard">Ruajtesi</string>
+    <string name="settings_option_long_press_to_copy">Mbaj shtypur gjate per te kopjuar</string>
+    <string name="settings_option_long_press_to_copy_sumarry">Kopjo vlerat e artikujve duke i mbajtur shtypur gjate</string>
+    <string name="settings_option_copy_values_with_labels">Kopjo vlerat me etiketa</string>
+    <string name="settings_option_copy_values_with_labels_summary">Perfshi etiketat e vlerave gjate kopjimit</string>
     <string name="shake_to_report_category">Shkundje me buje</string>
     <string name="shake_to_send_feedback">Shkunde per te derguar reagime</string>
     <string name="shake_to_send_feedback_summary">Shkundni paisjen tuaj per te derguar reagime nga secili ekran</string>
@@ -195,6 +182,6 @@
     <string name="detect_battery_capacity">Shfaq kapacitetin e baterise</string>
     <string name="experimental_options_summary">Aktivizimi i ketij opsioni mund te çoje ne rezultate te papritura ose te padeshiruara</string>
     <string name="detect_all_cameras">Shfaq te gjitha kamerat</string>
-    <string name="experimental">Eksperimentale</string>
+    <string name="settings_category_experimental">Eksperimentale</string>
 
 </resources>

@@ -11,14 +11,6 @@
     <string name="gb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> ГБ/с</string>
     <string name="tb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> ТБ/с</string>
 
-    <string name="permission_start_text">Для отображения некоторых типов информации, Inware требует дополнительных разрешений.</string>
-    <string name="read_phone_state">Чтение данных телефоны</string>
-    <string name="read_phone_text_explanation">Используется для отображения IMEI номера вашего устройства.</string> 
-    <string name="access_location">Доступ к местоположению</string>
-    <string name="access_location_explanation">Используется для чтения детальной информации о вашем Wi-Fi подключении.</string> 
-    <string name="permission_end_text">Это необязательно и ваши данные остаются в безопасности.</string>
-    <string name="read_storage">Чтение памяти</string>
-    <string name="read_storage_explanation">Используется для отображения использования внутренней памяти устройства.</string> 
     <string name="deny">Отклонить</string>
     <string name="allow">Разрешить</string>
     <string name="system_tab">Система</string>
@@ -33,17 +25,12 @@
     <string name="new_version_dialog_message">Обновите до последней версии для лучшего опыта использования</string> 
     <string name="update">Обновить</string>
     <string name="later">Позже</string>
-    <string name="switch_theme">Сменить тему</string>
     <string name="settings">Параметры</string>
-    <string name="interface_category">Интерфейс</string>
-    <string name="hide_unavailable_data">Скрыть недоступные данные</string>
-    <string name="hide_unavailable_data_summary">Не показывать области с недоступной информацией</string>
-    <string name="temperature_unit">Температура</string>
-    <string name="clipboard">Буфер обмена</string>
-    <string name="long_press_to_copy">Долгое нажатие для копирование</string>
-    <string name="long_press_to_copy_sumarry">Копирование данных долгим нажатием</string>
-    <string name="copy_values_with_labels">Копировать данные с заголовком</string>
-    <string name="copy_values_with_labels_summary">Включает в себя так же заголовок строки</string>
+    <string name="settings_category_clipboard">Буфер обмена</string>
+    <string name="settings_option_long_press_to_copy">Долгое нажатие для копирование</string>
+    <string name="settings_option_long_press_to_copy_sumarry">Копирование данных долгим нажатием</string>
+    <string name="settings_option_copy_values_with_labels">Копировать данные с заголовком</string>
+    <string name="settings_option_copy_values_with_labels_summary">Включает в себя так же заголовок строки</string>
     <string name="shake_to_report_category">Rage Shake</string>
     <string name="shake_to_send_feedback">Потрясите для отправки отзыва</string>
     <string name="shake_to_send_feedback_summary">Потрясите ваше устройство для быстрой отправки отзыва с любого экрана</string>
@@ -196,6 +183,6 @@
     <string name="detect_battery_capacity">Обнаруживать ёмкость батареи</string>
     <string name="experimental_options_summary">Это может привести к неожиданным последствиям</string>
     <string name="detect_all_cameras">Обнаруживать все камеры</string>
-    <string name="experimental">Экспериментальные</string>
+    <string name="settings_category_experimental">Экспериментальные</string>
 
 </resources>

@@ -4,14 +4,6 @@
     <string name="mb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> MB/s</string>
     <string name="gb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> GB/s</string>
     <string name="tb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> TB/s</string>
-    <string name="permission_start_text">Pentru a afișa anumite tipuri de informație, Inware necesită permisiuni suplimentare.</string>
-    <string name="read_phone_state">Citire stare telefon</string>
-    <string name="read_phone_text_explanation">Permisiune folosită pentru a afișa IMEI-ul dispozitivului dvs.</string>
-    <string name="access_location">Accesare locație</string>
-    <string name="access_location_explanation">Permisiune folosită pentru a citi informații detaliate despre conexiunea dvs. Wi-Fi.</string>
-    <string name="permission_end_text">Permisiunea este opțională, iar toate datele dvs. sunt păstrate în siguranță.</string>
-    <string name="read_storage">Citire stocare</string>
-    <string name="read_storage_explanation">Permisiune folosită pentru a afișa utilizarea stocării interne a dispozitivului.</string>
     <string name="deny">Refuzați</string>
     <string name="allow">Permiteți</string>
     <string name="system_tab">Sistem</string>
@@ -26,28 +18,22 @@
     <string name="new_version_dialog_message">Actualizați la cea mai recentă versiune pentru o experiență mai bună</string>
     <string name="update">Actualizare</string>
     <string name="later">Mai târziu</string>
-    <string name="switch_theme">Schimbați tema</string>
     <string name="settings">Setări</string>
-    <string name="interface_category">Interfață</string>
-    <string name="hide_unavailable_data">Ascunde datele indisponibile</string>
-    <string name="hide_unavailable_data_summary">Nu afișa câmpurile pentru informații indisponibile</string>
-    <string name="temperature_unit">Unitate pentru temperatură</string>
-    <string name="clipboard">Clipboard</string>
-    <string name="long_press_to_copy">Țineți apăsat pentru a copia</string>
-    <string name="long_press_to_copy_sumarry">Copiați valorile ținând apăsat pe acestea</string>
-    <string name="copy_values_with_labels">Copiați valorile împreună cu etichetele</string>
-    <string name="copy_values_with_labels_summary">Includeți etichetele valorilor la copiere</string>
+    <string name="settings_category_clipboard">Clipboard</string>
+    <string name="settings_option_long_press_to_copy">Țineți apăsat pentru a copia</string>
+    <string name="settings_option_long_press_to_copy_sumarry">Copiați valorile ținând apăsat pe acestea</string>
+    <string name="settings_option_copy_values_with_labels">Copiați valorile împreună cu etichetele</string>
+    <string name="settings_option_copy_values_with_labels_summary">Includeți etichetele valorilor la copiere</string>
     <string name="shake_to_report_category">Scuturați pentru a raporta</string>
     <string name="shake_to_send_feedback">Scuturați pentru a trimite feedback</string>
     <string name="shake_to_send_feedback_summary">Scuturați-vă dispozitivul pentru a trimite rapid feedback din orice ecran</string>
     <string name="sensitivity">Sensibilitate</string>
     <string name="privacy_policy">Politica de confidențialitate</string>
     <string name="licenses">Licențe</string>
-    <string name="interface_category_description">Personalizați tema și aspectul</string>
     <string name="notifications_category_description">Comutați notificările push</string>
     <string name="experimental_category_description">Caracteristici nelansate, pot fi instabile</string>
     <string name="shake_to_report_category_description">Scuturați dispozitivul pentru a trimite feedback</string>
-    <string name="about_category_description">Contribuitori, asistență și jurnale de schimbări</string>
+    <string name="settings_category_about_description">Contribuitori, asistență și jurnale de schimbări</string>
     <string name="basics">Informații de bază</string>
     <string name="unavailable">Indisponibil(ă)</string>
     <string name="good">Bun</string>
@@ -205,7 +191,7 @@
     <string name="detect_battery_capacity">Detectare capacitate baterie</string>
     <string name="experimental_options_summary">Poate duce la un comportament neașteptat</string>
     <string name="detect_all_cameras">Detectează toate camerele</string>
-    <string name="experimental">Experimente</string>
+    <string name="settings_category_experimental">Experimente</string>
     <string name="notifications_category">Notificări</string>
     <string name="translations_notification">Traduceri</string>
     <string name="translations_notification_explanation">Primiți o notificare atunci când sunt disponibile noi fraze de tradus</string>
