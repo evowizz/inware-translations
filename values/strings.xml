@@ -257,4 +257,7 @@
     <string name="no_browser_warning">Unable to find a browser</string>
     <string name="settings_option_dynamic_colors">Use system colors</string>
     <string name="settings_option_dynamic_colors_summary">Use colors provided by the system</string>
+    <string name="settings_category_general">General</string>
+    <string name="settings_category_general_description">Clipboard and units</string>
+    <string name="settings_category_appearance_description">Dark mode and colors</string>
 </resources>
