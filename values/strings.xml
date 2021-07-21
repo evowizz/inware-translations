@@ -244,6 +244,11 @@
     <string name="settings_option_dynamic_colors">Use system colors</string>
     <string name="settings_option_dynamic_colors_summary">Use colors provided by the system</string>
     <string name="settings_category_general">General</string>
-    <string name="settings_category_general_description">Clipboard and units</string>
+    <string name="settings_category_general_description">Security, clipboard and units</string>
     <string name="settings_category_appearance_description">Dark mode and colors</string>
+    <string name="settings_option_block_screen_capture">Block screen capture</string>
+    <string name="settings_option_block_screen_capture_description">Prevent the capture of screen content</string>
+    <string name="settings_option_hide_3rd_party_overlays">Hide third-party overlays</string>
+    <string name="settings_option_hide_3rd_party_overlays_description">Hide overlays created by non-system apps</string>
+    <string name="settings_category_security">Security</string>
 </resources>
