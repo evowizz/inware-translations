@@ -241,4 +241,14 @@
     <string name="preview_module_tag">Previzualizare</string>
     <string name="display_number">Afișajul #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
     <string name="no_browser_warning">Nu s-a putut găsi un browser</string>
+    <string name="settings_option_dynamic_colors">Use system colors | Utilizați culorile de sistem | Utilizați culorile sistemului</string>
+    <string name="settings_option_dynamic_colors_summary">Use colors provided by the system | Utilizați culorile furnizate de către sistem</string>
+    <string name="settings_category_general">General</string>
+    <string name="settings_category_general_description">Security, clipboard and units | Securitate, clipboard și unități</string>
+    <string name="settings_category_appearance_description">Dark mode and colors | Mod întunecat și culori</string>
+    <string name="settings_option_block_screen_capture">Block screen capture | Blocați captura de ecran | Blocați/Blocare capturile de ecran | Blocați screenshot-urile</string>
+    <string name="settings_option_block_screen_capture_description">Prevent the capture of screen content | Preveniți captura conținutului de pe ecran</string>
+    <string name="settings_option_hide_3rd_party_overlays">Hide third-party overlays | Ascundeți/Ascundere overlay-uri/suprapuneri terți/terțe</string>
+    <string name="settings_option_hide_3rd_party_overlays_description">Hide overlays created by non-system apps | Ascundex suprapuneri create de aplicații non-sistem</string>
+    <string name="settings_category_security">Security | Securitate</string>
 </resources>
