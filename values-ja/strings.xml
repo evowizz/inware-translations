@@ -123,7 +123,7 @@
     <string name="external_camera">外部カメラ</string>
     <string name="megapixels">メガピクセル</string>
     <string name="available_apertures">利用可能な絞り値</string>
-    <string name="optical_image_stabilization">光学式手ぶれ補正（OIS））</string>
+    <string name="optical_image_stabilization">光学式手ぶれ補正（OIS）</string>
     <string name="electronic_image_stabilization">電子式式手ぶれ補正（EIS）</string>
     <string name="flashlight">フラッシュライト</string>
     <string name="mpx"><xliff:g example="16" id="number_of_megapixel">%d</xliff:g> Mpx</string>
