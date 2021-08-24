@@ -206,6 +206,17 @@
     <string name="version">Version</string>
     <string name="security_level">Niveau de sécurité</string>
     <string name="mainline_module_version">Mise à jour du système Google Play</string>
+    <string name="tap_for_more_information">Cliquez pour plus d\'informations</string>
+    <string name="permission_required_title">Autorisation requise</string>
+    <string name="permission_required_content">L\'autorisation suivante est requise pour voir cette information :</string>
+    <string name="wifi_disconnected">Wi-Fi déconnecté</string>
+    <string name="algorithms">Algorithmes</string>
+    <string name="units">Unités</string>
+    <string name="minimum_target_sdk">SDK cible minimal</string>
+    <string name="battery_source">Source</string>
+    <string name="battery_charger_ac">Chargeur (AC)</string>
+    <string name="battery_charger_usb">USB</string>
+    <string name="battery_charger_wireless">Sans-fil</string>
     <string name="settings_category_appearance">Apparence</string>
     <string name="settings_option_dark_mode">Mode sombre</string>
     <string name="settings_option_dark_theme">Thème sombre</string>
@@ -228,9 +239,21 @@
     <string name="module_installer_pending">En attente</string>
     <string name="mdule_installer_cancel_result">Annulé</string>
     <string name="module_installer_success_result">Installé avec succès</string>
-    <string name="module_installer_unknown_error">Oh non... Une erreur !</string>
+    <string name="module_installer_unknown_error">Oh non… Une erreur !</string>
     <string name="experimental_module_tag">Expérimental</string>
     <string name="demo_module_tag">Démo</string>
     <string name="beta_module_tag">Bêta</string>
     <string name="preview_module_tag">Aperçu</string>
+    <string name="display_number">Affichage #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
+    <string name="no_browser_warning">Impossible de trouver un navigateur</string>
+    <string name="settings_option_dynamic_colors">Utiliser les couleurs du système</string>
+    <string name="settings_option_dynamic_colors_summary">Utiliser les couleurs fournies par le système</string>
+    <string name="settings_category_general">Général</string>
+    <string name="settings_category_general_description">Sécurité, presse-papier et unités</string>
+    <string name="settings_category_appearance_description">Mode sombre et couleurs</string>
+    <string name="settings_option_block_screen_capture">Bloquer l\'enregistrement de l'écran</string>
+    <string name="settings_option_block_screen_capture_description">Empêcher l\'enregistrement du contenu de l\'écran</string>
+    <string name="settings_option_hide_3rd_party_overlays">Masquer les overlays tierces</string>
+    <string name="settings_option_hide_3rd_party_overlays_description">Masquer les overlays créés par les applications autres que le système</string>
+    <string name="settings_category_security">Sécurité</string>
 </resources>
