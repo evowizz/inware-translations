@@ -251,7 +251,7 @@
     <string name="settings_category_general">Général</string>
     <string name="settings_category_general_description">Sécurité, presse-papier et unités</string>
     <string name="settings_category_appearance_description">Mode sombre et couleurs</string>
-    <string name="settings_option_block_screen_capture">Bloquer l\'enregistrement de l'écran</string>
+    <string name="settings_option_block_screen_capture">Bloquer l\'enregistrement de l\'écran</string>
     <string name="settings_option_block_screen_capture_description">Empêcher l\'enregistrement du contenu de l\'écran</string>
     <string name="settings_option_hide_3rd_party_overlays">Masquer les overlays tierces</string>
     <string name="settings_option_hide_3rd_party_overlays_description">Masquer les overlays créés par les applications autres que le système</string>
