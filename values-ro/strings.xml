@@ -248,7 +248,7 @@
     <string name="settings_category_appearance_description">Mod întunecat și culori</string>
     <string name="settings_option_block_screen_capture">Blocați capturile de ecran</string>
     <string name="settings_option_block_screen_capture_description">Împiedicați capturarea conținutului de pe ecran</string>
-    <string name="settings_option_hide_3rd_party_overlays">Hide third-party overlays | Ascundeți/Ascundere overlay-uri/suprapuneri terți/terțe</string>
-    <string name="settings_option_hide_3rd_party_overlays_description">Hide overlays created by non-system apps | Ascundex suprapuneri create de aplicații non-sistem</string>
+    <string name="settings_option_hide_3rd_party_overlays">Ascundeți suprapunerile terțe</string>
+    <string name="settings_option_hide_3rd_party_overlays_description">Ascundeți suprapunerile create de aplicații non-sistem</string>
     <string name="settings_category_security">Securitate</string>
 </resources>
