@@ -251,4 +251,6 @@
     <string name="settings_option_hide_3rd_party_overlays">Hide third-party overlays</string>
     <string name="settings_option_hide_3rd_party_overlays_description">Hide overlays created by non-system apps</string>
     <string name="settings_category_security">Security</string>
+    <string name="performance_class">Class <xliff:g example="12" id="class_rating">%s</xliff:g></string>
+    <string name="no_performance_class">No class</string>
 </resources>
