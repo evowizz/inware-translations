@@ -251,4 +251,7 @@
     <string name="settings_option_hide_3rd_party_overlays">Ascundeți suprapunerile terțe</string>
     <string name="settings_option_hide_3rd_party_overlays_description">Ascundeți suprapunerile create de aplicații non-sistem</string>
     <string name="settings_category_security">Securitate</string>
+    <string name="performance_class">Clasa <xliff:g example="12" id="class_rating">%s</xliff:g></string>
+    <string name="no_performance_class">Nicio clasă</string>
+    <string name="performance_class_title">Clasă de performanță</string>
 </resources>
