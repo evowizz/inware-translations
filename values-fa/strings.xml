@@ -112,7 +112,7 @@
     <string name="value_frequency">فرکانس<xliff:g example="857" id="frequency">%d</xliff:g> MHz</string>
     <string name="stopped">متوقف</string>
     <string name="offline">خاموش</string>
-    <string name="device_memory">حافظه دستگاه (رم)</string>
+    <string name="device_memory">حافظه رم</string>
     <string name="total">Total</string>
     <string name="available">در‌دسترس</string>
     <string name="used">استفاده شده</string>
@@ -131,7 +131,7 @@
     <string name="speed">سرعت</string>
     <string name="download_speed">سرعت دانلود</string>
     <string name="upload_speed">سرعت آپلود</string>
-    <string name="wifi">وای فای (Wi-Fi)</string>
+    <string name="wifi">وای فای </string>
     <string name="ssid">SSID</string>
     <string name="hidden_ssid">مخفی SSID</string>
     <string name="frequency">فرکانس</string>
@@ -210,9 +210,9 @@
     
 
     <string name="battery_source">منبع</string>
-    <string name="battery_charger_ac">Charger (AC)</string>
-    <string name="battery_charger_usb">USB</string>
-    <string name="battery_charger_wireless">Wireless</string>
+    <string name="battery_charger_ac">شارژر</string>
+    <string name="battery_charger_usb">کابل</string>
+    <string name="battery_charger_wireless">بی‌سیم</string>
     <string name="settings_category_appearance">ظاهر</string>
     <string name="settings_option_dark_mode">حالت تاریک</string>
     <string name="settings_option_dark_theme">تم تاریک</string>
@@ -220,7 +220,7 @@
     <string name="dark_mode_on">روشن</string>
     <string name="dark_mode_follow_system">مطابق سیستم</string>
     <string name="dark_theme_original">اصلی</string>
-    <string name="dark_theme_slate">Slate</string>
+    <string name="dark_theme_slate">اسلات</string>
     <string name="dark_theme_grey">خاکستری</string>
     <string name="dark_theme_black">مشکی</string>
     <string name="settings_module_manager_category_title">ماژول ها</string>
@@ -229,30 +229,30 @@
     <string name="module_manager_available_category">در‌دسترس</string>
     <string name="module_manager_no_modules_installed">هیچ ماژولی نصب نشده است</string>
     <string name="module_manager_no_modules_available">هیچ ماژولی در‌دسترس نیست</string>
-    <string name="module_installer_initializing">Initializing</string>
+    <string name="module_installer_initializing">در حال بارگذاری</string>
     <string name="module_installer_downloading">در حال دانلود</string>
     <string name="module_installer_installing">در حال نصب</string>
-    <string name="module_installer_pending">Pending</string>
+    <string name="module_installer_pending">در انتظار</string>
     <string name="mdule_installer_cancel_result">لغو شد</string>
     <string name="module_installer_success_result">با موفقیت نصب شد</string>
     <string name="module_installer_unknown_error">اوه نه... ما با یک خطا روبرو هستیم!</string>
     <string name="experimental_module_tag">آزمایشی</string>
-    <string name="demo_module_tag">دمو</string>
-    <string name="beta_module_tag">بتا</string>
+    <string name="demo_module_tag">مقداری کم</string>
+    <string name="beta_module_tag">آزمایشی</string>
     <string name="preview_module_tag">پیش‌نمایش</string>
     <string name="display_number">نمایشگر #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
     <string name="no_browser_warning">نمی‌توان مرورگری پیدا کرد</string>
     <string name="settings_option_dynamic_colors">از رنگ های سیستمی استفاده کنید</string>
     <string name="settings_option_dynamic_colors_summary">از رنگ های ارائه شده توسط سیستم استفاده کنید</string>
     <string name="settings_category_general">عمومی</string>
-    <string name="settings_category_general_description">امنیت، کلیپ‌بورد و واحدها</string>
+    <string name="settings_category_general_description">امنیت، حافظه موقت و واحدها</string>
     <string name="settings_category_appearance_description">حالت تاریک و رنگ ها</string>
-    <string name="settings_option_block_screen_capture">Block screen capture</string>
-    <string name="settings_option_block_screen_capture_description">Prevent the capture of screen content</string>
-    <string name="settings_option_hide_3rd_party_overlays">Hide third-party overlays</string>
-    <string name="settings_option_hide_3rd_party_overlays_description">Hide overlays created by non-system apps</string>
+    <string name="settings_option_block_screen_capture">مسدود کردن عکس از صفحه</string>
+    <string name="settings_option_block_screen_capture_description">عکس از صفحه گرفتن توسط کاربر را مسدود می کند</string>
+    <string name="settings_option_hide_3rd_party_overlays">پنهان کردن پوشش های شخص ثالث</string>
+    <string name="settings_option_hide_3rd_party_overlays_description">پوشش های ایجاد شده توسط برنامه های غیر سیستمی را پنهان کنید</string>
     <string name="settings_category_security">امنیت</string>
-    <string name="performance_class">Class <xliff:g example="12" id="class_rating">%s</xliff:g></string>
-    <string name="no_performance_class">No class</string>
-    <string name="performance_class_title">Performance Class</string>
+    <string name="performance_class">سطح <xliff:g example="12" id="class_rating">%s</xliff:g></string>
+    <string name="no_performance_class">بدون سطح</string>
+    <string name="performance_class_title">سطح عملکرد</string>
 </resources>
