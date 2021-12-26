@@ -30,10 +30,10 @@
     <string name="sensitivity">灵敏度</string>
     <string name="privacy_policy">隐私策略</string>
     <string name="licenses">许可</string>
-    <string name="notifications_category_description">打开推送通知</string>
-    <string name="experimental_category_description">未发布功能，可能还不稳定</string>
-    <string name="shake_to_report_category_description">摇一摇发送反馈</string>
-    <string name="settings_category_about_description">贡献者、支持信息与更新日志</string>
+    <string name="notifications_category_description">启用推送通知</string>
+    <string name="experimental_category_description">未发布的功能，可能不稳定</string>
+    <string name="shake_to_report_category_description">摇动设备以发送反馈</string>
+    <string name="settings_category_about_description">贡献者、支持和变更日志</string>
     <string name="basics">基本</string>
     <string name="unavailable">不可用</string>
     <string name="good">良好</string>
@@ -133,7 +133,7 @@
     <string name="upload_speed">上行速度</string>
     <string name="wifi">Wi-Fi</string>
     <string name="ssid">SSID</string>
-    <string name="hidden_ssid">隐藏 SSID</string>
+    <string name="hidden_ssid">隐藏的 SSID</string>
     <string name="frequency">频率</string>
     <string name="signal_strength">信号强度</string>
     <string name="link_speed">连接速率</string>
@@ -147,7 +147,7 @@
     <string name="excellent">极好</string>
     <string name="fair">中等</string>
     <string name="weak">较弱</string>
-    <string name="lease_time_more_than_a_week">超过一周：<xliff:g id="seconds">%d</xliff:g> seconds</string>
+    <string name="lease_time_more_than_a_week">超过一周：<xliff:g id="seconds">%d</xliff:g> 秒</string>
     <string name="connected">已连接</string>
     <string name="disconnected">已断开</string>
     <string name="bluetooth_enabled">已启用（%s）</string>
@@ -164,17 +164,17 @@
     <string name="level">水平</string>
     <string name="capacity">容量</string>
     <string name="temperature">温度</string>
-    <string name="technology">技术</string>
-    <string name="null_string">null</string>
+    <string name="technology">电池技术</string>
+    <string name="null_string">Null</string>
     <string name="unknown">未知</string>
     <string name="overheated">过热</string>
     <string name="dead">失效</string>
     <string name="overvoltage">过压</string>
-    <string name="unspecified_failure">不明错误</string>
+    <string name="unspecified_failure">未知故障</string>
     <string name="cold">低温</string>
-    <string name="charging">充电中</string>
-    <string name="discharging">放电中</string>
-    <string name="not_charging">未在充电</string>
+    <string name="charging">正在充电</string>
+    <string name="discharging">正在放电</string>
+    <string name="not_charging">不在充电</string>
     <string name="full">已充满</string>
     <string name="charging_speed_format"><xliff:g example="18" id="speed">%s</xliff:g> W</string>
     <string name="charging_speed_fast">快</string>
@@ -194,7 +194,7 @@
     <string name="settings_category_experimental">试验性功能</string>
     <string name="notifications_category">通知</string>
     <string name="translations_notification">翻译</string>
-    <string name="translations_notification_explanation">有新词条可供翻译时推送通知提醒</string>
+    <string name="translations_notification_explanation">有新词条可供翻译时推送通知</string>
     <string name="display_density">密度</string>
     <string name="device_unique_id">设备唯一标识</string>
     <string name="version">版本</string>
@@ -225,30 +225,33 @@
     <string name="settings_module_manager_category_title">模块</string>
     <string name="settings_module_manager_category_description">管理可下载模块</string>
     <string name="module_manager_installed_category">已安装</string>
-    <string name="module_manager_available_category">可获取</string>
-    <string name="module_manager_no_modules_installed">未安装任何模块</string>
-    <string name="module_manager_no_modules_available">没有可用模块</string>
+    <string name="module_manager_available_category">可用模块</string>
+    <string name="module_manager_no_modules_installed">未安装模块</string>
+    <string name="module_manager_no_modules_available">无可用模块</string>
     <string name="module_installer_initializing">正在初始化</string>
     <string name="module_installer_downloading">下载中</string>
     <string name="module_installer_installing">安装中</string>
     <string name="module_installer_pending">正在等待</string>
     <string name="mdule_installer_cancel_result">已取消</string>
     <string name="module_installer_success_result">安装成功</string>
-    <string name="module_installer_unknown_error">不好…我们遇到了一个问题！</string>
+    <string name="module_installer_unknown_error">啊噢…遇到了一个问题！</string>
     <string name="experimental_module_tag">实验性</string>
     <string name="demo_module_tag">演示版</string>
     <string name="beta_module_tag">测试版</string>
     <string name="preview_module_tag">预览版</string>
-    <string name="display_number">显示屏 #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
+    <string name="display_number">显示屏 <xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
     <string name="no_browser_warning">找不到浏览器</string>
     <string name="settings_option_dynamic_colors">使用系统配色</string>
-    <string name="settings_option_dynamic_colors_summary">选用由系统提供的色彩方案</string>
+    <string name="settings_option_dynamic_colors_summary">使用由系统提供的配色方案</string>
     <string name="settings_category_general">常规</string>
-    <string name="settings_category_general_description">安全性、剪贴板和单位</string>
-    <string name="settings_category_appearance_description">暗色模式和配色方案</string>
-    <string name="settings_option_block_screen_capture">屏蔽屏幕截图</string>
-    <string name="settings_option_block_screen_capture_description">不允许对屏幕内容进行截取</string>
+    <string name="settings_category_general_description">安全、剪贴板和单位设置</string>
+    <string name="settings_category_appearance_description">暗色模式与配色</string>
+    <string name="settings_option_block_screen_capture">阻止屏幕截图</string>
+    <string name="settings_option_block_screen_capture_description">阻止截取屏幕内容</string>
     <string name="settings_option_hide_3rd_party_overlays">隐藏第三方叠加层</string>
-    <string name="settings_option_hide_3rd_party_overlays_description">在应用中隐藏非系统应用创建的叠加层</string>
+    <string name="settings_option_hide_3rd_party_overlays_description">隐藏非系统应用创建的叠加层</string>
     <string name="settings_category_security">安全</string>
+    <string name="performance_class">性能等级 <xliff:g example="12" id="class_rating">%s</xliff:g></string>
+    <string name="no_performance_class">无性能评级</string>
+    <string name="performance_class_title">性能等级</string>
 </resources>
