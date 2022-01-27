@@ -254,4 +254,13 @@
     <string name="performance_class">Class <xliff:g example="12" id="class_rating">%s</xliff:g></string>
     <string name="no_performance_class">No class</string>
     <string name="performance_class_title">Performance Class</string>
+    <string name="network_type_none">None</string>
+    <string name="settings_category_advanced">Advanced</string>
+    <string name="settings_category_advanced_description">Optional Modules</string>
+    <string name="settings_category_optional_modules">Optional Modules</string>
+    <string name="permission_dialog_learn_more">Learn More</string>
+    <string name="network_location_permission_explanation">The precise location permission is required to be able to display the Wi-Fi SSID.</string>
+    <string name="connectivity_bluetooth_permission_explanation">The \"Nearby Devices\" permission is required to be able to display some bluetooth details.</string>
+    <string name="memory_storage_permission_explanation">The storage permission is required to be able to display storage-related details.</string>
+    <string name="camera_accuracy_message">Note: Some devices may report inaccurate camera specifications. [Learn more](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
 </resources>
