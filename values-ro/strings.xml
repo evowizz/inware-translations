@@ -254,4 +254,13 @@
     <string name="performance_class">Clasa <xliff:g example="12" id="class_rating">%s</xliff:g></string>
     <string name="no_performance_class">Nicio clasă</string>
     <string name="performance_class_title">Clasă de performanță</string>
+    <string name="network_type_none">Niciuna</string>
+    <string name="settings_category_advanced">Avansat</string>
+    <string name="settings_category_advanced_description">Module Opționale</string>
+    <string name="settings_category_optional_modules">Module Opționale</string>
+    <string name="permission_dialog_learn_more">Mai multe</string>
+    <string name="network_location_permission_explanation">Permisiunea pentru locație exactă este necesară pentru a afișa SSID-ul Wi-Fi.</string>
+    <string name="connectivity_bluetooth_permission_explanation">Permisiunea \"Dispozitive din apropiere\" este necesară pentru a afișa anumite detalii despre Bluetooth.</string>
+    <string name="memory_storage_permission_explanation">Permisiunea pentru fișiere și media este necesară pentru a afișa detalii despre stocare.</string>
+    <string name="camera_accuracy_message">Observație: Unele dispozitive pot raporta specificații greșite pentru cameră. [Mai multe](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
 </resources>
