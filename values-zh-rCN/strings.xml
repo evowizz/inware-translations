@@ -254,4 +254,13 @@
     <string name="performance_class">性能等级 <xliff:g example="12" id="class_rating">%s</xliff:g></string>
     <string name="no_performance_class">无性能评级</string>
     <string name="performance_class_title">性能等级</string>
+    <string name="network_type_none">无</string>
+    <string name="settings_category_advanced">高级</string>
+    <string name="settings_category_advanced_description">可选模块</string>
+    <string name="settings_category_optional_modules">可选模块</string>
+    <string name="permission_dialog_learn_more">了解更多</string>
+    <string name="network_location_permission_explanation">需要准确定位权限才能显示 Wi-Fi SSID。</string>
+    <string name="connectivity_bluetooth_permission_explanation">需要 \"附近的设备\" 权限才能显示某些蓝牙信息。</string>
+    <string name="memory_storage_permission_explanation">需要存储权限才能显示存储空间的相关信息。</string>
+    <string name="camera_accuracy_message">注意：部分设备可能会报告不准确的相机参数。[了解更多](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
 </resources>
