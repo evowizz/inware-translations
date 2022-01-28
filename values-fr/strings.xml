@@ -256,4 +256,17 @@
     <string name="settings_option_hide_3rd_party_overlays">Masquer les overlays tierces</string>
     <string name="settings_option_hide_3rd_party_overlays_description">Masquer les overlays créés par les applications autres que le système</string>
     <string name="settings_category_security">Sécurité</string>
+    <string name="media_drm">DRM Média</string>
+    <string name="performance_class">Classe <xliff:g example="12" id="class_rating">%s</xliff:g></string>
+    <string name="no_performance_class">Sans classe</string>
+    <string name="performance_class_title">Classe de performances</string>
+    <string name="network_type_none">Aucun</string>
+    <string name="settings_category_advanced">Avancé</string>
+    <string name="settings_category_advanced_description">Modules optionnels</string>
+    <string name="settings_category_optional_modules">Modules optionnels</string>
+    <string name="permission_dialog_learn_more">En savoir plus</string>
+    <string name="network_location_permission_explanation">L\'autorisation de la position exacte est nécessaire pour pouvoir afficher le SSID Wi-Fi.</string>
+    <string name="connectivity_bluetooth_permission_explanation">L\'autorisation \"Appareils à proximité\" est nécessaire pour pouvoir afficher certains détails lié au bluetooth.</string>
+    <string name="memory_storage_permission_explanation">L\'autorisation à la gestion du stockage est nécessaire pour pouvoir afficher les détails relatifs au stockage.</string>
+    <string name="camera_accuracy_message">Attention : certains appareils peuvent signaler des spécifications de caméra inexactes. [En savoir plus](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
 </resources>
