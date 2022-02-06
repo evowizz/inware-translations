@@ -4,7 +4,7 @@
     <string name="mb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> MB/s</string>
     <string name="gb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> GB/s</string>
     <string name="tb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> TB/s</string>
-    <string name="deny">Tagad</string>
+    <string name="deny">Megtagad</string>
     <string name="allow">Engedélyez</string>
     <string name="system_tab">Rendszer</string>
     <string name="device_tab">Eszköz</string>
