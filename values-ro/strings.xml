@@ -21,7 +21,7 @@
     <string name="settings">Setări</string>
     <string name="settings_category_clipboard">Clipboard</string>
     <string name="settings_option_long_press_to_copy">Țineți apăsat pentru a copia</string>
-    <string name="settings_option_long_press_to_copy_sumarry">Copiați valorile ținând apăsat pe acestea</string>
+    <string name="settings_option_long_press_to_copy_summary">Copiați valorile ținând apăsat pe acestea</string>
     <string name="settings_option_copy_values_with_labels">Copiați valorile împreună cu etichetele</string>
     <string name="settings_option_copy_values_with_labels_summary">Includeți etichetele valorilor la copiere</string>
     <string name="shake_to_report_category">Scuturați pentru a raporta</string>

@@ -27,7 +27,7 @@
     <string name="settings">Einstellungen</string>
     <string name="settings_category_clipboard">Zwischenablage</string>
     <string name="settings_option_long_press_to_copy">Länger drücken zum Kopieren</string>
-    <string name="settings_option_long_press_to_copy_sumarry">Kopiert die Daten in den Feldern bei längerem Drücken</string>
+    <string name="settings_option_long_press_to_copy_summary">Kopiert die Daten in den Feldern bei längerem Drücken</string>
     <string name="settings_option_copy_values_with_labels">Kopiere Feldnamen mit Daten</string>
     <string name="settings_option_copy_values_with_labels_summary">Kopiert die Daten mit den dazugehörigen Feldnamen</string>
     <string name="shake_to_report_category">Schütteln um einen Report zu erstellen</string>

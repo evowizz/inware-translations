@@ -28,7 +28,7 @@
     <string name="settings">Ajustes</string>
     <string name="settings_category_clipboard">Copiado</string>
     <string name="settings_option_long_press_to_copy">Pressionar e segurar para copiar</string>
-    <string name="settings_option_long_press_to_copy_sumarry">Copiar o valor dos itens ao pressionar e segurar</string>
+    <string name="settings_option_long_press_to_copy_summary">Copiar o valor dos itens ao pressionar e segurar</string>
     <string name="settings_option_copy_values_with_labels">Copiar a informação com o título</string>
     <string name="settings_option_copy_values_with_labels_summary">Incluir o título ao copiar</string>
     <string name="shake_to_report_category">Agitar para reportar</string>

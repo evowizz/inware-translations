@@ -27,7 +27,7 @@
     <string name="settings">Ustawienia</string>
     <string name="settings_category_clipboard">Schowek</string>
     <string name="settings_option_long_press_to_copy">Przytrzymaj by skopiować</string>
-    <string name="settings_option_long_press_to_copy_sumarry">Skopiuj wartości elementów poprzez dłuższe przytrzymanie</string>
+    <string name="settings_option_long_press_to_copy_summary">Skopiuj wartości elementów poprzez dłuższe przytrzymanie</string>
     <string name="settings_option_copy_values_with_labels">Kopiuj wartości z etykietami</string>
     <string name="settings_option_copy_values_with_labels_summary">Uwzględnij etykiety wartości podczas kopiowania</string>
     <string name="shake_to_report_category">Potrząśnij by wysłać raport</string>

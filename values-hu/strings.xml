@@ -21,7 +21,7 @@
     <string name="settings">Beállítások</string>
     <string name="settings_category_clipboard">Vágólap</string>
     <string name="settings_option_long_press_to_copy">Nyomja meg hosszan a másoláshoz</string>
-    <string name="settings_option_long_press_to_copy_sumarry">Az elemek értékeinek másolása hosszan nyomásával</string>
+    <string name="settings_option_long_press_to_copy_summary">Az elemek értékeinek másolása hosszan nyomásával</string>
     <string name="settings_option_copy_values_with_labels">Másoljon értékeket címkével</string>
     <string name="settings_option_copy_values_with_labels_summary">A másolás során tartalmazza az értékeket</string>
     <string name="shake_to_report_category">Rázza meg a jelentéshez</string>

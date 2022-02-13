@@ -28,7 +28,7 @@
     <string name="settings">Pengaturan</string>
     <string name="settings_category_clipboard">Clipboard</string>
     <string name="settings_option_long_press_to_copy">Tekan lama untuk menyalin</string>
-    <string name="settings_option_long_press_to_copy_sumarry">Salin data item dengan tekan lama</string>
+    <string name="settings_option_long_press_to_copy_summary">Salin data item dengan tekan lama</string>
     <string name="settings_option_copy_values_with_labels">Salin data dengan label</string>
     <string name="settings_option_copy_values_with_labels_summary">Termasuk data label ketika menyalin</string>
     <string name="shake_to_report_category">Goncangkan dengan keras</string>

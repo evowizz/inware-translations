@@ -29,7 +29,7 @@
     <string name="settings">การตั้งค่า</string>
     <string name="settings_category_clipboard">คลิปบอร์ด</string>
     <string name="settings_option_long_press_to_copy">แตะค้างเพื่อคัดลอก</string>
-    <string name="settings_option_long_press_to_copy_sumarry">คัดลอกข้อมูลต่างๆโดยการแตะค้างไว้</string>
+    <string name="settings_option_long_press_to_copy_summary">คัดลอกข้อมูลต่างๆโดยการแตะค้างไว้</string>
     <string name="settings_option_copy_values_with_labels">คัดลอกข้อมูลพร้อมกับชื่อของข้อมูล</string>
     <string name="settings_option_copy_values_with_labels_summary">เพิ่มชื่อของข้อมูลที่จะคัดลอกเข้าไปด้วยเมื่อกำลังคัดลอก</string>
     <string name="shake_to_report_category">เขย่าส่งความเห็น</string>

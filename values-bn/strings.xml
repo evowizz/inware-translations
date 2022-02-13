@@ -28,7 +28,7 @@
     <string name="settings">সেটিংস</string>
     <string name="settings_category_clipboard">ক্লিপবোর্ড</string>
     <string name="settings_option_long_press_to_copy">কপি করতে দীর্ঘ প্রেস করুন</string>
-    <string name="settings_option_long_press_to_copy_sumarry">আইটেমগুলির মানগুলিকে দীর্ঘ প্রেস করে কপি করুন</string>
+    <string name="settings_option_long_press_to_copy_summary">আইটেমগুলির মানগুলিকে দীর্ঘ প্রেস করে কপি করুন</string>
     <string name="settings_option_copy_values_with_labels">লেবেল সহ মানগুলি কপি করুন</string>
     <string name="settings_option_copy_values_with_labels_summary">কপি করার সময় মানগুলির লেবেল অন্তর্ভুক্ত করুন</string>
     <string name="shake_to_report_category">রিপোর্ট করতে ঝাঁকুন</string>

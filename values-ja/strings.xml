@@ -21,7 +21,7 @@
     <string name="settings">設定</string>
     <string name="settings_category_clipboard">クリップボード</string>
     <string name="settings_option_long_press_to_copy">長押しでコピー</string>
-    <string name="settings_option_long_press_to_copy_sumarry">長押しして項目の値をコピーします</string>
+    <string name="settings_option_long_press_to_copy_summary">長押しして項目の値をコピーします</string>
     <string name="settings_option_copy_values_with_labels">ラベルを付けてコピー</string>
     <string name="settings_option_copy_values_with_labels_summary">コピーの際に値のラベルを付けます</string>
     <string name="shake_to_report_category">シェイクして報告</string>

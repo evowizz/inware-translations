@@ -28,7 +28,7 @@
     <string name="settings">Параметры</string>
     <string name="settings_category_clipboard">Буфер обмена</string>
     <string name="settings_option_long_press_to_copy">Долгое нажатие для копирование</string>
-    <string name="settings_option_long_press_to_copy_sumarry">Копирование данных долгим нажатием</string>
+    <string name="settings_option_long_press_to_copy_summary">Копирование данных долгим нажатием</string>
     <string name="settings_option_copy_values_with_labels">Копировать данные с заголовком</string>
     <string name="settings_option_copy_values_with_labels_summary">Включает в себя так же заголовок строки</string>
     <string name="shake_to_report_category">Rage Shake</string>

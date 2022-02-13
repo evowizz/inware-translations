@@ -21,7 +21,7 @@
     <string name="settings">Settings</string>
     <string name="settings_category_clipboard">Clipboard</string>
     <string name="settings_option_long_press_to_copy">Long press to copy</string>
-    <string name="settings_option_long_press_to_copy_sumarry">Copy items’ values by long pressing them</string>
+    <string name="settings_option_long_press_to_copy_summary">Copy items’ values by long pressing them</string>
     <string name="settings_option_copy_values_with_labels">Copy values with labels</string>
     <string name="settings_option_copy_values_with_labels_summary">Include values’ labels when copying</string>
     <string name="shake_to_report_category">Shake to report</string>

@@ -21,7 +21,7 @@
     <string name="settings">设置</string>
     <string name="settings_category_clipboard">剪贴板</string>
     <string name="settings_option_long_press_to_copy">长按以复制</string>
-    <string name="settings_option_long_press_to_copy_sumarry">长按项目以复制其数值</string>
+    <string name="settings_option_long_press_to_copy_summary">长按项目以复制其数值</string>
     <string name="settings_option_copy_values_with_labels">同时复制标签</string>
     <string name="settings_option_copy_values_with_labels_summary">复制的内容包括数值标签</string>
     <string name="shake_to_report_category">摇一摇报告问题</string>

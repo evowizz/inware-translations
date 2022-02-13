@@ -21,7 +21,7 @@
     <string name="settings">Impostazioni</string>
     <string name="settings_category_clipboard">Appunti</string>
     <string name="settings_option_long_press_to_copy">Tieni premuto per copiare</string>
-    <string name="settings_option_long_press_to_copy_sumarry">Copia i valori tenendo premuto sopra di essi</string>
+    <string name="settings_option_long_press_to_copy_summary">Copia i valori tenendo premuto sopra di essi</string>
     <string name="settings_option_copy_values_with_labels">Copia valori con etichette</string>
     <string name="settings_option_copy_values_with_labels_summary">Includi i nomi dei valori nella copia</string>
     <string name="shake_to_report_category">Scuota per segnalare</string>

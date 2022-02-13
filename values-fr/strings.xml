@@ -27,7 +27,7 @@
     <string name="settings">Paramètres</string>
     <string name="settings_category_clipboard">Presse-papier</string>
     <string name="settings_option_long_press_to_copy">Appui prolongé pour copier</string>
-    <string name="settings_option_long_press_to_copy_sumarry">Copier les élements en appuyant longuement dessus</string>
+    <string name="settings_option_long_press_to_copy_summary">Copier les élements en appuyant longuement dessus</string>
     <string name="settings_option_copy_values_with_labels">Copier les valeurs avec les libellés</string>
     <string name="settings_option_copy_values_with_labels_summary">Inclure les libellés lors de la copie des valeurs</string>
     <string name="shake_to_report_category">Secouer pour signaler</string>

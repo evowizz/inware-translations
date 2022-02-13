@@ -27,7 +27,7 @@
     <string name="settings">Nastavení</string>
     <string name="settings_category_clipboard">Schránka</string>
     <string name="settings_option_long_press_to_copy">Dlouhým stiskem kopírujte</string>
-    <string name="settings_option_long_press_to_copy_sumarry">Dlouhým stiskem zkopírujte hodnoty položek</string>
+    <string name="settings_option_long_press_to_copy_summary">Dlouhým stiskem zkopírujte hodnoty položek</string>
     <string name="settings_option_copy_values_with_labels">Kopírovat i názvy položek</string>
     <string name="settings_option_copy_values_with_labels_summary">S hodnotami kopírujte i název položky</string>
     <string name="shake_to_report_category">Rozzuřené třesení</string>
