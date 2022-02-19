@@ -27,7 +27,7 @@
     <string name="settings">Rregullimet</string>
     <string name="settings_category_clipboard">Ruajtesi</string>
     <string name="settings_option_long_press_to_copy">Mbaj shtypur gjate per te kopjuar</string>
-    <string name="settings_option_long_press_to_copy_sumarry">Kopjo vlerat e artikujve duke i mbajtur shtypur gjate</string>
+    <string name="settings_option_long_press_to_copy_summary">Kopjo vlerat e artikujve duke i mbajtur shtypur gjate</string>
     <string name="settings_option_copy_values_with_labels">Kopjo vlerat me etiketa</string>
     <string name="settings_option_copy_values_with_labels_summary">Perfshi etiketat e vlerave gjate kopjimit</string>
     <string name="shake_to_report_category">Shkundje me buje</string>

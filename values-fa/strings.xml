@@ -21,7 +21,7 @@
     <string name="settings">تنظیمات</string>
     <string name="settings_category_clipboard">کلیپ‌بورد (Clipboard)</string>
     <string name="settings_option_long_press_to_copy">برای کپی‌کردن، از فشار ممتد استفاده کنید</string>
-    <string name="settings_option_long_press_to_copy_sumarry">مقادیر موارد را با فشار ممتد روی آنها کپی کنید</string>
+    <string name="settings_option_long_press_to_copy_summary">مقادیر موارد را با فشار ممتد روی آنها کپی کنید</string>
     <string name="settings_option_copy_values_with_labels">مقادیر را با برچسب ها کپی کنید</string>
     <string name="settings_option_copy_values_with_labels_summary">هنگام کپی‌کردن، برچسب‌های مقادیر را هم مشمول کنید</string>
     <string name="shake_to_report_category">برای گزارش تکان دهید</string>
@@ -33,7 +33,6 @@
     <string name="notifications_category_description">Toggle push notifications</string>
     <string name="experimental_category_description">ویژگی‌های منتشر نشده، ممکن است ناپایدار باشند</string>
     <string name="shake_to_report_category_description">برای ارسال بازخورد، دستگاه را تکان دهید</string>
-    <string name="settings_category_about_description">مشارکت کنندگان، پشتیبانی و تغییرات</string>
     <string name="basics">Basics</string>
     <string name="unavailable">غیرقابل‌دسترسی</string>
     <string name="good">خوب</string>

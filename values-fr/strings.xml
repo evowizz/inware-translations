@@ -27,7 +27,7 @@
     <string name="settings">Paramètres</string>
     <string name="settings_category_clipboard">Presse-papier</string>
     <string name="settings_option_long_press_to_copy">Appui prolongé pour copier</string>
-    <string name="settings_option_long_press_to_copy_sumarry">Copier les élements en appuyant longuement dessus</string>
+    <string name="settings_option_long_press_to_copy_summary">Copier les élements en appuyant longuement dessus</string>
     <string name="settings_option_copy_values_with_labels">Copier les valeurs avec les libellés</string>
     <string name="settings_option_copy_values_with_labels_summary">Inclure les libellés lors de la copie des valeurs</string>
     <string name="shake_to_report_category">Secouer pour signaler</string>
@@ -39,7 +39,6 @@
     <string name="notifications_category_description">Activer ou désactiver les notifications push</string>
     <string name="experimental_category_description">Fonctionnalités non-publié, peuvent être instables</string>
     <string name="shake_to_report_category_description">Secouer l\'appareil pour envoyer des commentaires</string>
-    <string name="settings_category_about_description">Contributeurs, support et changelogs</string>
     <string name="basics">Basiques</string>
     <string name="unavailable">Indisponible</string>
     <string name="good">Bon</string>

@@ -21,7 +21,7 @@
     <string name="settings">设置</string>
     <string name="settings_category_clipboard">剪贴板</string>
     <string name="settings_option_long_press_to_copy">长按以复制</string>
-    <string name="settings_option_long_press_to_copy_sumarry">长按项目以复制其数值</string>
+    <string name="settings_option_long_press_to_copy_summary">长按项目以复制其数值</string>
     <string name="settings_option_copy_values_with_labels">同时复制标签</string>
     <string name="settings_option_copy_values_with_labels_summary">复制的内容包括数值标签</string>
     <string name="shake_to_report_category">摇一摇报告问题</string>
@@ -33,7 +33,6 @@
     <string name="notifications_category_description">启用推送通知</string>
     <string name="experimental_category_description">未发布的功能，可能不稳定</string>
     <string name="shake_to_report_category_description">摇动设备以发送反馈</string>
-    <string name="settings_category_about_description">贡献者、支持和变更日志</string>
     <string name="basics">基本</string>
     <string name="unavailable">不可用</string>
     <string name="good">良好</string>

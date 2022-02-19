@@ -28,7 +28,7 @@
     <string name="settings">সেটিংস</string>
     <string name="settings_category_clipboard">ক্লিপবোর্ড</string>
     <string name="settings_option_long_press_to_copy">কপি করতে দীর্ঘ প্রেস করুন</string>
-    <string name="settings_option_long_press_to_copy_sumarry">আইটেমগুলির মানগুলিকে দীর্ঘ প্রেস করে কপি করুন</string>
+    <string name="settings_option_long_press_to_copy_summary">আইটেমগুলির মানগুলিকে দীর্ঘ প্রেস করে কপি করুন</string>
     <string name="settings_option_copy_values_with_labels">লেবেল সহ মানগুলি কপি করুন</string>
     <string name="settings_option_copy_values_with_labels_summary">কপি করার সময় মানগুলির লেবেল অন্তর্ভুক্ত করুন</string>
     <string name="shake_to_report_category">রিপোর্ট করতে ঝাঁকুন</string>
@@ -40,7 +40,6 @@
     <string name="notifications_category_description">পুশ বিজ্ঞপ্তিগুলি চালু করুন</string>
     <string name="experimental_category_description">অপ্রকাশিত বৈশিষ্ট্যগুলি অস্থায়ী হতে পারে</string>
     <string name="shake_to_report_category_description">প্রতিক্রিয়া পাঠাতে ঝাঁকুন</string>
-    <string name="settings_category_about_description">অবদানকারী, সহায়তাকারী এবং পরিবর্তনসমূহ</string>
     <string name="basics">মূলসূত্র</string>
     <string name="unavailable">অনুপলব্ধ</string>
     <string name="good">ভাল</string>

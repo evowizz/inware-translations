@@ -21,7 +21,7 @@
     <string name="settings">設定</string>
     <string name="settings_category_clipboard">クリップボード</string>
     <string name="settings_option_long_press_to_copy">長押しでコピー</string>
-    <string name="settings_option_long_press_to_copy_sumarry">長押しして項目の値をコピーします</string>
+    <string name="settings_option_long_press_to_copy_summary">長押しして項目の値をコピーします</string>
     <string name="settings_option_copy_values_with_labels">ラベルを付けてコピー</string>
     <string name="settings_option_copy_values_with_labels_summary">コピーの際に値のラベルを付けます</string>
     <string name="shake_to_report_category">シェイクして報告</string>
@@ -33,7 +33,6 @@
     <string name="notifications_category_description">プッシュ通知を切り替えます</string>
     <string name="experimental_category_description">試験段階のため、不安定な場合があります</string>
     <string name="shake_to_report_category_description">デバイスを振ってフィードバックを送信します</string>
-    <string name="settings_category_about_description">貢献者、サポート、および変更履歴</string>
     <string name="basics">基本</string>
     <string name="unavailable">利用不可</string>
     <string name="good">良好</string>
