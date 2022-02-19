@@ -255,11 +255,18 @@
     <string name="performance_class_title">Teljesítmény Osztály</string>
     <string name="network_type_none">Egyik sem</string>
     <string name="settings_category_advanced">Fejlett</string>
-    <string name="settings_category_advanced_description">Opcionális Modulok</string>
-    <string name="settings_category_optional_modules">Opcionális Modulok</string>
+    <string name="settings_category_advanced_description">Választható modulok, elemzések</string>
+    <string name="settings_category_optional_modules">Választható modulok</string>
     <string name="permission_dialog_learn_more">Tudj meg többet</string>
     <string name="network_location_permission_explanation">A Wi-Fi SSID megjelenítéséhez pontos helyengedély szükséges.</string>
     <string name="connectivity_bluetooth_permission_explanation">A \"Közeli eszközök\" engedély szükséges bizonyos Bluetooth-részletek megjelenítéséhez.</string>
     <string name="memory_storage_permission_explanation">Tárhely engedély szükséges a tárolással kapcsolatos részletek megjelenítéséhez.</string>
     <string name="camera_accuracy_message">Megjegyzés: Egyes eszközök pontatlan kameraspecifikációkat jelenthetnek. [Tudj meg többet](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
+    <string name="analytics_dialog_title">Engedélyezi az elemzéseket?</string>
+    <string name="analytics_dialog_message">Az Ön engedélyével az Inware anonim használati elemzéseket gyűjthet erről az eszközről, hogy segítsen nekünk az alkalmazás fejlesztésében.\n\nEzt kikapcsolhatja vagy visszaállíthatja az eszköz identitását a Beállításokban.</string>
+    <string name="settings_category_analytics">Elemzések</string>
+    <string name="settings_option_allow_analytics">Engedélyezze az elemzéseket</string>
+    <string name="settings_option_allow_analytics_description">Küldjön anonim adatokat, hogy segítsen nekünk javítani az Inware-t</string>
+    <string name="settings_button_reset_analytics">Az eszköz identitásának visszaállítása</string>
+    <string name="settings_analytics_successfully_reset">Sikeresen visszaállítva</string>
 </resources>
