@@ -39,7 +39,6 @@
     <string name="notifications_category_description">Přepnout push oznámení</string>
     <string name="experimental_category_description">Nevydané funkce, můžou být nestabilní</string>
     <string name="shake_to_report_category_description">Zatřást zařízením pro poslání zpětné vazby</string>
-    <string name="settings_category_about_description">Kontribuce, podpora a seznam změn</string>
     <string name="basics">Základní</string>
     <string name="unavailable">Nedostupné</string>
     <string name="good">Dobré</string>

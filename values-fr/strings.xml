@@ -39,7 +39,6 @@
     <string name="notifications_category_description">Activer ou désactiver les notifications push</string>
     <string name="experimental_category_description">Fonctionnalités non-publié, peuvent être instables</string>
     <string name="shake_to_report_category_description">Secouer l\'appareil pour envoyer des commentaires</string>
-    <string name="settings_category_about_description">Contributeurs, support et changelogs</string>
     <string name="basics">Basiques</string>
     <string name="unavailable">Indisponible</string>
     <string name="good">Bon</string>

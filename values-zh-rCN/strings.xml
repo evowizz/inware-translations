@@ -33,7 +33,6 @@
     <string name="notifications_category_description">启用推送通知</string>
     <string name="experimental_category_description">未发布的功能，可能不稳定</string>
     <string name="shake_to_report_category_description">摇动设备以发送反馈</string>
-    <string name="settings_category_about_description">贡献者、支持和变更日志</string>
     <string name="basics">基本</string>
     <string name="unavailable">不可用</string>
     <string name="good">良好</string>

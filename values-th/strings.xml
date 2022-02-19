@@ -41,7 +41,6 @@
     <string name="notifications_category_description">จัดการการแจ้งเตือนแบบพุช</string>
     <string name="experimental_category_description">ฟังก์ชั่นที่ยังไม่ได้ปล่อย อาจจะทำให้แอพไม่เสถียร</string>
     <string name="shake_to_report_category_description">เขย่ามือถือเพื่อส่งความเห็น</string>
-    <string name="settings_category_about_description">ผู้สนับสนุน, ช่วยเหลือ และประวัติการเปลี่ยนแปลง</string>
     <string name="basics">พื้นฐาน</string>
     <string name="unavailable">ไม่พร้อมใช้งาน</string>
     <string name="good">ดี</string>

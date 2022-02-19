@@ -38,7 +38,6 @@
     <string name="licenses">Lizenzen</string>
     <string name="experimental_category_description">Unveröffentliche Funktionen, diese können instabil sein</string>
     <string name="shake_to_report_category_description">Gerät schütteln um Feedback zu senden</string>
-    <string name="settings_category_about_description">Mitwirkende, Unterstützung und Änderungsprotokolle</string>
     <string name="basics">Grundlegendes</string>
     <string name="unavailable">Nicht verfügbar</string>
     <string name="good">Gut</string>
