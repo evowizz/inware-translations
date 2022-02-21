@@ -255,11 +255,18 @@
     <string name="performance_class_title">Clasă de performanță</string>
     <string name="network_type_none">Niciuna</string>
     <string name="settings_category_advanced">Avansat</string>
-    <string name="settings_category_advanced_description">Module Opționale</string>
-    <string name="settings_category_optional_modules">Module Opționale</string>
+    <string name="settings_category_advanced_description">Module opționale, date analitice</string>
+    <string name="settings_category_optional_modules">Module opționale</string>
     <string name="permission_dialog_learn_more">Mai multe</string>
     <string name="network_location_permission_explanation">Permisiunea pentru locație exactă este necesară pentru a afișa SSID-ul Wi-Fi.</string>
     <string name="connectivity_bluetooth_permission_explanation">Permisiunea \"Dispozitive din apropiere\" este necesară pentru a afișa anumite detalii despre Bluetooth.</string>
     <string name="memory_storage_permission_explanation">Permisiunea pentru fișiere și media este necesară pentru a afișa detalii despre stocare.</string>
     <string name="camera_accuracy_message">Observație: Unele dispozitive pot raporta specificații greșite pentru cameră. [Mai multe](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
+    <string name="analytics_dialog_title">Permiteți date analitice?</string>
+    <string name="analytics_dialog_message">Cu permisiunea dumneavoastră, Inware poate colecta date analitice de utilizare anonime de pe acest dispozitiv pentru îmbunătățirea aplicației.\n\nPuteți opri colectarea sau reseta identitatea dispozitivului dvs. în Setări.</string>
+    <string name="settings_category_analytics">Date analitice</string>
+    <string name="settings_option_allow_analytics">Permiteți date analitice</string>
+    <string name="settings_option_allow_analytics_description">Trimite date anonime pentru a ne ajuta să îmbunătățim Inware</string>
+    <string name="settings_button_reset_analytics">Resetați identitatea dispozitivului</string>
+    <string name="settings_analytics_successfully_reset">S-a resetat cu succes</string>
 </resources>
