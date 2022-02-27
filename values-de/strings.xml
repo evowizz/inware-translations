@@ -10,8 +10,8 @@
     <string name="mb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> MB/s</string>
     <string name="gb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> GB/s</string>
     <string name="tb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> TB/s</string>
-    <string name="deny">ablehnen</string>
-    <string name="allow">akzeptieren</string>
+    <string name="deny">Ablehnen</string>
+    <string name="allow">Akzeptieren</string>
     <string name="system_tab">System</string>
     <string name="device_tab">Gerät</string>
     <string name="hardware_tab">Hardware</string>
@@ -32,7 +32,7 @@
     <string name="settings_option_copy_values_with_labels_summary">Kopiert die Daten mit den dazugehörigen Feldnamen</string>
     <string name="shake_to_report_category">Schütteln um einen Report zu erstellen</string>
     <string name="shake_to_send_feedback">Schütteln, um Feedback zu senden</string>
-    <string name="shake_to_send_feedback_summary">Schüttel dein Gerät, um von jeden Bildschirm der App aus schnell Feedback zu geben.</string>
+    <string name="shake_to_send_feedback_summary">Schüttel dein Gerät, um von jedem Bildschirm der App aus schnell Feedback zu geben.</string>
     <string name="sensitivity">Empfindlichkeit</string>
     <string name="privacy_policy">Datenschutzerklärung</string>
     <string name="licenses">Lizenzen</string>
