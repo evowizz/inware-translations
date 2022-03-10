@@ -269,4 +269,5 @@
     <string name="settings_option_allow_analytics_description">Küldjön anonim adatokat, hogy segítsen nekünk javítani az Inware-t</string>
     <string name="settings_button_reset_analytics">Az eszköz identitásának visszaállítása</string>
     <string name="settings_analytics_successfully_reset">Sikeresen visszaállítva</string>
+    <string name="an_error_occurred">Hiba történt</string>
 </resources>
