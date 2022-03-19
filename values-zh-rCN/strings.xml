@@ -190,7 +190,7 @@
     <string name="detect_battery_capacity">检测电池容量</string>
     <string name="experimental_options_summary">或导致意外行为</string>
     <string name="detect_all_cameras">检测所有相机</string>
-    <string name="settings_category_experimental">试验性功能</string>
+    <string name="settings_category_experimental">实验性功能</string>
     <string name="notifications_category">通知</string>
     <string name="translations_notification">翻译</string>
     <string name="translations_notification_explanation">有新词条可供翻译时推送通知</string>
@@ -262,4 +262,12 @@
     <string name="connectivity_bluetooth_permission_explanation">需要 \"附近的设备\" 权限才能显示某些蓝牙信息。</string>
     <string name="memory_storage_permission_explanation">需要存储权限才能显示存储空间的相关信息。</string>
     <string name="camera_accuracy_message">注意：部分设备可能会报告不准确的相机参数。[了解更多](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
+    <string name="analytics_dialog_title">允许我们分析您的设备吗？</string>
+    <string name="analytics_dialog_message">若您允许，Inware 将从该设备收集匿名使用分析，以帮助我们改进应用程序。\n\n您可以在设置中关闭或重置您的设备身份。</string>
+    <string name="settings_category_analytics">分析</string>
+    <string name="settings_option_allow_analytics">允许分析</string>
+    <string name="settings_option_allow_analytics_description">发送匿名数据以帮助我们改进 Inware</string>
+    <string name="settings_button_reset_analytics">重置设备跟踪信息</string>
+    <string name="settings_analytics_successfully_reset">重置成功</string>
+    <string name="an_error_occurred">发生了一个错误</string>
 </resources>
