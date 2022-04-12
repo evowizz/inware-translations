@@ -270,4 +270,7 @@
     <string name="settings_button_reset_analytics">重置裝置跟蹤資訊</string>
     <string name="settings_analytics_successfully_reset">重置成功</string>
     <string name="an_error_occurred">發生了一個錯誤</string>
+    <string name="settings_category_developer_options">開發者選項</string>
+    <string name="go_home">回到主頁</string>
+    <string name="page_not_found_error">不好，此頁面不存在！</string>
 </resources>
