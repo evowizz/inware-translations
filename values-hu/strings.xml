@@ -270,4 +270,7 @@
     <string name="settings_button_reset_analytics">Az eszköz identitásának visszaállítása</string>
     <string name="settings_analytics_successfully_reset">Sikeresen visszaállítva</string>
     <string name="an_error_occurred">Hiba történt</string>
+    <string name="settings_category_developer_options">Fejlesztői beállítások</string>
+    <string name="go_home">Főoldalra menni</string>
+    <string name="page_not_found_error">Óóó!...\nEz az oldal nem létezik.</string>
 </resources>
