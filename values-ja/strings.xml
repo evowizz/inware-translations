@@ -36,8 +36,8 @@
     <string name="basics">基本</string>
     <string name="unavailable">利用不可</string>
     <string name="good">良好</string>
-    <string name="supported">サポートされています</string>
-    <string name="not_supported">サポートされていません</string>
+    <string name="supported">対応しています</string>
+    <string name="not_supported">対応していません</string>
     <string name="copied_to_clipboard">クリップボードにコピーしました</string>
     <string name="enabled">有効</string>
     <string name="disabled">無効</string>
@@ -94,7 +94,7 @@
     <string name="serial_number">シリアル番号</string>
     <string name="imei">IMEI <xliff:g example="1" id="imei_number">%d</xliff:g></string>
     <string name="cpu_information">CPUの情報</string>
-    <string name="supported_abis">サポートされるABI</string>
+    <string name="supported_abis">対応しているABI</string>
     <string name="cores">コア</string>
     <string name="minimum_frequency">最低周波数</string>
     <string name="maximum_frequency">最高周波数</string>
@@ -169,7 +169,7 @@
     <string name="overheated">オーバーヒート</string>
     <string name="dead">バッテリー切れ</string>
     <string name="overvoltage">過電圧</string>
-    <string name="unspecified_failure">特定不能な故障</string>
+    <string name="unspecified_failure">不明な故障</string>
     <string name="cold">寒冷</string>
     <string name="charging">充電中</string>
     <string name="discharging">放電中</string>
@@ -201,8 +201,8 @@
     <string name="media_drm">メディアDRM</string>
     <string name="mainline_module_version">Google Play システム アップデート</string>
     <string name="tap_for_more_information">タップして詳細を見る</string>
-    <string name="permission_required_title">許可が必要です</string>
-    <string name="permission_required_content">この情報を見るには以下の許可が必要です:</string>
+    <string name="permission_required_title">権限が必要です</string>
+    <string name="permission_required_content">この情報を見るには以下の権限が必要です:</string>
     <string name="wifi_disconnected">Wi-Fiが切断されました</string>
     <string name="algorithms">アルゴリズム</string>
     <string name="units">単位</string>
@@ -241,13 +241,36 @@
     <string name="display_number">ディスプレイ #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
     <string name="no_browser_warning">ブラウザが見つかりません</string>
     <string name="settings_option_dynamic_colors">システムカラーの使用</string>
-    <string name="settings_option_dynamic_colors_summary">システムで用意された色を使用します</string>
+    <string name="settings_option_dynamic_colors_summary">システム既定の色を使用します</string>
     <string name="settings_category_general">一般</string>
     <string name="settings_category_general_description">セキュリティ、クリップボードと単位</string>
     <string name="settings_category_appearance_description">ダークモードと色</string>
     <string name="settings_option_block_screen_capture">画面キャプチャをブロックする</string>
-    <string name="settings_option_block_screen_capture_description">画面に表示されるコンテンツのキャプチャを防ぎます</string>
+    <string name="settings_option_block_screen_capture_description">画面内容のキャプチャをブロックします</string>
     <string name="settings_option_hide_3rd_party_overlays">サードパーティ製のオーバーレイを隠す</string>
     <string name="settings_option_hide_3rd_party_overlays_description">システム以外のアプリが作成したオーバーレイを非表示にします</string>
     <string name="settings_category_security">セキュリティ</string>
+    <string name="performance_class">クラス <xliff:g example="12" id="class_rating">%s</xliff:g></string>
+    <string name="no_performance_class">クラスがありません</string>
+    <string name="performance_class_title">パフォーマンスクラス</string>
+    <string name="network_type_none">なし</string>
+    <string name="settings_category_advanced">高度な設定</string>
+    <string name="settings_category_advanced_description">任意のモジュール、アナリティクス</string>
+    <string name="settings_category_optional_modules">任意のモジュール</string>
+    <string name="permission_dialog_learn_more">詳細</string>
+    <string name="network_location_permission_explanation">Wi-FiのSSIDを表示するには、正確な位置情報へのアクセス権限が必要です。</string>
+    <string name="connectivity_bluetooth_permission_explanation">Bluetoothの詳細情報を表示するには、「付近のデバイス」の権限が必要です。</string>
+    <string name="memory_storage_permission_explanation">ストレージ情報を表示するには、ストレージへのアクセス権限が必要です。</string>
+    <string name="camera_accuracy_message">注: 一部のデバイスでは、カメラの仕様が正しく表示されない場合があります。 [詳細](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
+    <string name="analytics_dialog_title">アナリティクスを許可しますか?</string>
+    <string name="analytics_dialog_message">許可すると、匿名化された利用状況の情報を収集して、アプリの改善に利用します。\n\n設定でこれをオフにするか、デバイスIDをリセットすることができます。</string>
+    <string name="settings_category_analytics">アナリティクス</string>
+    <string name="settings_option_allow_analytics">アナリティクスを許可する</string>
+    <string name="settings_option_allow_analytics_description">匿名のデータを送信してInwareの改善に協力します</string>
+    <string name="settings_button_reset_analytics">デバイスIDをリセットする</string>
+    <string name="settings_analytics_successfully_reset">正常にリセットされました</string>
+    <string name="an_error_occurred">エラーが発生しました</string>
+    <string name="settings_category_developer_options">開発者向けオプション</string>
+    <string name="go_home">ホームに戻る</string>
+    <string name="page_not_found_error">あれれ?…\nこのページは存在しないようです。</string>
 </resources>
