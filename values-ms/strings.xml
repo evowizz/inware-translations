@@ -44,7 +44,7 @@
     <string name="features">Ciri-ciri</string>
     <string name="os">OS</string>
     <string name="android_version">Versi Android</string>
-    <string name="release_with"><Dikeluarkan dengan</string>
+    <string name="release_with">Dikeluarkan dengan</string>
     <string name="security_patch">Tampalan Keselamatan</string>
     <string name="build_number">Nombor binaan</string>
     <string name="build_id">ID Binaan</string>
