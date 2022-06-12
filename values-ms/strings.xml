@@ -46,7 +46,7 @@
     <string name="android_version">Versi Android</string>
     <string name="release_with">Dikeluarkan dengan</string>
     <string name="security_patch">Tampalan Keselamatan</string>
-    <string name="build_number">Nombor binaan</string>
+    <string name="build_number">Nombor Binaan</string>
     <string name="build_id">ID Binaan</string>
     <string name="kernel_version">Versi Kernel</string>
     <string name="baseband_version">Versi Jalur Asas</string>
@@ -119,7 +119,7 @@
     <string name="internal_storage">Ruang Dalaman</string>
     <string name="front_camera">Kamera Hadapan</string>
     <string name="back_camera">Kamera Belakang</string>
-    <string name="external_camera">Camera Luaran</string>
+    <string name="external_camera">Kamera Luaran</string>
     <string name="megapixels">Megapiksel</string>
     <string name="available_apertures">Apertur Tersedia</string>
     <string name="optical_image_stabilization">Penstabilan Imej Optik (OIS)</string>
@@ -146,7 +146,7 @@
     <string name="excellent">Sangat Baik</string>
     <string name="fair">Sederhana</string>
     <string name="weak">Lemah</string>
-    <string name="lease_time_more_than_a_week">Lebih daripada seminggu: <xliff:g id="seconds">%d</xliff:g> seconds</string>
+    <string name="lease_time_more_than_a_week">Lebih dari seminggu: <xliff:g id="seconds">%d</xliff:g> seconds</string>
     <string name="connected">Disambungkan</string>
     <string name="disconnected">Tidak Disambungkan</string>
     <string name="bluetooth_enabled">Dihidupkan (%s)</string>
@@ -168,7 +168,7 @@
     <string name="unknown">Tidak Diketahui</string>
     <string name="overheated">Terlalu Panas</string>
     <string name="dead">Mati</string>
-    <string name="overvoltage">Lebih Voltan</string>
+    <string name="overvoltage">Terlebih Voltan</string>
     <string name="unspecified_failure">Kegagalan Tidak Spesifik</string>
     <string name="cold">Sejuk</string>
     <string name="charging">Mengecas</string>
@@ -233,7 +233,7 @@
     <string name="module_installer_pending">Menunggu</string>
     <string name="mdule_installer_cancel_result">Dibatalkan</string>
     <string name="module_installer_success_result">Berjaya Dipasang</string>
-    <string name="module_installer_unknown_error">Oh Tidak... Kami Telah Menghadapi Ralat!</string>
+    <string name="module_installer_unknown_error">Oh Tidak... Kami Sedang Mengalami Ralat!</string>
     <string name="experimental_module_tag">Percubaan</string>
     <string name="demo_module_tag">Demo</string>
     <string name="beta_module_tag">Beta</string>
@@ -270,7 +270,7 @@
     <string name="settings_button_reset_analytics">Set semula identiti peranti</string>
     <string name="settings_analytics_successfully_reset">Berjaya Set Semula</string>
     <string name="an_error_occurred">Ralat berlaku</string>
-    <string name="settings_category_developer_options">Tetapan pemaju</string>
+    <string name="settings_category_developer_options">Tetapan Pemaju</string>
     <string name="go_home">Pergi Ke Halaman Utama</string>
     <string name="page_not_found_error">Uh oh!...\nHalaman ini tidak wujud.</string>
 </resources>
