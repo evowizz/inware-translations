@@ -81,7 +81,7 @@
     <string name="current_density">Semasa: <xliff:g example="420" id="density">%d</xliff:g>dpi (<xliff:g example="xxhdpi" id="density_qualifier">%s</xliff:g>)</string>
     <string name="default_density">Lalai: <xliff:g example="560" id="density">%d</xliff:g>dpi (<xliff:g example="xxxhdpi" id="density_qualifier">%s</xliff:g>)</string>
     <string name="landscape">Landskap</string>
-    <string name="portrait">Portret</string>
+    <string name="portrait">Potret</string>
     <string name="hdr">HDR</string>
     <string name="fingerprint_authentication">Pengesahan Cap Jari</string>
     <string name="face_authentication">Pengesahan Muka</string>
