@@ -27,7 +27,7 @@
     <string name="shake_to_report_category">搖一搖報告問題</string>
     <string name="shake_to_send_feedback">搖一搖傳送回饋</string>
     <string name="shake_to_send_feedback_summary">在任意介面搖動裝置來快速傳送回饋</string>
-    <string name="sensitivity">靈敏度</string>
+    <string name="sensitivity">敏感度</string>
     <string name="privacy_policy">隱私政策</string>
     <string name="licenses">授權條款</string>
     <string name="notifications_category_description">啟用推送通知</string>
