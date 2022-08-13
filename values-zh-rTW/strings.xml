@@ -76,7 +76,7 @@
     <string name="resolution">解析度</string>
     <string name="size">尺寸</string>
     <string name="aspect_ratio">比例</string>
-    <string name="frame_rate">重新整理率</string>
+    <string name="frame_rate">重新整理頻率</string>
     <string name="default_orientation">預設方向</string>
     <string name="current_density">當前：<xliff:g example="420" id="density">%d</xliff:g>dpi (<xliff:g example="xxhdpi" id="density_qualifier">%s</xliff:g>)</string>
     <string name="default_density">預設：<xliff:g example="560" id="density">%d</xliff:g>dpi (<xliff:g example="xxxhdpi" id="density_qualifier">%s</xliff:g>)</string>
@@ -138,12 +138,12 @@
     <string name="link_speed">連結速度</string>
     <string name="local_ip_ipv4">本機 IP（IPv4）</string>
     <string name="mac_address">MAC 位址</string>
-    <string name="gateway">閘道器</string>
+    <string name="gateway">閘道</string>
     <string name="subnet_mask">子網路遮罩</string>
     <string name="dns">DNS</string>
     <string name="local_ip_ipv6">本機 IP（IPv6）</string>
     <string name="dhcp_lease_time">DHCP 租約期限</string>
-    <string name="excellent">極好</string>
+    <string name="excellent">極佳</string>
     <string name="fair">中等</string>
     <string name="weak">較弱</string>
     <string name="lease_time_more_than_a_week">超過一週：<xliff:g id="seconds">%d</xliff:g> 秒</string>
