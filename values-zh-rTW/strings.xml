@@ -25,14 +25,14 @@
     <string name="settings_option_copy_values_with_labels">同時複製標籤</string>
     <string name="settings_option_copy_values_with_labels_summary">複製的內容包括數值標籤</string>
     <string name="shake_to_report_category">搖一搖報告問題</string>
-    <string name="shake_to_send_feedback">搖一搖傳送回饋</string>
-    <string name="shake_to_send_feedback_summary">在任意介面搖動裝置來快速傳送回饋</string>
+    <string name="shake_to_send_feedback">搖一搖傳送意見</string>
+    <string name="shake_to_send_feedback_summary">在任意介面搖動裝置來快速傳送意見</string>
     <string name="sensitivity">敏感度</string>
     <string name="privacy_policy">隱私權政策</string>
     <string name="licenses">授權條款</string>
     <string name="notifications_category_description">啟用推送通知</string>
     <string name="experimental_category_description">未釋出的功能，可能不穩定</string>
-    <string name="shake_to_report_category_description">搖動裝置以傳送回饋</string>
+    <string name="shake_to_report_category_description">搖動裝置以傳送意見</string>
     <string name="basics">基本</string>
     <string name="unavailable">無法使用</string>
     <string name="good">良好</string>
