@@ -250,9 +250,9 @@
     <string name="settings_option_hide_3rd_party_overlays">隱藏第三方重疊圖層</string>
     <string name="settings_option_hide_3rd_party_overlays_description">隱藏非系統應用程式建立的重疊圖層</string>
     <string name="settings_category_security">安全性</string>
-    <string name="performance_class">效能等級 <xliff:g example="12" id="class_rating">%s</xliff:g></string>
-    <string name="no_performance_class">無效能等級</string>
-    <string name="performance_class_title">效能等級</string>
+    <string name="performance_class">效能類別 <xliff:g example="12" id="class_rating">%s</xliff:g></string>
+    <string name="no_performance_class">未宣告效能類別</string>
+    <string name="performance_class_title">效能類別</string>
     <string name="network_type_none">無</string>
     <string name="settings_category_advanced">高階</string>
     <string name="settings_category_advanced_description">可選模組</string>
