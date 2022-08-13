@@ -88,7 +88,7 @@
     <string name="vulkan">Vulkan</string>
     <string name="augmented_reality">擴增實境</string>
     <string name="file_based_encryption">檔案級加密</string>
-    <string name="indentifiers">裝置標識</string>
+    <string name="indentifiers">裝置識別碼</string>
     <string name="android_id">Android ID</string>
     <string name="gsf_id">GSF ID</string>
     <string name="serial_number">序列號</string>
