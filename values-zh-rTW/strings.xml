@@ -243,7 +243,7 @@
     <string name="settings_option_dynamic_colors">使用系統配色</string>
     <string name="settings_option_dynamic_colors_summary">使用由系統提供的配色方案</string>
     <string name="settings_category_general">一般</string>
-    <string name="settings_category_general_description">安全、剪貼簿和單位設定</string>
+    <string name="settings_category_general_description">安全性、剪貼簿和單位設定</string>
     <string name="settings_category_appearance_description">暗色模式與配色</string>
     <string name="settings_option_block_screen_capture">阻止螢幕截圖</string>
     <string name="settings_option_block_screen_capture_description">阻止擷取螢幕內容</string>
