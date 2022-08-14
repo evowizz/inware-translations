@@ -270,4 +270,7 @@
     <string name="settings_button_reset_analytics">Resetați identitatea dispozitivului</string>
     <string name="settings_analytics_successfully_reset">S-a resetat cu succes</string>
     <string name="an_error_occurred">A apărut o eroare</string>
+    <string name="settings_category_developer_options">Opțiuni pentru dezvoltatori</string>
+    <string name="go_home">Către Acasă</string>
+    <string name="page_not_found_error">Hopa!...\nAceastă pagină nu există.</string>
 </resources>
