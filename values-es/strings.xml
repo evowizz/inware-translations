@@ -268,7 +268,7 @@
     <string name="settings_option_allow_analytics">Permitir estadísticas de uso</string>
     <string name="settings_option_allow_analytics_description">Envía datos anónimos para ayudarnos a mejorar Inware</string>
     <string name="settings_button_reset_analytics">Restablecer identidad del dispositivo</string>
-    <string name="settings_analytics_successfully_reset">Restablecido con éxito</string>
+    <string name="settings_analytics_successfully_reset">Restablecida con éxito</string>
     <string name="an_error_occurred">Ocurrió un error</string>
     <string name="settings_category_developer_options">Opciones de desarrollador</string>
     <string name="go_home">Volver al inicio</string>
