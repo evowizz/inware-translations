@@ -49,10 +49,10 @@
     <string name="build_number">شماره ساخت</string>
     <string name="build_id">شناسه ساخت</string>
     <string name="kernel_version">نسخه هسته</string>
-    <string name="baseband_version">Baseband Version</string>
-    <string name="tags">Tags</string>
+    <string name="baseband_version">نسخه پایه باند</string>
+    <string name="tags">تگ ها</string>
     <string name="fingerprint">اثر‌انگشت</string>
-    <string name="bootloader">Bootloader</string>
+    <string name="bootloader">بوتلودر</string>
     <string name="up_time">Up Time</string>
     <string name="extra">اضافی</string>
     <string name="treble">Treble</string>
