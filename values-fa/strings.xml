@@ -165,15 +165,15 @@
     <string name="temperature">دما</string>
     <string name="technology">فناوری</string>
     <string name="null_string">بدون مقدار</string>
-    <string name="unknown">Unknown</string>
-    <string name="overheated">Overheated</string>
-    <string name="dead">Dead</string>
-    <string name="overvoltage">Overvoltage</string>
+    <string name="unknown">ناشناخته</string>
+    <string name="overheated">گرمای بیش از حد</string>
+    <string name="dead">کشته شد</string>
+    <string name="overvoltage">ولتاژ بیش از حد</string>
     <string name="unspecified_failure">Unspecified Failure</string>
-    <string name="cold">Cold</string>
-    <string name="charging">Charging</string>
-    <string name="discharging">Discharging</string>
-    <string name="not_charging">Not charging</string>
+    <string name="cold">سرما</string>
+    <string name="charging">در حال شارژ</string>
+    <string name="discharging">خالی شدن شارژ</string>
+    <string name="not_charging">شارژ نمی شود</string>
     <string name="full">کامل</string>
     <string name="charging_speed_format"><xliff:g example="18" id="speed">%s</xliff:g> W</string>
     <string name="charging_speed_fast">سریع</string>
@@ -181,8 +181,8 @@
     <string name="battery_current_format"><xliff:g example="304" id="current">%s</xliff:g> mA</string>
     <string name="battery_voltage_format"><xliff:g example="4.384" id="voltage">%s</xliff:g> V</string>
     <string name="battery_current">فعلی</string>
-    <string name="battery_power">Power</string>
-    <string name="battery_voltage">Voltage</string>
+    <string name="battery_power">برق</string>
+    <string name="battery_voltage">ولتاژ</string>
     <string name="whats_new">What\'s New</string>
     <string name="about">در باره</string>
     <string name="thanks_to">با تشکر از</string>
@@ -198,19 +198,19 @@
     <string name="device_unique_id">شناسه منحصر‌به‌فرد دستگاه</string>
     <string name="version">نسخه</string>
     <string name="security_level">سطح امنیت</string>
-    <string name="media_drm">Media DRM</string>
-    <string name="mainline_module_version">Google Play system update</string>
+    <string name="media_drm">قفل امنیتی رسانه</string>
+    <string name="mainline_module_version">آپدیت سیستم گوگل پلی</string>
     <string name="tap_for_more_information">برای اطلاعات بیشتر ضربه بزنید</string>
     <string name="permission_required_title">مجوز لازم است</string>
     <string name="permission_required_content">برای مشاهده این اطلاعات مجوز زیر لازم است:</string>
     <string name="wifi_disconnected">وای‌فای (Wi-Fi) قطع شد</string>
     <string name="algorithms">الگوریتم ها</string>
     <string name="units">واحدها</string>
-    <string name="minimum_target_sdk">Minimum Target SDK</string>
+    <string name="minimum_target_sdk">کمترین نسخه اندروید</string>
     <string name="battery_source">منبع</string>
-    <string name="battery_charger_ac">Charger (AC)</string>
-    <string name="battery_charger_usb">USB</string>
-    <string name="battery_charger_wireless">Wireless</string>
+    <string name="battery_charger_ac">شارژر</string>
+    <string name="battery_charger_usb">فلش</string>
+    <string name="battery_charger_wireless">بی‌سیم</string>
     <string name="settings_category_appearance">ظاهر</string>
     <string name="settings_option_dark_mode">حالت تاریک</string>
     <string name="settings_option_dark_theme">تم تاریک</string>
@@ -230,12 +230,12 @@
     <string name="module_installer_initializing">Initializing</string>
     <string name="module_installer_downloading">در حال دانلود</string>
     <string name="module_installer_installing">در حال نصب</string>
-    <string name="module_installer_pending">Pending</string>
+    <string name="module_installer_pending">در انتظار</string>
     <string name="mdule_installer_cancel_result">لغو شد</string>
     <string name="module_installer_success_result">با موفقیت نصب شد</string>
     <string name="module_installer_unknown_error">اوه نه... ما با یک خطا روبرو هستیم!</string>
     <string name="experimental_module_tag">آزمایشی</string>
-    <string name="demo_module_tag">دمو</string>
+    <string name="demo_module_tag">آزمایشی</string>
     <string name="beta_module_tag">بتا</string>
     <string name="preview_module_tag">پیش‌نمایش</string>
     <string name="display_number">نمایشگر #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
@@ -245,10 +245,10 @@
     <string name="settings_category_general">عمومی</string>
     <string name="settings_category_general_description">امنیت، کلیپ‌بورد و واحدها</string>
     <string name="settings_category_appearance_description">حالت تاریک و رنگ ها</string>
-    <string name="settings_option_block_screen_capture">Block screen capture</string>
-    <string name="settings_option_block_screen_capture_description">Prevent the capture of screen content</string>
-    <string name="settings_option_hide_3rd_party_overlays">Hide third-party overlays</string>
-    <string name="settings_option_hide_3rd_party_overlays_description">Hide overlays created by non-system apps</string>
+    <string name="settings_option_block_screen_capture">محدودیت ضبط از صفحه</string>
+    <string name="settings_option_block_screen_capture_description">ضبط اطلاعات بر روی صفحه را محدود کنید</string>
+    <string name="settings_option_hide_3rd_party_overlays">همپوشانی های دیگر برنامه ها را غیرفعال کنید</string>
+    <string name="settings_option_hide_3rd_party_overlays_description">همپوشانی های برنامه های غیر سیستمی را غیرفعال کنید</string>
     <string name="settings_category_security">امنیت</string>
     <string name="performance_class">Class <xliff:g example="12" id="class_rating">%s</xliff:g></string>
     <string name="no_performance_class">No class</string>
