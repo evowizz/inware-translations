@@ -1,276 +1,307 @@
-<?xml version="1.0"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="kb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> KB/s</string>
-    <string name="mb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> MB/s</string>
-    <string name="gb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> GB/s</string>
-    <string name="tb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> TB/s</string>
-    <string name="deny">Refuzați</string>
-    <string name="allow">Permiteți</string>
-    <string name="system_tab">Sistem</string>
-    <string name="device_tab">Dispozitiv</string>
-    <string name="hardware_tab">Hardware</string>
-    <string name="memory_tab">Memorie</string>
-    <string name="camera_tab">Cameră</string>
-    <string name="network_tab">Rețea</string>
-    <string name="connectivity_tab">Conectivitate</string>
-    <string name="battery_tab">Baterie</string>
-    <string name="new_version_available">Versiune nouă disponibilă</string>
-    <string name="new_version_dialog_message">Actualizați la cea mai recentă versiune pentru o experiență mai bună</string>
-    <string name="update">Actualizare</string>
-    <string name="later">Mai târziu</string>
-    <string name="settings">Setări</string>
-    <string name="settings_category_clipboard">Clipboard</string>
-    <string name="settings_option_long_press_to_copy">Țineți apăsat pentru a copia</string>
-    <string name="settings_option_long_press_to_copy_summary">Copiați valorile ținând apăsat pe acestea</string>
-    <string name="settings_option_copy_values_with_labels">Copiați valorile împreună cu etichetele</string>
-    <string name="settings_option_copy_values_with_labels_summary">Includeți etichetele valorilor la copiere</string>
-    <string name="shake_to_report_category">Scuturați pentru a raporta</string>
-    <string name="shake_to_send_feedback">Scuturați pentru a trimite feedback</string>
-    <string name="shake_to_send_feedback_summary">Scuturați-vă dispozitivul pentru a trimite rapid feedback din orice ecran</string>
-    <string name="sensitivity">Sensibilitate</string>
-    <string name="privacy_policy">Politica de confidențialitate</string>
-    <string name="licenses">Licențe</string>
-    <string name="notifications_category_description">Comutați notificările push</string>
-    <string name="experimental_category_description">Caracteristici nelansate, pot fi instabile</string>
-    <string name="shake_to_report_category_description">Scuturați dispozitivul pentru a trimite feedback</string>
-    <string name="basics">Informații de bază</string>
-    <string name="unavailable">Indisponibil(ă)</string>
-    <string name="good">Bun</string>
-    <string name="supported">Acceptat(ă)</string>
-    <string name="not_supported">Neacceptat(ă)</string>
-    <string name="copied_to_clipboard">Copiat în clipboard</string>
-    <string name="enabled">Activat(ă)</string>
-    <string name="disabled">Dezactivat(ă)</string>
-    <string name="features">Caracteristici</string>
-    <string name="os">SO</string>
-    <string name="android_version">Versiune Android</string>
-    <string name="release_with">Lansat cu</string>
-    <string name="security_patch">Corecție de securitate</string>
-    <string name="build_number">Număr generare</string>
-    <string name="build_id">ID generare</string>
-    <string name="kernel_version">Versiune nucleu</string>
-    <string name="baseband_version">Versiune bandă de bază</string>
-    <string name="tags">Etichete</string>
-    <string name="fingerprint">Amprentă</string>
-    <string name="bootloader">Bootloader</string>
-    <string name="up_time">Durată de funcționare</string>
-    <string name="extra">Extra</string>
-    <string name="treble">Treble</string>
-    <string name="seamless_updates">Actualizări de sistem A/B</string>
-    <string name="root">Root</string>
-    <string name="language">Limbă</string>
-    <string name="board">Placă</string>
-    <string name="hardware">Hardware</string>
-    <string name="build_type">Tip de generare</string>
-    <string name="active_slot">Slot activ</string>
-    <string name="root_version">Versiune root</string>
-    <string name="detected">Detectat(ă)</string>
-    <string name="not_detected">Nedetectat(ă)</string>
-    <string name="usb_debugging">Depanare prin USB</string>
-    <string name="selinux">SELinux</string>
-    <string name="brand">Marcă</string>
-    <string name="manufacturer">Producător</string>
-    <string name="product">Produs</string>
-    <string name="model">Model</string>
-    <string name="display">Afișaj</string>
-    <string name="resolution">Rezoluție</string>
-    <string name="size">Mărime</string>
-    <string name="aspect_ratio">Raport de aspect</string>
-    <string name="frame_rate">Rată de cadre</string>
-    <string name="default_orientation">Orientare implicită</string>
-    <string name="current_density">Actual: <xliff:g example="420" id="density">%d</xliff:g>dpi (<xliff:g example="xxhdpi" id="density_qualifier">%s</xliff:g>)</string>
-    <string name="default_density">Implicit: <xliff:g example="560" id="density">%d</xliff:g>dpi (<xliff:g example="xxxhdpi" id="density_qualifier">%s</xliff:g>)</string>
-    <string name="landscape">Peisaj</string>
-    <string name="portrait">Portret</string>
-    <string name="hdr">HDR</string>
-    <string name="fingerprint_authentication">Autentificare cu amprentă</string>
-    <string name="face_authentication">Autentificare cu față</string>
-    <string name="vulkan">Vulkan</string>
-    <string name="augmented_reality">Realitate augmentată</string>
-    <string name="file_based_encryption">Criptare sistem de fișiere</string>
-    <string name="indentifiers">Identificatori</string>
-    <string name="android_id">ID Android</string>
-    <string name="gsf_id">ID GSF</string>
-    <string name="serial_number">Număr de serie</string>
-    <string name="imei">IMEI <xliff:g example="1" id="imei_number">%d</xliff:g></string>
-    <string name="cpu_information">Informații CPU</string>
-    <string name="supported_abis">ABI-uri acceptate</string>
-    <string name="cores">Nuclee</string>
-    <string name="minimum_frequency">Frecvență minimă</string>
-    <string name="maximum_frequency">Frecvență maximă</string>
-    <string name="governor">Governor</string>
-    <string name="usage">Utilizare</string>
-    <string name="cpu_usage">Utilizare CPU</string>
-    <string name="gpu_information">Informații GPU</string>
-    <string name="vendor">Furnizor</string>
-    <string name="renderer">Randor</string>
-    <string name="current_frequency">Frecvență curentă</string>
-    <string name="clusters">Clustere</string>
-    <string name="cluster_number">Clusterul #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
-    <string name="core_number">Nucleul <xliff:g example="3" id="number_of_core">%d</xliff:g></string>
-    <string name="value_frequency"><xliff:g example="857" id="frequency">%d</xliff:g> MHz</string>
-    <string name="stopped">Oprit</string>
-    <string name="offline">Offline</string>
-    <string name="device_memory">Memorie dispozitiv (RAM)</string>
-    <string name="total">Total</string>
-    <string name="available">Disponibil</string>
-    <string name="used">Utilizat</string>
-    <string name="used_percentage">Utilizat (procentaj)</string>
-    <string name="internal_storage">Stocare internă</string>
-    <string name="front_camera">Cameră frontală</string>
-    <string name="back_camera">Cameră spate</string>
-    <string name="external_camera">Cameră externă</string>
-    <string name="megapixels">Megapixeli</string>
-    <string name="available_apertures">Aperturi disponibile</string>
-    <string name="optical_image_stabilization">Stabilizare optică a imaginii (OIS)</string>
-    <string name="electronic_image_stabilization">Stabilizare electronică a imaginii (EIS)</string>
-    <string name="flashlight">Lanternă</string>
-    <string name="mpx"><xliff:g example="16" id="number_of_megapixel">%d</xliff:g> Mpx</string>
-    <string name="network_type">Tip de rețea</string>
-    <string name="speed">Viteză</string>
-    <string name="download_speed">Viteză de descărcare</string>
-    <string name="upload_speed">Viteză de încărcare</string>
-    <string name="wifi">Wi-Fi</string>
-    <string name="ssid">SSID</string>
-    <string name="hidden_ssid">SSID ascuns</string>
-    <string name="frequency">Frecvență</string>
-    <string name="signal_strength">Putere semnal</string>
-    <string name="link_speed">Viteză legătură</string>
-    <string name="local_ip_ipv4">Adresă IP locală (IPv4)</string>
-    <string name="mac_address">Adresă MAC</string>
-    <string name="gateway">Poartă de acces (Gateway)</string>
-    <string name="subnet_mask">Mască de subrețea</string>
-    <string name="dns">DNS</string>
-    <string name="local_ip_ipv6">Adresă IP locală (IPv6)</string>
-    <string name="dhcp_lease_time">Perioadă de închiriere DHCP</string>
-    <string name="excellent">Excelent</string>
-    <string name="fair">Acceptabil</string>
-    <string name="weak">Slab</string>
-    <string name="lease_time_more_than_a_week">Mai mult de o săptămână: <xliff:g id="seconds">%d</xliff:g> secunde</string>
-    <string name="connected">Conectat</string>
-    <string name="disconnected">Deconectat</string>
-    <string name="bluetooth_enabled">Activat (%s)</string>
-    <string name="turning_on">Se pornește</string>
-    <string name="turning_off">Se oprește</string>
-    <string name="turn_on_bluetooth">Porniți Bluetooth</string>
-    <string name="zero_device_connected">0 dispozitive conectate</string>
-    <string name="bluetooth">Bluetooth</string>
-    <string name="name">Nume</string>
-    <string name="bluetooth_low_energy">Bluetooth Low Energy</string>
-    <string name="connected_devices">Dispozitive conectate</string>
-    <string name="health">Sănătate</string>
-    <string name="status">Stare</string>
-    <string name="level">Nivel</string>
-    <string name="capacity">Capacitate</string>
-    <string name="temperature">Temperatură</string>
-    <string name="technology">Tehnologie</string>
-    <string name="null_string">Nul</string>
-    <string name="unknown">Necunoscut</string>
-    <string name="overheated">Supraîncălzit</string>
-    <string name="dead">Mort</string>
-    <string name="overvoltage">Supratensiune</string>
-    <string name="unspecified_failure">Defecțiune nespecificată</string>
-    <string name="cold">Rece</string>
-    <string name="charging">Se încarcă</string>
-    <string name="discharging">Se descarcă</string>
-    <string name="not_charging">Nu se încarcă</string>
-    <string name="full">Plin</string>
-    <string name="charging_speed_format"><xliff:g example="18" id="speed">%s</xliff:g> W</string>
-    <string name="charging_speed_fast">Rapid</string>
-    <string name="charging_speed_slow">Lent</string>
-    <string name="battery_current_format"><xliff:g example="304" id="current">%s</xliff:g> mA</string>
-    <string name="battery_voltage_format"><xliff:g example="4.384" id="voltage">%s</xliff:g> V</string>
-    <string name="battery_current">Intensitate</string>
-    <string name="battery_power">Alimentare</string>
-    <string name="battery_voltage">Tensiune</string>
-    <string name="whats_new">Ce este nou</string>
-    <string name="about">Despre</string>
-    <string name="thanks_to">Mulțumiri</string>
-    <string name="no_email_application_found">Nu s-a găsit nicio aplicație de e-mail</string>
-    <string name="detect_battery_capacity">Detectare capacitate baterie</string>
-    <string name="experimental_options_summary">Poate duce la un comportament neașteptat</string>
-    <string name="detect_all_cameras">Detectează toate camerele</string>
-    <string name="settings_category_experimental">Experimente</string>
-    <string name="notifications_category">Notificări</string>
-    <string name="translations_notification">Traduceri</string>
-    <string name="translations_notification_explanation">Primiți o notificare atunci când sunt disponibile noi fraze de tradus</string>
-    <string name="display_density">Densitate</string>
-    <string name="device_unique_id">ID unic dispozitiv</string>
-    <string name="version">Versiune</string>
-    <string name="security_level">Nivel de securitate</string>
-    <string name="media_drm">DRM media</string>
-    <string name="mainline_module_version">Actualizare de sistem Google Play</string>
-    <string name="tap_for_more_information">Apăsați pentru mai multe informații</string>
-    <string name="permission_required_title">Permisiune necesară</string>
-    <string name="permission_required_content">Următoarea permisiune este necesară pentru a vedea aceste informații:</string>
-    <string name="wifi_disconnected">Wi-Fi deconectat</string>
-    <string name="algorithms">Algoritmi</string>
-    <string name="units">Unități</string>
-    <string name="minimum_target_sdk">SDK-țintă minim</string>
-    <string name="battery_source">Sursă</string>
-    <string name="battery_charger_ac">Încărcător (AC)</string>
-    <string name="battery_charger_usb">USB</string>
-    <string name="battery_charger_wireless">Fără fir</string>
-    <string name="settings_category_appearance">Aspect</string>
-    <string name="settings_option_dark_mode">Mod întunecat</string>
-    <string name="settings_option_dark_theme">Temă întunecată</string>
-    <string name="dark_mode_off">Oprit</string>
-    <string name="dark_mode_on">Pornit</string>
-    <string name="dark_mode_follow_system">Urmați sistemul</string>
-    <string name="dark_theme_original">Original</string>
-    <string name="dark_theme_slate">Ardeziu</string>
-    <string name="dark_theme_grey">Gri</string>
-    <string name="dark_theme_black">Negru</string>
-    <string name="settings_module_manager_category_title">Module</string>
-    <string name="settings_module_manager_category_description">Gestionați modulele descărcabile</string>
-    <string name="module_manager_installed_category">Instalate</string>
-    <string name="module_manager_available_category">Disponibile</string>
-    <string name="module_manager_no_modules_installed">Niciun modul instalat</string>
-    <string name="module_manager_no_modules_available">Niciun modul disponibil</string>
-    <string name="module_installer_initializing">Se inițializează</string>
-    <string name="module_installer_downloading">Se descarcă</string>
-    <string name="module_installer_installing">Se instalează</string>
-    <string name="module_installer_pending">În așteptare</string>
-    <string name="mdule_installer_cancel_result">Anulat</string>
-    <string name="module_installer_success_result">Instalat cu succes</string>
-    <string name="module_installer_unknown_error">O, nu... Avem o eroare!</string>
-    <string name="experimental_module_tag">Experimental</string>
-    <string name="demo_module_tag">Demo</string>
-    <string name="beta_module_tag">Beta</string>
-    <string name="preview_module_tag">Previzualizare</string>
-    <string name="display_number">Afișajul #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
-    <string name="no_browser_warning">Nu s-a putut găsi un browser</string>
-    <string name="settings_option_dynamic_colors">Utilizați culorile sistemului</string>
-    <string name="settings_option_dynamic_colors_summary">Utilizați culorile furnizate de către sistem</string>
-    <string name="settings_category_general">General</string>
-    <string name="settings_category_general_description">Securitate, clipboard și unități</string>
-    <string name="settings_category_appearance_description">Mod întunecat și culori</string>
-    <string name="settings_option_block_screen_capture">Blocați capturile de ecran</string>
-    <string name="settings_option_block_screen_capture_description">Împiedicați capturarea conținutului de pe ecran</string>
-    <string name="settings_option_hide_3rd_party_overlays">Ascundeți suprapunerile terțe</string>
-    <string name="settings_option_hide_3rd_party_overlays_description">Ascundeți suprapunerile create de aplicații non-sistem</string>
-    <string name="settings_category_security">Securitate</string>
-    <string name="performance_class">Clasa <xliff:g example="12" id="class_rating">%s</xliff:g></string>
-    <string name="no_performance_class">Nicio clasă</string>
-    <string name="performance_class_title">Clasă de performanță</string>
-    <string name="network_type_none">Niciuna</string>
-    <string name="settings_category_advanced">Avansat</string>
-    <string name="settings_category_advanced_description">Module opționale, date analitice</string>
-    <string name="settings_category_optional_modules">Module opționale</string>
-    <string name="permission_dialog_learn_more">Mai multe</string>
-    <string name="network_location_permission_explanation">Permisiunea pentru locație exactă este necesară pentru a afișa SSID-ul Wi-Fi.</string>
-    <string name="connectivity_bluetooth_permission_explanation">Permisiunea \"Dispozitive din apropiere\" este necesară pentru a afișa anumite detalii despre Bluetooth.</string>
-    <string name="memory_storage_permission_explanation">Permisiunea pentru fișiere și media este necesară pentru a afișa detalii despre stocare.</string>
-    <string name="camera_accuracy_message">Observație: Unele dispozitive pot raporta specificații greșite pentru cameră. [Mai multe](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
-    <string name="analytics_dialog_title">Permiteți date analitice?</string>
-    <string name="analytics_dialog_message">Cu permisiunea dumneavoastră, Inware poate colecta date analitice de utilizare anonime de pe acest dispozitiv pentru îmbunătățirea aplicației.\n\nPuteți opri colectarea sau reseta identitatea dispozitivului dvs. în Setări.</string>
-    <string name="settings_category_analytics">Date analitice</string>
-    <string name="settings_option_allow_analytics">Permiteți date analitice</string>
-    <string name="settings_option_allow_analytics_description">Trimite date anonime pentru a ne ajuta să îmbunătățim Inware</string>
-    <string name="settings_button_reset_analytics">Resetați identitatea dispozitivului</string>
-    <string name="settings_analytics_successfully_reset">S-a resetat cu succes</string>
-    <string name="an_error_occurred">A apărut o eroare</string>
-    <string name="settings_category_developer_options">Opțiuni pentru dezvoltatori</string>
-    <string name="go_home">Către Acasă</string>
-    <string name="page_not_found_error">Hopa!...\nAceastă pagină nu există.</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <!-- Generic strings -->
+    <string name="generic_unknown">Necunoscut</string>
+    <string name="generic_enabled">Activat(ă)</string>
+    <string name="generic_disabled">Dezactivat(ă)</string>
+    <string name="generic_supported">Acceptat(ă)</string>
+    <string name="generic_not_supported">Neacceptat(ă)</string>
+    <string name="generic_detected">Detectat(ă)</string>
+    <string name="generic_not_detected">Nedetectat(ă)</string>
+    <string name="generic_allow">Permiteți</string>
+    <string name="generic_copied_to_clipboard">Copiat în clipboard</string>
+    <string name="generic_kb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> KB/s</string>
+    <string name="generic_mb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> MB/s</string>
+    <string name="generic_gb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> GB/s</string>
+    <string name="generic_tb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> TB/s</string>
+
+    <!-- Permissions -->
+    <string name="permission_required_heading">Permisiune necesară</string>
+    <string name="permission_open_settings_label">Enable in settings</string>
+
+    <!-- Drawer items & page titles -->
+    <string name="dashboard_page">Dashboard</string>
+    <string name="dashboard_tiles_empty">No dashboard tiles available yet.</string>
+    <string name="dashboard_empty_hint">Add your first tile to customize your dashboard</string>
+    <string name="explore_page">Explore</string>
+    <string name="system_page">Sistem</string>
+    <string name="device_page">Dispozitiv</string>
+    <string name="hardware_page">Hardware</string>
+    <string name="memory_page">Memorie</string>
+    <string name="camera_page">Cameră</string>
+    <string name="network_page">Rețea</string>
+    <string name="connectivity_page">Conectivitate</string>
+    <string name="battery_page">Baterie</string>
+    <string name="media_drm_page">DRM media</string>
+    <string name="settings_page">Setări</string>
+
+    <!-- System page -->
+    <string name="system_os_category">SO</string>
+    <string name="system_android_version_headline">Versiune Android</string>
+    <string name="system_released_with_headline">Lansat cu</string>
+    <string name="system_min_target_sdk_headline">SDK-țintă minim</string>
+    <string name="system_performance_class_headline">Clasă de performanță</string>
+    <string name="system_performance_class_supported">Clasa <xliff:g example="12" id="class_rating">%s</xliff:g></string>
+    <string name="system_performance_class_none">Nicio clasă</string>
+    <string name="system_mainline_version_headline">Actualizare de sistem Google Play</string>
+    <string name="system_language_headline">Limbă</string>
+    <string name="system_security_patch_headline">Corecție de securitate</string>
+    <string name="system_build_number_headline">Număr generare</string>
+    <string name="system_board_headline">Placă</string>
+    <string name="system_hardware_headline">Hardware</string>
+    <string name="system_kernel_version_headline">Versiune nucleu</string>
+    <string name="system_baseband_version_headline">Versiune bandă de bază</string>
+    <string name="system_build_tags_headline">Etichete</string>
+    <string name="system_build_fingerprint_headline">Amprentă</string>
+    <string name="system_build_type_headline">Tip de generare</string>
+    <string name="system_bootloader_version_headline">Bootloader</string>
+    <string name="system_up_time_headline">Durată de funcționare</string>
+    <string name="system_usb_debugging_headline">Depanare prin USB</string>
+    <string name="system_selinux_headline">SELinux</string>
+    <string name="system_selinux_enforcing">Enforcing</string>
+    <string name="system_selinux_permissive">Permissive</string>
+    <string name="system_extra_category">Extra</string>
+    <string name="system_treble_headline">Treble</string>
+    <string name="system_seamless_updates_headline">Actualizări de sistem A/B</string>
+    <string name="system_active_slot_headline">Slot activ</string>
+    <string name="system_root_headline">Root</string>
+    <string name="system_root_version_headline">Versiune root</string>
+
+    <!-- Device page -->
+    <string name="device_brand_headline">Marcă</string>
+    <string name="device_manufacturer_headline">Producător</string>
+    <string name="device_model_headline">Model</string>
+    <string name="device_model_tile_title">Device model</string>
+    <string name="device_product_name_headline">Produs</string>
+    <string name="device_sku_headline">SKU</string>
+    <string name="device_display_id_category">Afișajul #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
+    <string name="device_display_name_headline">Name</string>
+    <string name="device_display_resolution_headline">Rezoluție</string>
+    <string name="device_display_size_headline">Mărime</string>
+    <string name="device_display_aspect_ratio_headline">Raport de aspect</string>
+    <string name="device_display_refresh_rate_headline">Rată de cadre</string>
+    <string name="device_display_pixel_density_headline">Densitate</string>
+    <string name="device_display_current_density_headline">Current density</string>
+    <string name="device_display_default_density_headline">Default density</string>
+    <string name="device_display_default_orientation_headline">Orientare implicită</string>
+    <string name="device_display_default_orientation_portrait">Portret</string>
+    <string name="device_display_default_orientation_landscape">Peisaj</string>
+    <string name="device_display_supports_hdr_headline">HDR</string>
+    <string name="device_features_category">Caracteristici</string>
+    <string name="device_fingerprint_authentication_headline">Autentificare cu amprentă</string>
+    <string name="device_face_authentication_headline">Autentificare cu față</string>
+    <string name="device_vulkan_headline">Vulkan</string>
+    <string name="device_file_based_encryption_headline">Criptare sistem de fișiere</string>
+
+    <!-- Hardware page -->
+    <string name="hardware_cpu_category">CPU</string>
+    <string name="hardware_cpu_hardware_headline">Hardware</string>
+    <string name="hardware_supported_abis_headline">ABI-uri acceptate</string>
+    <string name="hardware_cores_headline">Nuclee</string>
+    <string name="hardware_clusters_headline">Clustere</string>
+    <string name="hardware_cpu_usage_headline">Utilizare</string>
+    <string name="hardware_cluster_category">Clusterul #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
+    <string name="hardware_cluster_minimum_frequency_headline">Frecvență minimă</string>
+    <string name="hardware_cluster_maximum_frequency_headline">Frecvență maximă</string>
+    <string name="hardware_cluster_governor_headline">Governor</string>
+    <string name="hardware_cpu_usage_category">Utilizare CPU</string>
+    <string name="hardware_core_headline">Nucleul <xliff:g example="3" id="number_of_core">%d</xliff:g></string>
+    <string name="hardware_core_offline">Offline</string>
+    <string name="hardware_core_frequency"><xliff:g example="857" id="frequency">%d</xliff:g> MHz</string>
+    <string name="hardware_gpu_category">GPU</string>
+    <string name="hardware_gpu_vendor_headline">Furnizor</string>
+    <string name="hardware_gpu_renderer_headline">Randor</string>
+    <string name="hardware_gpu_current_frequency_headline">Frecvență curentă</string>
+    <string name="hardware_gpu_minimum_frequency_headline">Frecvență minimă</string>
+    <string name="hardware_gpu_maximum_frequency_headline">Frecvență maximă</string>
+    <string name="hardware_gpu_governor_headline">Governor</string>
+    <string name="hardware_gpu_usage_headline">Utilizare</string>
+
+    <!-- Memory page -->
+    <string name="memory_ram_category">Memorie dispozitiv (RAM)</string>
+    <string name="memory_ram_hardware_headline">Hardware</string>
+    <string name="memory_ram_total_headline">Total</string>
+    <string name="memory_ram_available_headline">Disponibil</string>
+    <string name="memory_ram_used_headline">Utilizat</string>
+    <string name="memory_ram_usage_headline">Utilizare</string>
+    <string name="memory_ram_tile_title">Memory Usage</string>
+    <string name="memory_storage_category">Stocare internă</string>
+    <string name="memory_storage_hardware_headline">Hardware</string>
+    <string name="memory_storage_total_headline">Total</string>
+    <string name="memory_storage_available_headline">Disponibil</string>
+    <string name="memory_storage_used_headline">Utilizat</string>
+    <string name="memory_storage_usage_headline">Utilizare</string>
+    <string name="memory_storage_tile_title">Internal Storage</string>
+
+    <!-- Camera page -->
+    <string name="camera_accuracy_note">Observație: Unele dispozitive pot raporta specificații greșite pentru cameră. [Mai multe](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
+    <string name="camera_lens_front">Cameră frontală</string>
+    <string name="camera_lens_back">Cameră spate</string>
+    <string name="camera_lens_external">Cameră externă</string>
+    <string name="camera_megapixels_headline">Megapixeli</string>
+    <string name="camera_megapixels_value"><xliff:g example="16" id="number_of_megapixel">%d</xliff:g> Mpx</string>
+    <string name="camera_available_apertures_headline">Aperturi disponibile</string>
+    <string name="camera_ois_headline">Stabilizare optică a imaginii (OIS)</string>
+    <string name="camera_eis_headline">Stabilizare electronică a imaginii (EIS)</string>
+    <string name="camera_flash_headline">Lanternă</string>
+
+    <!-- Network page -->
+    <string name="network_wifi_category">Wi-Fi</string>
+    <string name="network_type_headline">Tip de rețea</string>
+    <string name="network_type_cellular">Cellular</string>
+    <string name="network_download_speed_headline">Viteză de descărcare</string>
+    <string name="network_upload_speed_headline">Viteză de încărcare</string>
+    <string name="network_ssid_headline">SSID</string>
+    <string name="network_ssid_hidden_value">Hidden</string>
+    <string name="network_frequency_headline">Frecvență</string>
+    <string name="network_signal_strength_headline">Putere semnal</string>
+    <string name="network_link_speed_headline">Viteză legătură</string>
+    <string name="network_local_ip_ipv4_headline">Adresă IP locală (IPv4)</string>
+    <string name="network_local_ip_ipv6_headline">Adresă IP locală (IPv6)</string>
+    <string name="network_mac_address_headline">Adresă MAC</string>
+    <string name="network_gateway_headline">Poartă de acces (Gateway)</string>
+    <string name="network_subnet_mask_headline">Mască de subrețea</string>
+    <string name="network_dns_headline">DNS</string>
+    <string name="network_dhcp_lease_time_headline">Perioadă de închiriere DHCP</string>
+    <string name="network_lease_time_more_than_a_week">Mai mult de o săptămână: <xliff:g id="seconds">%d</xliff:g> secunde</string>
+    <string name="network_location_permission_explainer">Permisiunea pentru locație exactă este necesară pentru a afișa SSID-ul Wi-Fi.</string>
+    <string name="network_signal_weak">Slab</string>
+    <string name="network_signal_fair">Acceptabil</string>
+    <string name="network_signal_good">Bun</string>
+    <string name="network_signal_excellent">Excelent</string>
+
+    <!-- Connectivity page -->
+    <string name="connectivity_bluetooth_category">Bluetooth</string>
+    <string name="connectivity_bluetooth_name_headline">Nume</string>
+    <string name="connectivity_bluetooth_status_headline">Status</string>
+    <string name="connectivity_bluetooth_low_energy_headline">Bluetooth Low Energy</string>
+    <string name="connectivity_bluetooth_connected_devices_headline">Dispozitive conectate</string>
+    <string name="connectivity_bluetooth_mac_address_headline">Adresă MAC</string>
+    <string name="connectivity_bluetooth_turn_on_bluetooth">Porniți Bluetooth</string>
+    <string name="connectivity_bluetooth_zero_device_connected">0 dispozitive conectate</string>
+    <string name="connectivity_bluetooth_status_enabled">Activat(ă)</string>
+    <string name="connectivity_bluetooth_status_disabled">Dezactivat(ă)</string>
+    <string name="connectivity_bluetooth_status_turning_on">Se pornește</string>
+    <string name="connectivity_bluetooth_status_turning_off">Se oprește</string>
+    <string name="connectivity_bluetooth_permission_explainer">Permisiunea \"Dispozitive din apropiere\" este necesară pentru a afișa anumite detalii despre Bluetooth.</string>
+
+    <!-- Battery page -->
+    <string name="battery_health_headline">Sănătate</string>
+    <string name="battery_status_headline">Stare</string>
+    <string name="battery_level_headline">Nivel</string>
+    <string name="battery_source_headline">Sursă</string>
+    <string name="battery_current_headline">Intensitate</string>
+    <string name="battery_power_headline">Alimentare</string>
+    <string name="battery_voltage_headline">Tensiune</string>
+    <string name="battery_temperature_headline">Temperatură</string>
+    <string name="battery_technology_headline">Tehnologie</string>
+    <string name="battery_current_display_value"><xliff:g id="current" example="304">%1$d</xliff:g> mA</string>
+    <string name="battery_voltage_display_value"><xliff:g id="voltage" example="4.384">%1$.3f</xliff:g> V</string>
+    <string name="battery_power_display_value"><xliff:g id="power" example="18">%1$.2f</xliff:g> W</string>
+    <string name="battery_power_not_charging">Nu se încarcă</string>
+    <string name="battery_status_not_charging">Nu se încarcă</string>
+    <string name="battery_status_charging">Se încarcă</string>
+    <string name="battery_status_discharging">Se descarcă</string>
+    <string name="battery_status_full">Plin</string>
+    <string name="battery_health_good">Bun</string>
+    <string name="battery_health_overheated">Supraîncălzit</string>
+    <string name="battery_health_dead">Mort</string>
+    <string name="battery_health_overvoltage">Supratensiune</string>
+    <string name="battery_health_unspecified_failure">Defecțiune nespecificată</string>
+    <string name="battery_health_cold">Rece</string>
+    <string name="battery_source_ac">Încărcător (AC)</string>
+    <string name="battery_source_usb">USB</string>
+    <string name="battery_source_wireless">Fără fir</string>
+
+    <!-- Media DRM page -->
+    <string name="media_drm_algorithms_headline">Algoritmi</string>
+    <string name="media_drm_device_unique_id_headline">ID unic dispozitiv</string>
+    <string name="media_drm_vendor_headline">Furnizor</string>
+    <string name="media_drm_version_headline">Versiune</string>
+    <string name="media_drm_security_level_headline">Nivel de securitate</string>
+
+    <!-- Settings Hub page -->
+    <string name="settings_general_entry_headline">General</string>
+    <string name="settings_general_entry_description">Securitate, clipboard și unități</string>
+    <string name="settings_appearance_entry_headline">Aspect</string>
+    <string name="settings_appearance_entry_description">Mod întunecat și culori</string>
+    <string name="settings_advanced_entry_headline">Avansat</string>
+    <string name="settings_advanced_entry_description">Module opționale, date analitice</string>
+    <string name="settings_about_entry_headline">Despre</string>
+
+    <!-- General Settings -->
+    <string name="settings_general_clipboard_category">Clipboard</string>
+    <string name="settings_general_long_press_to_copy_headline">Țineți apăsat pentru a copia</string>
+    <string name="settings_general_long_press_to_copy_description">Copiați valorile ținând apăsat pe acestea</string>
+    <string name="settings_general_copy_values_with_labels_headline">Copiați valorile împreună cu etichetele</string>
+    <string name="settings_general_copy_values_with_labels_description">Includeți etichetele valorilor la copiere</string>
+    <string name="settings_general_security_category">Securitate</string>
+    <string name="settings_general_block_screen_capture_headline">Blocați capturile de ecran</string>
+    <string name="settings_general_block_screen_capture_description">Împiedicați capturarea conținutului de pe ecran</string>
+    <string name="settings_general_hide_3rd_party_overlays_headline">Ascundeți suprapunerile terțe</string>
+    <string name="settings_general_hide_3rd_party_overlays_description">Ascundeți suprapunerile create de aplicații non-sistem</string>
+    <string name="settings_general_units_category">Unități</string>
+    <string name="settings_general_temperature_headline">Temperatură</string>
+
+    <!-- Appearance Settings -->
+    <string name="settings_appearance_dark_mode_headline">Mod întunecat</string>
+    <string name="settings_appearance_dark_mode_off">Oprit</string>
+    <string name="settings_appearance_dark_mode_on">Pornit</string>
+    <string name="settings_appearance_dark_mode_follow_system">Urmați sistemul</string>
+    <string name="settings_appearance_dynamic_colors_headline">Utilizați culorile sistemului</string>
+    <string name="settings_appearance_dynamic_colors_description">Utilizați culorile furnizate de către sistem</string>
+    <string name="settings_appearance_pure_black_headline">Use pure black in dark mode</string>
+    <string name="settings_appearance_pure_black_description">Replace the dark mode background with pure black</string>
+
+    <!-- Advanced Settings -->
+    <string name="settings_advanced_optional_modules_category">Module opționale</string>
+    <string name="settings_advanced_analytics_category">Date analitice</string>
+    <string name="settings_advanced_allow_analytics_headline">Permiteți date analitice</string>
+    <string name="settings_advanced_allow_analytics_description">Trimite date anonime pentru a ne ajuta să îmbunătățim Inware</string>
+    <string name="settings_advanced_reset_analytics_headline">Resetați identitatea dispozitivului</string>
+    <string name="settings_advanced_reset_analytics_success">S-a resetat cu succes</string>
+    <string name="settings_advanced_experimental_category">Experimente</string>
+    <string name="settings_advanced_developer_options_category">Opțiuni pentru dezvoltatori</string>
+
+    <!-- About Settings -->
+    <string name="settings_about_privacy_policy_headline">Politica de confidențialitate</string>
+    <string name="settings_about_licenses_headline">Licențe</string>
+    <string name="settings_about_button_channel">Channel</string>
+    <string name="settings_about_button_group">Group</string>
+    <string name="settings_about_button_github">GitHub</string>
+    <string name="settings_about_button_twitter">Twitter</string>
+    <string name="settings_about_button_website">Website</string>
+    <string name="settings_about_button_email">Email</string>
+    <string name="settings_about_thanks_to_category">Mulțumiri</string>
+    <string name="settings_about_translate_title">Help translate Inware</string>
+    <string name="settings_about_translate_summary">Join the community project to localize new features.</string>
+    <string name="settings_about_translate_action">Open project</string>
+    <string name="settings_developer_options_warning_title">Enable developer options?</string>
+    <string name="settings_developer_options_warning_message">Developer options contain advanced settings that may affect app stability and performance.\n\nEnable only if you understand the potential risks.</string>
+    <string name="settings_developer_options_warning_proceed">Proceed</string>
+
+    <!--
+    Legacy strings without new equivalents.
+    
+    These strings may still be used in the future. Translations are kept just in case.
+     -->
+    <string name="legacy_deny">Refuzați</string>
+    <string name="legacy_new_version_available">Versiune nouă disponibilă</string>
+    <string name="legacy_new_version_dialog_message">Actualizați la cea mai recentă versiune pentru o experiență mai bună</string>
+    <string name="legacy_update">Actualizare</string>
+    <string name="legacy_later">Mai târziu</string>
+    <string name="legacy_shake_to_report_category">Scuturați pentru a raporta</string>
+    <string name="legacy_shake_to_send_feedback">Scuturați pentru a trimite feedback</string>
+    <string name="legacy_shake_to_send_feedback_summary">Scuturați-vă dispozitivul pentru a trimite rapid feedback din orice ecran</string>
+    <string name="legacy_sensitivity">Sensibilitate</string>
+    <string name="legacy_notifications_category_description">Comutați notificările push</string>
+    <string name="legacy_experimental_category_description">Caracteristici nelansate, pot fi instabile</string>
+    <string name="legacy_shake_to_report_category_description">Scuturați dispozitivul pentru a trimite feedback</string>
+    <string name="legacy_identifiers">Identificatori</string>
+    <string name="legacy_stopped">Oprit</string>
+    <string name="legacy_augmented_reality">Realitate augmentată</string>
+    <string name="legacy_permission_dialog_learn_more">Mai multe</string>
+    <string name="legacy_memory_storage_permission_explanation">Permisiunea pentru fișiere și media este necesară pentru a afișa detalii despre stocare.</string>
+    <string name="legacy_analytics_dialog_title">Permiteți date analitice?</string>
+    <string name="legacy_analytics_dialog_message">Cu permisiunea dumneavoastră, Inware poate colecta date analitice de utilizare anonime de pe acest dispozitiv pentru îmbunătățirea aplicației.\n\nPuteți opri colectarea sau reseta identitatea dispozitivului dvs. în Setări.</string>
 </resources>

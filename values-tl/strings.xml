@@ -1,276 +1,307 @@
-<?xml version="1.0"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="kb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> KB/s</string>
-    <string name="mb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> MB/s</string>
-    <string name="gb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> GB/s</string>
-    <string name="tb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> TB/s</string>
-    <string name="deny">Ayoko</string>
-    <string name="allow">Payagan</string>
-    <string name="system_tab">Sistema</string>
-    <string name="device_tab">Device</string>
-    <string name="hardware_tab">Hardware</string>
-    <string name="memory_tab">Memory</string>
-    <string name="camera_tab">Kamera</string>
-    <string name="network_tab">Network</string>
-    <string name="connectivity_tab">Koneksyon</string>
-    <string name="battery_tab">Baterya</string>
-    <string name="new_version_available">May bagong bersyon</string>
-    <string name="new_version_dialog_message">Mag-upgrade sa pinakabagong bersyon para sa mas magandang karanasan</string>
-    <string name="update">I-update</string>
-    <string name="later">Mamaya</string>
-    <string name="settings">Pagsasaayos</string>
-    <string name="settings_category_clipboard">Kopyahan</string>
-    <string name="settings_option_long_press_to_copy">Pindutin nang matagal para kopyahin</string>
-    <string name="settings_option_long_press_to_copy_summary">Kopyahin ang value ng mga item sa pamamagitan ng pagpindot nang matagal sa kanila</string>
-    <string name="settings_option_copy_values_with_labels">Kopyahin ang mga value pati label</string>
-    <string name="settings_option_copy_values_with_labels_summary">Isama pati ang label ng mga value sa pagkopya</string>
-    <string name="shake_to_report_category">Alugin para mag-ulat</string>
-    <string name="shake_to_send_feedback">Alugin para magpadala ng feedback</string>
-    <string name="shake_to_send_feedback_summary">Alugin ang device mo para mabilis na makapadala ng feedback mula sa kahit anong screen</string>
-    <string name="sensitivity">Pagkasensitibo</string>
-    <string name="privacy_policy">Patakaran sa Pagkapribado</string>
-    <string name="licenses">Mga lisensiya</string>
-    <string name="notifications_category_description">I-toggle ang mga push na abiso</string>
-    <string name="experimental_category_description">Mga feature na hindi pa nilalabas, posibleng hindi stable</string>
-    <string name="shake_to_report_category_description">Alugin ang device para magpadala ng feedback</string>
-    <string name="basics">Basics</string>
-    <string name="unavailable">Hindi available</string>
-    <string name="good">Maganda</string>
-    <string name="supported">Suportado</string>
-    <string name="not_supported">Hindi Suportado</string>
-    <string name="copied_to_clipboard">Nakopya na sa kopyahan</string>
-    <string name="enabled">Nakabukas</string>
-    <string name="disabled">Nakasara</string>
-    <string name="features">Mga feature</string>
-    <string name="os">OS</string>
-    <string name="android_version">Bersyon n Android</string>
-    <string name="release_with">Nilabas ng</string>
-    <string name="security_patch">Patch sa seguridad</string>
-    <string name="build_number">Bilang ng build</string>
-    <string name="build_id">ID ng build</string>
-    <string name="kernel_version">Bersyon ng kernel</string>
-    <string name="baseband_version">Bersyon ng baseband</string>
-    <string name="tags">Mga tag</string>
-    <string name="fingerprint">Fingerprint</string>
-    <string name="bootloader">Bootloader</string>
-    <string name="up_time">Oras nakabukas</string>
-    <string name="extra">Ekstra</string>
-    <string name="treble">Treble</string>
-    <string name="seamless_updates">Mga seamless na update</string>
-    <string name="root">Ugat</string>
-    <string name="language">Wika</string>
-    <string name="board">Board</string>
-    <string name="hardware">Hardware</string>
-    <string name="build_type">Uri ng build</string>
-    <string name="active_slot">Aktibong slot</string>
-    <string name="root_version">Bersyon ng ugat</string>
-    <string name="detected">Na-detect</string>
-    <string name="not_detected">Hindi na-detect</string>
-    <string name="usb_debugging">Pagde-debug sa USB</string>
-    <string name="selinux">SELinux</string>
-    <string name="brand">Tatak</string>
-    <string name="manufacturer">Gumawa</string>
-    <string name="product">Produkto</string>
-    <string name="model">Modelo</string>
-    <string name="display">Display</string>
-    <string name="resolution">Linaw</string>
-    <string name="size">Sukat</string>
-    <string name="aspect_ratio">Aspect ratio</string>
-    <string name="frame_rate">Frame rate</string>
-    <string name="default_orientation">Ipinaubayang orientation</string>
-    <string name="current_density">Ngayon: <xliff:g example="420" id="density">%d</xliff:g>dpi (<xliff:g example="xxhdpi" id="density_qualifier">%s</xliff:g>)</string>
-    <string name="default_density">Ipinaubaya: <xliff:g example="560" id="density">%d</xliff:g>dpi (<xliff:g example="xxxhdpi" id="density_qualifier">%s</xliff:g>)</string>
-    <string name="landscape">Nakahiga</string>
-    <string name="portrait">Nakatayo</string>
-    <string name="hdr">HDR</string>
-    <string name="fingerprint_authentication">Pagpapatotoo gamit fingerprint</string>
-    <string name="face_authentication">Pagpapatotoo gamit mukha</string>
-    <string name="vulkan">Vulkan</string>
-    <string name="augmented_reality">Augmented Reality</string>
-    <string name="file_based_encryption">File Based Encryption</string>
-    <string name="indentifiers">Mga identifier</string>
-    <string name="android_id">ID ng Android</string>
-    <string name="gsf_id">GSF ID</string>
-    <string name="serial_number">Serial Number</string>
-    <string name="imei">IMEI <xliff:g example="1" id="imei_number">%d</xliff:g></string>
-    <string name="cpu_information">Impormasyon sa CPU</string>
-    <string name="supported_abis">Mga suportadong ABIS</string>
-    <string name="cores">Mga core</string>
-    <string name="minimum_frequency">Pinakamababang frequency</string>
-    <string name="maximum_frequency">Pinakamataas na frequency</string>
-    <string name="governor">Governor</string>
-    <string name="usage">Paggamit</string>
-    <string name="cpu_usage">Paggamit sa CPU</string>
-    <string name="gpu_information">Impormasyon sa GPU</string>
-    <string name="vendor">Tindahan</string>
-    <string name="renderer">Taga-render</string>
-    <string name="current_frequency">Kasalukuyang frequency</string>
-    <string name="clusters">Mga cluster</string>
-    <string name="cluster_number">Cluster #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
-    <string name="core_number">Core <xliff:g example="3" id="number_of_core">%d</xliff:g></string>
-    <string name="value_frequency"><xliff:g example="857" id="frequency">%d</xliff:g> MHz</string>
-    <string name="stopped">Tinigil</string>
-    <string name="offline">Offline</string>
-    <string name="device_memory">Memory ng device (RAM)</string>
-    <string name="total">Kabuuan</string>
-    <string name="available">Magagamit</string>
-    <string name="used">Ginamit</string>
-    <string name="used_percentage">Ginamit (bahagdan)</string>
-    <string name="internal_storage">Internal Storage</string>
-    <string name="front_camera">Kamera sa Harap</string>
-    <string name="back_camera">Kamera sa Likuran</string>
-    <string name="external_camera">Panlabas na kamera</string>
-    <string name="megapixels">Megapixels</string>
-    <string name="available_apertures">Magagamit na aperture</string>
-    <string name="optical_image_stabilization">Optical Image Stabilization (OIS)</string>
-    <string name="electronic_image_stabilization">Electronic Image Stabilization (EIS)</string>
-    <string name="flashlight">Flashlight</string>
-    <string name="mpx"><xliff:g example="16" id="number_of_megapixel">%d</xliff:g> Mpx</string>
-    <string name="network_type">Uri ng Network</string>
-    <string name="speed">Bilis</string>
-    <string name="download_speed">Bilis ng pag-download</string>
-    <string name="upload_speed">Bilis ng pag-upload</string>
-    <string name="wifi">Wi-Fi</string>
-    <string name="ssid">SSID</string>
-    <string name="hidden_ssid">Nakatagong SSID</string>
-    <string name="frequency">Frequency</string>
-    <string name="signal_strength">Lakas ng signal</string>
-    <string name="link_speed">Bilis ng pag-link</string>
-    <string name="local_ip_ipv4">Lokal na IP (IPv4)</string>
-    <string name="mac_address">MAC Address</string>
-    <string name="gateway">Gateway</string>
-    <string name="subnet_mask">Subnet Mask</string>
-    <string name="dns">DNS</string>
-    <string name="local_ip_ipv6">Lokal na IP (IPv6)</string>
-    <string name="dhcp_lease_time">Oras ng DHCP Lease</string>
-    <string name="excellent">Mahusay</string>
-    <string name="fair">Maayos</string>
-    <string name="weak">Mahina</string>
-    <string name="lease_time_more_than_a_week">Lagpas isang linggo: <xliff:g id="seconds">%d</xliff:g> (na) segundo</string>
-    <string name="connected">Nakakonekta</string>
-    <string name="disconnected">Nadiskonekta</string>
-    <string name="bluetooth_enabled">Nakabukas (%s)</string>
-    <string name="turning_on">Binubuksan</string>
-    <string name="turning_off">Sinasara</string>
-    <string name="turn_on_bluetooth">Buksan ang Bluetooth</string>
-    <string name="zero_device_connected">Walang nakakonektang device</string>
-    <string name="bluetooth">Bluetooth</string>
-    <string name="name">Pangalan</string>
-    <string name="bluetooth_low_energy">Bluetooth Low Energy</string>
-    <string name="connected_devices">Mga nakakonektang device</string>
-    <string name="health">Kalusugan</string>
-    <string name="status">Estado</string>
-    <string name="level">Lebel</string>
-    <string name="capacity">Kapasidad</string>
-    <string name="temperature">Temperature</string>
-    <string name="technology">Teknolohiya</string>
-    <string name="null_string">Null</string>
-    <string name="unknown">Di alam</string>
-    <string name="overheated">Na-overheat</string>
-    <string name="dead">Patay</string>
-    <string name="overvoltage">Na-overvoltage</string>
-    <string name="unspecified_failure">Di matukoy na pagpalya</string>
-    <string name="cold">Malamig</string>
-    <string name="charging">Nagtsa-charge</string>
-    <string name="discharging">Nagdi-discharge</string>
-    <string name="not_charging">Hindi naka-charge</string>
-    <string name="full">Puno</string>
-    <string name="charging_speed_format"><xliff:g example="18" id="speed">%s</xliff:g> W</string>
-    <string name="charging_speed_fast">Mabilis</string>
-    <string name="charging_speed_slow">Mabagal</string>
-    <string name="battery_current_format"><xliff:g example="304" id="current">%s</xliff:g> mA</string>
-    <string name="battery_voltage_format"><xliff:g example="4.384" id="voltage">%s</xliff:g> V</string>
-    <string name="battery_current">Ngayon</string>
-    <string name="battery_power">Lakas</string>
-    <string name="battery_voltage">Boltahe</string>
-    <string name="whats_new">Anong bago</string>
-    <string name="about">Patungkol</string>
-    <string name="thanks_to">Salamat kina</string>
-    <string name="no_email_application_found">Walang nakitang email app</string>
-    <string name="detect_battery_capacity">I-detect ang kapasidad ng baterya</string>
-    <string name="experimental_options_summary">Posibleng humantong sa mga di-inaasahang ugali</string>
-    <string name="detect_all_cameras">I-detect lahat ng mga kamera</string>
-    <string name="settings_category_experimental">Eksperimental</string>
-    <string name="notifications_category">Mga abiso</string>
-    <string name="translations_notification">Mga salin</string>
-    <string name="translations_notification_explanation">Makakuha ng abiso kapag may mga bagong maisasalin</string>
-    <string name="display_density">Densidad</string>
-    <string name="device_unique_id">Natatanging ID ng device</string>
-    <string name="version">Bersyon</string>
-    <string name="security_level">Lebel ng seguridad</string>
-    <string name="media_drm">Media DRM</string>
-    <string name="mainline_module_version">Update sa sistema ng Google Play</string>
-    <string name="tap_for_more_information">Pindutin para sa karagdagang impormasyon</string>
-    <string name="permission_required_title">Kailangan ng permiso</string>
-    <string name="permission_required_content">Kailangan ang sumusunod na permiso para makita ang impormasyong ito:</string>
-    <string name="wifi_disconnected">Nadiskonekta ang Wi-Fi</string>
-    <string name="algorithms">Mga algorithm</string>
-    <string name="units">Mga unit</string>
-    <string name="minimum_target_sdk">Pinakamababang Target na SDK</string>
-    <string name="battery_source">Pinagkukunan</string>
-    <string name="battery_charger_ac">Charger (AC)</string>
-    <string name="battery_charger_usb">USB</string>
-    <string name="battery_charger_wireless">Wireless</string>
-    <string name="settings_category_appearance">Pagpapakita</string>
-    <string name="settings_option_dark_mode">Madilim na mode</string>
-    <string name="settings_option_dark_theme">Madilim na tema</string>
-    <string name="dark_mode_off">Nakasara</string>
-    <string name="dark_mode_on">Nakabukas</string>
-    <string name="dark_mode_follow_system">Sundin ang sistema</string>
-    <string name="dark_theme_original">Orihinal</string>
-    <string name="dark_theme_slate">Slate</string>
-    <string name="dark_theme_grey">Abo</string>
-    <string name="dark_theme_black">Itim</string>
-    <string name="settings_module_manager_category_title">Mga module</string>
-    <string name="settings_module_manager_category_description">Pamahalaan ang mga mada-download na module</string>
-    <string name="module_manager_installed_category">Naka-install</string>
-    <string name="module_manager_available_category">Available</string>
-    <string name="module_manager_no_modules_installed">Walang naka-install na module</string>
-    <string name="module_manager_no_modules_available">Walang available na module</string>
-    <string name="module_installer_initializing">Sinisimulan</string>
-    <string name="module_installer_downloading">Dina-download</string>
-    <string name="module_installer_installing">Ini-install</string>
-    <string name="module_installer_pending">Nakapila</string>
-    <string name="mdule_installer_cancel_result">Kinansela</string>
-    <string name="module_installer_success_result">Na-install na</string>
-    <string name="module_installer_unknown_error">Hala! May naganap na error!</string>
-    <string name="experimental_module_tag">Eksperimental</string>
-    <string name="demo_module_tag">Demo</string>
-    <string name="beta_module_tag">Beta</string>
-    <string name="preview_module_tag">Pasilip</string>
-    <string name="display_number">Display #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
-    <string name="no_browser_warning">Walang makitang browser</string>
-    <string name="settings_option_dynamic_colors">Gamitin ang mga kulay ng sistema</string>
-    <string name="settings_option_dynamic_colors_summary">Gamitin ang mga kulay na binigay ng sistema</string>
-    <string name="settings_category_general">Pangkalahatan</string>
-    <string name="settings_category_general_description">Seguridad, kopyahan, at mga unit</string>
-    <string name="settings_category_appearance_description">Madilim na mode at mga kulay</string>
-    <string name="settings_option_block_screen_capture">Harangan ang pag-capture sa screen</string>
-    <string name="settings_option_block_screen_capture_description">Pinipigilan ang pag-capture sa nilalaman ng screen</string>
-    <string name="settings_option_hide_3rd_party_overlays">Itago ang mga third-party na overlay</string>
-    <string name="settings_option_hide_3rd_party_overlays_description">Itago ang mga overlay na ginawa ng mga non-system na app</string>
-    <string name="settings_category_security">Seguridad</string>
-    <string name="performance_class">Klase <xliff:g example="12" id="class_rating">%s</xliff:g></string>
-    <string name="no_performance_class">Walang klase</string>
-    <string name="performance_class_title">Klase ng performance</string>
-    <string name="network_type_none">Wala</string>
-    <string name="settings_category_advanced">Karagdagan</string>
-    <string name="settings_category_advanced_description">Mga opsyonal na module, analytics</string>
-    <string name="settings_category_optional_modules">Mga opsyonal na module</string>
-    <string name="permission_dialog_learn_more">Matuto pa</string>
-    <string name="network_location_permission_explanation">Kailangan ang permiso sa tumpak na lokasyon para mapakita ang SSID ng Wi-Fi.</string>
-    <string name="connectivity_bluetooth_permission_explanation">Kailangan ang permiso sa mga kalapit na device para mapakita ang ilang mga detalye sa bluetooth.</string>
-    <string name="memory_storage_permission_explanation">Kailangan ang permiso sa storage para mapakita ang mga detalyeng may kinalaman sa storage.</string>
-    <string name="camera_accuracy_message">Paalala: Posibleng mag-ulat ang ilang mga device ng mga maling specification ng kamera. [Matuto pa](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
-    <string name="analytics_dialog_title">Payagan ang analytics?</string>
-    <string name="analytics_dialog_message">Kung papayagan mo, mangongolekta ang Inware ng mga anonymous na analytics sa paggamit mula sa device na ito para matulungan kaming pagbutihin ang app na ito.\n\nPwede mo itong isara o i-reset ang pagkakakilanlan ng device mo sa Pagsasaayos.</string>
-    <string name="settings_category_analytics">Analytics</string>
-    <string name="settings_option_allow_analytics">Payagan ang analytics</string>
-    <string name="settings_option_allow_analytics_description">Magpadala ng mga anonymous na data para matulungan kaming mapabuti ang Inware</string>
-    <string name="settings_button_reset_analytics">I-reset ang pagkakakilanlan ng device</string>
-    <string name="settings_analytics_successfully_reset">Na-reset na</string>
-    <string name="an_error_occurred">May naganap na error</string>
-    <string name="settings_category_developer_options">Pagsasaayos ng developer</string>
-    <string name="go_home">Umuwi</string>
-    <string name="page_not_found_error">Hala...\nWalang ganitong pahina.</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <!-- Generic strings -->
+    <string name="generic_unknown">Di alam</string>
+    <string name="generic_enabled">Nakabukas</string>
+    <string name="generic_disabled">Nakasara</string>
+    <string name="generic_supported">Suportado</string>
+    <string name="generic_not_supported">Hindi Suportado</string>
+    <string name="generic_detected">Na-detect</string>
+    <string name="generic_not_detected">Hindi na-detect</string>
+    <string name="generic_allow">Payagan</string>
+    <string name="generic_copied_to_clipboard">Nakopya na sa kopyahan</string>
+    <string name="generic_kb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> KB/s</string>
+    <string name="generic_mb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> MB/s</string>
+    <string name="generic_gb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> GB/s</string>
+    <string name="generic_tb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> TB/s</string>
+
+    <!-- Permissions -->
+    <string name="permission_required_heading">Kailangan ng permiso</string>
+    <string name="permission_open_settings_label">Enable in settings</string>
+
+    <!-- Drawer items & page titles -->
+    <string name="dashboard_page">Dashboard</string>
+    <string name="dashboard_tiles_empty">No dashboard tiles available yet.</string>
+    <string name="dashboard_empty_hint">Add your first tile to customize your dashboard</string>
+    <string name="explore_page">Explore</string>
+    <string name="system_page">Sistema</string>
+    <string name="device_page">Device</string>
+    <string name="hardware_page">Hardware</string>
+    <string name="memory_page">Memory</string>
+    <string name="camera_page">Kamera</string>
+    <string name="network_page">Network</string>
+    <string name="connectivity_page">Koneksyon</string>
+    <string name="battery_page">Baterya</string>
+    <string name="media_drm_page">Media DRM</string>
+    <string name="settings_page">Pagsasaayos</string>
+
+    <!-- System page -->
+    <string name="system_os_category">OS</string>
+    <string name="system_android_version_headline">Bersyon n Android</string>
+    <string name="system_released_with_headline">Nilabas ng</string>
+    <string name="system_min_target_sdk_headline">Pinakamababang Target na SDK</string>
+    <string name="system_performance_class_headline">Klase ng performance</string>
+    <string name="system_performance_class_supported">Klase <xliff:g example="12" id="class_rating">%s</xliff:g></string>
+    <string name="system_performance_class_none">Walang klase</string>
+    <string name="system_mainline_version_headline">Update sa sistema ng Google Play</string>
+    <string name="system_language_headline">Wika</string>
+    <string name="system_security_patch_headline">Patch sa seguridad</string>
+    <string name="system_build_number_headline">Bilang ng build</string>
+    <string name="system_board_headline">Board</string>
+    <string name="system_hardware_headline">Hardware</string>
+    <string name="system_kernel_version_headline">Bersyon ng kernel</string>
+    <string name="system_baseband_version_headline">Bersyon ng baseband</string>
+    <string name="system_build_tags_headline">Mga tag</string>
+    <string name="system_build_fingerprint_headline">Fingerprint</string>
+    <string name="system_build_type_headline">Uri ng build</string>
+    <string name="system_bootloader_version_headline">Bootloader</string>
+    <string name="system_up_time_headline">Oras nakabukas</string>
+    <string name="system_usb_debugging_headline">Pagde-debug sa USB</string>
+    <string name="system_selinux_headline">SELinux</string>
+    <string name="system_selinux_enforcing">Enforcing</string>
+    <string name="system_selinux_permissive">Permissive</string>
+    <string name="system_extra_category">Ekstra</string>
+    <string name="system_treble_headline">Treble</string>
+    <string name="system_seamless_updates_headline">Mga seamless na update</string>
+    <string name="system_active_slot_headline">Aktibong slot</string>
+    <string name="system_root_headline">Ugat</string>
+    <string name="system_root_version_headline">Bersyon ng ugat</string>
+
+    <!-- Device page -->
+    <string name="device_brand_headline">Tatak</string>
+    <string name="device_manufacturer_headline">Gumawa</string>
+    <string name="device_model_headline">Modelo</string>
+    <string name="device_model_tile_title">Device model</string>
+    <string name="device_product_name_headline">Produkto</string>
+    <string name="device_sku_headline">SKU</string>
+    <string name="device_display_id_category">Display #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
+    <string name="device_display_name_headline">Name</string>
+    <string name="device_display_resolution_headline">Linaw</string>
+    <string name="device_display_size_headline">Sukat</string>
+    <string name="device_display_aspect_ratio_headline">Aspect ratio</string>
+    <string name="device_display_refresh_rate_headline">Frame rate</string>
+    <string name="device_display_pixel_density_headline">Densidad</string>
+    <string name="device_display_current_density_headline">Current density</string>
+    <string name="device_display_default_density_headline">Default density</string>
+    <string name="device_display_default_orientation_headline">Ipinaubayang orientation</string>
+    <string name="device_display_default_orientation_portrait">Nakatayo</string>
+    <string name="device_display_default_orientation_landscape">Nakahiga</string>
+    <string name="device_display_supports_hdr_headline">HDR</string>
+    <string name="device_features_category">Mga feature</string>
+    <string name="device_fingerprint_authentication_headline">Pagpapatotoo gamit fingerprint</string>
+    <string name="device_face_authentication_headline">Pagpapatotoo gamit mukha</string>
+    <string name="device_vulkan_headline">Vulkan</string>
+    <string name="device_file_based_encryption_headline">File Based Encryption</string>
+
+    <!-- Hardware page -->
+    <string name="hardware_cpu_category">CPU</string>
+    <string name="hardware_cpu_hardware_headline">Hardware</string>
+    <string name="hardware_supported_abis_headline">Mga suportadong ABIS</string>
+    <string name="hardware_cores_headline">Mga core</string>
+    <string name="hardware_clusters_headline">Mga cluster</string>
+    <string name="hardware_cpu_usage_headline">Paggamit</string>
+    <string name="hardware_cluster_category">Cluster #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
+    <string name="hardware_cluster_minimum_frequency_headline">Pinakamababang frequency</string>
+    <string name="hardware_cluster_maximum_frequency_headline">Pinakamataas na frequency</string>
+    <string name="hardware_cluster_governor_headline">Governor</string>
+    <string name="hardware_cpu_usage_category">Paggamit sa CPU</string>
+    <string name="hardware_core_headline">Core <xliff:g example="3" id="number_of_core">%d</xliff:g></string>
+    <string name="hardware_core_offline">Offline</string>
+    <string name="hardware_core_frequency"><xliff:g example="857" id="frequency">%d</xliff:g> MHz</string>
+    <string name="hardware_gpu_category">GPU</string>
+    <string name="hardware_gpu_vendor_headline">Tindahan</string>
+    <string name="hardware_gpu_renderer_headline">Taga-render</string>
+    <string name="hardware_gpu_current_frequency_headline">Kasalukuyang frequency</string>
+    <string name="hardware_gpu_minimum_frequency_headline">Pinakamababang frequency</string>
+    <string name="hardware_gpu_maximum_frequency_headline">Pinakamataas na frequency</string>
+    <string name="hardware_gpu_governor_headline">Governor</string>
+    <string name="hardware_gpu_usage_headline">Paggamit</string>
+
+    <!-- Memory page -->
+    <string name="memory_ram_category">Memory ng device (RAM)</string>
+    <string name="memory_ram_hardware_headline">Hardware</string>
+    <string name="memory_ram_total_headline">Kabuuan</string>
+    <string name="memory_ram_available_headline">Magagamit</string>
+    <string name="memory_ram_used_headline">Ginamit</string>
+    <string name="memory_ram_usage_headline">Paggamit</string>
+    <string name="memory_ram_tile_title">Memory Usage</string>
+    <string name="memory_storage_category">Internal Storage</string>
+    <string name="memory_storage_hardware_headline">Hardware</string>
+    <string name="memory_storage_total_headline">Kabuuan</string>
+    <string name="memory_storage_available_headline">Magagamit</string>
+    <string name="memory_storage_used_headline">Ginamit</string>
+    <string name="memory_storage_usage_headline">Paggamit</string>
+    <string name="memory_storage_tile_title">Internal Storage</string>
+
+    <!-- Camera page -->
+    <string name="camera_accuracy_note">Paalala: Posibleng mag-ulat ang ilang mga device ng mga maling specification ng kamera. [Matuto pa](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
+    <string name="camera_lens_front">Kamera sa Harap</string>
+    <string name="camera_lens_back">Kamera sa Likuran</string>
+    <string name="camera_lens_external">Panlabas na kamera</string>
+    <string name="camera_megapixels_headline">Megapixels</string>
+    <string name="camera_megapixels_value"><xliff:g example="16" id="number_of_megapixel">%d</xliff:g> Mpx</string>
+    <string name="camera_available_apertures_headline">Magagamit na aperture</string>
+    <string name="camera_ois_headline">Optical Image Stabilization (OIS)</string>
+    <string name="camera_eis_headline">Electronic Image Stabilization (EIS)</string>
+    <string name="camera_flash_headline">Flashlight</string>
+
+    <!-- Network page -->
+    <string name="network_wifi_category">Wi-Fi</string>
+    <string name="network_type_headline">Uri ng Network</string>
+    <string name="network_type_cellular">Cellular</string>
+    <string name="network_download_speed_headline">Bilis ng pag-download</string>
+    <string name="network_upload_speed_headline">Bilis ng pag-upload</string>
+    <string name="network_ssid_headline">SSID</string>
+    <string name="network_ssid_hidden_value">Hidden</string>
+    <string name="network_frequency_headline">Frequency</string>
+    <string name="network_signal_strength_headline">Lakas ng signal</string>
+    <string name="network_link_speed_headline">Bilis ng pag-link</string>
+    <string name="network_local_ip_ipv4_headline">Lokal na IP (IPv4)</string>
+    <string name="network_local_ip_ipv6_headline">Lokal na IP (IPv6)</string>
+    <string name="network_mac_address_headline">MAC Address</string>
+    <string name="network_gateway_headline">Gateway</string>
+    <string name="network_subnet_mask_headline">Subnet Mask</string>
+    <string name="network_dns_headline">DNS</string>
+    <string name="network_dhcp_lease_time_headline">Oras ng DHCP Lease</string>
+    <string name="network_lease_time_more_than_a_week">Lagpas isang linggo: <xliff:g id="seconds">%d</xliff:g> (na) segundo</string>
+    <string name="network_location_permission_explainer">Kailangan ang permiso sa tumpak na lokasyon para mapakita ang SSID ng Wi-Fi.</string>
+    <string name="network_signal_weak">Mahina</string>
+    <string name="network_signal_fair">Maayos</string>
+    <string name="network_signal_good">Maganda</string>
+    <string name="network_signal_excellent">Mahusay</string>
+
+    <!-- Connectivity page -->
+    <string name="connectivity_bluetooth_category">Bluetooth</string>
+    <string name="connectivity_bluetooth_name_headline">Pangalan</string>
+    <string name="connectivity_bluetooth_status_headline">Status</string>
+    <string name="connectivity_bluetooth_low_energy_headline">Bluetooth Low Energy</string>
+    <string name="connectivity_bluetooth_connected_devices_headline">Mga nakakonektang device</string>
+    <string name="connectivity_bluetooth_mac_address_headline">MAC Address</string>
+    <string name="connectivity_bluetooth_turn_on_bluetooth">Buksan ang Bluetooth</string>
+    <string name="connectivity_bluetooth_zero_device_connected">Walang nakakonektang device</string>
+    <string name="connectivity_bluetooth_status_enabled">Nakabukas</string>
+    <string name="connectivity_bluetooth_status_disabled">Nakasara</string>
+    <string name="connectivity_bluetooth_status_turning_on">Binubuksan</string>
+    <string name="connectivity_bluetooth_status_turning_off">Sinasara</string>
+    <string name="connectivity_bluetooth_permission_explainer">Kailangan ang permiso sa mga kalapit na device para mapakita ang ilang mga detalye sa bluetooth.</string>
+
+    <!-- Battery page -->
+    <string name="battery_health_headline">Kalusugan</string>
+    <string name="battery_status_headline">Estado</string>
+    <string name="battery_level_headline">Lebel</string>
+    <string name="battery_source_headline">Pinagkukunan</string>
+    <string name="battery_current_headline">Ngayon</string>
+    <string name="battery_power_headline">Lakas</string>
+    <string name="battery_voltage_headline">Boltahe</string>
+    <string name="battery_temperature_headline">Temperature</string>
+    <string name="battery_technology_headline">Teknolohiya</string>
+    <string name="battery_current_display_value"><xliff:g id="current" example="304">%1$d</xliff:g> mA</string>
+    <string name="battery_voltage_display_value"><xliff:g id="voltage" example="4.384">%1$.3f</xliff:g> V</string>
+    <string name="battery_power_display_value"><xliff:g id="power" example="18">%1$.2f</xliff:g> W</string>
+    <string name="battery_power_not_charging">Hindi naka-charge</string>
+    <string name="battery_status_not_charging">Hindi naka-charge</string>
+    <string name="battery_status_charging">Nagtsa-charge</string>
+    <string name="battery_status_discharging">Nagdi-discharge</string>
+    <string name="battery_status_full">Puno</string>
+    <string name="battery_health_good">Maganda</string>
+    <string name="battery_health_overheated">Na-overheat</string>
+    <string name="battery_health_dead">Patay</string>
+    <string name="battery_health_overvoltage">Na-overvoltage</string>
+    <string name="battery_health_unspecified_failure">Di matukoy na pagpalya</string>
+    <string name="battery_health_cold">Malamig</string>
+    <string name="battery_source_ac">Charger (AC)</string>
+    <string name="battery_source_usb">USB</string>
+    <string name="battery_source_wireless">Wireless</string>
+
+    <!-- Media DRM page -->
+    <string name="media_drm_algorithms_headline">Mga algorithm</string>
+    <string name="media_drm_device_unique_id_headline">Natatanging ID ng device</string>
+    <string name="media_drm_vendor_headline">Tindahan</string>
+    <string name="media_drm_version_headline">Bersyon</string>
+    <string name="media_drm_security_level_headline">Lebel ng seguridad</string>
+
+    <!-- Settings Hub page -->
+    <string name="settings_general_entry_headline">Pangkalahatan</string>
+    <string name="settings_general_entry_description">Seguridad, kopyahan, at mga unit</string>
+    <string name="settings_appearance_entry_headline">Pagpapakita</string>
+    <string name="settings_appearance_entry_description">Madilim na mode at mga kulay</string>
+    <string name="settings_advanced_entry_headline">Karagdagan</string>
+    <string name="settings_advanced_entry_description">Mga opsyonal na module, analytics</string>
+    <string name="settings_about_entry_headline">Patungkol</string>
+
+    <!-- General Settings -->
+    <string name="settings_general_clipboard_category">Kopyahan</string>
+    <string name="settings_general_long_press_to_copy_headline">Pindutin nang matagal para kopyahin</string>
+    <string name="settings_general_long_press_to_copy_description">Kopyahin ang value ng mga item sa pamamagitan ng pagpindot nang matagal sa kanila</string>
+    <string name="settings_general_copy_values_with_labels_headline">Kopyahin ang mga value pati label</string>
+    <string name="settings_general_copy_values_with_labels_description">Isama pati ang label ng mga value sa pagkopya</string>
+    <string name="settings_general_security_category">Seguridad</string>
+    <string name="settings_general_block_screen_capture_headline">Harangan ang pag-capture sa screen</string>
+    <string name="settings_general_block_screen_capture_description">Pinipigilan ang pag-capture sa nilalaman ng screen</string>
+    <string name="settings_general_hide_3rd_party_overlays_headline">Itago ang mga third-party na overlay</string>
+    <string name="settings_general_hide_3rd_party_overlays_description">Itago ang mga overlay na ginawa ng mga non-system na app</string>
+    <string name="settings_general_units_category">Mga unit</string>
+    <string name="settings_general_temperature_headline">Temperature</string>
+
+    <!-- Appearance Settings -->
+    <string name="settings_appearance_dark_mode_headline">Madilim na mode</string>
+    <string name="settings_appearance_dark_mode_off">Nakasara</string>
+    <string name="settings_appearance_dark_mode_on">Nakabukas</string>
+    <string name="settings_appearance_dark_mode_follow_system">Sundin ang sistema</string>
+    <string name="settings_appearance_dynamic_colors_headline">Gamitin ang mga kulay ng sistema</string>
+    <string name="settings_appearance_dynamic_colors_description">Gamitin ang mga kulay na binigay ng sistema</string>
+    <string name="settings_appearance_pure_black_headline">Use pure black in dark mode</string>
+    <string name="settings_appearance_pure_black_description">Replace the dark mode background with pure black</string>
+
+    <!-- Advanced Settings -->
+    <string name="settings_advanced_optional_modules_category">Mga opsyonal na module</string>
+    <string name="settings_advanced_analytics_category">Analytics</string>
+    <string name="settings_advanced_allow_analytics_headline">Payagan ang analytics</string>
+    <string name="settings_advanced_allow_analytics_description">Magpadala ng mga anonymous na data para matulungan kaming mapabuti ang Inware</string>
+    <string name="settings_advanced_reset_analytics_headline">I-reset ang pagkakakilanlan ng device</string>
+    <string name="settings_advanced_reset_analytics_success">Na-reset na</string>
+    <string name="settings_advanced_experimental_category">Eksperimental</string>
+    <string name="settings_advanced_developer_options_category">Pagsasaayos ng developer</string>
+
+    <!-- About Settings -->
+    <string name="settings_about_privacy_policy_headline">Patakaran sa Pagkapribado</string>
+    <string name="settings_about_licenses_headline">Mga lisensiya</string>
+    <string name="settings_about_button_channel">Channel</string>
+    <string name="settings_about_button_group">Group</string>
+    <string name="settings_about_button_github">GitHub</string>
+    <string name="settings_about_button_twitter">Twitter</string>
+    <string name="settings_about_button_website">Website</string>
+    <string name="settings_about_button_email">Email</string>
+    <string name="settings_about_thanks_to_category">Salamat kina</string>
+    <string name="settings_about_translate_title">Help translate Inware</string>
+    <string name="settings_about_translate_summary">Join the community project to localize new features.</string>
+    <string name="settings_about_translate_action">Open project</string>
+    <string name="settings_developer_options_warning_title">Enable developer options?</string>
+    <string name="settings_developer_options_warning_message">Developer options contain advanced settings that may affect app stability and performance.\n\nEnable only if you understand the potential risks.</string>
+    <string name="settings_developer_options_warning_proceed">Proceed</string>
+
+    <!--
+    Legacy strings without new equivalents.
+    
+    These strings may still be used in the future. Translations are kept just in case.
+     -->
+    <string name="legacy_deny">Ayoko</string>
+    <string name="legacy_new_version_available">May bagong bersyon</string>
+    <string name="legacy_new_version_dialog_message">Mag-upgrade sa pinakabagong bersyon para sa mas magandang karanasan</string>
+    <string name="legacy_update">I-update</string>
+    <string name="legacy_later">Mamaya</string>
+    <string name="legacy_shake_to_report_category">Alugin para mag-ulat</string>
+    <string name="legacy_shake_to_send_feedback">Alugin para magpadala ng feedback</string>
+    <string name="legacy_shake_to_send_feedback_summary">Alugin ang device mo para mabilis na makapadala ng feedback mula sa kahit anong screen</string>
+    <string name="legacy_sensitivity">Pagkasensitibo</string>
+    <string name="legacy_notifications_category_description">I-toggle ang mga push na abiso</string>
+    <string name="legacy_experimental_category_description">Mga feature na hindi pa nilalabas, posibleng hindi stable</string>
+    <string name="legacy_shake_to_report_category_description">Alugin ang device para magpadala ng feedback</string>
+    <string name="legacy_identifiers">Mga identifier</string>
+    <string name="legacy_stopped">Tinigil</string>
+    <string name="legacy_augmented_reality">Augmented Reality</string>
+    <string name="legacy_permission_dialog_learn_more">Matuto pa</string>
+    <string name="legacy_memory_storage_permission_explanation">Kailangan ang permiso sa storage para mapakita ang mga detalyeng may kinalaman sa storage.</string>
+    <string name="legacy_analytics_dialog_title">Payagan ang analytics?</string>
+    <string name="legacy_analytics_dialog_message">Kung papayagan mo, mangongolekta ang Inware ng mga anonymous na analytics sa paggamit mula sa device na ito para matulungan kaming pagbutihin ang app na ito.\n\nPwede mo itong isara o i-reset ang pagkakakilanlan ng device mo sa Pagsasaayos.</string>
 </resources>

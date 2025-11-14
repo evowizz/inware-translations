@@ -1,276 +1,307 @@
-<?xml version="1.0"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="kb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> KB/s</string>
-    <string name="mb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> MB/s</string>
-    <string name="gb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> GB/s</string>
-    <string name="tb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> TB/s</string>
-    <string name="deny">Jangan Benarkan</string>
-    <string name="allow">Benarkan</string>
-    <string name="system_tab">Sistem</string>
-    <string name="device_tab">Peranti</string>
-    <string name="hardware_tab">Perkakasan</string>
-    <string name="memory_tab">Memori</string>
-    <string name="camera_tab">Kamera</string>
-    <string name="network_tab">Rangkaian</string>
-    <string name="connectivity_tab">Sambungan</string>
-    <string name="battery_tab">Bateri</string>
-    <string name="new_version_available">Versi baru tersedia</string>
-    <string name="new_version_dialog_message">Naik taraf kepada versi terkini untuk pengalaman yang lebih baik</string>
-    <string name="update">Kemaskini</string>
-    <string name="later">Kemudian</string>
-    <string name="settings">Tetapan</string>
-    <string name="settings_category_clipboard">Papan Keratan</string>
-    <string name="settings_option_long_press_to_copy">Tekan lama untuk salin</string>
-    <string name="settings_option_long_press_to_copy_summary">Salin nilai item dengan menekan lama</string>
-    <string name="settings_option_copy_values_with_labels">Salin nilai berserta label</string>
-    <string name="settings_option_copy_values_with_labels_summary">Sertakan label nilai semasa menyalin</string>
-    <string name="shake_to_report_category">Goncang untuk lapor</string>
-    <string name="shake_to_send_feedback">Goncang untuk menghantar maklum balas</string>
-    <string name="shake_to_send_feedback_summary">Goncang peranti anda untuk menghantar maklum balas dengan cepat daripada mana-mana skrin</string>
-    <string name="sensitivity">Sensitiviti</string>
-    <string name="privacy_policy">Dasar Privasi</string>
-    <string name="licenses">Lesen</string>
-    <string name="notifications_category_description">Togol pemberitahuan</string>
-    <string name="experimental_category_description">Ciri yang belum dikeluarkan, mungkin tidak stabil</string>
-    <string name="shake_to_report_category_description">Goncang peranti untuk menghantar maklum balas</string>
-    <string name="basics">Asas</string>
-    <string name="unavailable">Tidak tersedia</string>
-    <string name="good">Baik</string>
-    <string name="supported">Sokong</string>
-    <string name="not_supported">Tidak sokong</string>
-    <string name="copied_to_clipboard">Disalin ke papan keratan</string>
-    <string name="enabled">Dihidupkan</string>
-    <string name="disabled">Dimatikan</string>
-    <string name="features">Ciri-ciri</string>
-    <string name="os">OS</string>
-    <string name="android_version">Versi Android</string>
-    <string name="release_with">Dikeluarkan dengan</string>
-    <string name="security_patch">Tampalan Keselamatan</string>
-    <string name="build_number">Nombor Binaan</string>
-    <string name="build_id">ID Binaan</string>
-    <string name="kernel_version">Versi Kernel</string>
-    <string name="baseband_version">Versi Jalur Asas</string>
-    <string name="tags">Tag</string>
-    <string name="fingerprint">Cap Jari</string>
-    <string name="bootloader">Bootloader</string>
-    <string name="up_time">Masa hidup</string>
-    <string name="extra">Ekstra</string>
-    <string name="treble">Treble</string>
-    <string name="seamless_updates">Kemaskini Lancar</string>
-    <string name="root">Root</string>
-    <string name="language">Bahasa</string>
-    <string name="board">Papan</string>
-    <string name="hardware">Perkakasan</string>
-    <string name="build_type">Jenis Binaan</string>
-    <string name="active_slot">Slot Aktif</string>
-    <string name="root_version">Versi Root</string>
-    <string name="detected">Dikesan</string>
-    <string name="not_detected">Tidak Dikesan</string>
-    <string name="usb_debugging">Penyahpepijatan USB</string>
-    <string name="selinux">SELinux</string>
-    <string name="brand">Jenama</string>
-    <string name="manufacturer">Pengilang</string>
-    <string name="product">Produk</string>
-    <string name="model">Model</string>
-    <string name="display">Paparan</string>
-    <string name="resolution">Resolusi</string>
-    <string name="size">Saiz</string>
-    <string name="aspect_ratio">Nisbah Aspek</string>
-    <string name="frame_rate">Kadar Muat Semula</string>
-    <string name="default_orientation">Orentasi Lalai</string>
-    <string name="current_density">Semasa: <xliff:g example="420" id="density">%d</xliff:g>dpi (<xliff:g example="xxhdpi" id="density_qualifier">%s</xliff:g>)</string>
-    <string name="default_density">Lalai: <xliff:g example="560" id="density">%d</xliff:g>dpi (<xliff:g example="xxxhdpi" id="density_qualifier">%s</xliff:g>)</string>
-    <string name="landscape">Landskap</string>
-    <string name="portrait">Potret</string>
-    <string name="hdr">HDR</string>
-    <string name="fingerprint_authentication">Pengesahan Cap Jari</string>
-    <string name="face_authentication">Pengesahan Muka</string>
-    <string name="vulkan">Vulkan</string>
-    <string name="augmented_reality">Pengantara Realiti</string>
-    <string name="file_based_encryption">Penyulitan Berasaskan Fail</string>
-    <string name="indentifiers">Pengecam</string>
-    <string name="android_id">ID Android</string>
-    <string name="gsf_id">ID GSF</string>
-    <string name="serial_number">Nombor Siri</string>
-    <string name="imei">IMEI <xliff:g example="1" id="imei_number">%d</xliff:g></string>
-    <string name="cpu_information">Informasi CPU</string>
-    <string name="supported_abis">Sokongan ABIS</string>
-    <string name="cores">Teras</string>
-    <string name="minimum_frequency">Frekuensi Minimum</string>
-    <string name="maximum_frequency">Frekuensi Maksimum</string>
-    <string name="governor">Governor</string>
-    <string name="usage">Penggunaan</string>
-    <string name="cpu_usage">Penggunaan CPU</string>
-    <string name="gpu_information">Infomarsi GPU</string>
-    <string name="vendor">Vendor</string>
-    <string name="renderer">Pemapar</string>
-    <string name="current_frequency">Frekuensi Semasa</string>
-    <string name="clusters">Kluster</string>
-    <string name="cluster_number">Kluster #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
-    <string name="core_number">Teras <xliff:g example="3" id="number_of_core">%d</xliff:g></string>
-    <string name="value_frequency"><xliff:g example="857" id="frequency">%d</xliff:g> MHz</string>
-    <string name="stopped">Berhenti</string>
-    <string name="offline">Luar Talian</string>
-    <string name="device_memory">Memori Peranti (RAM)</string>
-    <string name="total">Jumlah</string>
-    <string name="available">Tersedia</string>
-    <string name="used">Terpakai</string>
-    <string name="used_percentage">Terpakai (Peratusan)</string>
-    <string name="internal_storage">Ruang Dalaman</string>
-    <string name="front_camera">Kamera Hadapan</string>
-    <string name="back_camera">Kamera Belakang</string>
-    <string name="external_camera">Kamera Luaran</string>
-    <string name="megapixels">Megapiksel</string>
-    <string name="available_apertures">Apertur Tersedia</string>
-    <string name="optical_image_stabilization">Penstabilan Imej Optik (OIS)</string>
-    <string name="electronic_image_stabilization">Penstabilan Imej Elektronik (EIS)</string>
-    <string name="flashlight">Lampu Suluh</string>
-    <string name="mpx"><xliff:g example="16" id="number_of_megapixel">%d</xliff:g> Mpx</string>
-    <string name="network_type">Jenis Rangkaian</string>
-    <string name="speed">Kelajuan</string>
-    <string name="download_speed">Kelajuan Muat Turun</string>
-    <string name="upload_speed">Kelajuan Muat Naik</string>
-    <string name="wifi">Wi-Fi</string>
-    <string name="ssid">SSID</string>
-    <string name="hidden_ssid">SSID Tersembunyi</string>
-    <string name="frequency">Frekuensi</string>
-    <string name="signal_strength">Kekuatan Signal </string>
-    <string name="link_speed">Kelajuan Pautan</string>
-    <string name="local_ip_ipv4">IP Setempat (IPv4)</string>
-    <string name="mac_address">Alamat MAC</string>
-    <string name="gateway">Laluan Get</string>
-    <string name="subnet_mask">Tapisan Subrangkaian</string>
-    <string name="dns">DNS</string>
-    <string name="local_ip_ipv6">IP Setempat (IPv6)</string>
-    <string name="dhcp_lease_time">DHCP </string>
-    <string name="excellent">Sangat Baik</string>
-    <string name="fair">Sederhana</string>
-    <string name="weak">Lemah</string>
-    <string name="lease_time_more_than_a_week">Lebih dari seminggu: <xliff:g id="seconds">%d</xliff:g> seconds</string>
-    <string name="connected">Disambungkan</string>
-    <string name="disconnected">Tidak Disambungkan</string>
-    <string name="bluetooth_enabled">Dihidupkan (%s)</string>
-    <string name="turning_on">Menghidupkan</string>
-    <string name="turning_off">Mematikan</string>
-    <string name="turn_on_bluetooth">Hidupkan Bluetooth</string>
-    <string name="zero_device_connected">0 Peranti Disambungkan</string>
-    <string name="bluetooth">Bluetooth</string>
-    <string name="name">Nama</string>
-    <string name="bluetooth_low_energy">Kuasa Bluetooth Lemah</string>
-    <string name="connected_devices">Peranti Yang Disambungkan</string>
-    <string name="health">Kesihatan</string>
-    <string name="status">Status</string>
-    <string name="level">Tahap</string>
-    <string name="capacity">Kapasiti</string>
-    <string name="temperature">Suhu</string>
-    <string name="technology">Teknologi</string>
-    <string name="null_string">Kosong</string>
-    <string name="unknown">Tidak Diketahui</string>
-    <string name="overheated">Terlalu Panas</string>
-    <string name="dead">Mati</string>
-    <string name="overvoltage">Terlebih Voltan</string>
-    <string name="unspecified_failure">Kegagalan Tidak Spesifik</string>
-    <string name="cold">Sejuk</string>
-    <string name="charging">Mengecas</string>
-    <string name="discharging">Tidak Dicas</string>
-    <string name="not_charging">Tidak Dicas</string>
-    <string name="full">Penuh</string>
-    <string name="charging_speed_format"><xliff:g example="18" id="speed">%s</xliff:g> W</string>
-    <string name="charging_speed_fast">Laju</string>
-    <string name="charging_speed_slow">Perlahan</string>
-    <string name="battery_current_format"><xliff:g example="304" id="current">%s</xliff:g> mA</string>
-    <string name="battery_voltage_format"><xliff:g example="4.384" id="voltage">%s</xliff:g> V</string>
-    <string name="battery_current">Arus</string>
-    <string name="battery_power">Kuasa</string>
-    <string name="battery_voltage">Voltan</string>
-    <string name="whats_new">Apa yang baru?</string>
-    <string name="about">Tentang</string>
-    <string name="thanks_to">Terima Kasih Kepada</string>
-    <string name="no_email_application_found">Tiada Aplikasi Emel Ditemui</string>
-    <string name="detect_battery_capacity">Kesan Kapasiti Bateri</string>
-    <string name="experimental_options_summary">Boleh membawa kepada perkara yang tidak dijangka</string>
-    <string name="detect_all_cameras">Kesan Semua Kamera </string>
-    <string name="settings_category_experimental">Percubaan</string>
-    <string name="notifications_category">Notifikasi</string>
-    <string name="translations_notification">Terjemahan</string>
-    <string name="translations_notification_explanation">Dapatkan pemberitahuan apabila frasa baharu tersedia untuk terjemahan></string>
-    <string name="display_density">Kepadatan</string>
-    <string name="device_unique_id">ID Unik Peranti</string>
-    <string name="version">Versi</string>
-    <string name="security_level">Tahap Keselamatan</string>
-    <string name="media_drm">Media DRM</string>
-    <string name="mainline_module_version">Kemaskini sistem Google Play</string>
-    <string name="tap_for_more_information">Tekan untuk lagi banyak informasi</string>
-    <string name="permission_required_title">Kebenaran diperlukan</string>
-    <string name="permission_required_content">Kebenaran berikut diperlukan untuk melihat maklumat ini:</string>
-    <string name="wifi_disconnected">Wi-Fi tidak disambungkan</string>
-    <string name="algorithms">Algoritma</string>
-    <string name="units">Unit</string>
-    <string name="minimum_target_sdk">Sasaran SDK minimum</string>
-    <string name="battery_source">Sumber</string>
-    <string name="battery_charger_ac">Pengecas (AC)</string>
-    <string name="battery_charger_usb">USB</string>
-    <string name="battery_charger_wireless">Tanpa wayar</string>
-    <string name="settings_category_appearance">Penampilan</string>
-    <string name="settings_option_dark_mode">Mod Gelap</string>
-    <string name="settings_option_dark_theme">Tema Gelap</string>
-    <string name="dark_mode_off">Tutup</string>
-    <string name="dark_mode_on">Buka</string>
-    <string name="dark_mode_follow_system">Ikut Sistem</string>
-    <string name="dark_theme_original">Asal</string>
-    <string name="dark_theme_slate">Slat</string>
-    <string name="dark_theme_grey">Kelabu</string>
-    <string name="dark_theme_black">Hitam</string>
-    <string name="settings_module_manager_category_title">Modul</string>
-    <string name="settings_module_manager_category_description">Urus modul yang boleh dimuat turun</string>
-    <string name="module_manager_installed_category">Dipasang</string>
-    <string name="module_manager_available_category">Tersedia</string>
-    <string name="module_manager_no_modules_installed">Tiada Modul Yang Dipasang</string>
-    <string name="module_manager_no_modules_available">Tiada Modul Yang Tersedia</string>
-    <string name="module_installer_initializing">Memulakan</string>
-    <string name="module_installer_downloading">Memuat turun</string>
-    <string name="module_installer_installing">Memasang</string>
-    <string name="module_installer_pending">Menunggu</string>
-    <string name="mdule_installer_cancel_result">Dibatalkan</string>
-    <string name="module_installer_success_result">Berjaya Dipasang</string>
-    <string name="module_installer_unknown_error">Oh Tidak... Kami Sedang Mengalami Ralat!</string>
-    <string name="experimental_module_tag">Percubaan</string>
-    <string name="demo_module_tag">Demo</string>
-    <string name="beta_module_tag">Beta</string>
-    <string name="preview_module_tag">Pratonton</string>
-    <string name="display_number">Paparan #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
-    <string name="no_browser_warning">Tidak dapat mencari pelayar</string>
-    <string name="settings_option_dynamic_colors">Guna warna sistem</string>
-    <string name="settings_option_dynamic_colors_summary">Guna warna yang disediakan daripada sistem</string>
-    <string name="settings_category_general">Umum</string>
-    <string name="settings_category_general_description">Keselamatan, papan keratan dan unit</string>
-    <string name="settings_category_appearance_description">Mod gelap and warna</string>
-    <string name="settings_option_block_screen_capture">Tangkapan skrin hitam</string>
-    <string name="settings_option_block_screen_capture_description">Halang tangkapan kandungan skrin</string>
-    <string name="settings_option_hide_3rd_party_overlays">Sembunyikan tindanan pihak ketiga</string>
-    <string name="settings_option_hide_3rd_party_overlays_description">Sembunyi tindanan daripada aplikasi bukan sistem</string>
-    <string name="settings_category_security">Keselamatan</string>
-    <string name="performance_class">Kelas <xliff:g example="12" id="class_rating">%s</xliff:g></string>
-    <string name="no_performance_class">Tiada Kelas</string>
-    <string name="performance_class_title">Kelas Prestasi</string>
-    <string name="network_type_none">Tiada</string>
-    <string name="settings_category_advanced">Lanjutan</string>
-    <string name="settings_category_advanced_description">Modul pilihan, analitik</string>
-    <string name="settings_category_optional_modules">Modul pilihan</string>
-    <string name="permission_dialog_learn_more">Ketahui lebih lanjut</string>
-    <string name="network_location_permission_explanation">Kebenaran lokasi yang tepat diperlukan untuk dapat memaparkan SSID Wi-Fi</string>
-    <string name="connectivity_bluetooth_permission_explanation">Kebenaran \"Peranti Berdekatan\" diperlukan untuk dapat memaparkan beberapa butiran bluetooth.</string>
-    <string name="memory_storage_permission_explanation">Kebenaran storan diperlukan untuk dapat memaparkan butiran berkaitan storan.</string>
-    <string name="camera_accuracy_message">Nota: Sesetengah peranti mungkin melaporkan spesifikasi kamera yang tidak tepat. [Ketahui lebih lanjut](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
-    <string name="analytics_dialog_title">Benarkan analitik?</string>
-    <string name="analytics_dialog_message">Dengan kebenaran anda, Inware boleh mengumpul analitik penggunaan rahsia daripada peranti ini untuk membantu kami menambah baik aplikasi.\n\nAnda boleh mematikan ini atau menetapkan semula identiti peranti anda dalam Tetapan.</string>
-    <string name="settings_category_analytics">Analitik</string>
-    <string name="settings_option_allow_analytics">Benarkan analitik</string>
-    <string name="settings_option_allow_analytics_description">Hantar data rahsia untuk menambahbaik Inware</string>
-    <string name="settings_button_reset_analytics">Set semula identiti peranti</string>
-    <string name="settings_analytics_successfully_reset">Berjaya Set Semula</string>
-    <string name="an_error_occurred">Ralat berlaku</string>
-    <string name="settings_category_developer_options">Tetapan Pemaju</string>
-    <string name="go_home">Pergi Ke Halaman Utama</string>
-    <string name="page_not_found_error">Uh oh!...\nHalaman ini tidak wujud.</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <!-- Generic strings -->
+    <string name="generic_unknown">Tidak Diketahui</string>
+    <string name="generic_enabled">Dihidupkan</string>
+    <string name="generic_disabled">Dimatikan</string>
+    <string name="generic_supported">Sokong</string>
+    <string name="generic_not_supported">Tidak sokong</string>
+    <string name="generic_detected">Dikesan</string>
+    <string name="generic_not_detected">Tidak Dikesan</string>
+    <string name="generic_allow">Benarkan</string>
+    <string name="generic_copied_to_clipboard">Disalin ke papan keratan</string>
+    <string name="generic_kb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> KB/s</string>
+    <string name="generic_mb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> MB/s</string>
+    <string name="generic_gb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> GB/s</string>
+    <string name="generic_tb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> TB/s</string>
+
+    <!-- Permissions -->
+    <string name="permission_required_heading">Kebenaran diperlukan</string>
+    <string name="permission_open_settings_label">Enable in settings</string>
+
+    <!-- Drawer items & page titles -->
+    <string name="dashboard_page">Dashboard</string>
+    <string name="dashboard_tiles_empty">No dashboard tiles available yet.</string>
+    <string name="dashboard_empty_hint">Add your first tile to customize your dashboard</string>
+    <string name="explore_page">Explore</string>
+    <string name="system_page">Sistem</string>
+    <string name="device_page">Peranti</string>
+    <string name="hardware_page">Perkakasan</string>
+    <string name="memory_page">Memori</string>
+    <string name="camera_page">Kamera</string>
+    <string name="network_page">Rangkaian</string>
+    <string name="connectivity_page">Sambungan</string>
+    <string name="battery_page">Bateri</string>
+    <string name="media_drm_page">Media DRM</string>
+    <string name="settings_page">Tetapan</string>
+
+    <!-- System page -->
+    <string name="system_os_category">OS</string>
+    <string name="system_android_version_headline">Versi Android</string>
+    <string name="system_released_with_headline">Dikeluarkan dengan</string>
+    <string name="system_min_target_sdk_headline">Sasaran SDK minimum</string>
+    <string name="system_performance_class_headline">Kelas Prestasi</string>
+    <string name="system_performance_class_supported">Kelas <xliff:g example="12" id="class_rating">%s</xliff:g></string>
+    <string name="system_performance_class_none">Tiada Kelas</string>
+    <string name="system_mainline_version_headline">Kemaskini sistem Google Play</string>
+    <string name="system_language_headline">Bahasa</string>
+    <string name="system_security_patch_headline">Tampalan Keselamatan</string>
+    <string name="system_build_number_headline">Nombor Binaan</string>
+    <string name="system_board_headline">Papan</string>
+    <string name="system_hardware_headline">Perkakasan</string>
+    <string name="system_kernel_version_headline">Versi Kernel</string>
+    <string name="system_baseband_version_headline">Versi Jalur Asas</string>
+    <string name="system_build_tags_headline">Tag</string>
+    <string name="system_build_fingerprint_headline">Cap Jari</string>
+    <string name="system_build_type_headline">Jenis Binaan</string>
+    <string name="system_bootloader_version_headline">Bootloader</string>
+    <string name="system_up_time_headline">Masa hidup</string>
+    <string name="system_usb_debugging_headline">Penyahpepijatan USB</string>
+    <string name="system_selinux_headline">SELinux</string>
+    <string name="system_selinux_enforcing">Enforcing</string>
+    <string name="system_selinux_permissive">Permissive</string>
+    <string name="system_extra_category">Ekstra</string>
+    <string name="system_treble_headline">Treble</string>
+    <string name="system_seamless_updates_headline">Kemaskini Lancar</string>
+    <string name="system_active_slot_headline">Slot Aktif</string>
+    <string name="system_root_headline">Root</string>
+    <string name="system_root_version_headline">Versi Root</string>
+
+    <!-- Device page -->
+    <string name="device_brand_headline">Jenama</string>
+    <string name="device_manufacturer_headline">Pengilang</string>
+    <string name="device_model_headline">Model</string>
+    <string name="device_model_tile_title">Device model</string>
+    <string name="device_product_name_headline">Produk</string>
+    <string name="device_sku_headline">SKU</string>
+    <string name="device_display_id_category">Paparan #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
+    <string name="device_display_name_headline">Name</string>
+    <string name="device_display_resolution_headline">Resolusi</string>
+    <string name="device_display_size_headline">Saiz</string>
+    <string name="device_display_aspect_ratio_headline">Nisbah Aspek</string>
+    <string name="device_display_refresh_rate_headline">Kadar Muat Semula</string>
+    <string name="device_display_pixel_density_headline">Kepadatan</string>
+    <string name="device_display_current_density_headline">Current density</string>
+    <string name="device_display_default_density_headline">Default density</string>
+    <string name="device_display_default_orientation_headline">Orentasi Lalai</string>
+    <string name="device_display_default_orientation_portrait">Potret</string>
+    <string name="device_display_default_orientation_landscape">Landskap</string>
+    <string name="device_display_supports_hdr_headline">HDR</string>
+    <string name="device_features_category">Ciri-ciri</string>
+    <string name="device_fingerprint_authentication_headline">Pengesahan Cap Jari</string>
+    <string name="device_face_authentication_headline">Pengesahan Muka</string>
+    <string name="device_vulkan_headline">Vulkan</string>
+    <string name="device_file_based_encryption_headline">Penyulitan Berasaskan Fail</string>
+
+    <!-- Hardware page -->
+    <string name="hardware_cpu_category">CPU</string>
+    <string name="hardware_cpu_hardware_headline">Perkakasan</string>
+    <string name="hardware_supported_abis_headline">Sokongan ABIS</string>
+    <string name="hardware_cores_headline">Teras</string>
+    <string name="hardware_clusters_headline">Kluster</string>
+    <string name="hardware_cpu_usage_headline">Penggunaan</string>
+    <string name="hardware_cluster_category">Kluster #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
+    <string name="hardware_cluster_minimum_frequency_headline">Frekuensi Minimum</string>
+    <string name="hardware_cluster_maximum_frequency_headline">Frekuensi Maksimum</string>
+    <string name="hardware_cluster_governor_headline">Governor</string>
+    <string name="hardware_cpu_usage_category">Penggunaan CPU</string>
+    <string name="hardware_core_headline">Teras <xliff:g example="3" id="number_of_core">%d</xliff:g></string>
+    <string name="hardware_core_offline">Luar Talian</string>
+    <string name="hardware_core_frequency"><xliff:g example="857" id="frequency">%d</xliff:g> MHz</string>
+    <string name="hardware_gpu_category">GPU</string>
+    <string name="hardware_gpu_vendor_headline">Vendor</string>
+    <string name="hardware_gpu_renderer_headline">Pemapar</string>
+    <string name="hardware_gpu_current_frequency_headline">Frekuensi Semasa</string>
+    <string name="hardware_gpu_minimum_frequency_headline">Frekuensi Minimum</string>
+    <string name="hardware_gpu_maximum_frequency_headline">Frekuensi Maksimum</string>
+    <string name="hardware_gpu_governor_headline">Governor</string>
+    <string name="hardware_gpu_usage_headline">Penggunaan</string>
+
+    <!-- Memory page -->
+    <string name="memory_ram_category">Memori Peranti (RAM)</string>
+    <string name="memory_ram_hardware_headline">Perkakasan</string>
+    <string name="memory_ram_total_headline">Jumlah</string>
+    <string name="memory_ram_available_headline">Tersedia</string>
+    <string name="memory_ram_used_headline">Terpakai</string>
+    <string name="memory_ram_usage_headline">Penggunaan</string>
+    <string name="memory_ram_tile_title">Memory Usage</string>
+    <string name="memory_storage_category">Ruang Dalaman</string>
+    <string name="memory_storage_hardware_headline">Perkakasan</string>
+    <string name="memory_storage_total_headline">Jumlah</string>
+    <string name="memory_storage_available_headline">Tersedia</string>
+    <string name="memory_storage_used_headline">Terpakai</string>
+    <string name="memory_storage_usage_headline">Penggunaan</string>
+    <string name="memory_storage_tile_title">Internal Storage</string>
+
+    <!-- Camera page -->
+    <string name="camera_accuracy_note">Nota: Sesetengah peranti mungkin melaporkan spesifikasi kamera yang tidak tepat. [Ketahui lebih lanjut](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
+    <string name="camera_lens_front">Kamera Hadapan</string>
+    <string name="camera_lens_back">Kamera Belakang</string>
+    <string name="camera_lens_external">Kamera Luaran</string>
+    <string name="camera_megapixels_headline">Megapiksel</string>
+    <string name="camera_megapixels_value"><xliff:g example="16" id="number_of_megapixel">%d</xliff:g> Mpx</string>
+    <string name="camera_available_apertures_headline">Apertur Tersedia</string>
+    <string name="camera_ois_headline">Penstabilan Imej Optik (OIS)</string>
+    <string name="camera_eis_headline">Penstabilan Imej Elektronik (EIS)</string>
+    <string name="camera_flash_headline">Lampu Suluh</string>
+
+    <!-- Network page -->
+    <string name="network_wifi_category">Wi-Fi</string>
+    <string name="network_type_headline">Jenis Rangkaian</string>
+    <string name="network_type_cellular">Cellular</string>
+    <string name="network_download_speed_headline">Kelajuan Muat Turun</string>
+    <string name="network_upload_speed_headline">Kelajuan Muat Naik</string>
+    <string name="network_ssid_headline">SSID</string>
+    <string name="network_ssid_hidden_value">Hidden</string>
+    <string name="network_frequency_headline">Frekuensi</string>
+    <string name="network_signal_strength_headline">Kekuatan Signal </string>
+    <string name="network_link_speed_headline">Kelajuan Pautan</string>
+    <string name="network_local_ip_ipv4_headline">IP Setempat (IPv4)</string>
+    <string name="network_local_ip_ipv6_headline">IP Setempat (IPv6)</string>
+    <string name="network_mac_address_headline">Alamat MAC</string>
+    <string name="network_gateway_headline">Laluan Get</string>
+    <string name="network_subnet_mask_headline">Tapisan Subrangkaian</string>
+    <string name="network_dns_headline">DNS</string>
+    <string name="network_dhcp_lease_time_headline">DHCP </string>
+    <string name="network_lease_time_more_than_a_week">Lebih dari seminggu: <xliff:g id="seconds">%d</xliff:g> seconds</string>
+    <string name="network_location_permission_explainer">Kebenaran lokasi yang tepat diperlukan untuk dapat memaparkan SSID Wi-Fi</string>
+    <string name="network_signal_weak">Lemah</string>
+    <string name="network_signal_fair">Sederhana</string>
+    <string name="network_signal_good">Baik</string>
+    <string name="network_signal_excellent">Sangat Baik</string>
+
+    <!-- Connectivity page -->
+    <string name="connectivity_bluetooth_category">Bluetooth</string>
+    <string name="connectivity_bluetooth_name_headline">Nama</string>
+    <string name="connectivity_bluetooth_status_headline">Status</string>
+    <string name="connectivity_bluetooth_low_energy_headline">Kuasa Bluetooth Lemah</string>
+    <string name="connectivity_bluetooth_connected_devices_headline">Peranti Yang Disambungkan</string>
+    <string name="connectivity_bluetooth_mac_address_headline">Alamat MAC</string>
+    <string name="connectivity_bluetooth_turn_on_bluetooth">Hidupkan Bluetooth</string>
+    <string name="connectivity_bluetooth_zero_device_connected">0 Peranti Disambungkan</string>
+    <string name="connectivity_bluetooth_status_enabled">Dihidupkan</string>
+    <string name="connectivity_bluetooth_status_disabled">Dimatikan</string>
+    <string name="connectivity_bluetooth_status_turning_on">Menghidupkan</string>
+    <string name="connectivity_bluetooth_status_turning_off">Mematikan</string>
+    <string name="connectivity_bluetooth_permission_explainer">Kebenaran \"Peranti Berdekatan\" diperlukan untuk dapat memaparkan beberapa butiran bluetooth.</string>
+
+    <!-- Battery page -->
+    <string name="battery_health_headline">Kesihatan</string>
+    <string name="battery_status_headline">Status</string>
+    <string name="battery_level_headline">Tahap</string>
+    <string name="battery_source_headline">Sumber</string>
+    <string name="battery_current_headline">Arus</string>
+    <string name="battery_power_headline">Kuasa</string>
+    <string name="battery_voltage_headline">Voltan</string>
+    <string name="battery_temperature_headline">Suhu</string>
+    <string name="battery_technology_headline">Teknologi</string>
+    <string name="battery_current_display_value"><xliff:g id="current" example="304">%1$d</xliff:g> mA</string>
+    <string name="battery_voltage_display_value"><xliff:g id="voltage" example="4.384">%1$.3f</xliff:g> V</string>
+    <string name="battery_power_display_value"><xliff:g id="power" example="18">%1$.2f</xliff:g> W</string>
+    <string name="battery_power_not_charging">Tidak Dicas</string>
+    <string name="battery_status_not_charging">Tidak Dicas</string>
+    <string name="battery_status_charging">Mengecas</string>
+    <string name="battery_status_discharging">Tidak Dicas</string>
+    <string name="battery_status_full">Penuh</string>
+    <string name="battery_health_good">Baik</string>
+    <string name="battery_health_overheated">Terlalu Panas</string>
+    <string name="battery_health_dead">Mati</string>
+    <string name="battery_health_overvoltage">Terlebih Voltan</string>
+    <string name="battery_health_unspecified_failure">Kegagalan Tidak Spesifik</string>
+    <string name="battery_health_cold">Sejuk</string>
+    <string name="battery_source_ac">Pengecas (AC)</string>
+    <string name="battery_source_usb">USB</string>
+    <string name="battery_source_wireless">Tanpa wayar</string>
+
+    <!-- Media DRM page -->
+    <string name="media_drm_algorithms_headline">Algoritma</string>
+    <string name="media_drm_device_unique_id_headline">ID Unik Peranti</string>
+    <string name="media_drm_vendor_headline">Vendor</string>
+    <string name="media_drm_version_headline">Versi</string>
+    <string name="media_drm_security_level_headline">Tahap Keselamatan</string>
+
+    <!-- Settings Hub page -->
+    <string name="settings_general_entry_headline">Umum</string>
+    <string name="settings_general_entry_description">Keselamatan, papan keratan dan unit</string>
+    <string name="settings_appearance_entry_headline">Penampilan</string>
+    <string name="settings_appearance_entry_description">Mod gelap and warna</string>
+    <string name="settings_advanced_entry_headline">Lanjutan</string>
+    <string name="settings_advanced_entry_description">Modul pilihan, analitik</string>
+    <string name="settings_about_entry_headline">Tentang</string>
+
+    <!-- General Settings -->
+    <string name="settings_general_clipboard_category">Papan Keratan</string>
+    <string name="settings_general_long_press_to_copy_headline">Tekan lama untuk salin</string>
+    <string name="settings_general_long_press_to_copy_description">Salin nilai item dengan menekan lama</string>
+    <string name="settings_general_copy_values_with_labels_headline">Salin nilai berserta label</string>
+    <string name="settings_general_copy_values_with_labels_description">Sertakan label nilai semasa menyalin</string>
+    <string name="settings_general_security_category">Keselamatan</string>
+    <string name="settings_general_block_screen_capture_headline">Tangkapan skrin hitam</string>
+    <string name="settings_general_block_screen_capture_description">Halang tangkapan kandungan skrin</string>
+    <string name="settings_general_hide_3rd_party_overlays_headline">Sembunyikan tindanan pihak ketiga</string>
+    <string name="settings_general_hide_3rd_party_overlays_description">Sembunyi tindanan daripada aplikasi bukan sistem</string>
+    <string name="settings_general_units_category">Unit</string>
+    <string name="settings_general_temperature_headline">Suhu</string>
+
+    <!-- Appearance Settings -->
+    <string name="settings_appearance_dark_mode_headline">Mod Gelap</string>
+    <string name="settings_appearance_dark_mode_off">Tutup</string>
+    <string name="settings_appearance_dark_mode_on">Buka</string>
+    <string name="settings_appearance_dark_mode_follow_system">Ikut Sistem</string>
+    <string name="settings_appearance_dynamic_colors_headline">Guna warna sistem</string>
+    <string name="settings_appearance_dynamic_colors_description">Guna warna yang disediakan daripada sistem</string>
+    <string name="settings_appearance_pure_black_headline">Use pure black in dark mode</string>
+    <string name="settings_appearance_pure_black_description">Replace the dark mode background with pure black</string>
+
+    <!-- Advanced Settings -->
+    <string name="settings_advanced_optional_modules_category">Modul pilihan</string>
+    <string name="settings_advanced_analytics_category">Analitik</string>
+    <string name="settings_advanced_allow_analytics_headline">Benarkan analitik</string>
+    <string name="settings_advanced_allow_analytics_description">Hantar data rahsia untuk menambahbaik Inware</string>
+    <string name="settings_advanced_reset_analytics_headline">Set semula identiti peranti</string>
+    <string name="settings_advanced_reset_analytics_success">Berjaya Set Semula</string>
+    <string name="settings_advanced_experimental_category">Percubaan</string>
+    <string name="settings_advanced_developer_options_category">Tetapan Pemaju</string>
+
+    <!-- About Settings -->
+    <string name="settings_about_privacy_policy_headline">Dasar Privasi</string>
+    <string name="settings_about_licenses_headline">Lesen</string>
+    <string name="settings_about_button_channel">Channel</string>
+    <string name="settings_about_button_group">Group</string>
+    <string name="settings_about_button_github">GitHub</string>
+    <string name="settings_about_button_twitter">Twitter</string>
+    <string name="settings_about_button_website">Website</string>
+    <string name="settings_about_button_email">Email</string>
+    <string name="settings_about_thanks_to_category">Terima Kasih Kepada</string>
+    <string name="settings_about_translate_title">Help translate Inware</string>
+    <string name="settings_about_translate_summary">Join the community project to localize new features.</string>
+    <string name="settings_about_translate_action">Open project</string>
+    <string name="settings_developer_options_warning_title">Enable developer options?</string>
+    <string name="settings_developer_options_warning_message">Developer options contain advanced settings that may affect app stability and performance.\n\nEnable only if you understand the potential risks.</string>
+    <string name="settings_developer_options_warning_proceed">Proceed</string>
+
+    <!--
+    Legacy strings without new equivalents.
+    
+    These strings may still be used in the future. Translations are kept just in case.
+     -->
+    <string name="legacy_deny">Jangan Benarkan</string>
+    <string name="legacy_new_version_available">Versi baru tersedia</string>
+    <string name="legacy_new_version_dialog_message">Naik taraf kepada versi terkini untuk pengalaman yang lebih baik</string>
+    <string name="legacy_update">Kemaskini</string>
+    <string name="legacy_later">Kemudian</string>
+    <string name="legacy_shake_to_report_category">Goncang untuk lapor</string>
+    <string name="legacy_shake_to_send_feedback">Goncang untuk menghantar maklum balas</string>
+    <string name="legacy_shake_to_send_feedback_summary">Goncang peranti anda untuk menghantar maklum balas dengan cepat daripada mana-mana skrin</string>
+    <string name="legacy_sensitivity">Sensitiviti</string>
+    <string name="legacy_notifications_category_description">Togol pemberitahuan</string>
+    <string name="legacy_experimental_category_description">Ciri yang belum dikeluarkan, mungkin tidak stabil</string>
+    <string name="legacy_shake_to_report_category_description">Goncang peranti untuk menghantar maklum balas</string>
+    <string name="legacy_identifiers">Pengecam</string>
+    <string name="legacy_stopped">Berhenti</string>
+    <string name="legacy_augmented_reality">Pengantara Realiti</string>
+    <string name="legacy_permission_dialog_learn_more">Ketahui lebih lanjut</string>
+    <string name="legacy_memory_storage_permission_explanation">Kebenaran storan diperlukan untuk dapat memaparkan butiran berkaitan storan.</string>
+    <string name="legacy_analytics_dialog_title">Benarkan analitik?</string>
+    <string name="legacy_analytics_dialog_message">Dengan kebenaran anda, Inware boleh mengumpul analitik penggunaan rahsia daripada peranti ini untuk membantu kami menambah baik aplikasi.\n\nAnda boleh mematikan ini atau menetapkan semula identiti peranti anda dalam Tetapan.</string>
 </resources>

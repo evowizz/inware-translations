@@ -1,206 +1,307 @@
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <!-- Generic strings -->
+    <string name="generic_unknown">Desconhecido</string>
+    <string name="generic_enabled">Ativado</string>
+    <string name="generic_disabled">Desativado</string>
+    <string name="generic_supported">Suportado</string>
+    <string name="generic_not_supported">Não há suporte</string>
+    <string name="generic_detected">Detectado</string>
+    <string name="generic_not_detected">Não detectado</string>
+    <string name="generic_allow">Permitir</string>
+    <string name="generic_copied_to_clipboard">Copiado para a área de transferência</string>
+    <string name="generic_kb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> KB/s</string>
+    <string name="generic_mb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> MB/s</string>
+    <string name="generic_gb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> GB/s</string>
+    <string name="generic_tb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> TB/s</string>
 
-    <!-- Suffix added to a number to signify size in bytes. -->
-    <!-- Suffix added to a number to signify size in kilobytes. -->
-    <!-- Suffix added to a number to signify size in megabytes. -->
-    <!-- Suffix added to a number to signify size in gigabytes. -->
-    <!-- Suffix added to a number to signify size in terabytes. -->
-    <!-- Suffix added to a number to signify size in petabytes. -->
+    <!-- Permissions -->
+    <string name="permission_required_heading">Permission required</string>
+    <string name="permission_open_settings_label">Enable in settings</string>
 
-    <string name="kb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> KB/s</string>
-    <string name="mb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> MB/s</string>
-    <string name="gb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> GB/s</string>
-    <string name="tb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> TB/s</string>
-    <string name="deny">Negar</string>
-    <string name="allow">Permitir</string>
-    <string name="system_tab">Sistema</string>
-    <string name="device_tab">Aparelho</string>
-    <string name="hardware_tab">Hardware</string>
-    <string name="memory_tab">Memória</string>
-    <string name="camera_tab">Câmera</string>
-    <string name="network_tab">Rede</string>
-    <string name="connectivity_tab">Conectividade</string>
-    <string name="battery_tab">Bateria</string>
-    <string name="new_version_available">Nova versão disponível</string>
-    <string name="new_version_dialog_message">Atualize para a última versão para melhorar a experiência</string>
-    <string name="update">Atualizar</string>
-    <string name="later">Depois</string>
-    <string name="settings">Ajustes</string>
-    <string name="settings_category_clipboard">Copiado</string>
-    <string name="settings_option_long_press_to_copy">Pressionar e segurar para copiar</string>
-    <string name="settings_option_long_press_to_copy_summary">Copiar o valor dos itens ao pressionar e segurar</string>
-    <string name="settings_option_copy_values_with_labels">Copiar a informação com o título</string>
-    <string name="settings_option_copy_values_with_labels_summary">Incluir o título ao copiar</string>
-    <string name="shake_to_report_category">Agitar para reportar</string>
-    <string name="shake_to_send_feedback">Agitar para fazer uma sugestão</string>
-    <string name="shake_to_send_feedback_summary">Agitar o aparelho para fazer uma sugestão de qualquer tela</string>
-    <string name="sensitivity">Sensibilidade</string>
-    <string name="privacy_policy">Política de Privacidade</string>
-    <string name="licenses">Licenças</string>
-    <string name="notifications_category_description">Mudar as notificações</string>
-    <string name="experimental_category_description">Funções não lançadas, podem apresentar instabilidade</string>
-    <string name="shake_to_report_category_description">Agitar o aparelho para fazer uma sugestão</string>
-    <string name="basics">Básicos</string>
-    <string name="unavailable">Não disponível</string>
-    <string name="good">Bom</string>
-    <string name="supported">Suportado</string>
-    <string name="not_supported">Não há suporte</string>
-    <string name="copied_to_clipboard">Copiado para a área de transferência</string>
-    <string name="enabled">Ativado</string>
-    <string name="disabled">Desativado</string>
-    <string name="features">Funções</string>
-    <string name="os">OS</string>
-    <string name="android_version">Versão do Android</string>
-    <string name="release_with">Lançado com</string>
-    <string name="security_patch">Pacote de Segurança</string>
-    <string name="build_number">Número da Build</string>
-    <string name="build_id">ID da Build</string>
-    <string name="kernel_version">Versão do Kernel</string>
-    <string name="baseband_version">Baseband Version</string>
-    <string name="tags">Tags</string>
-    <string name="fingerprint">Leitor de Digitais</string>
-    <string name="bootloader">Bootloader</string>
-    <string name="up_time">Tempo</string>
-    <string name="extra">Extra</string>
-    <string name="treble">Treble</string>
-    <string name="seamless_updates">Seamless Updates</string>
-    <string name="root">Root</string>
-    <string name="language">Idioma</string>
-    <string name="board">Board</string>
-    <string name="hardware">Hardware</string>
-    <string name="build_type">Tipo da Build</string>
-    <string name="active_slot">Slot Ativo</string>
-    <string name="root_version">Versão do Root</string>
-    <string name="detected">Detectado</string>
-    <string name="not_detected">Não detectado</string>
-    <string name="usb_debugging">USB Debugging</string>
-    <string name="selinux">SELinux</string>
-    <string name="brand">Marca</string>
-    <string name="manufacturer">Fabricante</string>
-    <string name="product">Produto</string>
-    <string name="model">Modelo</string>
-    <string name="display">Tela</string>
-    <string name="resolution">Resolução</string>
-    <string name="size">Tamanho</string>
-    <string name="aspect_ratio">Proporção</string>
-    <string name="frame_rate">Taxa de Frames</string>
-    <string name="current_density">Atual: <xliff:g example="420" id="density">%d</xliff:g>dpi (<xliff:g example="xxhdpi" id="density_qualifier">%s</xliff:g>)</string>
-    <string name="default_density">Padrão: <xliff:g example="560" id="density">%d</xliff:g>dpi (<xliff:g example="xxxhdpi" id="density_qualifier">%s</xliff:g>)</string>
-    <string name="default_orientation">Orientação Padrão</string>
-    <string name="landscape">Landscape</string>
-    <string name="portrait">Retrato</string>
-    <string name="hdr">HDR</string>
-    <string name="fingerprint_authentication">Autenticação do Leitor de Digitais</string>
-    <string name="face_authentication">Autenticação Facial</string>
-    <string name="vulkan">Vulkan</string>
-    <string name="augmented_reality">Realidade Aumentada</string>
-    <string name="file_based_encryption">Criptografia Baseada em Arquivo</string>
-    <string name="indentifiers">Identificadores</string>
-    <string name="android_id">ID do Android</string>
-    <string name="gsf_id">ID do GSF</string>
-    <string name="serial_number">Número Serial</string>
-    <string name="imei">IMEI <xliff:g example="1" id="imei_number">%d</xliff:g></string>
-    <string name="cpu_information">Informação da CPU</string>
-    <string name="supported_abis">ABIS Suportado</string>
-    <string name="cores">Cores</string>
-    <string name="minimum_frequency">Frequência Mínima</string>
-    <string name="maximum_frequency">Frequência Máxima</string>
-    <string name="governor">Regulador</string>
-    <string name="usage">Uso</string>
-    <string name="cpu_usage">Uso da CPU</string>
-    <string name="gpu_information">Informação da GPU</string>
-    <string name="vendor">Fornecedor</string>
-    <string name="renderer">Renderizador</string>
-    <string name="current_frequency">Frequência Atual</string>
-    <string name="clusters">Clusters</string>
-    <string name="cluster_number">Cluster #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
-    <string name="core_number">Core <xliff:g example="3" id="number_of_core">%d</xliff:g></string>
-    <string name="value_frequency"><xliff:g example="857" id="frequency">%d</xliff:g> MHz</string>
-    <string name="stopped">Parado</string>
-    <string name="offline">Offline</string>
-    <string name="device_memory">Memória do Dispositivo (RAM)</string>
-    <string name="total">Total</string>
-    <string name="available">Disponível</string>
-    <string name="used">Em uso</string>
-    <string name="used_percentage">Em uso (Percentage)</string>
-    <string name="internal_storage">Armazenamento Interno</string>
-    <string name="front_camera">Câmera Frontal</string>
-    <string name="back_camera">Câmera Traseira</string>
-    <string name="external_camera">Câmera Externa</string>
-    <string name="megapixels">Megapixels</string>
-    <string name="available_apertures">Aberturas Disponíveis</string>
-    <string name="optical_image_stabilization">Estabilização Óptica de Imagem (EOI)</string>
-    <string name="electronic_image_stabilization">Estabilização Digital de Imagem (EDI)</string>
-    <string name="flashlight">Flash</string>
-    <string name="mpx"><xliff:g example="16" id="number_of_megapixel">%d</xliff:g> Mpx</string>
-    <string name="network_type">Tipo de Rede</string>
-    <string name="speed">Velocidade</string>
-    <string name="download_speed">Velocidade de Download</string>
-    <string name="upload_speed">Velocidade de Upload</string>
-    <string name="wifi">Wi-Fi</string>
-    <string name="ssid">SSID</string>
-    <string name="hidden_ssid">SSID Oculto</string>
-    <string name="frequency">Frequência</string>
-    <string name="signal_strength">Força do Sinal</string>
-    <string name="link_speed">Velocidade do Link</string>
-    <string name="local_ip_ipv4">IP Local (IPv4)</string>
-    <string name="mac_address">MAC Address</string>
-    <string name="gateway">Gateway</string>
-    <string name="subnet_mask">Máscara de Subrede</string>
-    <string name="dns">DNS</string>
-    <string name="local_ip_ipv6">IP Local (IPv6)</string>
-    <string name="dhcp_lease_time">Tempo de Concessão do DHCP</string>
-    <string name="excellent">Excelente</string>
-    <string name="fair">Razoável</string>
-    <string name="weak">Fraco</string>
-    <string name="lease_time_more_than_a_week">Mais de uma semana: <xliff:g id="seconds">%d</xliff:g> seconds</string>
-    <string name="connected">Conectado</string>
-    <string name="disconnected">Desconectado</string>
-    <string name="bluetooth_enabled">Ativado (%s)</string>
-    <string name="turning_on">Ligando</string>
-    <string name="turning_off">Desligando</string>
-    <string name="turn_on_bluetooth">Turn On Bluetooth</string>
-    <string name="zero_device_connected">0 Dispositivos Conectados</string>
-    <string name="bluetooth">Bluetooth</string>
-    <string name="name">Nome</string>
-    <string name="bluetooth_low_energy">Bluetooth de Baixa Energia</string>
-    <string name="connected_devices">Dispositivos Conectados</string>
-    <string name="health">Saúde</string>
-    <string name="status">Status</string>
-    <string name="level">Nível</string>
-    <string name="capacity">Capacidade</string>
-    <string name="temperature">Temperatura</string>
-    <string name="technology">Tecnologia</string>
-    <string name="null_string">Nulo</string>
-    <string name="unknown">Desconhecido</string>
-    <string name="overheated">Superaquecido</string>
-    <string name="dead">Morto</string>
-    <string name="overvoltage">Sobretensão</string>
-    <string name="unspecified_failure">Falha não especificada</string>
-    <string name="cold">Frio</string>
-    <string name="charging">Carregando</string>
-    <string name="discharging">Descarregando</string>
-    <string name="not_charging">Não esta carregando</string>
-    <string name="full">Cheio</string>
-    <string name="charging_speed_format"><xliff:g id="speed" example="18">%s</xliff:g> W</string>
-    <string name="charging_speed_fast">Rápido</string>
-    <string name="charging_speed_slow">Devagar</string>
-    <string name="battery_current_format"><xliff:g id="current" example="304">%s</xliff:g> mA</string>
-    <string name="battery_voltage_format"><xliff:g id="voltage" example="4.384">%s</xliff:g> V</string>
-    <string name="battery_current">Atualmente</string>
-    <string name="battery_power">Power</string>
-    <string name="battery_voltage">Voltagem</string>
-    <string name="whats_new">O que há de novo?</string>
-    <string name="about">Sobre</string>
-    <string name="thanks_to">Agradecimentos a</string>
-    <string name="no_email_application_found">Nenhum app de email detectado</string>
-    <string name="detect_battery_capacity">Detectar a capacidade da bateria</string>
-    <string name="experimental_options_summary">Ativar isto pode ocasionar algum comportamento inesperado</string>
-    <string name="detect_all_cameras">Detectar todas as câmeras</string>
-    <string name="settings_category_experimental">Experimental</string>
-    <string name="notifications_category">Notificações</string>
-    <string name="translations_notification">Traduções</string>
-    <string name="translations_notification_explanation">Seja notificado quando houverem novas traduções</string>
+    <!-- Drawer items & page titles -->
+    <string name="dashboard_page">Dashboard</string>
+    <string name="dashboard_tiles_empty">No dashboard tiles available yet.</string>
+    <string name="dashboard_empty_hint">Add your first tile to customize your dashboard</string>
+    <string name="explore_page">Explore</string>
+    <string name="system_page">Sistema</string>
+    <string name="device_page">Aparelho</string>
+    <string name="hardware_page">Hardware</string>
+    <string name="memory_page">Memória</string>
+    <string name="camera_page">Câmera</string>
+    <string name="network_page">Rede</string>
+    <string name="connectivity_page">Conectividade</string>
+    <string name="battery_page">Bateria</string>
+    <string name="media_drm_page">Media DRM</string>
+    <string name="settings_page">Ajustes</string>
 
+    <!-- System page -->
+    <string name="system_os_category">OS</string>
+    <string name="system_android_version_headline">Versão do Android</string>
+    <string name="system_released_with_headline">Lançado com</string>
+    <string name="system_min_target_sdk_headline">Minimum target SDK</string>
+    <string name="system_performance_class_headline">Performance class</string>
+    <string name="system_performance_class_supported">Class <xliff:g example="12" id="class_rating">%s</xliff:g></string>
+    <string name="system_performance_class_none">No class</string>
+    <string name="system_mainline_version_headline">Google Play system update</string>
+    <string name="system_language_headline">Idioma</string>
+    <string name="system_security_patch_headline">Pacote de Segurança</string>
+    <string name="system_build_number_headline">Número da Build</string>
+    <string name="system_board_headline">Board</string>
+    <string name="system_hardware_headline">Hardware</string>
+    <string name="system_kernel_version_headline">Versão do Kernel</string>
+    <string name="system_baseband_version_headline">Baseband Version</string>
+    <string name="system_build_tags_headline">Tags</string>
+    <string name="system_build_fingerprint_headline">Leitor de Digitais</string>
+    <string name="system_build_type_headline">Tipo da Build</string>
+    <string name="system_bootloader_version_headline">Bootloader</string>
+    <string name="system_up_time_headline">Tempo</string>
+    <string name="system_usb_debugging_headline">USB Debugging</string>
+    <string name="system_selinux_headline">SELinux</string>
+    <string name="system_selinux_enforcing">Enforcing</string>
+    <string name="system_selinux_permissive">Permissive</string>
+    <string name="system_extra_category">Extra</string>
+    <string name="system_treble_headline">Treble</string>
+    <string name="system_seamless_updates_headline">Seamless Updates</string>
+    <string name="system_active_slot_headline">Slot Ativo</string>
+    <string name="system_root_headline">Root</string>
+    <string name="system_root_version_headline">Versão do Root</string>
 
+    <!-- Device page -->
+    <string name="device_brand_headline">Marca</string>
+    <string name="device_manufacturer_headline">Fabricante</string>
+    <string name="device_model_headline">Modelo</string>
+    <string name="device_model_tile_title">Device model</string>
+    <string name="device_product_name_headline">Produto</string>
+    <string name="device_sku_headline">SKU</string>
+    <string name="device_display_id_category">Display #<xliff:g example="1" id="id">%s</xliff:g></string>
+    <string name="device_display_name_headline">Name</string>
+    <string name="device_display_resolution_headline">Resolução</string>
+    <string name="device_display_size_headline">Tamanho</string>
+    <string name="device_display_aspect_ratio_headline">Proporção</string>
+    <string name="device_display_refresh_rate_headline">Taxa de Frames</string>
+    <string name="device_display_pixel_density_headline">Pixel density</string>
+    <string name="device_display_current_density_headline">Current density</string>
+    <string name="device_display_default_density_headline">Default density</string>
+    <string name="device_display_default_orientation_headline">Orientação Padrão</string>
+    <string name="device_display_default_orientation_portrait">Retrato</string>
+    <string name="device_display_default_orientation_landscape">Landscape</string>
+    <string name="device_display_supports_hdr_headline">HDR</string>
+    <string name="device_features_category">Funções</string>
+    <string name="device_fingerprint_authentication_headline">Autenticação do Leitor de Digitais</string>
+    <string name="device_face_authentication_headline">Autenticação Facial</string>
+    <string name="device_vulkan_headline">Vulkan</string>
+    <string name="device_file_based_encryption_headline">Criptografia Baseada em Arquivo</string>
+
+    <!-- Hardware page -->
+    <string name="hardware_cpu_category">CPU</string>
+    <string name="hardware_cpu_hardware_headline">Hardware</string>
+    <string name="hardware_supported_abis_headline">ABIS Suportado</string>
+    <string name="hardware_cores_headline">Cores</string>
+    <string name="hardware_clusters_headline">Clusters</string>
+    <string name="hardware_cpu_usage_headline">Uso</string>
+    <string name="hardware_cluster_category">Cluster #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
+    <string name="hardware_cluster_minimum_frequency_headline">Frequência Mínima</string>
+    <string name="hardware_cluster_maximum_frequency_headline">Frequência Máxima</string>
+    <string name="hardware_cluster_governor_headline">Regulador</string>
+    <string name="hardware_cpu_usage_category">Uso da CPU</string>
+    <string name="hardware_core_headline">Core <xliff:g example="3" id="number_of_core">%d</xliff:g></string>
+    <string name="hardware_core_offline">Offline</string>
+    <string name="hardware_core_frequency"><xliff:g example="857" id="frequency">%d</xliff:g> MHz</string>
+    <string name="hardware_gpu_category">GPU</string>
+    <string name="hardware_gpu_vendor_headline">Fornecedor</string>
+    <string name="hardware_gpu_renderer_headline">Renderizador</string>
+    <string name="hardware_gpu_current_frequency_headline">Frequência Atual</string>
+    <string name="hardware_gpu_minimum_frequency_headline">Frequência Mínima</string>
+    <string name="hardware_gpu_maximum_frequency_headline">Frequência Máxima</string>
+    <string name="hardware_gpu_governor_headline">Regulador</string>
+    <string name="hardware_gpu_usage_headline">Uso</string>
+
+    <!-- Memory page -->
+    <string name="memory_ram_category">Memória do Dispositivo (RAM)</string>
+    <string name="memory_ram_hardware_headline">Hardware</string>
+    <string name="memory_ram_total_headline">Total</string>
+    <string name="memory_ram_available_headline">Disponível</string>
+    <string name="memory_ram_used_headline">Em uso</string>
+    <string name="memory_ram_usage_headline">Uso</string>
+    <string name="memory_ram_tile_title">Memory Usage</string>
+    <string name="memory_storage_category">Armazenamento Interno</string>
+    <string name="memory_storage_hardware_headline">Hardware</string>
+    <string name="memory_storage_total_headline">Total</string>
+    <string name="memory_storage_available_headline">Disponível</string>
+    <string name="memory_storage_used_headline">Em uso</string>
+    <string name="memory_storage_usage_headline">Uso</string>
+    <string name="memory_storage_tile_title">Internal Storage</string>
+
+    <!-- Camera page -->
+    <string name="camera_accuracy_note">Note: Some devices may report inaccurate camera specifications. [Learn more](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
+    <string name="camera_lens_front">Câmera Frontal</string>
+    <string name="camera_lens_back">Câmera Traseira</string>
+    <string name="camera_lens_external">Câmera Externa</string>
+    <string name="camera_megapixels_headline">Megapixels</string>
+    <string name="camera_megapixels_value"><xliff:g example="16" id="number_of_megapixel">%d</xliff:g> Mpx</string>
+    <string name="camera_available_apertures_headline">Aberturas Disponíveis</string>
+    <string name="camera_ois_headline">Estabilização Óptica de Imagem (EOI)</string>
+    <string name="camera_eis_headline">Estabilização Digital de Imagem (EDI)</string>
+    <string name="camera_flash_headline">Flash</string>
+
+    <!-- Network page -->
+    <string name="network_wifi_category">Wi-Fi</string>
+    <string name="network_type_headline">Tipo de Rede</string>
+    <string name="network_type_cellular">Cellular</string>
+    <string name="network_download_speed_headline">Velocidade de Download</string>
+    <string name="network_upload_speed_headline">Velocidade de Upload</string>
+    <string name="network_ssid_headline">SSID</string>
+    <string name="network_ssid_hidden_value">Hidden</string>
+    <string name="network_frequency_headline">Frequência</string>
+    <string name="network_signal_strength_headline">Força do Sinal</string>
+    <string name="network_link_speed_headline">Velocidade do Link</string>
+    <string name="network_local_ip_ipv4_headline">IP Local (IPv4)</string>
+    <string name="network_local_ip_ipv6_headline">IP Local (IPv6)</string>
+    <string name="network_mac_address_headline">MAC Address</string>
+    <string name="network_gateway_headline">Gateway</string>
+    <string name="network_subnet_mask_headline">Máscara de Subrede</string>
+    <string name="network_dns_headline">DNS</string>
+    <string name="network_dhcp_lease_time_headline">Tempo de Concessão do DHCP</string>
+    <string name="network_lease_time_more_than_a_week">Mais de uma semana: <xliff:g id="seconds">%d</xliff:g> seconds</string>
+    <string name="network_location_permission_explainer">Without the precise location permission, the current Wi‑Fi SSID cannot be displayed.</string>
+    <string name="network_signal_weak">Fraco</string>
+    <string name="network_signal_fair">Razoável</string>
+    <string name="network_signal_good">Bom</string>
+    <string name="network_signal_excellent">Excelente</string>
+
+    <!-- Connectivity page -->
+    <string name="connectivity_bluetooth_category">Bluetooth</string>
+    <string name="connectivity_bluetooth_name_headline">Nome</string>
+    <string name="connectivity_bluetooth_status_headline">Status</string>
+    <string name="connectivity_bluetooth_low_energy_headline">Bluetooth de Baixa Energia</string>
+    <string name="connectivity_bluetooth_connected_devices_headline">Dispositivos Conectados</string>
+    <string name="connectivity_bluetooth_mac_address_headline">MAC Address</string>
+    <string name="connectivity_bluetooth_turn_on_bluetooth">Turn On Bluetooth</string>
+    <string name="connectivity_bluetooth_zero_device_connected">0 Dispositivos Conectados</string>
+    <string name="connectivity_bluetooth_status_enabled">Ativado</string>
+    <string name="connectivity_bluetooth_status_disabled">Desativado</string>
+    <string name="connectivity_bluetooth_status_turning_on">Ligando</string>
+    <string name="connectivity_bluetooth_status_turning_off">Desligando</string>
+    <string name="connectivity_bluetooth_permission_explainer">Without the Nearby devices permission, the app cannot display Bluetooth details.</string>
+
+    <!-- Battery page -->
+    <string name="battery_health_headline">Saúde</string>
+    <string name="battery_status_headline">Status</string>
+    <string name="battery_level_headline">Nível</string>
+    <string name="battery_source_headline">Source</string>
+    <string name="battery_current_headline">Atualmente</string>
+    <string name="battery_power_headline">Power</string>
+    <string name="battery_voltage_headline">Voltagem</string>
+    <string name="battery_temperature_headline">Temperatura</string>
+    <string name="battery_technology_headline">Tecnologia</string>
+    <string name="battery_current_display_value"><xliff:g id="current" example="304">%1$d</xliff:g> mA</string>
+    <string name="battery_voltage_display_value"><xliff:g id="voltage" example="4.384">%1$.3f</xliff:g> V</string>
+    <string name="battery_power_display_value"><xliff:g id="power" example="18">%1$.2f</xliff:g> W</string>
+    <string name="battery_power_not_charging">Não esta carregando</string>
+    <string name="battery_status_not_charging">Não esta carregando</string>
+    <string name="battery_status_charging">Carregando</string>
+    <string name="battery_status_discharging">Descarregando</string>
+    <string name="battery_status_full">Cheio</string>
+    <string name="battery_health_good">Bom</string>
+    <string name="battery_health_overheated">Superaquecido</string>
+    <string name="battery_health_dead">Morto</string>
+    <string name="battery_health_overvoltage">Sobretensão</string>
+    <string name="battery_health_unspecified_failure">Falha não especificada</string>
+    <string name="battery_health_cold">Frio</string>
+    <string name="battery_source_ac">Charger (AC)</string>
+    <string name="battery_source_usb">USB</string>
+    <string name="battery_source_wireless">Wireless</string>
+
+    <!-- Media DRM page -->
+    <string name="media_drm_algorithms_headline">Algorithms</string>
+    <string name="media_drm_device_unique_id_headline">Device Unique ID</string>
+    <string name="media_drm_vendor_headline">Fornecedor</string>
+    <string name="media_drm_version_headline">Version</string>
+    <string name="media_drm_security_level_headline">Security level</string>
+
+    <!-- Settings Hub page -->
+    <string name="settings_general_entry_headline">General</string>
+    <string name="settings_general_entry_description">Security, clipboard and units</string>
+    <string name="settings_appearance_entry_headline">Appearance</string>
+    <string name="settings_appearance_entry_description">Dark mode and colors</string>
+    <string name="settings_advanced_entry_headline">Advanced</string>
+    <string name="settings_advanced_entry_description">Optional modules, analytics</string>
+    <string name="settings_about_entry_headline">Sobre</string>
+
+    <!-- General Settings -->
+    <string name="settings_general_clipboard_category">Copiado</string>
+    <string name="settings_general_long_press_to_copy_headline">Pressionar e segurar para copiar</string>
+    <string name="settings_general_long_press_to_copy_description">Copiar o valor dos itens ao pressionar e segurar</string>
+    <string name="settings_general_copy_values_with_labels_headline">Copiar a informação com o título</string>
+    <string name="settings_general_copy_values_with_labels_description">Incluir o título ao copiar</string>
+    <string name="settings_general_security_category">Security</string>
+    <string name="settings_general_block_screen_capture_headline">Block screen capture</string>
+    <string name="settings_general_block_screen_capture_description">Prevent the capture of screen content</string>
+    <string name="settings_general_hide_3rd_party_overlays_headline">Hide third-party overlays</string>
+    <string name="settings_general_hide_3rd_party_overlays_description">Hide overlays created by non-system apps</string>
+    <string name="settings_general_units_category">Units</string>
+    <string name="settings_general_temperature_headline">Temperatura</string>
+
+    <!-- Appearance Settings -->
+    <string name="settings_appearance_dark_mode_headline">Dark mode</string>
+    <string name="settings_appearance_dark_mode_off">Off</string>
+    <string name="settings_appearance_dark_mode_on">On</string>
+    <string name="settings_appearance_dark_mode_follow_system">Follow system</string>
+    <string name="settings_appearance_dynamic_colors_headline">Use system colors</string>
+    <string name="settings_appearance_dynamic_colors_description">Use colors provided by the system</string>
+    <string name="settings_appearance_pure_black_headline">Use pure black in dark mode</string>
+    <string name="settings_appearance_pure_black_description">Replace the dark mode background with pure black</string>
+
+    <!-- Advanced Settings -->
+    <string name="settings_advanced_optional_modules_category">Optional modules</string>
+    <string name="settings_advanced_analytics_category">Analytics</string>
+    <string name="settings_advanced_allow_analytics_headline">Allow analytics</string>
+    <string name="settings_advanced_allow_analytics_description">Send anonymous data to help us improve Inware</string>
+    <string name="settings_advanced_reset_analytics_headline">Reset device\'s identity</string>
+    <string name="settings_advanced_reset_analytics_success">Successfully reset</string>
+    <string name="settings_advanced_experimental_category">Experimental</string>
+    <string name="settings_advanced_developer_options_category">Developer options</string>
+
+    <!-- About Settings -->
+    <string name="settings_about_privacy_policy_headline">Política de Privacidade</string>
+    <string name="settings_about_licenses_headline">Licenças</string>
+    <string name="settings_about_button_channel">Channel</string>
+    <string name="settings_about_button_group">Group</string>
+    <string name="settings_about_button_github">GitHub</string>
+    <string name="settings_about_button_twitter">Twitter</string>
+    <string name="settings_about_button_website">Website</string>
+    <string name="settings_about_button_email">Email</string>
+    <string name="settings_about_thanks_to_category">Agradecimentos a</string>
+    <string name="settings_about_translate_title">Help translate Inware</string>
+    <string name="settings_about_translate_summary">Join the community project to localize new features.</string>
+    <string name="settings_about_translate_action">Open project</string>
+    <string name="settings_developer_options_warning_title">Enable developer options?</string>
+    <string name="settings_developer_options_warning_message">Developer options contain advanced settings that may affect app stability and performance.\n\nEnable only if you understand the potential risks.</string>
+    <string name="settings_developer_options_warning_proceed">Proceed</string>
+
+    <!--
+    Legacy strings without new equivalents.
+    
+    These strings may still be used in the future. Translations are kept just in case.
+     -->
+    <string name="legacy_deny">Negar</string>
+    <string name="legacy_new_version_available">Nova versão disponível</string>
+    <string name="legacy_new_version_dialog_message">Atualize para a última versão para melhorar a experiência</string>
+    <string name="legacy_update">Atualizar</string>
+    <string name="legacy_later">Depois</string>
+    <string name="legacy_shake_to_report_category">Agitar para reportar</string>
+    <string name="legacy_shake_to_send_feedback">Agitar para fazer uma sugestão</string>
+    <string name="legacy_shake_to_send_feedback_summary">Agitar o aparelho para fazer uma sugestão de qualquer tela</string>
+    <string name="legacy_sensitivity">Sensibilidade</string>
+    <string name="legacy_notifications_category_description">Mudar as notificações</string>
+    <string name="legacy_experimental_category_description">Funções não lançadas, podem apresentar instabilidade</string>
+    <string name="legacy_shake_to_report_category_description">Agitar o aparelho para fazer uma sugestão</string>
+    <string name="legacy_identifiers">Identificadores</string>
+    <string name="legacy_stopped">Parado</string>
+    <string name="legacy_augmented_reality">Realidade Aumentada</string>
+    <string name="legacy_permission_dialog_learn_more">Learn More</string>
+    <string name="legacy_memory_storage_permission_explanation">The storage permission is required to be able to display storage-related details.</string>
+    <string name="legacy_analytics_dialog_title">Allow analytics?</string>
+    <string name="legacy_analytics_dialog_message">With your permission, Inware can collect anonymous usage analytics from this device to help us improve the app.\n\nYou can turn this off or reset your device\'s identity in Settings.</string>
 </resources>

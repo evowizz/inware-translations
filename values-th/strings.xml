@@ -1,207 +1,307 @@
-<?xml version="1.0"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Suffix added to a number to signify size in bytes. -->
-    <!-- Suffix added to a number to signify size in kilobytes. -->
-    <!-- Suffix added to a number to signify size in megabytes. -->
-    <!-- Suffix added to a number to signify size in gigabytes. -->
-    <!-- Suffix added to a number to signify size in terabytes. -->
-    <!-- Suffix added to a number to signify size in petabytes. -->
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <!-- Generic strings -->
+    <string name="generic_unknown">ไม่ทราบ</string>
+    <string name="generic_enabled">เปิดอยู่</string>
+    <string name="generic_disabled">ปิดอยู่</string>
+    <string name="generic_supported">รองรับ</string>
+    <string name="generic_not_supported">ไม่รองรับ</string>
+    <string name="generic_detected">ตรวจพบ</string>
+    <string name="generic_not_detected">ไม่ตรวจพบ</string>
+    <string name="generic_allow">อนุญาต</string>
+    <string name="generic_copied_to_clipboard">คัดลอกลงไปในคลิปบอร์ดแล้ว</string>
+    <string name="generic_kb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> KB/s</string>
+    <string name="generic_mb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> MB/s</string>
+    <string name="generic_gb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> GB/s</string>
+    <string name="generic_tb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> TB/s</string>
 
-    <string name="kb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> KB/s</string>
-    <string name="mb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> MB/s</string>
-    <string name="gb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> GB/s</string>
-    <string name="tb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> TB/s</string>
+    <!-- Permissions -->
+    <string name="permission_required_heading">Permission required</string>
+    <string name="permission_open_settings_label">Enable in settings</string>
 
-    <string name="deny">ไม่อนุญาต</string>
-    <string name="allow">อนุญาต</string>
-    <string name="system_tab">ระบบ</string>
-    <string name="device_tab">อุปกรณ์</string>
-    <string name="hardware_tab">ฮาร์ดแวร์</string>
-    <string name="memory_tab">หน่วยความจำ</string>
-    <string name="camera_tab">กล้อง</string>
-    <string name="network_tab">เน็ตเวิร์ค</string>
-    <string name="connectivity_tab">การเชื่อมต่อ</string>
-    <string name="battery_tab">แบตเตอรี่</string>
-    <string name="new_version_available">มีเวอร์ชั่นใหม่พร้อมให้อัพเดต</string>
-    <string name="new_version_dialog_message">อัพเดตเป็นเวอร์ชั่นล่าสุดเพื่อประสบการณ์ที่ดีกว่า</string>
-    <string name="update">อัพเดต</string>
-    <string name="later">ภายหลัง</string>
-    <string name="settings">การตั้งค่า</string>
-    <string name="settings_category_clipboard">คลิปบอร์ด</string>
-    <string name="settings_option_long_press_to_copy">แตะค้างเพื่อคัดลอก</string>
-    <string name="settings_option_long_press_to_copy_summary">คัดลอกข้อมูลต่างๆโดยการแตะค้างไว้</string>
-    <string name="settings_option_copy_values_with_labels">คัดลอกข้อมูลพร้อมกับชื่อของข้อมูล</string>
-    <string name="settings_option_copy_values_with_labels_summary">เพิ่มชื่อของข้อมูลที่จะคัดลอกเข้าไปด้วยเมื่อกำลังคัดลอก</string>
-    <string name="shake_to_report_category">เขย่าส่งความเห็น</string>
-    <string name="shake_to_send_feedback">เขย่าเพื่อส่งความเห็น</string>
-    <string name="shake_to_send_feedback_summary">เขย่าอุปกรณ์ของคุณเพื่อส่งความคิดเห็นได้อย่างเร็วได้จากหน้าไหนก็ได้</string>
-    <string name="sensitivity">ความอ่อนไหว</string>
-    <string name="privacy_policy">นโยบายความเป็นส่วนตัว</string>
-    <string name="licenses">ลิขสิทธิ์</string>
-    <string name="notifications_category_description">จัดการการแจ้งเตือนแบบพุช</string>
-    <string name="experimental_category_description">ฟังก์ชั่นที่ยังไม่ได้ปล่อย อาจจะทำให้แอพไม่เสถียร</string>
-    <string name="shake_to_report_category_description">เขย่ามือถือเพื่อส่งความเห็น</string>
-    <string name="basics">พื้นฐาน</string>
-    <string name="unavailable">ไม่พร้อมใช้งาน</string>
-    <string name="good">ดี</string>
-    <string name="supported">รองรับ</string>
-    <string name="not_supported">ไม่รองรับ</string>
-    <string name="copied_to_clipboard">คัดลอกลงไปในคลิปบอร์ดแล้ว</string>
-    <string name="enabled">เปิดอยู่</string>
-    <string name="disabled">ปิดอยู่</string>
-    <string name="features">คุณสมบัติ</string>
-    <string name="os">ระบบปฏิบัติการ</string>
-    <string name="android_version">เวอร์ชั่นแอนดรอยด์</string>
-    <string name="release_with">ออกมาพร้อมกับ</string>
-    <string name="security_patch">แพชต์ความปลอดภัย</string>
-    <string name="build_number">หมายเลขบิลด์</string>
-    <string name="build_id">ไอดีของบิลด์</string>
-    <string name="kernel_version">เวอร์ชั่นเคอร์เนล</string>
-    <string name="baseband_version">เวอร์ชั่นเบสแบนด์</string>
-    <string name="tags">ป้ายกำกับ</string>
-    <string name="fingerprint">ลายนิ้วมือ</string>
-    <string name="bootloader">Bootloader</string>
-    <string name="up_time">เวลาทำงาน</string>
-    <string name="extra">เพิ่มเติม</string>
-    <string name="treble">Treble</string>
-    <string name="seamless_updates">Seamless Updates</string>
-    <string name="root">รูท</string>
-    <string name="language">ภาษา</string>
-    <string name="board">บอร์ด</string>
-    <string name="hardware">ฮาร์ดแวร์</string>
-    <string name="build_type">ประเภทบิลด์</string>
-    <string name="active_slot">ช่องที่ใช้งาน</string>
-    <string name="root_version">เวอร์ชั่นรูท</string>
-    <string name="detected">ตรวจพบ</string>
-    <string name="not_detected">ไม่ตรวจพบ</string>
-    <string name="usb_debugging">การแก้ไขข้อบกพร่อง USB</string>
-    <string name="selinux">SELinux</string>
-    <string name="brand">แบรนด์</string>
-    <string name="manufacturer">ผู้ผลิต</string>
-    <string name="product">ผลิตภัณฑ์</string>
-    <string name="model">รุ่น</string>
-    <string name="display">หน้าจอ</string>
-    <string name="resolution">ความละเอียด</string>
-    <string name="size">ขนาดจอ</string>
-    <string name="aspect_ratio">อัตราส่วน</string>
-    <string name="frame_rate">เฟรมเรต</string>
-    <string name="default_orientation">ค่าเริ่มต้นการหมุนหน้าจอ</string>
-    <string name="current_density">ค่าปัจจุบัน: <xliff:g example="420" id="density">%d</xliff:g>dpi (<xliff:g example="xxhdpi" id="density_qualifier">%s</xliff:g>)</string>
-    <string name="default_density">ค่าเริ่มต้น: <xliff:g example="560" id="density">%d</xliff:g>dpi (<xliff:g example="xxxhdpi" id="density_qualifier">%s</xliff:g>)</string>
-    <string name="landscape">แนวนอน</string>
-    <string name="portrait">แนวตั้ง</string>
-    <string name="hdr">HDR</string>
-    <string name="fingerprint_authentication">ระบบสแกนลายนิ้วมือ</string>
-    <string name="face_authentication">ระบบสแกนใบหน้า</string>
-    <string name="vulkan">Vulkan</string>
-    <string name="augmented_reality">เทคโนโลยี Augmented Reality (AR)</string>
-    <string name="file_based_encryption">การเข้ารหัสแยกตามไฟล์</string>
-    <string name="indentifiers">สิ่งยืนยันตัวตน</string>
-    <string name="android_id">ไอดีของแอนดรอย์</string>
-    <string name="gsf_id">ไอดี GSF</string>
-    <string name="serial_number">หมายเลขซีเรียล</string>
-    <string name="imei">IMEI <xliff:g example="1" id="imei_number">%d</xliff:g></string>
-    <string name="cpu_information">ข้อมูลของ CPU</string>
-    <string name="supported_abis">การรองรับ ABIS</string>
-    <string name="cores">จำนวนคอร์</string>
-    <string name="minimum_frequency">ความถี่ต่ำสุด</string>
-    <string name="maximum_frequency">ความถี่สูงสุด</string>
-    <string name="governor">Governor</string>
-    <string name="usage">การใช้งาน</string>
-    <string name="cpu_usage">การใช้งานของ CPU</string>
-    <string name="gpu_information">การใช้งานของ GPU</string>
-    <string name="vendor">ผู้ผลิต</string>
-    <string name="renderer">ตัวประมวลผลกราฟิก</string>
-    <string name="current_frequency">ความถี่ปัจจุบัน</string>
-    <string name="clusters">ระบบคลัสเตอร์</string>
-    <string name="cluster_number">คลัสเตอร์ #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
-    <string name="core_number">คอร์ที่ <xliff:g example="3" id="number_of_core">%d</xliff:g></string>
-    <string name="value_frequency"><xliff:g example="857" id="frequency">%d</xliff:g> MHz</string>
-    <string name="stopped">หยุดแล้ว</string>
-    <string name="offline">ไม่ทำงาน</string>
-    <string name="device_memory">ความจำของอุปกรณ์ (RAM)</string>
-    <string name="total">ทั้งหมด</string>
-    <string name="available">พร้อมใช้งาน</string>
-    <string name="used">ใช้แล้ว</string>
-    <string name="used_percentage">ใช้แล้ว (เปอร์เซ็นต์)</string>
-    <string name="internal_storage">พื้นที่จัดเก็บภายใน</string>
-    <string name="front_camera">กล้องหน้า</string>
-    <string name="back_camera">กล้องหลัง</string>
-    <string name="external_camera">กล้องภายนอก</string>
-    <string name="megapixels">ความละเอียดรูปภาพ</string>
-    <string name="available_apertures">รูรับแรงที่ใช้งานได้</string>
-    <string name="optical_image_stabilization">ระบบกันสั่นด้วยฮาร์ดแวร์ (OIS)</string>
-    <string name="electronic_image_stabilization">ระบบกันสั่นด้วยด้วยซอฟต์แวร์ (EIS)</string>
-    <string name="flashlight">ไฟแฟลช</string>
-    <string name="mpx"><xliff:g example="16" id="number_of_megapixel">%d</xliff:g> ล้านพิกเซล</string>
-    <string name="network_type">ประเภทการเชื่อมต่อ</string>
-    <string name="speed">ความเร็ว</string>
-    <string name="download_speed">ความเร็วดาวน์โหลด</string>
-    <string name="upload_speed">ความเร็วอัพโหลด</string>
-    <string name="wifi">Wi-Fi</string>
-    <string name="ssid">ชื่อ SSID</string>
-    <string name="hidden_ssid">ชื่อ SSID ที่ซ่อนไว้</string>
-    <string name="frequency">ย่านความถี่</string>
-    <string name="signal_strength">ความแรงของสัญญาณ</string>
-    <string name="link_speed">ความเร็วการเชื่อมต่อ</string>
-    <string name="local_ip_ipv4">ที่อยู่ (IPv4)</string>
-    <string name="mac_address">MAC Address</string>
-    <string name="gateway">Gateway</string>
-    <string name="subnet_mask">Subnet Mask</string>
-    <string name="dns">DNS</string>
-    <string name="local_ip_ipv6">ที่อยู่ IP (IPv6)</string>
-    <string name="dhcp_lease_time">DHCP Lease Time</string>
-    <string name="excellent">เยี่ยมมาก</string>
-    <string name="fair">พอดี</string>
-    <string name="weak">อ่อน</string>
-    <string name="lease_time_more_than_a_week">มากกว่า 1 อาทิตย์: <xliff:g id="seconds">%d</xliff:g> วินาที</string>
-    <string name="connected">เชื่อมต่ออยู่</string>
-    <string name="disconnected">ยกเลิกการเชื่อมต่อแล้ว</string>
-    <string name="bluetooth_enabled">เปิดมาแล้ว (%s)</string>
-    <string name="turning_on">กำลังเปิด</string>
-    <string name="turning_off">กำลังปิด</string>
-    <string name="turn_on_bluetooth">เปิดบลูทูธ</string>
-    <string name="zero_device_connected">มี 0 อุปกรณ์ที่เชื่อมต่ออยู่</string>
-    <string name="bluetooth">บลูธูท</string>
-    <string name="name">ชื่อ</string>
-    <string name="bluetooth_low_energy">บลูธูทแบบพลังงานต่ำ</string>
-    <string name="connected_devices">อุปกรณ์ที่ถูกเชื่อมต่อ</string>
-    <string name="health">สุขภาพ</string>
-    <string name="status">สถานะ</string>
-    <string name="level">ระดับ</string>
-    <string name="capacity">ความจุ</string>
-    <string name="temperature">อุณหภูมิ</string>
-    <string name="technology">เทคโนโลยี</string>
-    <string name="null_string">ไม่มีค่า</string>
-    <string name="unknown">ไม่ทราบ</string>
-    <string name="overheated">ร้อนเกินไป</string>
-    <string name="dead">ตาย</string>
-    <string name="overvoltage">แรงดันไฟฟ้าสูงเกินไป</string>
-    <string name="unspecified_failure">ข้อผิดพลาดที่ยังไม่ระบุ</string>
-    <string name="cold">เย็น</string>
-    <string name="charging">กำลังชาร์จ</string>
-    <string name="discharging">ยังไม่เสียบสายชาร์จ</string>
-    <string name="not_charging">ไม่ชาร์จไฟให้</string>
-    <string name="full">เต็ม</string>
-    <string name="charging_speed_format"><xliff:g example="18" id="speed">%s</xliff:g> W</string>
-    <string name="charging_speed_fast">เร็ว</string>
-    <string name="charging_speed_slow">ช้า</string>
-    <string name="battery_current_format"><xliff:g example="304" id="current">%s</xliff:g> mA</string>
-    <string name="battery_voltage_format"><xliff:g example="4.384" id="voltage">%s</xliff:g> V</string>
-    <string name="battery_current">กระแสไฟฟ้า</string>
-    <string name="battery_power">พลังงาน</string>
-    <string name="battery_voltage">แรงดันไฟฟ้า</string>
-    <string name="whats_new">มีอะไรมาใหม่?</string>
-    <string name="about">เกี่ยวกับ</string>
-    <string name="thanks_to">ขอขอบคุณ</string>
-    <string name="no_email_application_found">ไม่พบแอพอีเมลในมือถือ</string>
-    <string name="detect_battery_capacity">ตรวจสอบความจุของแบตเตอร์รี่</string>
-    <string name="experimental_options_summary">การเปิดใช้งานสิ่งนี้ อาจจะทำให้เกิดเหตุการณ์อันไม่พึงประสงค์ได้</string>
-    <string name="detect_all_cameras">ตรวจสอบกล้องทั้งหมด</string>
-    <string name="settings_category_experimental">การทดลอง</string>
-    <string name="notifications_category">การแจ้งเตือน</string>
-    <string name="translations_notification">การแปลภาษา</string>
-    <string name="translations_notification_explanation">รับการแจ้งเตือนเมื่อมีคำหรือประโยคใหม่พร้อมให้แปลภาษา</string>
-    <string name="version">เวอร์ชั่น</string>
-    <string name="security_level">ระดับความปลอดภัย</string>
+    <!-- Drawer items & page titles -->
+    <string name="dashboard_page">Dashboard</string>
+    <string name="dashboard_tiles_empty">No dashboard tiles available yet.</string>
+    <string name="dashboard_empty_hint">Add your first tile to customize your dashboard</string>
+    <string name="explore_page">Explore</string>
+    <string name="system_page">ระบบ</string>
+    <string name="device_page">อุปกรณ์</string>
+    <string name="hardware_page">ฮาร์ดแวร์</string>
+    <string name="memory_page">หน่วยความจำ</string>
+    <string name="camera_page">กล้อง</string>
+    <string name="network_page">เน็ตเวิร์ค</string>
+    <string name="connectivity_page">การเชื่อมต่อ</string>
+    <string name="battery_page">แบตเตอรี่</string>
+    <string name="media_drm_page">Media DRM</string>
+    <string name="settings_page">การตั้งค่า</string>
+
+    <!-- System page -->
+    <string name="system_os_category">ระบบปฏิบัติการ</string>
+    <string name="system_android_version_headline">เวอร์ชั่นแอนดรอยด์</string>
+    <string name="system_released_with_headline">ออกมาพร้อมกับ</string>
+    <string name="system_min_target_sdk_headline">Minimum target SDK</string>
+    <string name="system_performance_class_headline">Performance class</string>
+    <string name="system_performance_class_supported">Class <xliff:g example="12" id="class_rating">%s</xliff:g></string>
+    <string name="system_performance_class_none">No class</string>
+    <string name="system_mainline_version_headline">Google Play system update</string>
+    <string name="system_language_headline">ภาษา</string>
+    <string name="system_security_patch_headline">แพชต์ความปลอดภัย</string>
+    <string name="system_build_number_headline">หมายเลขบิลด์</string>
+    <string name="system_board_headline">บอร์ด</string>
+    <string name="system_hardware_headline">ฮาร์ดแวร์</string>
+    <string name="system_kernel_version_headline">เวอร์ชั่นเคอร์เนล</string>
+    <string name="system_baseband_version_headline">เวอร์ชั่นเบสแบนด์</string>
+    <string name="system_build_tags_headline">ป้ายกำกับ</string>
+    <string name="system_build_fingerprint_headline">ลายนิ้วมือ</string>
+    <string name="system_build_type_headline">ประเภทบิลด์</string>
+    <string name="system_bootloader_version_headline">Bootloader</string>
+    <string name="system_up_time_headline">เวลาทำงาน</string>
+    <string name="system_usb_debugging_headline">การแก้ไขข้อบกพร่อง USB</string>
+    <string name="system_selinux_headline">SELinux</string>
+    <string name="system_selinux_enforcing">Enforcing</string>
+    <string name="system_selinux_permissive">Permissive</string>
+    <string name="system_extra_category">เพิ่มเติม</string>
+    <string name="system_treble_headline">Treble</string>
+    <string name="system_seamless_updates_headline">Seamless Updates</string>
+    <string name="system_active_slot_headline">ช่องที่ใช้งาน</string>
+    <string name="system_root_headline">รูท</string>
+    <string name="system_root_version_headline">เวอร์ชั่นรูท</string>
+
+    <!-- Device page -->
+    <string name="device_brand_headline">แบรนด์</string>
+    <string name="device_manufacturer_headline">ผู้ผลิต</string>
+    <string name="device_model_headline">รุ่น</string>
+    <string name="device_model_tile_title">Device model</string>
+    <string name="device_product_name_headline">ผลิตภัณฑ์</string>
+    <string name="device_sku_headline">SKU</string>
+    <string name="device_display_id_category">Display #<xliff:g example="1" id="id">%s</xliff:g></string>
+    <string name="device_display_name_headline">Name</string>
+    <string name="device_display_resolution_headline">ความละเอียด</string>
+    <string name="device_display_size_headline">ขนาดจอ</string>
+    <string name="device_display_aspect_ratio_headline">อัตราส่วน</string>
+    <string name="device_display_refresh_rate_headline">เฟรมเรต</string>
+    <string name="device_display_pixel_density_headline">Pixel density</string>
+    <string name="device_display_current_density_headline">Current density</string>
+    <string name="device_display_default_density_headline">Default density</string>
+    <string name="device_display_default_orientation_headline">ค่าเริ่มต้นการหมุนหน้าจอ</string>
+    <string name="device_display_default_orientation_portrait">แนวตั้ง</string>
+    <string name="device_display_default_orientation_landscape">แนวนอน</string>
+    <string name="device_display_supports_hdr_headline">HDR</string>
+    <string name="device_features_category">คุณสมบัติ</string>
+    <string name="device_fingerprint_authentication_headline">ระบบสแกนลายนิ้วมือ</string>
+    <string name="device_face_authentication_headline">ระบบสแกนใบหน้า</string>
+    <string name="device_vulkan_headline">Vulkan</string>
+    <string name="device_file_based_encryption_headline">การเข้ารหัสแยกตามไฟล์</string>
+
+    <!-- Hardware page -->
+    <string name="hardware_cpu_category">CPU</string>
+    <string name="hardware_cpu_hardware_headline">ฮาร์ดแวร์</string>
+    <string name="hardware_supported_abis_headline">การรองรับ ABIS</string>
+    <string name="hardware_cores_headline">จำนวนคอร์</string>
+    <string name="hardware_clusters_headline">ระบบคลัสเตอร์</string>
+    <string name="hardware_cpu_usage_headline">การใช้งาน</string>
+    <string name="hardware_cluster_category">คลัสเตอร์ #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
+    <string name="hardware_cluster_minimum_frequency_headline">ความถี่ต่ำสุด</string>
+    <string name="hardware_cluster_maximum_frequency_headline">ความถี่สูงสุด</string>
+    <string name="hardware_cluster_governor_headline">Governor</string>
+    <string name="hardware_cpu_usage_category">การใช้งานของ CPU</string>
+    <string name="hardware_core_headline">คอร์ที่ <xliff:g example="3" id="number_of_core">%d</xliff:g></string>
+    <string name="hardware_core_offline">ไม่ทำงาน</string>
+    <string name="hardware_core_frequency"><xliff:g example="857" id="frequency">%d</xliff:g> MHz</string>
+    <string name="hardware_gpu_category">GPU</string>
+    <string name="hardware_gpu_vendor_headline">ผู้ผลิต</string>
+    <string name="hardware_gpu_renderer_headline">ตัวประมวลผลกราฟิก</string>
+    <string name="hardware_gpu_current_frequency_headline">ความถี่ปัจจุบัน</string>
+    <string name="hardware_gpu_minimum_frequency_headline">ความถี่ต่ำสุด</string>
+    <string name="hardware_gpu_maximum_frequency_headline">ความถี่สูงสุด</string>
+    <string name="hardware_gpu_governor_headline">Governor</string>
+    <string name="hardware_gpu_usage_headline">การใช้งาน</string>
+
+    <!-- Memory page -->
+    <string name="memory_ram_category">ความจำของอุปกรณ์ (RAM)</string>
+    <string name="memory_ram_hardware_headline">ฮาร์ดแวร์</string>
+    <string name="memory_ram_total_headline">ทั้งหมด</string>
+    <string name="memory_ram_available_headline">พร้อมใช้งาน</string>
+    <string name="memory_ram_used_headline">ใช้แล้ว</string>
+    <string name="memory_ram_usage_headline">การใช้งาน</string>
+    <string name="memory_ram_tile_title">Memory Usage</string>
+    <string name="memory_storage_category">พื้นที่จัดเก็บภายใน</string>
+    <string name="memory_storage_hardware_headline">ฮาร์ดแวร์</string>
+    <string name="memory_storage_total_headline">ทั้งหมด</string>
+    <string name="memory_storage_available_headline">พร้อมใช้งาน</string>
+    <string name="memory_storage_used_headline">ใช้แล้ว</string>
+    <string name="memory_storage_usage_headline">การใช้งาน</string>
+    <string name="memory_storage_tile_title">Internal Storage</string>
+
+    <!-- Camera page -->
+    <string name="camera_accuracy_note">Note: Some devices may report inaccurate camera specifications. [Learn more](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
+    <string name="camera_lens_front">กล้องหน้า</string>
+    <string name="camera_lens_back">กล้องหลัง</string>
+    <string name="camera_lens_external">กล้องภายนอก</string>
+    <string name="camera_megapixels_headline">ความละเอียดรูปภาพ</string>
+    <string name="camera_megapixels_value"><xliff:g example="16" id="number_of_megapixel">%d</xliff:g> ล้านพิกเซล</string>
+    <string name="camera_available_apertures_headline">รูรับแรงที่ใช้งานได้</string>
+    <string name="camera_ois_headline">ระบบกันสั่นด้วยฮาร์ดแวร์ (OIS)</string>
+    <string name="camera_eis_headline">ระบบกันสั่นด้วยด้วยซอฟต์แวร์ (EIS)</string>
+    <string name="camera_flash_headline">ไฟแฟลช</string>
+
+    <!-- Network page -->
+    <string name="network_wifi_category">Wi-Fi</string>
+    <string name="network_type_headline">ประเภทการเชื่อมต่อ</string>
+    <string name="network_type_cellular">Cellular</string>
+    <string name="network_download_speed_headline">ความเร็วดาวน์โหลด</string>
+    <string name="network_upload_speed_headline">ความเร็วอัพโหลด</string>
+    <string name="network_ssid_headline">ชื่อ SSID</string>
+    <string name="network_ssid_hidden_value">Hidden</string>
+    <string name="network_frequency_headline">ย่านความถี่</string>
+    <string name="network_signal_strength_headline">ความแรงของสัญญาณ</string>
+    <string name="network_link_speed_headline">ความเร็วการเชื่อมต่อ</string>
+    <string name="network_local_ip_ipv4_headline">ที่อยู่ (IPv4)</string>
+    <string name="network_local_ip_ipv6_headline">ที่อยู่ IP (IPv6)</string>
+    <string name="network_mac_address_headline">MAC Address</string>
+    <string name="network_gateway_headline">Gateway</string>
+    <string name="network_subnet_mask_headline">Subnet Mask</string>
+    <string name="network_dns_headline">DNS</string>
+    <string name="network_dhcp_lease_time_headline">DHCP Lease Time</string>
+    <string name="network_lease_time_more_than_a_week">มากกว่า 1 อาทิตย์: <xliff:g id="seconds">%d</xliff:g> วินาที</string>
+    <string name="network_location_permission_explainer">Without the precise location permission, the current Wi‑Fi SSID cannot be displayed.</string>
+    <string name="network_signal_weak">อ่อน</string>
+    <string name="network_signal_fair">พอดี</string>
+    <string name="network_signal_good">ดี</string>
+    <string name="network_signal_excellent">เยี่ยมมาก</string>
+
+    <!-- Connectivity page -->
+    <string name="connectivity_bluetooth_category">บลูธูท</string>
+    <string name="connectivity_bluetooth_name_headline">ชื่อ</string>
+    <string name="connectivity_bluetooth_status_headline">Status</string>
+    <string name="connectivity_bluetooth_low_energy_headline">บลูธูทแบบพลังงานต่ำ</string>
+    <string name="connectivity_bluetooth_connected_devices_headline">อุปกรณ์ที่ถูกเชื่อมต่อ</string>
+    <string name="connectivity_bluetooth_mac_address_headline">MAC Address</string>
+    <string name="connectivity_bluetooth_turn_on_bluetooth">เปิดบลูทูธ</string>
+    <string name="connectivity_bluetooth_zero_device_connected">มี 0 อุปกรณ์ที่เชื่อมต่ออยู่</string>
+    <string name="connectivity_bluetooth_status_enabled">เปิดอยู่</string>
+    <string name="connectivity_bluetooth_status_disabled">ปิดอยู่</string>
+    <string name="connectivity_bluetooth_status_turning_on">กำลังเปิด</string>
+    <string name="connectivity_bluetooth_status_turning_off">กำลังปิด</string>
+    <string name="connectivity_bluetooth_permission_explainer">Without the Nearby devices permission, the app cannot display Bluetooth details.</string>
+
+    <!-- Battery page -->
+    <string name="battery_health_headline">สุขภาพ</string>
+    <string name="battery_status_headline">สถานะ</string>
+    <string name="battery_level_headline">ระดับ</string>
+    <string name="battery_source_headline">Source</string>
+    <string name="battery_current_headline">กระแสไฟฟ้า</string>
+    <string name="battery_power_headline">พลังงาน</string>
+    <string name="battery_voltage_headline">แรงดันไฟฟ้า</string>
+    <string name="battery_temperature_headline">อุณหภูมิ</string>
+    <string name="battery_technology_headline">เทคโนโลยี</string>
+    <string name="battery_current_display_value"><xliff:g id="current" example="304">%1$d</xliff:g> mA</string>
+    <string name="battery_voltage_display_value"><xliff:g id="voltage" example="4.384">%1$.3f</xliff:g> V</string>
+    <string name="battery_power_display_value"><xliff:g id="power" example="18">%1$.2f</xliff:g> W</string>
+    <string name="battery_power_not_charging">ไม่ชาร์จไฟให้</string>
+    <string name="battery_status_not_charging">ไม่ชาร์จไฟให้</string>
+    <string name="battery_status_charging">กำลังชาร์จ</string>
+    <string name="battery_status_discharging">ยังไม่เสียบสายชาร์จ</string>
+    <string name="battery_status_full">เต็ม</string>
+    <string name="battery_health_good">ดี</string>
+    <string name="battery_health_overheated">ร้อนเกินไป</string>
+    <string name="battery_health_dead">ตาย</string>
+    <string name="battery_health_overvoltage">แรงดันไฟฟ้าสูงเกินไป</string>
+    <string name="battery_health_unspecified_failure">ข้อผิดพลาดที่ยังไม่ระบุ</string>
+    <string name="battery_health_cold">เย็น</string>
+    <string name="battery_source_ac">Charger (AC)</string>
+    <string name="battery_source_usb">USB</string>
+    <string name="battery_source_wireless">Wireless</string>
+
+    <!-- Media DRM page -->
+    <string name="media_drm_algorithms_headline">Algorithms</string>
+    <string name="media_drm_device_unique_id_headline">Device Unique ID</string>
+    <string name="media_drm_vendor_headline">ผู้ผลิต</string>
+    <string name="media_drm_version_headline">เวอร์ชั่น</string>
+    <string name="media_drm_security_level_headline">ระดับความปลอดภัย</string>
+
+    <!-- Settings Hub page -->
+    <string name="settings_general_entry_headline">General</string>
+    <string name="settings_general_entry_description">Security, clipboard and units</string>
+    <string name="settings_appearance_entry_headline">Appearance</string>
+    <string name="settings_appearance_entry_description">Dark mode and colors</string>
+    <string name="settings_advanced_entry_headline">Advanced</string>
+    <string name="settings_advanced_entry_description">Optional modules, analytics</string>
+    <string name="settings_about_entry_headline">เกี่ยวกับ</string>
+
+    <!-- General Settings -->
+    <string name="settings_general_clipboard_category">คลิปบอร์ด</string>
+    <string name="settings_general_long_press_to_copy_headline">แตะค้างเพื่อคัดลอก</string>
+    <string name="settings_general_long_press_to_copy_description">คัดลอกข้อมูลต่างๆโดยการแตะค้างไว้</string>
+    <string name="settings_general_copy_values_with_labels_headline">คัดลอกข้อมูลพร้อมกับชื่อของข้อมูล</string>
+    <string name="settings_general_copy_values_with_labels_description">เพิ่มชื่อของข้อมูลที่จะคัดลอกเข้าไปด้วยเมื่อกำลังคัดลอก</string>
+    <string name="settings_general_security_category">Security</string>
+    <string name="settings_general_block_screen_capture_headline">Block screen capture</string>
+    <string name="settings_general_block_screen_capture_description">Prevent the capture of screen content</string>
+    <string name="settings_general_hide_3rd_party_overlays_headline">Hide third-party overlays</string>
+    <string name="settings_general_hide_3rd_party_overlays_description">Hide overlays created by non-system apps</string>
+    <string name="settings_general_units_category">Units</string>
+    <string name="settings_general_temperature_headline">อุณหภูมิ</string>
+
+    <!-- Appearance Settings -->
+    <string name="settings_appearance_dark_mode_headline">Dark mode</string>
+    <string name="settings_appearance_dark_mode_off">Off</string>
+    <string name="settings_appearance_dark_mode_on">On</string>
+    <string name="settings_appearance_dark_mode_follow_system">Follow system</string>
+    <string name="settings_appearance_dynamic_colors_headline">Use system colors</string>
+    <string name="settings_appearance_dynamic_colors_description">Use colors provided by the system</string>
+    <string name="settings_appearance_pure_black_headline">Use pure black in dark mode</string>
+    <string name="settings_appearance_pure_black_description">Replace the dark mode background with pure black</string>
+
+    <!-- Advanced Settings -->
+    <string name="settings_advanced_optional_modules_category">Optional modules</string>
+    <string name="settings_advanced_analytics_category">Analytics</string>
+    <string name="settings_advanced_allow_analytics_headline">Allow analytics</string>
+    <string name="settings_advanced_allow_analytics_description">Send anonymous data to help us improve Inware</string>
+    <string name="settings_advanced_reset_analytics_headline">Reset device\'s identity</string>
+    <string name="settings_advanced_reset_analytics_success">Successfully reset</string>
+    <string name="settings_advanced_experimental_category">การทดลอง</string>
+    <string name="settings_advanced_developer_options_category">Developer options</string>
+
+    <!-- About Settings -->
+    <string name="settings_about_privacy_policy_headline">นโยบายความเป็นส่วนตัว</string>
+    <string name="settings_about_licenses_headline">ลิขสิทธิ์</string>
+    <string name="settings_about_button_channel">Channel</string>
+    <string name="settings_about_button_group">Group</string>
+    <string name="settings_about_button_github">GitHub</string>
+    <string name="settings_about_button_twitter">Twitter</string>
+    <string name="settings_about_button_website">Website</string>
+    <string name="settings_about_button_email">Email</string>
+    <string name="settings_about_thanks_to_category">ขอขอบคุณ</string>
+    <string name="settings_about_translate_title">Help translate Inware</string>
+    <string name="settings_about_translate_summary">Join the community project to localize new features.</string>
+    <string name="settings_about_translate_action">Open project</string>
+    <string name="settings_developer_options_warning_title">Enable developer options?</string>
+    <string name="settings_developer_options_warning_message">Developer options contain advanced settings that may affect app stability and performance.\n\nEnable only if you understand the potential risks.</string>
+    <string name="settings_developer_options_warning_proceed">Proceed</string>
+
+    <!--
+    Legacy strings without new equivalents.
+    
+    These strings may still be used in the future. Translations are kept just in case.
+     -->
+    <string name="legacy_deny">ไม่อนุญาต</string>
+    <string name="legacy_new_version_available">มีเวอร์ชั่นใหม่พร้อมให้อัพเดต</string>
+    <string name="legacy_new_version_dialog_message">อัพเดตเป็นเวอร์ชั่นล่าสุดเพื่อประสบการณ์ที่ดีกว่า</string>
+    <string name="legacy_update">อัพเดต</string>
+    <string name="legacy_later">ภายหลัง</string>
+    <string name="legacy_shake_to_report_category">เขย่าส่งความเห็น</string>
+    <string name="legacy_shake_to_send_feedback">เขย่าเพื่อส่งความเห็น</string>
+    <string name="legacy_shake_to_send_feedback_summary">เขย่าอุปกรณ์ของคุณเพื่อส่งความคิดเห็นได้อย่างเร็วได้จากหน้าไหนก็ได้</string>
+    <string name="legacy_sensitivity">ความอ่อนไหว</string>
+    <string name="legacy_notifications_category_description">จัดการการแจ้งเตือนแบบพุช</string>
+    <string name="legacy_experimental_category_description">ฟังก์ชั่นที่ยังไม่ได้ปล่อย อาจจะทำให้แอพไม่เสถียร</string>
+    <string name="legacy_shake_to_report_category_description">เขย่ามือถือเพื่อส่งความเห็น</string>
+    <string name="legacy_identifiers">สิ่งยืนยันตัวตน</string>
+    <string name="legacy_stopped">หยุดแล้ว</string>
+    <string name="legacy_augmented_reality">เทคโนโลยี Augmented Reality (AR)</string>
+    <string name="legacy_permission_dialog_learn_more">Learn More</string>
+    <string name="legacy_memory_storage_permission_explanation">The storage permission is required to be able to display storage-related details.</string>
+    <string name="legacy_analytics_dialog_title">Allow analytics?</string>
+    <string name="legacy_analytics_dialog_message">With your permission, Inware can collect anonymous usage analytics from this device to help us improve the app.\n\nYou can turn this off or reset your device\'s identity in Settings.</string>
 </resources>

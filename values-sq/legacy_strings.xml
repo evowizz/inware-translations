@@ -1,0 +1,187 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Suffix added to a number to signify size in bytes. -->
+    <!-- Suffix added to a number to signify size in kilobytes. -->
+    <!-- Suffix added to a number to signify size in megabytes. -->
+    <!-- Suffix added to a number to signify size in gigabytes. -->
+    <!-- Suffix added to a number to signify size in terabytes. -->
+    <!-- Suffix added to a number to signify size in petabytes. -->
+
+    <string name="kb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> KB/s</string>
+    <string name="mb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> MB/s</string>
+    <string name="gb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> GB/s</string>
+    <string name="tb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> TB/s</string>
+    <string name="deny">Refuzo</string>
+    <string name="allow">Lejo</string>
+    <string name="system_tab">Sistemi</string>
+    <string name="device_tab">Paisja</string>
+    <string name="hardware_tab">Hardware</string>
+    <string name="memory_tab">Memoria</string>
+    <string name="camera_tab">Kamera</string>
+    <string name="network_tab">Rrjeti</string>
+    <string name="connectivity_tab">Lidhja me rrjetin</string>
+    <string name="battery_tab">Bateria</string>
+    <string name="new_version_available">Version i ri i disponueshem</string>
+    <string name="new_version_dialog_message">Kaloni ne versionin me te fundit per nje eksperience me te mire</string>
+    <string name="update">Perditeso</string>
+    <string name="later">Me vone</string>
+    <string name="settings">Rregullimet</string>
+    <string name="settings_category_clipboard">Ruajtesi</string>
+    <string name="settings_option_long_press_to_copy">Mbaj shtypur gjate per te kopjuar</string>
+    <string name="settings_option_long_press_to_copy_summary">Kopjo vlerat e artikujve duke i mbajtur shtypur gjate</string>
+    <string name="settings_option_copy_values_with_labels">Kopjo vlerat me etiketa</string>
+    <string name="settings_option_copy_values_with_labels_summary">Perfshi etiketat e vlerave gjate kopjimit</string>
+    <string name="shake_to_report_category">Shkundje me buje</string>
+    <string name="shake_to_send_feedback">Shkunde per te derguar reagime</string>
+    <string name="shake_to_send_feedback_summary">Shkundni paisjen tuaj per te derguar reagime nga secili ekran</string>
+    <string name="sensitivity">Ndjeshmeria</string>
+    <string name="basics">Bazat</string>
+    <string name="unavailable">I padisponueshem</string>
+    <string name="good">Mire</string>
+    <string name="supported">Mbeshtetet</string>
+    <string name="not_supported">Nuk e mbeshtet</string>
+    <string name="copied_to_clipboard">Kopjuar ne clipboard</string>
+    <string name="enabled">Aktivizuar</string>
+    <string name="disabled">Çaktivizuar</string>
+    <string name="features">Karakteristikat</string>
+    <string name="os">Sistemi i operimit</string>
+    <string name="android_version">Versioni Android</string>
+    <string name="release_with">I hedhur ne treg me</string>
+    <string name="security_patch">Arnimi i sigurise</string>
+    <string name="build_number">Numri i ndertimit</string>
+    <string name="build_id">ID e ndertimit</string>
+    <string name="kernel_version">Versioni i kernel</string>
+    <string name="baseband_version">Versioni i Baseband</string>
+    <string name="tags">Etiketat</string>
+    <string name="fingerprint">Shenjuesi i gishtit</string>
+    <string name="bootloader">Bootloader</string>
+    <string name="up_time">Koha qe paisja eshte ndezur</string>
+    <string name="extra">Ekstra</string>
+    <string name="treble">Treble</string>
+    <string name="seamless_updates">Seamless Updates</string>
+    <string name="root">Root</string>
+    <string name="language">Gjuha</string>
+    <string name="board">Motherboardi</string>
+    <string name="hardware">Hardware</string>
+    <string name="build_type">Tipi i Build</string>
+    <string name="active_slot">Pjesa aktive</string>
+    <string name="root_version">Versioni i Root</string>
+    <string name="detected">U gjend</string>
+    <string name="not_detected">Nuk u gjend</string>
+    <string name="usb_debugging">USB Debugging</string>
+    <string name="selinux">SELinux</string>
+    <string name="brand">Marka</string>
+    <string name="manufacturer">Prodhuesi</string>
+    <string name="product">Produkti</string>
+    <string name="model">Modeli</string>
+    <string name="display">Ekrani</string>
+    <string name="resolution">Rezolucioni</string>
+    <string name="size">Madhesia</string>
+    <string name="aspect_ratio">Aspect Ratio</string>
+    <string name="frame_rate">Shpeshtesia per sekond</string>
+    <string name="default_orientation">Orientimi</string>
+    <string name="landscape">Per se gjeri</string>
+    <string name="portrait">Portret</string>
+    <string name="hdr">HDR</string>
+    <string name="fingerprint_authentication">Njohje me shenje gishtash</string>
+    <string name="face_authentication">Njohje nepermjet fytyres</string>
+    <string name="vulkan">Vulkan</string>
+    <string name="augmented_reality">Augmented Reality</string>
+    <string name="file_based_encryption">Enkriptim i bazuar ne dosje</string>
+    <string name="indentifiers">Identifikuesit</string>
+    <string name="android_id">ID e Android</string>
+    <string name="gsf_id">ID e GFS</string>
+    <string name="serial_number">Numri serial</string>
+    <string name="imei">IMEI <xliff:g example="1" id="imei_number">%d</xliff:g></string>
+    <string name="cpu_information">Informacion rreth procesorit</string>
+    <string name="supported_abis">ABIS te suportuar</string>
+    <string name="cores">Berthama</string>
+    <string name="minimum_frequency">Frekuenca minimale</string>
+    <string name="maximum_frequency">Frekuenca maksimale</string>
+    <string name="governor">Qeverisesi</string>
+    <string name="usage">Perdorimi</string>
+    <string name="cpu_usage">Perdorimi i procesorit</string>
+    <string name="gpu_information">Informacion rreth kartes grafike</string>
+    <string name="vendor">Vendori</string>
+    <string name="renderer">Renderer</string>
+    <string name="current_frequency">Frekuenca aktuale</string>
+    <string name="clusters">Grumbuj</string>
+    <string name="cluster_number">Grumbulli #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
+    <string name="core_number">Berthama <xliff:g example="3" id="number_of_core">%d</xliff:g></string>
+    <string name="value_frequency"><xliff:g example="857" id="frequency">%d</xliff:g> MHz</string>
+    <string name="stopped">Ndaluar</string>
+    <string name="offline">I paaktivizuar</string>
+    <string name="device_memory">Memoria e paisjes (RAM)</string>
+    <string name="total">Total</string>
+    <string name="available">E disponueshme</string>
+    <string name="used">Perdorur</string>
+    <string name="used_percentage">Perdorur (Perqindja)</string>
+    <string name="internal_storage">Kujtesa e brendshme</string>
+    <string name="front_camera">Kamera ballore</string>
+    <string name="back_camera">Kamera prapa</string>
+    <string name="external_camera">Kamera e jashtme</string>
+    <string name="megapixels">Megapiksel</string>
+    <string name="available_apertures">Hapjet e disponueshme</string>
+    <string name="optical_image_stabilization">Stabilizim optik i imazhit (OIS)</string>
+    <string name="electronic_image_stabilization">Stabilizim elektronik i imazhit (EIS)</string>
+    <string name="flashlight">Blici</string>
+    <string name="mpx"><xliff:g example="16" id="number_of_megapixel">%d</xliff:g> Mpx</string>
+    <string name="network_type">Tipi i rrjetit</string>
+    <string name="speed">Shpejtesia</string>
+    <string name="download_speed">Shpejtesia e shkarkimit</string>
+    <string name="upload_speed">Shpejtesia e ngarkimit</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="ssid">SSID</string>
+    <string name="hidden_ssid">SSID e fshehur</string>
+    <string name="frequency">Frekuenca</string>
+    <string name="signal_strength">Fortesia e sinjalit</string>
+    <string name="link_speed">Shpejtesia e lidhjes</string>
+    <string name="local_ip_ipv4">IP lokale (IPv4)</string>
+    <string name="mac_address">Adresa MAC</string>
+    <string name="gateway">Porta</string>
+    <string name="subnet_mask">Maska subnet</string>
+    <string name="dns">DNS</string>
+    <string name="local_ip_ipv6">IP lokale (IPv6)</string>
+    <string name="dhcp_lease_time">Koha e leshimit DHCP</string>
+    <string name="excellent">E shkelqyer</string>
+    <string name="fair">E pranueshme</string>
+    <string name="weak">E dobet</string>
+    <string name="lease_time_more_than_a_week">Me shume se nje jave: <xliff:g id="seconds">%d</xliff:g> sekonda</string>
+    <string name="connected">Lidhur</string>
+    <string name="disconnected">Shkeputur</string>
+    <string name="bluetooth_enabled">Aktivizuar (%s)</string>
+    <string name="turning_on">Duke u aktivizuar</string>
+    <string name="turning_off">Duke u çaktivizuar</string>
+    <string name="turn_on_bluetooth">Aktivizo Bluetooth</string>
+    <string name="zero_device_connected">0 paisje te lidhura</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="name">Emri</string>
+    <string name="bluetooth_low_energy">Bluetooth me energji te ulet</string>
+    <string name="connected_devices">Paisjet e lidhura</string>
+    <string name="health">Gjendja</string>
+    <string name="status">Statusi</string>
+    <string name="level">Niveli</string>
+    <string name="capacity">Kapaciteti</string>
+    <string name="temperature">Temperatura</string>
+    <string name="technology">Teknologjia</string>
+    <string name="null_string">Bosh</string>
+    <string name="unknown">E panjohur</string>
+    <string name="overheated">E mbinxehur</string>
+    <string name="dead">E shkaterruar</string>
+    <string name="overvoltage">E mbingarkuar</string>
+    <string name="unspecified_failure">Deshtim i paspecifikuar</string>
+    <string name="cold">E ftohte</string>
+    <string name="charging">Duke u ngarkuar</string>
+    <string name="discharging">Duke u shkarkuar</string>
+    <string name="not_charging">Nuk po ngarkohet</string>
+    <string name="full">Plot</string>
+    <string name="whats_new">Çfare ka te re?</string>
+    <string name="about">Informacion mbi programin</string>
+    <string name="thanks_to">Faleminderit</string>
+    <string name="privacy_policy">Polica e privatesise</string>
+    <string name="no_email_application_found">nuk u gjet asnje program per E-mail</string>
+    <string name="detect_battery_capacity">Shfaq kapacitetin e baterise</string>
+    <string name="experimental_options_summary">Aktivizimi i ketij opsioni mund te çoje ne rezultate te papritura ose te padeshiruara</string>
+    <string name="detect_all_cameras">Shfaq te gjitha kamerat</string>
+    <string name="settings_category_experimental">Eksperimentale</string>
+
+</resources>

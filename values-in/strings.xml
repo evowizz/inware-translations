@@ -1,188 +1,307 @@
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Suffix added to a number to signify size in bytes. -->
-    <!-- Suffix added to a number to signify size in kilobytes. -->
-    <!-- Suffix added to a number to signify size in megabytes. -->
-    <!-- Suffix added to a number to signify size in gigabytes. -->
-    <!-- Suffix added to a number to signify size in terabytes. -->
-    <!-- Suffix added to a number to signify size in petabytes. -->
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <!-- Generic strings -->
+    <string name="generic_unknown">Tidak Diketahui</string>
+    <string name="generic_enabled">Diaktifkan</string>
+    <string name="generic_disabled">Tidak Diaktifkan</string>
+    <string name="generic_supported">Mendukung</string>
+    <string name="generic_not_supported">Tidak Didukung</string>
+    <string name="generic_detected">Terdeteksi</string>
+    <string name="generic_not_detected">Tidak Terdeteksi</string>
+    <string name="generic_allow">Ijinkan</string>
+    <string name="generic_copied_to_clipboard">Salin ke clipboard</string>
+    <string name="generic_kb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> KB/detik</string>
+    <string name="generic_mb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> MB/detik</string>
+    <string name="generic_gb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> GB/detik</string>
+    <string name="generic_tb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> TB/detik</string>
 
-    <string name="kb_on_sec"><xliff:g id="speed" example="36">%s</xliff:g> KB/detik</string>
-    <string name="mb_on_sec"><xliff:g id="speed" example="36">%s</xliff:g> MB/detik</string>
-    <string name="gb_on_sec"><xliff:g id="speed" example="36">%s</xliff:g> GB/detik</string>
-    <string name="tb_on_sec"><xliff:g id="speed" example="36">%s</xliff:g> TB/detik</string>
+    <!-- Permissions -->
+    <string name="permission_required_heading">Permission required</string>
+    <string name="permission_open_settings_label">Enable in settings</string>
 
-    <string name="deny">Tolak</string>
-    <string name="allow">Ijinkan</string>
-    <string name="system_tab">Sistem</string>
-    <string name="device_tab">Telepon</string>
-    <string name="hardware_tab">Perangkat Keras</string>
-    <string name="memory_tab">Memori</string>
-    <string name="camera_tab">Kamera</string>
-    <string name="network_tab">Jaringan</string>
-    <string name="connectivity_tab">Konektivitas</string>
-    <string name="battery_tab">Baterai</string>
-    <string name="new_version_available">Versi baru tersedia</string>
-    <string name="new_version_dialog_message">Perbarui ke versi terbaru untuk pengalaman yang lebih baik</string>
-    <string name="update">Perbarui</string>
-    <string name="later">Nanti Saja</string>
-    <string name="settings">Pengaturan</string>
-    <string name="settings_category_clipboard">Clipboard</string>
-    <string name="settings_option_long_press_to_copy">Tekan lama untuk menyalin</string>
-    <string name="settings_option_long_press_to_copy_summary">Salin data item dengan tekan lama</string>
-    <string name="settings_option_copy_values_with_labels">Salin data dengan label</string>
-    <string name="settings_option_copy_values_with_labels_summary">Termasuk data label ketika menyalin</string>
-    <string name="shake_to_report_category">Goncangkan dengan keras</string>
-    <string name="shake_to_send_feedback">Goncangkan untuk mengirim kritik &amp; saran</string>
-    <string name="shake_to_send_feedback_summary">Goncangkan perangkat untuk mengirim kritik &amp; saran secara cepat dari semua layar</string>
-    <string name="sensitivity">Sensitivitas</string>
-    <string name="basics">Dasar</string>
-    <string name="unavailable">Tidak Tersedia</string>
-    <string name="good">Bagus</string>
-    <string name="supported">Mendukung</string>
-    <string name="not_supported">Tidak Didukung</string>
-    <string name="copied_to_clipboard">Salin ke clipboard</string>
-    <string name="enabled">Diaktifkan</string>
-    <string name="disabled">Tidak Diaktifkan</string>
-    <string name="features">Fitur</string>
-    <string name="os">Sistem Operasi</string>
-    <string name="android_version">Versi Android</string>
-    <string name="release_with">Rilis Dengan</string>
-    <string name="security_patch">Patch Keamanan</string>
-    <string name="build_number">Nomor Pembuatan</string>
-    <string name="build_id">ID Pembuatan</string>
-    <string name="kernel_version">Versi Kernel</string>
-    <string name="baseband_version">Versi Baseband</string>
-    <string name="tags">Tags</string>
-    <string name="fingerprint">Sidik Jari</string>
-    <string name="bootloader">Bootloader</string>
-    <string name="up_time">Waktu Hidup</string>
-    <string name="extra">Ekstra</string>
-    <string name="treble">Treble</string>
-    <string name="seamless_updates">Pembaruan Lancar</string>
-    <string name="root">Root</string>
-    <string name="language">Bahasa</string>
-    <string name="board">Papan Sirkuit</string>
-    <string name="hardware">Perangkat Keras</string>
-    <string name="build_type">Tipe Pembuatan</string>
-    <string name="active_slot">Slot Aktif</string>
-    <string name="root_version">Versi Root</string>
-    <string name="detected">Terdeteksi</string>
-    <string name="not_detected">Tidak Terdeteksi</string>
-    <string name="usb_debugging">USB Debugging</string>
-    <string name="selinux">SELinux</string>
-    <string name="brand">Merek</string>
-    <string name="manufacturer">Manufaktur</string>
-    <string name="product">Produk</string>
-    <string name="model">Model</string>
-    <string name="display">Layar</string>
-    <string name="resolution">Resolusi</string>
-    <string name="size">Ukuran</string>
-    <string name="aspect_ratio">Aspek Rasio</string>
-    <string name="frame_rate">Tingkat Bingkai</string>
-    <string name="default_orientation">Standar Orientasi</string>
-    <string name="landscape">Landscape</string>
-    <string name="portrait">Portrait</string>
-    <string name="hdr">HDR</string>
-    <string name="fingerprint_authentication">Autentifikasi Sidik Jari</string>
-    <string name="face_authentication">Autentifikasi Wajah</string>
-    <string name="vulkan">Vulkan</string>
-    <string name="augmented_reality">Augmented Reality</string>
-    <string name="file_based_encryption">Enkripsi Berbasis File</string>
-    <string name="indentifiers">Identifikasi</string>
-    <string name="android_id">Android ID</string>
-    <string name="gsf_id">GSF ID</string>
-    <string name="serial_number">Nomor Serial</string>
-    <string name="imei">IMEI <xliff:g id="imei_number" example="1">%d</xliff:g></string>
-    <string name="cpu_information">Informasi CPU</string>
-    <string name="supported_abis">Mendukung ABIS</string>
-    <string name="cores">Jumlah Inti</string>
-    <string name="minimum_frequency">Frekuensi Minimum</string>
-    <string name="maximum_frequency">Frekuensi Maksimum</string>
-    <string name="governor">Pengatur</string>
-    <string name="usage">Penggunaan</string>
-    <string name="cpu_usage">Penggunaan CPU</string>
-    <string name="gpu_information">Informasi GPU</string>
-    <string name="vendor">Vendor</string>
-    <string name="renderer">Renderer</string>
-    <string name="current_frequency">Frekuensi Sekarang</string>
-    <string name="clusters">Jumlah Kelompok</string>
-    <string name="cluster_number">Kelompok #<xliff:g id="number_of_cluster" example="1">%d</xliff:g></string>
-    <string name="core_number">Inti <xliff:g id="number_of_core" example="3">%d</xliff:g></string>
-    <string name="value_frequency"><xliff:g id="frequency" example="857">%d</xliff:g> MHz</string>
-    <string name="stopped">Berhenti</string>
-    <string name="offline">Offline</string>
-    <string name="device_memory">Memori Perangkat (RAM)</string>
-    <string name="total">Total</string>
-    <string name="available">Tersedia</string>
-    <string name="used">Digunakan</string>
-    <string name="used_percentage">Digunakan (Persentase)</string>
-    <string name="internal_storage">Penyimpanan Internal</string>
-    <string name="front_camera">Kamera Depan</string>
-    <string name="back_camera">Kamera Belakang</string>
-    <string name="external_camera">Kamera Ekternal</string>
-    <string name="megapixels">Megapiksel</string>
-    <string name="available_apertures">Terdapat Bukaan</string>
-    <string name="optical_image_stabilization">Optical Image Stabilization (OIS)</string>
-    <string name="electronic_image_stabilization">Electronic Image Stabilization (EIS)</string>
-    <string name="flashlight">Lampu Flash</string>
-    <string name="mpx"><xliff:g id="number_of_megapixel" example="16">%d</xliff:g> Mpx</string>
-    <string name="network_type">Tipe Jaringan</string>
-    <string name="speed">Kecepatan</string>
-    <string name="download_speed">Kecepatan Download</string>
-    <string name="upload_speed">Kecepatan Upload</string>
-    <string name="wifi">Wi-Fi</string>
-    <string name="ssid">SSID</string>
-    <string name="hidden_ssid">SSID Tersembunyi</string>
-    <string name="frequency">Frekuensi</string>
-    <string name="signal_strength">Kekuatan Sinyal</string>
-    <string name="link_speed">Kecepatan Link</string>
-    <string name="local_ip_ipv4">Lokal IP (IPv4)</string>
-    <string name="mac_address">MAC Address</string>
-    <string name="gateway">Gateway</string>
-    <string name="subnet_mask">Subnet Mask</string>
-    <string name="dns">DNS</string>
-    <string name="local_ip_ipv6">Lokal IP (IPv6)</string>
-    <string name="dhcp_lease_time">DHCP Lease Time</string>
-    <string name="excellent">Sangat Bagus</string>
-    <string name="fair">Cukup</string>
-    <string name="weak">Lemah</string>
-    <string name="lease_time_more_than_a_week">Lebih dari seminggu: <xliff:g id="seconds">%d</xliff:g> detik</string>
-    <string name="connected">Terhubung</string>
-    <string name="disconnected">Tidak Terhubung</string>
-    <string name="bluetooth_enabled">Diaktifkan (%s)</string>
-    <string name="turning_on">Menyalakan</string>
-    <string name="turning_off">Mematikan</string>
-    <string name="turn_on_bluetooth">Nyalakan Bluetooth</string>
-    <string name="zero_device_connected">0 Perangkat Terhubung</string>
-    <string name="bluetooth">Bluetooth</string>
-    <string name="name">Nama</string>
-    <string name="bluetooth_low_energy">Bluetooth Rendah Energi</string>
-    <string name="connected_devices">Perangkat Terhubung</string>
-    <string name="health">Kesehatan</string>
-    <string name="status">Status</string>
-    <string name="level">Level</string>
-    <string name="capacity">Kapasitas</string>
-    <string name="temperature">Temperatur</string>
-    <string name="technology">Teknologi</string>
-    <string name="null_string">Null</string>
-    <string name="unknown">Tidak Diketahui</string>
-    <string name="overheated">Terlalu Panas</string>
-    <string name="dead">Mati</string>
-    <string name="overvoltage">Kelebihan Tegangan</string>
-    <string name="unspecified_failure">Kegagalan Tidak Spesifik</string>
-    <string name="cold">Dingin</string>
-    <string name="charging">Megisi Daya</string>
-    <string name="discharging">Melepaskan Daya</string>
-    <string name="not_charging">Tidak Mengisi Daya</string>
-    <string name="full">Penuh</string>
-    <string name="whats_new">Apa yang Baru?</string>
-    <string name="about">Tentang</string>
-    <string name="thanks_to">Terima kasih</string>
-    <string name="privacy_policy">Kebijakan Privasi</string>
-    <string name="no_email_application_found">Tidak Dapat Menemukan Aplikasi Email.</string>
-    <string name="detect_battery_capacity">Deteksi kapasitas baterai</string>
-    <string name="experimental_options_summary">Dengan mengaktifkan ini mungkin menyebabkan hal tak terduga</string>
-    <string name="detect_all_cameras">Deteksi semua kamera</string>
-    <string name="settings_category_experimental">Eksperimental</string>
+    <!-- Drawer items & page titles -->
+    <string name="dashboard_page">Dashboard</string>
+    <string name="dashboard_tiles_empty">No dashboard tiles available yet.</string>
+    <string name="dashboard_empty_hint">Add your first tile to customize your dashboard</string>
+    <string name="explore_page">Explore</string>
+    <string name="system_page">Sistem</string>
+    <string name="device_page">Telepon</string>
+    <string name="hardware_page">Perangkat Keras</string>
+    <string name="memory_page">Memori</string>
+    <string name="camera_page">Kamera</string>
+    <string name="network_page">Jaringan</string>
+    <string name="connectivity_page">Konektivitas</string>
+    <string name="battery_page">Baterai</string>
+    <string name="media_drm_page">Media DRM</string>
+    <string name="settings_page">Pengaturan</string>
 
+    <!-- System page -->
+    <string name="system_os_category">Sistem Operasi</string>
+    <string name="system_android_version_headline">Versi Android</string>
+    <string name="system_released_with_headline">Rilis Dengan</string>
+    <string name="system_min_target_sdk_headline">Minimum target SDK</string>
+    <string name="system_performance_class_headline">Performance class</string>
+    <string name="system_performance_class_supported">Class <xliff:g example="12" id="class_rating">%s</xliff:g></string>
+    <string name="system_performance_class_none">No class</string>
+    <string name="system_mainline_version_headline">Google Play system update</string>
+    <string name="system_language_headline">Bahasa</string>
+    <string name="system_security_patch_headline">Patch Keamanan</string>
+    <string name="system_build_number_headline">Nomor Pembuatan</string>
+    <string name="system_board_headline">Papan Sirkuit</string>
+    <string name="system_hardware_headline">Perangkat Keras</string>
+    <string name="system_kernel_version_headline">Versi Kernel</string>
+    <string name="system_baseband_version_headline">Versi Baseband</string>
+    <string name="system_build_tags_headline">Tags</string>
+    <string name="system_build_fingerprint_headline">Sidik Jari</string>
+    <string name="system_build_type_headline">Tipe Pembuatan</string>
+    <string name="system_bootloader_version_headline">Bootloader</string>
+    <string name="system_up_time_headline">Waktu Hidup</string>
+    <string name="system_usb_debugging_headline">USB Debugging</string>
+    <string name="system_selinux_headline">SELinux</string>
+    <string name="system_selinux_enforcing">Enforcing</string>
+    <string name="system_selinux_permissive">Permissive</string>
+    <string name="system_extra_category">Ekstra</string>
+    <string name="system_treble_headline">Treble</string>
+    <string name="system_seamless_updates_headline">Pembaruan Lancar</string>
+    <string name="system_active_slot_headline">Slot Aktif</string>
+    <string name="system_root_headline">Root</string>
+    <string name="system_root_version_headline">Versi Root</string>
+
+    <!-- Device page -->
+    <string name="device_brand_headline">Merek</string>
+    <string name="device_manufacturer_headline">Manufaktur</string>
+    <string name="device_model_headline">Model</string>
+    <string name="device_model_tile_title">Device model</string>
+    <string name="device_product_name_headline">Produk</string>
+    <string name="device_sku_headline">SKU</string>
+    <string name="device_display_id_category">Display #<xliff:g example="1" id="id">%s</xliff:g></string>
+    <string name="device_display_name_headline">Name</string>
+    <string name="device_display_resolution_headline">Resolusi</string>
+    <string name="device_display_size_headline">Ukuran</string>
+    <string name="device_display_aspect_ratio_headline">Aspek Rasio</string>
+    <string name="device_display_refresh_rate_headline">Tingkat Bingkai</string>
+    <string name="device_display_pixel_density_headline">Pixel density</string>
+    <string name="device_display_current_density_headline">Current density</string>
+    <string name="device_display_default_density_headline">Default density</string>
+    <string name="device_display_default_orientation_headline">Standar Orientasi</string>
+    <string name="device_display_default_orientation_portrait">Portrait</string>
+    <string name="device_display_default_orientation_landscape">Landscape</string>
+    <string name="device_display_supports_hdr_headline">HDR</string>
+    <string name="device_features_category">Fitur</string>
+    <string name="device_fingerprint_authentication_headline">Autentifikasi Sidik Jari</string>
+    <string name="device_face_authentication_headline">Autentifikasi Wajah</string>
+    <string name="device_vulkan_headline">Vulkan</string>
+    <string name="device_file_based_encryption_headline">Enkripsi Berbasis File</string>
+
+    <!-- Hardware page -->
+    <string name="hardware_cpu_category">CPU</string>
+    <string name="hardware_cpu_hardware_headline">Perangkat Keras</string>
+    <string name="hardware_supported_abis_headline">Mendukung ABIS</string>
+    <string name="hardware_cores_headline">Jumlah Inti</string>
+    <string name="hardware_clusters_headline">Jumlah Kelompok</string>
+    <string name="hardware_cpu_usage_headline">Penggunaan</string>
+    <string name="hardware_cluster_category">Kelompok #<xliff:g id="number_of_cluster" example="1">%d</xliff:g></string>
+    <string name="hardware_cluster_minimum_frequency_headline">Frekuensi Minimum</string>
+    <string name="hardware_cluster_maximum_frequency_headline">Frekuensi Maksimum</string>
+    <string name="hardware_cluster_governor_headline">Pengatur</string>
+    <string name="hardware_cpu_usage_category">Penggunaan CPU</string>
+    <string name="hardware_core_headline">Inti <xliff:g id="number_of_core" example="3">%d</xliff:g></string>
+    <string name="hardware_core_offline">Offline</string>
+    <string name="hardware_core_frequency"><xliff:g id="frequency" example="857">%d</xliff:g> MHz</string>
+    <string name="hardware_gpu_category">GPU</string>
+    <string name="hardware_gpu_vendor_headline">Vendor</string>
+    <string name="hardware_gpu_renderer_headline">Renderer</string>
+    <string name="hardware_gpu_current_frequency_headline">Frekuensi Sekarang</string>
+    <string name="hardware_gpu_minimum_frequency_headline">Frekuensi Minimum</string>
+    <string name="hardware_gpu_maximum_frequency_headline">Frekuensi Maksimum</string>
+    <string name="hardware_gpu_governor_headline">Pengatur</string>
+    <string name="hardware_gpu_usage_headline">Penggunaan</string>
+
+    <!-- Memory page -->
+    <string name="memory_ram_category">Memori Perangkat (RAM)</string>
+    <string name="memory_ram_hardware_headline">Perangkat Keras</string>
+    <string name="memory_ram_total_headline">Total</string>
+    <string name="memory_ram_available_headline">Tersedia</string>
+    <string name="memory_ram_used_headline">Digunakan</string>
+    <string name="memory_ram_usage_headline">Penggunaan</string>
+    <string name="memory_ram_tile_title">Memory Usage</string>
+    <string name="memory_storage_category">Penyimpanan Internal</string>
+    <string name="memory_storage_hardware_headline">Perangkat Keras</string>
+    <string name="memory_storage_total_headline">Total</string>
+    <string name="memory_storage_available_headline">Tersedia</string>
+    <string name="memory_storage_used_headline">Digunakan</string>
+    <string name="memory_storage_usage_headline">Penggunaan</string>
+    <string name="memory_storage_tile_title">Internal Storage</string>
+
+    <!-- Camera page -->
+    <string name="camera_accuracy_note">Note: Some devices may report inaccurate camera specifications. [Learn more](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
+    <string name="camera_lens_front">Kamera Depan</string>
+    <string name="camera_lens_back">Kamera Belakang</string>
+    <string name="camera_lens_external">Kamera Ekternal</string>
+    <string name="camera_megapixels_headline">Megapiksel</string>
+    <string name="camera_megapixels_value"><xliff:g id="number_of_megapixel" example="16">%d</xliff:g> Mpx</string>
+    <string name="camera_available_apertures_headline">Terdapat Bukaan</string>
+    <string name="camera_ois_headline">Optical Image Stabilization (OIS)</string>
+    <string name="camera_eis_headline">Electronic Image Stabilization (EIS)</string>
+    <string name="camera_flash_headline">Lampu Flash</string>
+
+    <!-- Network page -->
+    <string name="network_wifi_category">Wi-Fi</string>
+    <string name="network_type_headline">Tipe Jaringan</string>
+    <string name="network_type_cellular">Cellular</string>
+    <string name="network_download_speed_headline">Kecepatan Download</string>
+    <string name="network_upload_speed_headline">Kecepatan Upload</string>
+    <string name="network_ssid_headline">SSID</string>
+    <string name="network_ssid_hidden_value">Hidden</string>
+    <string name="network_frequency_headline">Frekuensi</string>
+    <string name="network_signal_strength_headline">Kekuatan Sinyal</string>
+    <string name="network_link_speed_headline">Kecepatan Link</string>
+    <string name="network_local_ip_ipv4_headline">Lokal IP (IPv4)</string>
+    <string name="network_local_ip_ipv6_headline">Lokal IP (IPv6)</string>
+    <string name="network_mac_address_headline">MAC Address</string>
+    <string name="network_gateway_headline">Gateway</string>
+    <string name="network_subnet_mask_headline">Subnet Mask</string>
+    <string name="network_dns_headline">DNS</string>
+    <string name="network_dhcp_lease_time_headline">DHCP Lease Time</string>
+    <string name="network_lease_time_more_than_a_week">Lebih dari seminggu: <xliff:g id="seconds">%d</xliff:g> detik</string>
+    <string name="network_location_permission_explainer">Without the precise location permission, the current Wi‑Fi SSID cannot be displayed.</string>
+    <string name="network_signal_weak">Lemah</string>
+    <string name="network_signal_fair">Cukup</string>
+    <string name="network_signal_good">Bagus</string>
+    <string name="network_signal_excellent">Sangat Bagus</string>
+
+    <!-- Connectivity page -->
+    <string name="connectivity_bluetooth_category">Bluetooth</string>
+    <string name="connectivity_bluetooth_name_headline">Nama</string>
+    <string name="connectivity_bluetooth_status_headline">Status</string>
+    <string name="connectivity_bluetooth_low_energy_headline">Bluetooth Rendah Energi</string>
+    <string name="connectivity_bluetooth_connected_devices_headline">Perangkat Terhubung</string>
+    <string name="connectivity_bluetooth_mac_address_headline">MAC Address</string>
+    <string name="connectivity_bluetooth_turn_on_bluetooth">Nyalakan Bluetooth</string>
+    <string name="connectivity_bluetooth_zero_device_connected">0 Perangkat Terhubung</string>
+    <string name="connectivity_bluetooth_status_enabled">Diaktifkan</string>
+    <string name="connectivity_bluetooth_status_disabled">Tidak Diaktifkan</string>
+    <string name="connectivity_bluetooth_status_turning_on">Menyalakan</string>
+    <string name="connectivity_bluetooth_status_turning_off">Mematikan</string>
+    <string name="connectivity_bluetooth_permission_explainer">Without the Nearby devices permission, the app cannot display Bluetooth details.</string>
+
+    <!-- Battery page -->
+    <string name="battery_health_headline">Kesehatan</string>
+    <string name="battery_status_headline">Status</string>
+    <string name="battery_level_headline">Level</string>
+    <string name="battery_source_headline">Source</string>
+    <string name="battery_current_headline">Current</string>
+    <string name="battery_power_headline">Power</string>
+    <string name="battery_voltage_headline">Voltage</string>
+    <string name="battery_temperature_headline">Temperatur</string>
+    <string name="battery_technology_headline">Teknologi</string>
+    <string name="battery_current_display_value"><xliff:g id="current" example="304">%1$d</xliff:g> mA</string>
+    <string name="battery_voltage_display_value"><xliff:g id="voltage" example="4.384">%1$.3f</xliff:g> V</string>
+    <string name="battery_power_display_value"><xliff:g id="power" example="18">%1$.2f</xliff:g> W</string>
+    <string name="battery_power_not_charging">Tidak Mengisi Daya</string>
+    <string name="battery_status_not_charging">Tidak Mengisi Daya</string>
+    <string name="battery_status_charging">Megisi Daya</string>
+    <string name="battery_status_discharging">Melepaskan Daya</string>
+    <string name="battery_status_full">Penuh</string>
+    <string name="battery_health_good">Bagus</string>
+    <string name="battery_health_overheated">Terlalu Panas</string>
+    <string name="battery_health_dead">Mati</string>
+    <string name="battery_health_overvoltage">Kelebihan Tegangan</string>
+    <string name="battery_health_unspecified_failure">Kegagalan Tidak Spesifik</string>
+    <string name="battery_health_cold">Dingin</string>
+    <string name="battery_source_ac">Charger (AC)</string>
+    <string name="battery_source_usb">USB</string>
+    <string name="battery_source_wireless">Wireless</string>
+
+    <!-- Media DRM page -->
+    <string name="media_drm_algorithms_headline">Algorithms</string>
+    <string name="media_drm_device_unique_id_headline">Device Unique ID</string>
+    <string name="media_drm_vendor_headline">Vendor</string>
+    <string name="media_drm_version_headline">Version</string>
+    <string name="media_drm_security_level_headline">Security level</string>
+
+    <!-- Settings Hub page -->
+    <string name="settings_general_entry_headline">General</string>
+    <string name="settings_general_entry_description">Security, clipboard and units</string>
+    <string name="settings_appearance_entry_headline">Appearance</string>
+    <string name="settings_appearance_entry_description">Dark mode and colors</string>
+    <string name="settings_advanced_entry_headline">Advanced</string>
+    <string name="settings_advanced_entry_description">Optional modules, analytics</string>
+    <string name="settings_about_entry_headline">Tentang</string>
+
+    <!-- General Settings -->
+    <string name="settings_general_clipboard_category">Clipboard</string>
+    <string name="settings_general_long_press_to_copy_headline">Tekan lama untuk menyalin</string>
+    <string name="settings_general_long_press_to_copy_description">Salin data item dengan tekan lama</string>
+    <string name="settings_general_copy_values_with_labels_headline">Salin data dengan label</string>
+    <string name="settings_general_copy_values_with_labels_description">Termasuk data label ketika menyalin</string>
+    <string name="settings_general_security_category">Security</string>
+    <string name="settings_general_block_screen_capture_headline">Block screen capture</string>
+    <string name="settings_general_block_screen_capture_description">Prevent the capture of screen content</string>
+    <string name="settings_general_hide_3rd_party_overlays_headline">Hide third-party overlays</string>
+    <string name="settings_general_hide_3rd_party_overlays_description">Hide overlays created by non-system apps</string>
+    <string name="settings_general_units_category">Units</string>
+    <string name="settings_general_temperature_headline">Temperatur</string>
+
+    <!-- Appearance Settings -->
+    <string name="settings_appearance_dark_mode_headline">Dark mode</string>
+    <string name="settings_appearance_dark_mode_off">Off</string>
+    <string name="settings_appearance_dark_mode_on">On</string>
+    <string name="settings_appearance_dark_mode_follow_system">Follow system</string>
+    <string name="settings_appearance_dynamic_colors_headline">Use system colors</string>
+    <string name="settings_appearance_dynamic_colors_description">Use colors provided by the system</string>
+    <string name="settings_appearance_pure_black_headline">Use pure black in dark mode</string>
+    <string name="settings_appearance_pure_black_description">Replace the dark mode background with pure black</string>
+
+    <!-- Advanced Settings -->
+    <string name="settings_advanced_optional_modules_category">Optional modules</string>
+    <string name="settings_advanced_analytics_category">Analytics</string>
+    <string name="settings_advanced_allow_analytics_headline">Allow analytics</string>
+    <string name="settings_advanced_allow_analytics_description">Send anonymous data to help us improve Inware</string>
+    <string name="settings_advanced_reset_analytics_headline">Reset device\'s identity</string>
+    <string name="settings_advanced_reset_analytics_success">Successfully reset</string>
+    <string name="settings_advanced_experimental_category">Eksperimental</string>
+    <string name="settings_advanced_developer_options_category">Developer options</string>
+
+    <!-- About Settings -->
+    <string name="settings_about_privacy_policy_headline">Kebijakan Privasi</string>
+    <string name="settings_about_licenses_headline">Licenses</string>
+    <string name="settings_about_button_channel">Channel</string>
+    <string name="settings_about_button_group">Group</string>
+    <string name="settings_about_button_github">GitHub</string>
+    <string name="settings_about_button_twitter">Twitter</string>
+    <string name="settings_about_button_website">Website</string>
+    <string name="settings_about_button_email">Email</string>
+    <string name="settings_about_thanks_to_category">Terima kasih</string>
+    <string name="settings_about_translate_title">Help translate Inware</string>
+    <string name="settings_about_translate_summary">Join the community project to localize new features.</string>
+    <string name="settings_about_translate_action">Open project</string>
+    <string name="settings_developer_options_warning_title">Enable developer options?</string>
+    <string name="settings_developer_options_warning_message">Developer options contain advanced settings that may affect app stability and performance.\n\nEnable only if you understand the potential risks.</string>
+    <string name="settings_developer_options_warning_proceed">Proceed</string>
+
+    <!--
+    Legacy strings without new equivalents.
+    
+    These strings may still be used in the future. Translations are kept just in case.
+     -->
+    <string name="legacy_deny">Tolak</string>
+    <string name="legacy_new_version_available">Versi baru tersedia</string>
+    <string name="legacy_new_version_dialog_message">Perbarui ke versi terbaru untuk pengalaman yang lebih baik</string>
+    <string name="legacy_update">Perbarui</string>
+    <string name="legacy_later">Nanti Saja</string>
+    <string name="legacy_shake_to_report_category">Goncangkan dengan keras</string>
+    <string name="legacy_shake_to_send_feedback">Goncangkan untuk mengirim kritik &amp; saran</string>
+    <string name="legacy_shake_to_send_feedback_summary">Goncangkan perangkat untuk mengirim kritik &amp; saran secara cepat dari semua layar</string>
+    <string name="legacy_sensitivity">Sensitivitas</string>
+    <string name="legacy_notifications_category_description">Toggle push notifications</string>
+    <string name="legacy_experimental_category_description">Unreleased features, may be unstable</string>
+    <string name="legacy_shake_to_report_category_description">Shake device to send feedback</string>
+    <string name="legacy_identifiers">Identifikasi</string>
+    <string name="legacy_stopped">Berhenti</string>
+    <string name="legacy_augmented_reality">Augmented Reality</string>
+    <string name="legacy_permission_dialog_learn_more">Learn More</string>
+    <string name="legacy_memory_storage_permission_explanation">The storage permission is required to be able to display storage-related details.</string>
+    <string name="legacy_analytics_dialog_title">Allow analytics?</string>
+    <string name="legacy_analytics_dialog_message">With your permission, Inware can collect anonymous usage analytics from this device to help us improve the app.\n\nYou can turn this off or reset your device\'s identity in Settings.</string>
 </resources>

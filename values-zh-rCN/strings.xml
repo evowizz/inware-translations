@@ -1,276 +1,307 @@
-<?xml version="1.0"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="kb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> KB/秒</string>
-    <string name="mb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> MB/秒</string>
-    <string name="gb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> GB/秒</string>
-    <string name="tb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> TB/秒</string>
-    <string name="deny">拒绝</string>
-    <string name="allow">允许</string>
-    <string name="system_tab">系统</string>
-    <string name="device_tab">设备</string>
-    <string name="hardware_tab">硬件</string>
-    <string name="memory_tab">内存</string>
-    <string name="camera_tab">相机</string>
-    <string name="network_tab">网络</string>
-    <string name="connectivity_tab">连接</string>
-    <string name="battery_tab">电池</string>
-    <string name="new_version_available">新版本可用</string>
-    <string name="new_version_dialog_message">升级到最新版本以获得更好的体验</string>
-    <string name="update">升级</string>
-    <string name="later">稍后</string>
-    <string name="settings">设置</string>
-    <string name="settings_category_clipboard">剪贴板</string>
-    <string name="settings_option_long_press_to_copy">长按以复制</string>
-    <string name="settings_option_long_press_to_copy_summary">长按项目以复制其数值</string>
-    <string name="settings_option_copy_values_with_labels">同时复制标签</string>
-    <string name="settings_option_copy_values_with_labels_summary">复制的内容包括数值标签</string>
-    <string name="shake_to_report_category">摇一摇报告问题</string>
-    <string name="shake_to_send_feedback">摇一摇发送反馈</string>
-    <string name="shake_to_send_feedback_summary">在任意界面摇动设备来快速发送反馈</string>
-    <string name="sensitivity">灵敏度</string>
-    <string name="privacy_policy">隐私策略</string>
-    <string name="licenses">许可</string>
-    <string name="notifications_category_description">启用推送通知</string>
-    <string name="experimental_category_description">未发布的功能，可能不稳定</string>
-    <string name="shake_to_report_category_description">摇动设备以发送反馈</string>
-    <string name="basics">基本</string>
-    <string name="unavailable">不可用</string>
-    <string name="good">良好</string>
-    <string name="supported">支持</string>
-    <string name="not_supported">不支持</string>
-    <string name="copied_to_clipboard">已复制到剪贴板</string>
-    <string name="enabled">已启用</string>
-    <string name="disabled">已禁用</string>
-    <string name="features">功能</string>
-    <string name="os">系统</string>
-    <string name="android_version">Android 版本</string>
-    <string name="release_with">出厂版本</string>
-    <string name="security_patch">安全更新</string>
-    <string name="build_number">版本号</string>
-    <string name="build_id">版本 ID</string>
-    <string name="kernel_version">内核版本</string>
-    <string name="baseband_version">基带版本</string>
-    <string name="tags">标签</string>
-    <string name="fingerprint">指纹</string>
-    <string name="bootloader">启动引导程序</string>
-    <string name="up_time">已开机时间</string>
-    <string name="extra">其他</string>
-    <string name="treble">Treble</string>
-    <string name="seamless_updates">无缝更新</string>
-    <string name="root">Root</string>
-    <string name="language">语言</string>
-    <string name="board">主板</string>
-    <string name="hardware">硬件</string>
-    <string name="build_type">构建类型</string>
-    <string name="active_slot">活动分区</string>
-    <string name="root_version">Root 版本</string>
-    <string name="detected">已检测到</string>
-    <string name="not_detected">未检测到</string>
-    <string name="usb_debugging">USB 调试</string>
-    <string name="selinux">SELinux</string>
-    <string name="brand">品牌</string>
-    <string name="manufacturer">制造商</string>
-    <string name="product">产品代号</string>
-    <string name="model">型号</string>
-    <string name="display">显示屏</string>
-    <string name="resolution">分辨率</string>
-    <string name="size">尺寸</string>
-    <string name="aspect_ratio">比例</string>
-    <string name="frame_rate">刷新率</string>
-    <string name="default_orientation">默认方向</string>
-    <string name="current_density">当前：<xliff:g example="420" id="density">%d</xliff:g>dpi (<xliff:g example="xxhdpi" id="density_qualifier">%s</xliff:g>)</string>
-    <string name="default_density">默认：<xliff:g example="560" id="density">%d</xliff:g>dpi (<xliff:g example="xxxhdpi" id="density_qualifier">%s</xliff:g>)</string>
-    <string name="landscape">横向</string>
-    <string name="portrait">纵向</string>
-    <string name="hdr">HDR</string>
-    <string name="fingerprint_authentication">指纹识别</string>
-    <string name="face_authentication">面部识别</string>
-    <string name="vulkan">Vulkan</string>
-    <string name="augmented_reality">增强现实</string>
-    <string name="file_based_encryption">文件级加密</string>
-    <string name="indentifiers">设备标识</string>
-    <string name="android_id">Android ID</string>
-    <string name="gsf_id">GSF ID</string>
-    <string name="serial_number">序列号</string>
-    <string name="imei">IMEI <xliff:g example="1" id="imei_number">%d</xliff:g></string>
-    <string name="cpu_information">CPU 信息</string>
-    <string name="supported_abis">支持的 ABI</string>
-    <string name="cores">核心数</string>
-    <string name="minimum_frequency">最低频率</string>
-    <string name="maximum_frequency">最高频率</string>
-    <string name="governor">调度器</string>
-    <string name="usage">用量</string>
-    <string name="cpu_usage">CPU 用量</string>
-    <string name="gpu_information">GPU 信息</string>
-    <string name="vendor">供应商</string>
-    <string name="renderer">渲染器</string>
-    <string name="current_frequency">当前频率</string>
-    <string name="clusters">集群</string>
-    <string name="cluster_number">集群 #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
-    <string name="core_number">核心 <xliff:g example="3" id="number_of_core">%d</xliff:g></string>
-    <string name="value_frequency"><xliff:g example="857" id="frequency">%d</xliff:g> MHz</string>
-    <string name="stopped">已停止</string>
-    <string name="offline">离线</string>
-    <string name="device_memory">内存（RAM）</string>
-    <string name="total">总计</string>
-    <string name="available">可用</string>
-    <string name="used">已用</string>
-    <string name="used_percentage">用量（百分比）</string>
-    <string name="internal_storage">内部存储</string>
-    <string name="front_camera">前置相机</string>
-    <string name="back_camera">后置相机</string>
-    <string name="external_camera">外部相机</string>
-    <string name="megapixels">像素（百万）</string>
-    <string name="available_apertures">可用光圈</string>
-    <string name="optical_image_stabilization">光学防抖（OIS）</string>
-    <string name="electronic_image_stabilization">电子防抖（EIS）</string>
-    <string name="flashlight">闪光灯</string>
-    <string name="mpx"><xliff:g example="16" id="number_of_megapixel">%d</xliff:g> Mpx</string>
-    <string name="network_type">网络类型</string>
-    <string name="speed">速度</string>
-    <string name="download_speed">下行速度</string>
-    <string name="upload_speed">上行速度</string>
-    <string name="wifi">Wi-Fi</string>
-    <string name="ssid">SSID</string>
-    <string name="hidden_ssid">隐藏的 SSID</string>
-    <string name="frequency">频率</string>
-    <string name="signal_strength">信号强度</string>
-    <string name="link_speed">连接速率</string>
-    <string name="local_ip_ipv4">本地 IP（IPv4）</string>
-    <string name="mac_address">MAC 地址</string>
-    <string name="gateway">网关</string>
-    <string name="subnet_mask">子网掩码</string>
-    <string name="dns">DNS</string>
-    <string name="local_ip_ipv6">本地 IP（IPv6）</string>
-    <string name="dhcp_lease_time">DHCP 租约期限</string>
-    <string name="excellent">极好</string>
-    <string name="fair">中等</string>
-    <string name="weak">较弱</string>
-    <string name="lease_time_more_than_a_week">超过一周：<xliff:g id="seconds">%d</xliff:g> 秒</string>
-    <string name="connected">已连接</string>
-    <string name="disconnected">已断开</string>
-    <string name="bluetooth_enabled">已启用（%s）</string>
-    <string name="turning_on">正在开启</string>
-    <string name="turning_off">正在关闭</string>
-    <string name="turn_on_bluetooth">打开蓝牙</string>
-    <string name="zero_device_connected">无设备连接</string>
-    <string name="bluetooth">蓝牙</string>
-    <string name="name">名称</string>
-    <string name="bluetooth_low_energy">低功耗蓝牙连接</string>
-    <string name="connected_devices">已连接设备</string>
-    <string name="health">健康</string>
-    <string name="status">状态</string>
-    <string name="level">水平</string>
-    <string name="capacity">容量</string>
-    <string name="temperature">温度</string>
-    <string name="technology">电池技术</string>
-    <string name="null_string">Null</string>
-    <string name="unknown">未知</string>
-    <string name="overheated">过热</string>
-    <string name="dead">失效</string>
-    <string name="overvoltage">过压</string>
-    <string name="unspecified_failure">未知故障</string>
-    <string name="cold">低温</string>
-    <string name="charging">正在充电</string>
-    <string name="discharging">正在放电</string>
-    <string name="not_charging">不在充电</string>
-    <string name="full">已充满</string>
-    <string name="charging_speed_format"><xliff:g example="18" id="speed">%s</xliff:g> W</string>
-    <string name="charging_speed_fast">快</string>
-    <string name="charging_speed_slow">慢</string>
-    <string name="battery_current_format"><xliff:g example="304" id="current">%s</xliff:g> mA</string>
-    <string name="battery_voltage_format"><xliff:g example="4.384" id="voltage">%s</xliff:g> V</string>
-    <string name="battery_current">电流</string>
-    <string name="battery_power">电源</string>
-    <string name="battery_voltage">电压</string>
-    <string name="whats_new">新功能</string>
-    <string name="about">关于</string>
-    <string name="thanks_to">鸣谢</string>
-    <string name="no_email_application_found">未找到邮件应用</string>
-    <string name="detect_battery_capacity">检测电池容量</string>
-    <string name="experimental_options_summary">或导致意外行为</string>
-    <string name="detect_all_cameras">检测所有相机</string>
-    <string name="settings_category_experimental">实验性功能</string>
-    <string name="notifications_category">通知</string>
-    <string name="translations_notification">翻译</string>
-    <string name="translations_notification_explanation">有新词条可供翻译时推送通知</string>
-    <string name="display_density">密度</string>
-    <string name="device_unique_id">设备唯一标识</string>
-    <string name="version">版本</string>
-    <string name="security_level">安全等级</string>
-    <string name="media_drm">媒体 DRM</string>
-    <string name="mainline_module_version">Google Play 系统更新</string>
-    <string name="tap_for_more_information">点击查看更多信息</string>
-    <string name="permission_required_title">需要授权</string>
-    <string name="permission_required_content">需要以下权限来查看该信息：</string>
-    <string name="wifi_disconnected">已断开 Wi-Fi</string>
-    <string name="algorithms">算法</string>
-    <string name="units">单位</string>
-    <string name="minimum_target_sdk">最低目标 SDK</string>
-    <string name="battery_source">电源</string>
-    <string name="battery_charger_ac">充电器（AC）</string>
-    <string name="battery_charger_usb">USB</string>
-    <string name="battery_charger_wireless">无线</string>
-    <string name="settings_category_appearance">外观</string>
-    <string name="settings_option_dark_mode">暗色模式</string>
-    <string name="settings_option_dark_theme">深色主题</string>
-    <string name="dark_mode_off">关闭</string>
-    <string name="dark_mode_on">开启</string>
-    <string name="dark_mode_follow_system">跟随系统</string>
-    <string name="dark_theme_original">默认</string>
-    <string name="dark_theme_slate">石灰</string>
-    <string name="dark_theme_grey">灰色</string>
-    <string name="dark_theme_black">黑色</string>
-    <string name="settings_module_manager_category_title">模块</string>
-    <string name="settings_module_manager_category_description">管理可下载模块</string>
-    <string name="module_manager_installed_category">已安装</string>
-    <string name="module_manager_available_category">可用模块</string>
-    <string name="module_manager_no_modules_installed">未安装模块</string>
-    <string name="module_manager_no_modules_available">无可用模块</string>
-    <string name="module_installer_initializing">正在初始化</string>
-    <string name="module_installer_downloading">下载中</string>
-    <string name="module_installer_installing">安装中</string>
-    <string name="module_installer_pending">正在等待</string>
-    <string name="mdule_installer_cancel_result">已取消</string>
-    <string name="module_installer_success_result">安装成功</string>
-    <string name="module_installer_unknown_error">啊噢…遇到了一个问题！</string>
-    <string name="experimental_module_tag">实验性</string>
-    <string name="demo_module_tag">演示版</string>
-    <string name="beta_module_tag">测试版</string>
-    <string name="preview_module_tag">预览版</string>
-    <string name="display_number">显示屏 <xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
-    <string name="no_browser_warning">找不到浏览器</string>
-    <string name="settings_option_dynamic_colors">使用系统配色</string>
-    <string name="settings_option_dynamic_colors_summary">使用由系统提供的配色方案</string>
-    <string name="settings_category_general">常规</string>
-    <string name="settings_category_general_description">安全、剪贴板和单位设置</string>
-    <string name="settings_category_appearance_description">暗色模式与配色</string>
-    <string name="settings_option_block_screen_capture">阻止屏幕截图</string>
-    <string name="settings_option_block_screen_capture_description">阻止截取屏幕内容</string>
-    <string name="settings_option_hide_3rd_party_overlays">隐藏第三方叠加层</string>
-    <string name="settings_option_hide_3rd_party_overlays_description">隐藏非系统应用创建的叠加层</string>
-    <string name="settings_category_security">安全</string>
-    <string name="performance_class">性能等级 <xliff:g example="12" id="class_rating">%s</xliff:g></string>
-    <string name="no_performance_class">无性能评级</string>
-    <string name="performance_class_title">性能等级</string>
-    <string name="network_type_none">无</string>
-    <string name="settings_category_advanced">高级</string>
-    <string name="settings_category_advanced_description">可选模块</string>
-    <string name="settings_category_optional_modules">可选模块</string>
-    <string name="permission_dialog_learn_more">了解更多</string>
-    <string name="network_location_permission_explanation">需要准确定位权限才能显示 Wi-Fi SSID。</string>
-    <string name="connectivity_bluetooth_permission_explanation">需要 \"附近的设备\" 权限才能显示某些蓝牙信息。</string>
-    <string name="memory_storage_permission_explanation">需要存储权限才能显示存储空间的相关信息。</string>
-    <string name="camera_accuracy_message">注意：部分设备可能会报告不准确的相机参数。[了解更多](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
-    <string name="analytics_dialog_title">允许我们分析您的设备吗？</string>
-    <string name="analytics_dialog_message">若您允许，Inware 将从该设备收集匿名使用分析，以帮助我们改进应用程序。\n\n您可以在设置中关闭或重置您的设备身份。</string>
-    <string name="settings_category_analytics">分析</string>
-    <string name="settings_option_allow_analytics">允许分析</string>
-    <string name="settings_option_allow_analytics_description">发送匿名数据以帮助我们改进 Inware</string>
-    <string name="settings_button_reset_analytics">重置设备跟踪信息</string>
-    <string name="settings_analytics_successfully_reset">重置成功</string>
-    <string name="an_error_occurred">发生了一个错误</string>
-    <string name="settings_category_developer_options">开发者选项</string>
-    <string name="go_home">回到主页</string>
-    <string name="page_not_found_error">不好，此页面不存在！</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <!-- Generic strings -->
+    <string name="generic_unknown">未知</string>
+    <string name="generic_enabled">已启用</string>
+    <string name="generic_disabled">已禁用</string>
+    <string name="generic_supported">支持</string>
+    <string name="generic_not_supported">不支持</string>
+    <string name="generic_detected">已检测到</string>
+    <string name="generic_not_detected">未检测到</string>
+    <string name="generic_allow">允许</string>
+    <string name="generic_copied_to_clipboard">已复制到剪贴板</string>
+    <string name="generic_kb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> KB/秒</string>
+    <string name="generic_mb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> MB/秒</string>
+    <string name="generic_gb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> GB/秒</string>
+    <string name="generic_tb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> TB/秒</string>
+
+    <!-- Permissions -->
+    <string name="permission_required_heading">需要授权</string>
+    <string name="permission_open_settings_label">Enable in settings</string>
+
+    <!-- Drawer items & page titles -->
+    <string name="dashboard_page">Dashboard</string>
+    <string name="dashboard_tiles_empty">No dashboard tiles available yet.</string>
+    <string name="dashboard_empty_hint">Add your first tile to customize your dashboard</string>
+    <string name="explore_page">Explore</string>
+    <string name="system_page">系统</string>
+    <string name="device_page">设备</string>
+    <string name="hardware_page">硬件</string>
+    <string name="memory_page">内存</string>
+    <string name="camera_page">相机</string>
+    <string name="network_page">网络</string>
+    <string name="connectivity_page">连接</string>
+    <string name="battery_page">电池</string>
+    <string name="media_drm_page">媒体 DRM</string>
+    <string name="settings_page">设置</string>
+
+    <!-- System page -->
+    <string name="system_os_category">系统</string>
+    <string name="system_android_version_headline">Android 版本</string>
+    <string name="system_released_with_headline">出厂版本</string>
+    <string name="system_min_target_sdk_headline">最低目标 SDK</string>
+    <string name="system_performance_class_headline">性能等级</string>
+    <string name="system_performance_class_supported">性能等级 <xliff:g example="12" id="class_rating">%s</xliff:g></string>
+    <string name="system_performance_class_none">无性能评级</string>
+    <string name="system_mainline_version_headline">Google Play 系统更新</string>
+    <string name="system_language_headline">语言</string>
+    <string name="system_security_patch_headline">安全更新</string>
+    <string name="system_build_number_headline">版本号</string>
+    <string name="system_board_headline">主板</string>
+    <string name="system_hardware_headline">硬件</string>
+    <string name="system_kernel_version_headline">内核版本</string>
+    <string name="system_baseband_version_headline">基带版本</string>
+    <string name="system_build_tags_headline">标签</string>
+    <string name="system_build_fingerprint_headline">指纹</string>
+    <string name="system_build_type_headline">构建类型</string>
+    <string name="system_bootloader_version_headline">启动引导程序</string>
+    <string name="system_up_time_headline">已开机时间</string>
+    <string name="system_usb_debugging_headline">USB 调试</string>
+    <string name="system_selinux_headline">SELinux</string>
+    <string name="system_selinux_enforcing">Enforcing</string>
+    <string name="system_selinux_permissive">Permissive</string>
+    <string name="system_extra_category">其他</string>
+    <string name="system_treble_headline">Treble</string>
+    <string name="system_seamless_updates_headline">无缝更新</string>
+    <string name="system_active_slot_headline">活动分区</string>
+    <string name="system_root_headline">Root</string>
+    <string name="system_root_version_headline">Root 版本</string>
+
+    <!-- Device page -->
+    <string name="device_brand_headline">品牌</string>
+    <string name="device_manufacturer_headline">制造商</string>
+    <string name="device_model_headline">型号</string>
+    <string name="device_model_tile_title">Device model</string>
+    <string name="device_product_name_headline">产品代号</string>
+    <string name="device_sku_headline">SKU</string>
+    <string name="device_display_id_category">显示屏 <xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
+    <string name="device_display_name_headline">Name</string>
+    <string name="device_display_resolution_headline">分辨率</string>
+    <string name="device_display_size_headline">尺寸</string>
+    <string name="device_display_aspect_ratio_headline">比例</string>
+    <string name="device_display_refresh_rate_headline">刷新率</string>
+    <string name="device_display_pixel_density_headline">密度</string>
+    <string name="device_display_current_density_headline">Current density</string>
+    <string name="device_display_default_density_headline">Default density</string>
+    <string name="device_display_default_orientation_headline">默认方向</string>
+    <string name="device_display_default_orientation_portrait">纵向</string>
+    <string name="device_display_default_orientation_landscape">横向</string>
+    <string name="device_display_supports_hdr_headline">HDR</string>
+    <string name="device_features_category">功能</string>
+    <string name="device_fingerprint_authentication_headline">指纹识别</string>
+    <string name="device_face_authentication_headline">面部识别</string>
+    <string name="device_vulkan_headline">Vulkan</string>
+    <string name="device_file_based_encryption_headline">文件级加密</string>
+
+    <!-- Hardware page -->
+    <string name="hardware_cpu_category">CPU</string>
+    <string name="hardware_cpu_hardware_headline">硬件</string>
+    <string name="hardware_supported_abis_headline">支持的 ABI</string>
+    <string name="hardware_cores_headline">核心数</string>
+    <string name="hardware_clusters_headline">集群</string>
+    <string name="hardware_cpu_usage_headline">用量</string>
+    <string name="hardware_cluster_category">集群 #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
+    <string name="hardware_cluster_minimum_frequency_headline">最低频率</string>
+    <string name="hardware_cluster_maximum_frequency_headline">最高频率</string>
+    <string name="hardware_cluster_governor_headline">调度器</string>
+    <string name="hardware_cpu_usage_category">CPU 用量</string>
+    <string name="hardware_core_headline">核心 <xliff:g example="3" id="number_of_core">%d</xliff:g></string>
+    <string name="hardware_core_offline">离线</string>
+    <string name="hardware_core_frequency"><xliff:g example="857" id="frequency">%d</xliff:g> MHz</string>
+    <string name="hardware_gpu_category">GPU</string>
+    <string name="hardware_gpu_vendor_headline">供应商</string>
+    <string name="hardware_gpu_renderer_headline">渲染器</string>
+    <string name="hardware_gpu_current_frequency_headline">当前频率</string>
+    <string name="hardware_gpu_minimum_frequency_headline">最低频率</string>
+    <string name="hardware_gpu_maximum_frequency_headline">最高频率</string>
+    <string name="hardware_gpu_governor_headline">调度器</string>
+    <string name="hardware_gpu_usage_headline">用量</string>
+
+    <!-- Memory page -->
+    <string name="memory_ram_category">内存（RAM）</string>
+    <string name="memory_ram_hardware_headline">硬件</string>
+    <string name="memory_ram_total_headline">总计</string>
+    <string name="memory_ram_available_headline">可用</string>
+    <string name="memory_ram_used_headline">已用</string>
+    <string name="memory_ram_usage_headline">用量</string>
+    <string name="memory_ram_tile_title">Memory Usage</string>
+    <string name="memory_storage_category">内部存储</string>
+    <string name="memory_storage_hardware_headline">硬件</string>
+    <string name="memory_storage_total_headline">总计</string>
+    <string name="memory_storage_available_headline">可用</string>
+    <string name="memory_storage_used_headline">已用</string>
+    <string name="memory_storage_usage_headline">用量</string>
+    <string name="memory_storage_tile_title">Internal Storage</string>
+
+    <!-- Camera page -->
+    <string name="camera_accuracy_note">注意：部分设备可能会报告不准确的相机参数。[了解更多](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
+    <string name="camera_lens_front">前置相机</string>
+    <string name="camera_lens_back">后置相机</string>
+    <string name="camera_lens_external">外部相机</string>
+    <string name="camera_megapixels_headline">像素（百万）</string>
+    <string name="camera_megapixels_value"><xliff:g example="16" id="number_of_megapixel">%d</xliff:g> Mpx</string>
+    <string name="camera_available_apertures_headline">可用光圈</string>
+    <string name="camera_ois_headline">光学防抖（OIS）</string>
+    <string name="camera_eis_headline">电子防抖（EIS）</string>
+    <string name="camera_flash_headline">闪光灯</string>
+
+    <!-- Network page -->
+    <string name="network_wifi_category">Wi-Fi</string>
+    <string name="network_type_headline">网络类型</string>
+    <string name="network_type_cellular">Cellular</string>
+    <string name="network_download_speed_headline">下行速度</string>
+    <string name="network_upload_speed_headline">上行速度</string>
+    <string name="network_ssid_headline">SSID</string>
+    <string name="network_ssid_hidden_value">Hidden</string>
+    <string name="network_frequency_headline">频率</string>
+    <string name="network_signal_strength_headline">信号强度</string>
+    <string name="network_link_speed_headline">连接速率</string>
+    <string name="network_local_ip_ipv4_headline">本地 IP（IPv4）</string>
+    <string name="network_local_ip_ipv6_headline">本地 IP（IPv6）</string>
+    <string name="network_mac_address_headline">MAC 地址</string>
+    <string name="network_gateway_headline">网关</string>
+    <string name="network_subnet_mask_headline">子网掩码</string>
+    <string name="network_dns_headline">DNS</string>
+    <string name="network_dhcp_lease_time_headline">DHCP 租约期限</string>
+    <string name="network_lease_time_more_than_a_week">超过一周：<xliff:g id="seconds">%d</xliff:g> 秒</string>
+    <string name="network_location_permission_explainer">需要准确定位权限才能显示 Wi-Fi SSID。</string>
+    <string name="network_signal_weak">较弱</string>
+    <string name="network_signal_fair">中等</string>
+    <string name="network_signal_good">良好</string>
+    <string name="network_signal_excellent">极好</string>
+
+    <!-- Connectivity page -->
+    <string name="connectivity_bluetooth_category">蓝牙</string>
+    <string name="connectivity_bluetooth_name_headline">名称</string>
+    <string name="connectivity_bluetooth_status_headline">Status</string>
+    <string name="connectivity_bluetooth_low_energy_headline">低功耗蓝牙连接</string>
+    <string name="connectivity_bluetooth_connected_devices_headline">已连接设备</string>
+    <string name="connectivity_bluetooth_mac_address_headline">MAC 地址</string>
+    <string name="connectivity_bluetooth_turn_on_bluetooth">打开蓝牙</string>
+    <string name="connectivity_bluetooth_zero_device_connected">无设备连接</string>
+    <string name="connectivity_bluetooth_status_enabled">已启用</string>
+    <string name="connectivity_bluetooth_status_disabled">已禁用</string>
+    <string name="connectivity_bluetooth_status_turning_on">正在开启</string>
+    <string name="connectivity_bluetooth_status_turning_off">正在关闭</string>
+    <string name="connectivity_bluetooth_permission_explainer">需要 \"附近的设备\" 权限才能显示某些蓝牙信息。</string>
+
+    <!-- Battery page -->
+    <string name="battery_health_headline">健康</string>
+    <string name="battery_status_headline">状态</string>
+    <string name="battery_level_headline">水平</string>
+    <string name="battery_source_headline">电源</string>
+    <string name="battery_current_headline">电流</string>
+    <string name="battery_power_headline">电源</string>
+    <string name="battery_voltage_headline">电压</string>
+    <string name="battery_temperature_headline">温度</string>
+    <string name="battery_technology_headline">电池技术</string>
+    <string name="battery_current_display_value"><xliff:g id="current" example="304">%1$d</xliff:g> mA</string>
+    <string name="battery_voltage_display_value"><xliff:g id="voltage" example="4.384">%1$.3f</xliff:g> V</string>
+    <string name="battery_power_display_value"><xliff:g id="power" example="18">%1$.2f</xliff:g> W</string>
+    <string name="battery_power_not_charging">不在充电</string>
+    <string name="battery_status_not_charging">不在充电</string>
+    <string name="battery_status_charging">正在充电</string>
+    <string name="battery_status_discharging">正在放电</string>
+    <string name="battery_status_full">已充满</string>
+    <string name="battery_health_good">良好</string>
+    <string name="battery_health_overheated">过热</string>
+    <string name="battery_health_dead">失效</string>
+    <string name="battery_health_overvoltage">过压</string>
+    <string name="battery_health_unspecified_failure">未知故障</string>
+    <string name="battery_health_cold">低温</string>
+    <string name="battery_source_ac">充电器（AC）</string>
+    <string name="battery_source_usb">USB</string>
+    <string name="battery_source_wireless">无线</string>
+
+    <!-- Media DRM page -->
+    <string name="media_drm_algorithms_headline">算法</string>
+    <string name="media_drm_device_unique_id_headline">设备唯一标识</string>
+    <string name="media_drm_vendor_headline">供应商</string>
+    <string name="media_drm_version_headline">版本</string>
+    <string name="media_drm_security_level_headline">安全等级</string>
+
+    <!-- Settings Hub page -->
+    <string name="settings_general_entry_headline">常规</string>
+    <string name="settings_general_entry_description">安全、剪贴板和单位设置</string>
+    <string name="settings_appearance_entry_headline">外观</string>
+    <string name="settings_appearance_entry_description">暗色模式与配色</string>
+    <string name="settings_advanced_entry_headline">高级</string>
+    <string name="settings_advanced_entry_description">可选模块</string>
+    <string name="settings_about_entry_headline">关于</string>
+
+    <!-- General Settings -->
+    <string name="settings_general_clipboard_category">剪贴板</string>
+    <string name="settings_general_long_press_to_copy_headline">长按以复制</string>
+    <string name="settings_general_long_press_to_copy_description">长按项目以复制其数值</string>
+    <string name="settings_general_copy_values_with_labels_headline">同时复制标签</string>
+    <string name="settings_general_copy_values_with_labels_description">复制的内容包括数值标签</string>
+    <string name="settings_general_security_category">安全</string>
+    <string name="settings_general_block_screen_capture_headline">阻止屏幕截图</string>
+    <string name="settings_general_block_screen_capture_description">阻止截取屏幕内容</string>
+    <string name="settings_general_hide_3rd_party_overlays_headline">隐藏第三方叠加层</string>
+    <string name="settings_general_hide_3rd_party_overlays_description">隐藏非系统应用创建的叠加层</string>
+    <string name="settings_general_units_category">单位</string>
+    <string name="settings_general_temperature_headline">温度</string>
+
+    <!-- Appearance Settings -->
+    <string name="settings_appearance_dark_mode_headline">暗色模式</string>
+    <string name="settings_appearance_dark_mode_off">关闭</string>
+    <string name="settings_appearance_dark_mode_on">开启</string>
+    <string name="settings_appearance_dark_mode_follow_system">跟随系统</string>
+    <string name="settings_appearance_dynamic_colors_headline">使用系统配色</string>
+    <string name="settings_appearance_dynamic_colors_description">使用由系统提供的配色方案</string>
+    <string name="settings_appearance_pure_black_headline">Use pure black in dark mode</string>
+    <string name="settings_appearance_pure_black_description">Replace the dark mode background with pure black</string>
+
+    <!-- Advanced Settings -->
+    <string name="settings_advanced_optional_modules_category">可选模块</string>
+    <string name="settings_advanced_analytics_category">分析</string>
+    <string name="settings_advanced_allow_analytics_headline">允许分析</string>
+    <string name="settings_advanced_allow_analytics_description">发送匿名数据以帮助我们改进 Inware</string>
+    <string name="settings_advanced_reset_analytics_headline">重置设备跟踪信息</string>
+    <string name="settings_advanced_reset_analytics_success">重置成功</string>
+    <string name="settings_advanced_experimental_category">实验性功能</string>
+    <string name="settings_advanced_developer_options_category">开发者选项</string>
+
+    <!-- About Settings -->
+    <string name="settings_about_privacy_policy_headline">隐私策略</string>
+    <string name="settings_about_licenses_headline">许可</string>
+    <string name="settings_about_button_channel">Channel</string>
+    <string name="settings_about_button_group">Group</string>
+    <string name="settings_about_button_github">GitHub</string>
+    <string name="settings_about_button_twitter">Twitter</string>
+    <string name="settings_about_button_website">Website</string>
+    <string name="settings_about_button_email">Email</string>
+    <string name="settings_about_thanks_to_category">鸣谢</string>
+    <string name="settings_about_translate_title">Help translate Inware</string>
+    <string name="settings_about_translate_summary">Join the community project to localize new features.</string>
+    <string name="settings_about_translate_action">Open project</string>
+    <string name="settings_developer_options_warning_title">Enable developer options?</string>
+    <string name="settings_developer_options_warning_message">Developer options contain advanced settings that may affect app stability and performance.\n\nEnable only if you understand the potential risks.</string>
+    <string name="settings_developer_options_warning_proceed">Proceed</string>
+
+    <!--
+    Legacy strings without new equivalents.
+    
+    These strings may still be used in the future. Translations are kept just in case.
+     -->
+    <string name="legacy_deny">拒绝</string>
+    <string name="legacy_new_version_available">新版本可用</string>
+    <string name="legacy_new_version_dialog_message">升级到最新版本以获得更好的体验</string>
+    <string name="legacy_update">升级</string>
+    <string name="legacy_later">稍后</string>
+    <string name="legacy_shake_to_report_category">摇一摇报告问题</string>
+    <string name="legacy_shake_to_send_feedback">摇一摇发送反馈</string>
+    <string name="legacy_shake_to_send_feedback_summary">在任意界面摇动设备来快速发送反馈</string>
+    <string name="legacy_sensitivity">灵敏度</string>
+    <string name="legacy_notifications_category_description">启用推送通知</string>
+    <string name="legacy_experimental_category_description">未发布的功能，可能不稳定</string>
+    <string name="legacy_shake_to_report_category_description">摇动设备以发送反馈</string>
+    <string name="legacy_identifiers">设备标识</string>
+    <string name="legacy_stopped">已停止</string>
+    <string name="legacy_augmented_reality">增强现实</string>
+    <string name="legacy_permission_dialog_learn_more">了解更多</string>
+    <string name="legacy_memory_storage_permission_explanation">需要存储权限才能显示存储空间的相关信息。</string>
+    <string name="legacy_analytics_dialog_title">允许我们分析您的设备吗？</string>
+    <string name="legacy_analytics_dialog_message">若您允许，Inware 将从该设备收集匿名使用分析，以帮助我们改进应用程序。\n\n您可以在设置中关闭或重置您的设备身份。</string>
 </resources>

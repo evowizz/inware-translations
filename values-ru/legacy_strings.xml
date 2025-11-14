@@ -1,0 +1,188 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Suffix added to a number to signify size in bytes. -->
+    <!-- Suffix added to a number to signify size in kilobytes. -->
+    <!-- Suffix added to a number to signify size in megabytes. -->
+    <!-- Suffix added to a number to signify size in gigabytes. -->
+    <!-- Suffix added to a number to signify size in terabytes. -->
+    <!-- Suffix added to a number to signify size in petabytes. -->
+
+    <string name="kb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> КБ/с</string>
+    <string name="mb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> МБ/с</string>
+    <string name="gb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> ГБ/с</string>
+    <string name="tb_on_sec"><xliff:g example="36" id="speed">%s</xliff:g> ТБ/с</string>
+
+    <string name="deny">Отклонить</string>
+    <string name="allow">Разрешить</string>
+    <string name="system_tab">Система</string>
+    <string name="device_tab">Устройство</string>
+    <string name="hardware_tab">Оборудование</string>
+    <string name="memory_tab">Память</string>
+    <string name="camera_tab">Камера</string>
+    <string name="network_tab">Сеть</string>
+    <string name="connectivity_tab">Подключение</string>
+    <string name="battery_tab">Батарея</string>
+    <string name="new_version_available">Доступна новая версия</string>
+    <string name="new_version_dialog_message">Обновите до последней версии для лучшего опыта использования</string> 
+    <string name="update">Обновить</string>
+    <string name="later">Позже</string>
+    <string name="settings">Параметры</string>
+    <string name="settings_category_clipboard">Буфер обмена</string>
+    <string name="settings_option_long_press_to_copy">Долгое нажатие для копирование</string>
+    <string name="settings_option_long_press_to_copy_summary">Копирование данных долгим нажатием</string>
+    <string name="settings_option_copy_values_with_labels">Копировать данные с заголовком</string>
+    <string name="settings_option_copy_values_with_labels_summary">Включает в себя так же заголовок строки</string>
+    <string name="shake_to_report_category">Rage Shake</string>
+    <string name="shake_to_send_feedback">Потрясите для отправки отзыва</string>
+    <string name="shake_to_send_feedback_summary">Потрясите ваше устройство для быстрой отправки отзыва с любого экрана</string>
+    <string name="sensitivity">Чувствительность</string>
+    <string name="basics">Основы</string>
+    <string name="unavailable">Недоступно</string>
+    <string name="good">Хорошо</string>
+    <string name="supported">Поддерживается</string>
+    <string name="not_supported">Не поддерживается</string>
+    <string name="copied_to_clipboard">Скопировано в буфер обмена</string>
+    <string name="enabled">Включено</string>
+    <string name="disabled">Выключено</string>
+    <string name="features">Фукнции</string>
+    <string name="os">OS</string>
+    <string name="android_version">Версия Android</string>
+    <string name="release_with">Выпущено с</string>
+    <string name="security_patch">Патч безопасности</string>
+    <string name="build_number">Номер сборки</string>
+    <string name="build_id">ID сборки</string>
+    <string name="kernel_version">Версия ядра</string>
+    <string name="baseband_version">Версия модема</string>
+    <string name="tags">Tags</string>
+    <string name="fingerprint">Сканер отпечатка</string>
+    <string name="bootloader">Загрузчик</string>
+    <string name="up_time">Время работы</string>
+    <string name="extra">Дополнительно</string>
+    <string name="treble">Treble</string>
+    <string name="seamless_updates">Seamless Updates</string>
+    <string name="root">Root</string>
+    <string name="language">Язык</string>
+    <string name="board">Board</string>
+    <string name="hardware">Процессор</string>
+    <string name="build_type">Тип сборки</string>
+    <string name="active_slot">Активный слот</string>
+    <string name="root_version">Версия Root</string>
+    <string name="detected">Обнаружено</string>
+    <string name="not_detected">Не обнаружено</string>
+    <string name="usb_debugging">Отладка USB</string>
+    <string name="selinux">SELinux</string>
+    <string name="brand">Марка</string>
+    <string name="manufacturer">Производитель</string>
+    <string name="product">Устройство</string>
+    <string name="model">Модель</string>
+    <string name="display">Экран</string>
+    <string name="resolution">Разрешение</string>
+    <string name="size">Размер</string>
+    <string name="aspect_ratio">Соотношения сторон</string>
+    <string name="frame_rate">Частота кадров</string>
+    <string name="default_orientation">Стандартная ориентация</string>
+    <string name="landscape">Горизонтальная</string>
+    <string name="portrait">Вертикальная</string>
+    <string name="hdr">HDR</string>
+    <string name="fingerprint_authentication">Аутенфикация по отпечатку</string>
+    <string name="face_authentication">Аутенфикация по лицу</string>
+    <string name="vulkan">Vulkan</string>
+    <string name="augmented_reality">Дополненная реальность</string>
+    <string name="file_based_encryption">Шифрование файлов</string>
+    <string name="indentifiers">Идентификаторы</string>
+    <string name="android_id">Android ID</string>
+    <string name="gsf_id">GSF ID</string>
+    <string name="serial_number">Серийный номер</string>
+    <string name="imei">IMEI <xliff:g example="1" id="imei_number">%d</xliff:g></string>
+    <string name="cpu_information">Информация о CPY</string>
+    <string name="supported_abis">Поддерживаемые ABIS</string>
+    <string name="cores">Ядра</string>
+    <string name="minimum_frequency">Минимальная частота</string>
+    <string name="maximum_frequency">Максимальная частота</string>
+    <string name="governor">Регулирование</string>
+    <string name="usage">Использование</string>
+    <string name="cpu_usage">Использование CPU</string>
+    <string name="gpu_information">Информация о GPU</string>
+    <string name="vendor">Производитель</string>
+    <string name="renderer">Процессор</string>
+    <string name="current_frequency">Текущая частота</string>
+    <string name="clusters">Кластеры</string>
+    <string name="cluster_number">Кластер #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
+    <string name="core_number">Ядро <xliff:g example="3" id="number_of_core">%d</xliff:g></string>
+    <string name="value_frequency"><xliff:g example="857" id="frequency">%d</xliff:g> MHz</string>
+    <string name="stopped">Остановлено</string>
+    <string name="offline">Отключено</string>
+    <string name="device_memory">Оперативная память (RAM)</string>
+    <string name="total">Всего</string>
+    <string name="available">Доступно</string>
+    <string name="used">Использование</string>
+    <string name="used_percentage">Использование (в процентах)</string>
+    <string name="internal_storage">Внутренняя память</string>
+    <string name="front_camera">Фронтальная камера</string>
+    <string name="back_camera">Задняя камера</string>
+    <string name="external_camera">Дополнительная камера</string>
+    <string name="megapixels">Мегапиксели</string>
+    <string name="available_apertures">Доступные диафрагмы</string>
+    <string name="optical_image_stabilization">Оптическая стабилизация изображения (OIS)</string>
+    <string name="electronic_image_stabilization">Электронная стабилизация изображения (EIS)</string>
+    <string name="flashlight">Фонарик</string>
+    <string name="mpx"><xliff:g example="16" id="number_of_megapixel">%d</xliff:g> Мпикс</string>
+    <string name="network_type">Тип сети</string>
+    <string name="speed">Скорость</string>
+    <string name="download_speed">Скорость загрузки</string>
+    <string name="upload_speed">Скорость передачи</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="ssid">SSID</string>
+    <string name="hidden_ssid">Скрытый SSID</string>
+    <string name="frequency">Частота</string>
+    <string name="signal_strength">Сила сигнала</string>
+    <string name="link_speed">Скорость сети</string>
+    <string name="local_ip_ipv4">Локальный IP (IPv4)</string>
+    <string name="mac_address">MAC Адрес</string>
+    <string name="gateway">Сетевой шлюз</string>
+    <string name="subnet_mask">Маска подсети</string>
+    <string name="dns">DNS</string>
+    <string name="local_ip_ipv6">Локальный IP (IPv6)</string>
+    <string name="dhcp_lease_time">Срок действия DHCP</string>
+    <string name="excellent">Отличный</string>
+    <string name="fair">Fair</string>
+    <string name="weak">Слабый</string>
+    <string name="lease_time_more_than_a_week">Больше недели: <xliff:g id="seconds">%d</xliff:g> секунд</string>
+    <string name="connected">Подключено</string>
+    <string name="disconnected">Отключено</string>
+    <string name="bluetooth_enabled">Включён (%s)</string>
+    <string name="turning_on">Включение</string>
+    <string name="turning_off">Выключение</string>
+    <string name="turn_on_bluetooth">Включите Bluetooth</string>
+    <string name="zero_device_connected">Устройств подключено: 0</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="name">Имя</string>
+    <string name="bluetooth_low_energy">Bluetooth Low Energy</string>
+    <string name="connected_devices">Подключённые устройства</string>
+    <string name="health">Здоровье</string>
+    <string name="status">Статус</string>
+    <string name="level">Уровень заряда</string>
+    <string name="capacity">Ёмкость</string>
+    <string name="temperature">Температура</string>
+    <string name="technology">Технология</string>
+    <string name="null_string">Null</string>
+    <string name="unknown">Неизвестно</string>
+    <string name="overheated">Перегрев</string>
+    <string name="dead">Dead</string>
+    <string name="overvoltage">Перенапряжение</string>
+    <string name="unspecified_failure">Неопределённая ошибка</string>
+    <string name="cold">Низкая температура</string>
+    <string name="charging">Заряжается</string>
+    <string name="discharging">Разряжается</string>
+    <string name="not_charging">Не заряжается</string>
+    <string name="full">Полный</string>
+    <string name="whats_new">Что нового?</string>
+    <string name="about">About</string>
+    <string name="thanks_to">Особая благодарность</string>
+    <string name="privacy_policy">Политика конфиденциальности</string>
+    <string name="no_email_application_found">Приложение для почты не найдено</string>
+    <string name="detect_battery_capacity">Обнаруживать ёмкость батареи</string>
+    <string name="experimental_options_summary">Это может привести к неожиданным последствиям</string>
+    <string name="detect_all_cameras">Обнаруживать все камеры</string>
+    <string name="settings_category_experimental">Экспериментальные</string>
+
+</resources>
