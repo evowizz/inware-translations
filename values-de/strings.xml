@@ -31,7 +31,7 @@
     <string name="camera_page">Kamera</string>
     <string name="network_page">Netzwerk</string>
     <string name="connectivity_page">Verbindungen</string>
-    <string name="battery_page">Batterie</string>
+    <string name="battery_page">Akku</string>
     <string name="media_drm_page">Media DRM</string>
     <string name="settings_page">Einstellungen</string>
 
