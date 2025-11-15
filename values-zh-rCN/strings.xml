@@ -74,7 +74,7 @@
     <string name="device_model_tile_title">Device model</string>
     <string name="device_product_name_headline">产品代号</string>
     <string name="device_sku_headline">SKU</string>
-    <string name="device_display_id_category">显示屏 <xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
+    <string name="device_display_id_category">显示屏 <xliff:g example="1" id="id">%d</xliff:g></string>
     <string name="device_display_name_headline">名称</string>
     <string name="device_display_resolution_headline">分辨率</string>
     <string name="device_display_size_headline">尺寸</string>

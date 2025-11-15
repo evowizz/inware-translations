@@ -74,7 +74,7 @@
     <string name="device_model_tile_title">Device model</string>
     <string name="device_product_name_headline">محصول</string>
     <string name="device_sku_headline">SKU</string>
-    <string name="device_display_id_category">نمایشگر #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
+    <string name="device_display_id_category">نمایشگر #<xliff:g example="1" id="id">%d</xliff:g></string>
     <string name="device_display_name_headline">نام</string>
     <string name="device_display_resolution_headline">وضوح</string>
     <string name="device_display_size_headline">اندازه</string>

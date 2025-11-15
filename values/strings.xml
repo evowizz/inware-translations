@@ -74,7 +74,7 @@
     <string name="device_model_tile_title">Device model</string>
     <string name="device_product_name_headline">Product</string>
     <string name="device_sku_headline">SKU</string>
-    <string name="device_display_id_category">Display #<xliff:g example="1" id="id">%s</xliff:g></string>
+    <string name="device_display_id_category">Display #<xliff:g example="1" id="id">%d</xliff:g></string>
     <string name="device_display_name_headline">Name</string>
     <string name="device_display_resolution_headline">Resolution</string>
     <string name="device_display_size_headline">Size</string>
@@ -100,12 +100,12 @@
     <string name="hardware_cores_headline">Cores</string>
     <string name="hardware_clusters_headline">Clusters</string>
     <string name="hardware_cpu_usage_headline">Usage</string>
-    <string name="hardware_cluster_category">Cluster #<xliff:g example="1" id="cluster_number">%s</xliff:g></string>
+    <string name="hardware_cluster_category">Cluster #<xliff:g example="1" id="cluster_number">%d</xliff:g></string>
     <string name="hardware_cluster_minimum_frequency_headline">Minimum frequency</string>
     <string name="hardware_cluster_maximum_frequency_headline">Maximum frequency</string>
     <string name="hardware_cluster_governor_headline">Governor</string>
     <string name="hardware_cpu_usage_category">CPU usage</string>
-    <string name="hardware_core_headline">Core <xliff:g example="1" id="core_number">%s</xliff:g></string>
+    <string name="hardware_core_headline">Core <xliff:g example="1" id="core_number">%d</xliff:g></string>
     <string name="hardware_core_offline">Offline</string>
     <string name="hardware_core_frequency"><xliff:g example="1800" id="frequency">%d</xliff:g> MHz</string>
     <string name="hardware_gpu_category">GPU</string>

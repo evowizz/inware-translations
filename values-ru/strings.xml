@@ -74,7 +74,7 @@
     <string name="device_model_tile_title">Device model</string>
     <string name="device_product_name_headline">Устройство</string>
     <string name="device_sku_headline">SKU</string>
-    <string name="device_display_id_category">Display #<xliff:g example="1" id="id">%s</xliff:g></string>
+    <string name="device_display_id_category">Display #<xliff:g example="1" id="id">%d</xliff:g></string>
     <string name="device_display_name_headline">Имя</string>
     <string name="device_display_resolution_headline">Разрешение</string>
     <string name="device_display_size_headline">Размер</string>

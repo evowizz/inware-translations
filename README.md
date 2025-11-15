@@ -30,7 +30,7 @@ Some strings contain nested tags and/or placeholders:
 <string name="cluster_number">Cluster #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
 ```
 
-Placeholders (`%s` or `%d`) and `xliff:g` tags must not be edited. To translate the above into Polish, you would use the folowing:
+Placeholders (`%s` or `%d`) and `xliff:g` tags must not be edited. To translate the above into Polish, you would use the following:
 
 ```xml
 <string name="cluster_number">Klaster #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
