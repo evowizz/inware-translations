@@ -291,8 +291,8 @@
     <string name="legacy_update">Perbarui</string>
     <string name="legacy_later">Nanti Saja</string>
     <string name="legacy_shake_to_report_category">Goncangkan dengan keras</string>
-    <string name="legacy_shake_to_send_feedback">Goncangkan untuk mengirim kritik & saran</string>
-    <string name="legacy_shake_to_send_feedback_summary">Goncangkan perangkat untuk mengirim kritik & saran secara cepat dari semua layar</string>
+    <string name="legacy_shake_to_send_feedback">Goncangkan untuk mengirim kritik &amp; saran</string>
+    <string name="legacy_shake_to_send_feedback_summary">Goncangkan perangkat untuk mengirim kritik &amp; saran secara cepat dari semua layar</string>
     <string name="legacy_sensitivity">Sensitivitas</string>
     <string name="legacy_notifications_category_description">Toggle push notifications</string>
     <string name="legacy_experimental_category_description">Unreleased features, may be unstable</string>
