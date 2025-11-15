@@ -4,11 +4,11 @@ This repository is dedicated to the translation of the [Inware Android app](http
 
 ## Repository Structure
 
-The repository is split into folders — one per language. These are named *values-X*, where *X* represents an [ISO 639-1 language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes). For example, *values-de* represents the German language. Each folder houses a `strings.xml` file, and some may also contain a `legacy_strings.xml` file.
+The repository is split into folders — one per language. These are named *values-X*, where *X* represents an [ISO 639-1 language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes). For example, *values-de* represents the German language. Each folder houses a `strings.xml` file. Legacy copies are stored separately under `legacy/values-X/strings.xml` and mirror the same directory names.
 
 ### 2025 Update
 
-As of Inware 7, all strings have been rewritten for clarity and consistency with a new naming system. The old strings are preserved in `legacy_strings.xml` for reference, but must not be edited. Legacy strings are no longer used in Inware.
+As of Inware 7, all strings have been rewritten for clarity and consistency with a new naming system. The old strings are preserved for reference in the `legacy/values-X/strings.xml` files, but must not be edited. Legacy strings are no longer used in Inware.
 
 ## Contributing
 
