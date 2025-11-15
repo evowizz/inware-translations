@@ -43,7 +43,7 @@
     <string name="system_performance_class_headline">Classe de performances</string>
     <string name="system_performance_class_supported">Classe <xliff:g example="12" id="class_rating">%s</xliff:g></string>
     <string name="system_performance_class_none">Sans classe</string>
-    <string name="system_mainline_version_headline">Mise à jour du système Google Play</string>
+    <string name="system_mainline_version_headline">Mise à jour du système Google Play</string>
     <string name="system_language_headline">Langue</string>
     <string name="system_security_patch_headline">Correctif de sécurité</string>
     <string name="system_build_number_headline">Numéro de build</string>
@@ -152,7 +152,7 @@
     <string name="network_download_speed_headline">Vitesse de téléchargement</string>
     <string name="network_upload_speed_headline">Vitesse de téléversement</string>
     <string name="network_ssid_headline">SSID</string>
-    <string name="network_ssid_hidden_value">SSID masqué</string>
+    <string name="network_ssid_hidden_value">Masqué</string>
     <string name="network_frequency_headline">Fréquence</string>
     <string name="network_signal_strength_headline">Force du signal</string>
     <string name="network_link_speed_headline">Vitesse de la connexion</string>
@@ -163,7 +163,7 @@
     <string name="network_subnet_mask_headline">Masque sous-réseau</string>
     <string name="network_dns_headline">DNS</string>
     <string name="network_dhcp_lease_time_headline">Durée du bail DHCP</string>
-    <string name="network_lease_time_more_than_a_week">Plus d\'une semaine : <xliff:g id="seconds">%d</xliff:g> secondes</string>
+    <string name="network_lease_time_more_than_a_week">Plus d\'une semaine : <xliff:g id="seconds">%d</xliff:g> secondes</string>
     <string name="network_location_permission_explainer">L\'autorisation de la position exacte est nécessaire pour pouvoir afficher le SSID Wi-Fi.</string>
     <string name="network_signal_weak">Faible</string>
     <string name="network_signal_fair">Bonne</string>

@@ -152,7 +152,7 @@
     <string name="excellent">Excellente</string>
     <string name="fair">Bonne</string>
     <string name="weak">Faible</string>
-    <string name="lease_time_more_than_a_week">Plus d\'une semaine : <xliff:g id="seconds">%d</xliff:g> secondes</string>
+    <string name="lease_time_more_than_a_week">Plus d\'une semaine : <xliff:g id="seconds">%d</xliff:g> secondes</string>
     <string name="connected">Connecté</string>
     <string name="disconnected">Déconnecté</string>
     <string name="bluetooth_enabled">Activé (%s)</string>
@@ -189,7 +189,7 @@
     <string name="battery_current">Courant</string>
     <string name="battery_power">Puissance</string>
     <string name="battery_voltage">Tension</string>
-    <string name="whats_new">Quoi de neuf ?</string>
+    <string name="whats_new">Quoi de neuf ?</string>
     <string name="about">À propos</string>
     <string name="thanks_to">Merci à</string>
     <string name="no_email_application_found">Aucune application de courriel trouvée</string>
@@ -204,7 +204,7 @@
     <string name="device_unique_id">ID unique de l\'appareil</string>
     <string name="version">Version</string>
     <string name="security_level">Niveau de sécurité</string>
-    <string name="mainline_module_version">Mise à jour du système Google Play</string>
+    <string name="mainline_module_version">Mise à jour du système Google Play</string>
     <string name="tap_for_more_information">Cliquez pour plus d\'informations</string>
     <string name="permission_required_title">Autorisation requise</string>
     <string name="permission_required_content">L\'autorisation suivante est requise pour voir cette information :</string>
