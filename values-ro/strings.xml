@@ -75,7 +75,7 @@
     <string name="device_product_name_headline">Produs</string>
     <string name="device_sku_headline">SKU</string>
     <string name="device_display_id_category">Afișajul #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
-    <string name="device_display_name_headline">Name</string>
+    <string name="device_display_name_headline">Nume</string>
     <string name="device_display_resolution_headline">Rezoluție</string>
     <string name="device_display_size_headline">Mărime</string>
     <string name="device_display_aspect_ratio_headline">Raport de aspect</string>
@@ -121,17 +121,17 @@
     <string name="memory_ram_category">Memorie dispozitiv (RAM)</string>
     <string name="memory_ram_hardware_headline">Hardware</string>
     <string name="memory_ram_total_headline">Total</string>
-    <string name="memory_ram_available_headline">Disponibil</string>
+    <string name="memory_ram_available_headline">Disponibile</string>
     <string name="memory_ram_used_headline">Utilizat</string>
     <string name="memory_ram_usage_headline">Utilizare</string>
     <string name="memory_ram_tile_title">Memory Usage</string>
     <string name="memory_storage_category">Stocare internă</string>
     <string name="memory_storage_hardware_headline">Hardware</string>
     <string name="memory_storage_total_headline">Total</string>
-    <string name="memory_storage_available_headline">Disponibil</string>
+    <string name="memory_storage_available_headline">Disponibile</string>
     <string name="memory_storage_used_headline">Utilizat</string>
     <string name="memory_storage_usage_headline">Utilizare</string>
-    <string name="memory_storage_tile_title">Internal Storage</string>
+    <string name="memory_storage_tile_title">Stocare internă</string>
 
     <!-- Camera page -->
     <string name="camera_accuracy_note">Observație: Unele dispozitive pot raporta specificații greșite pentru cameră. [Mai multe](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
@@ -152,7 +152,7 @@
     <string name="network_download_speed_headline">Viteză de descărcare</string>
     <string name="network_upload_speed_headline">Viteză de încărcare</string>
     <string name="network_ssid_headline">SSID</string>
-    <string name="network_ssid_hidden_value">Hidden</string>
+    <string name="network_ssid_hidden_value">SSID ascuns</string>
     <string name="network_frequency_headline">Frecvență</string>
     <string name="network_signal_strength_headline">Putere semnal</string>
     <string name="network_link_speed_headline">Viteză legătură</string>
@@ -173,7 +173,7 @@
     <!-- Connectivity page -->
     <string name="connectivity_bluetooth_category">Bluetooth</string>
     <string name="connectivity_bluetooth_name_headline">Nume</string>
-    <string name="connectivity_bluetooth_status_headline">Status</string>
+    <string name="connectivity_bluetooth_status_headline">Stare</string>
     <string name="connectivity_bluetooth_low_energy_headline">Bluetooth Low Energy</string>
     <string name="connectivity_bluetooth_connected_devices_headline">Dispozitive conectate</string>
     <string name="connectivity_bluetooth_mac_address_headline">Adresă MAC</string>
@@ -282,7 +282,7 @@
 
     <!--
     Legacy strings without new equivalents.
-    
+
     These strings may still be used in the future. Translations are kept just in case.
      -->
     <string name="legacy_deny">Refuzați</string>

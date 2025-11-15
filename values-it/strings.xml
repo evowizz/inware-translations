@@ -75,7 +75,7 @@
     <string name="device_product_name_headline">Prodotto</string>
     <string name="device_sku_headline">SKU</string>
     <string name="device_display_id_category">Display #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
-    <string name="device_display_name_headline">Name</string>
+    <string name="device_display_name_headline">Nome</string>
     <string name="device_display_resolution_headline">Risoluzione</string>
     <string name="device_display_size_headline">Dimensione</string>
     <string name="device_display_aspect_ratio_headline">Rapporto d\'aspetto</string>
@@ -121,17 +121,17 @@
     <string name="memory_ram_category">Memoria dispositivo (RAM)</string>
     <string name="memory_ram_hardware_headline">Hardware</string>
     <string name="memory_ram_total_headline">Totale</string>
-    <string name="memory_ram_available_headline">Disponibile</string>
+    <string name="memory_ram_available_headline">Disponibili</string>
     <string name="memory_ram_used_headline">Utilizzata</string>
     <string name="memory_ram_usage_headline">Utilizzo</string>
     <string name="memory_ram_tile_title">Memory Usage</string>
     <string name="memory_storage_category">Memoria di archiviazione interna</string>
     <string name="memory_storage_hardware_headline">Hardware</string>
     <string name="memory_storage_total_headline">Totale</string>
-    <string name="memory_storage_available_headline">Disponibile</string>
+    <string name="memory_storage_available_headline">Disponibili</string>
     <string name="memory_storage_used_headline">Utilizzata</string>
     <string name="memory_storage_usage_headline">Utilizzo</string>
-    <string name="memory_storage_tile_title">Internal Storage</string>
+    <string name="memory_storage_tile_title">Memoria di archiviazione interna</string>
 
     <!-- Camera page -->
     <string name="camera_accuracy_note">Note: Some devices may report inaccurate camera specifications. [Learn more](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
@@ -152,7 +152,7 @@
     <string name="network_download_speed_headline">Velocità in download</string>
     <string name="network_upload_speed_headline">Velocità in upload</string>
     <string name="network_ssid_headline">SSID</string>
-    <string name="network_ssid_hidden_value">Hidden</string>
+    <string name="network_ssid_hidden_value">SSID nascosto</string>
     <string name="network_frequency_headline">Frequenza</string>
     <string name="network_signal_strength_headline">Potenza segnale</string>
     <string name="network_link_speed_headline">Velocità del collegamento</string>
@@ -173,7 +173,7 @@
     <!-- Connectivity page -->
     <string name="connectivity_bluetooth_category">Bluetooth</string>
     <string name="connectivity_bluetooth_name_headline">Nome</string>
-    <string name="connectivity_bluetooth_status_headline">Status</string>
+    <string name="connectivity_bluetooth_status_headline">Stato</string>
     <string name="connectivity_bluetooth_low_energy_headline">Bluetooth a basso consumo (LE)</string>
     <string name="connectivity_bluetooth_connected_devices_headline">Dispositivi connessi</string>
     <string name="connectivity_bluetooth_mac_address_headline">Indirizzo MAC</string>
@@ -282,7 +282,7 @@
 
     <!--
     Legacy strings without new equivalents.
-    
+
     These strings may still be used in the future. Translations are kept just in case.
      -->
     <string name="legacy_deny">Nega</string>

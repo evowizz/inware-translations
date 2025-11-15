@@ -75,7 +75,7 @@
     <string name="device_product_name_headline">Produit</string>
     <string name="device_sku_headline">SKU</string>
     <string name="device_display_id_category">Affichage #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
-    <string name="device_display_name_headline">Name</string>
+    <string name="device_display_name_headline">Nom</string>
     <string name="device_display_resolution_headline">Résolution</string>
     <string name="device_display_size_headline">Taille</string>
     <string name="device_display_aspect_ratio_headline">Ratio d\'aspect</string>
@@ -131,7 +131,7 @@
     <string name="memory_storage_available_headline">Disponible</string>
     <string name="memory_storage_used_headline">Utilisé</string>
     <string name="memory_storage_usage_headline">Utilisation</string>
-    <string name="memory_storage_tile_title">Internal Storage</string>
+    <string name="memory_storage_tile_title">Stockage interne</string>
 
     <!-- Camera page -->
     <string name="camera_accuracy_note">Attention : certains appareils peuvent signaler des spécifications de caméra inexactes. [En savoir plus](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
@@ -152,7 +152,7 @@
     <string name="network_download_speed_headline">Vitesse de téléchargement</string>
     <string name="network_upload_speed_headline">Vitesse de téléversement</string>
     <string name="network_ssid_headline">SSID</string>
-    <string name="network_ssid_hidden_value">Hidden</string>
+    <string name="network_ssid_hidden_value">SSID masqué</string>
     <string name="network_frequency_headline">Fréquence</string>
     <string name="network_signal_strength_headline">Force du signal</string>
     <string name="network_link_speed_headline">Vitesse de la connexion</string>
@@ -173,7 +173,7 @@
     <!-- Connectivity page -->
     <string name="connectivity_bluetooth_category">Bluetooth</string>
     <string name="connectivity_bluetooth_name_headline">Nom</string>
-    <string name="connectivity_bluetooth_status_headline">Status</string>
+    <string name="connectivity_bluetooth_status_headline">Statut</string>
     <string name="connectivity_bluetooth_low_energy_headline">Bluetooth à basse consommation (BLE)</string>
     <string name="connectivity_bluetooth_connected_devices_headline">Appareils connectés</string>
     <string name="connectivity_bluetooth_mac_address_headline">Adresse MAC</string>
@@ -282,7 +282,7 @@
 
     <!--
     Legacy strings without new equivalents.
-    
+
     These strings may still be used in the future. Translations are kept just in case.
      -->
     <string name="legacy_deny">Refuser</string>

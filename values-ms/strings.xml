@@ -75,7 +75,7 @@
     <string name="device_product_name_headline">Produk</string>
     <string name="device_sku_headline">SKU</string>
     <string name="device_display_id_category">Paparan #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
-    <string name="device_display_name_headline">Name</string>
+    <string name="device_display_name_headline">Nama</string>
     <string name="device_display_resolution_headline">Resolusi</string>
     <string name="device_display_size_headline">Saiz</string>
     <string name="device_display_aspect_ratio_headline">Nisbah Aspek</string>
@@ -131,7 +131,7 @@
     <string name="memory_storage_available_headline">Tersedia</string>
     <string name="memory_storage_used_headline">Terpakai</string>
     <string name="memory_storage_usage_headline">Penggunaan</string>
-    <string name="memory_storage_tile_title">Internal Storage</string>
+    <string name="memory_storage_tile_title">Ruang Dalaman</string>
 
     <!-- Camera page -->
     <string name="camera_accuracy_note">Nota: Sesetengah peranti mungkin melaporkan spesifikasi kamera yang tidak tepat. [Ketahui lebih lanjut](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
@@ -152,7 +152,7 @@
     <string name="network_download_speed_headline">Kelajuan Muat Turun</string>
     <string name="network_upload_speed_headline">Kelajuan Muat Naik</string>
     <string name="network_ssid_headline">SSID</string>
-    <string name="network_ssid_hidden_value">Hidden</string>
+    <string name="network_ssid_hidden_value">SSID Tersembunyi</string>
     <string name="network_frequency_headline">Frekuensi</string>
     <string name="network_signal_strength_headline">Kekuatan Signal </string>
     <string name="network_link_speed_headline">Kelajuan Pautan</string>
@@ -282,7 +282,7 @@
 
     <!--
     Legacy strings without new equivalents.
-    
+
     These strings may still be used in the future. Translations are kept just in case.
      -->
     <string name="legacy_deny">Jangan Benarkan</string>

@@ -75,7 +75,7 @@
     <string name="device_product_name_headline">產品代號</string>
     <string name="device_sku_headline">SKU</string>
     <string name="device_display_id_category">顯示器 <xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
-    <string name="device_display_name_headline">Name</string>
+    <string name="device_display_name_headline">名稱</string>
     <string name="device_display_resolution_headline">解析度</string>
     <string name="device_display_size_headline">尺寸</string>
     <string name="device_display_aspect_ratio_headline">比例</string>
@@ -121,17 +121,17 @@
     <string name="memory_ram_category">記憶體（RAM）</string>
     <string name="memory_ram_hardware_headline">硬體</string>
     <string name="memory_ram_total_headline">總計</string>
-    <string name="memory_ram_available_headline">可用</string>
+    <string name="memory_ram_available_headline">可用模組</string>
     <string name="memory_ram_used_headline">已用</string>
     <string name="memory_ram_usage_headline">用量</string>
     <string name="memory_ram_tile_title">Memory Usage</string>
     <string name="memory_storage_category">內部儲存</string>
     <string name="memory_storage_hardware_headline">硬體</string>
     <string name="memory_storage_total_headline">總計</string>
-    <string name="memory_storage_available_headline">可用</string>
+    <string name="memory_storage_available_headline">可用模組</string>
     <string name="memory_storage_used_headline">已用</string>
     <string name="memory_storage_usage_headline">用量</string>
-    <string name="memory_storage_tile_title">Internal Storage</string>
+    <string name="memory_storage_tile_title">內部儲存</string>
 
     <!-- Camera page -->
     <string name="camera_accuracy_note">注意：部分裝置可能會報告不準確的相機規格。[深入了解](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
@@ -152,7 +152,7 @@
     <string name="network_download_speed_headline">下載速度</string>
     <string name="network_upload_speed_headline">上傳速度</string>
     <string name="network_ssid_headline">SSID</string>
-    <string name="network_ssid_hidden_value">Hidden</string>
+    <string name="network_ssid_hidden_value">隱藏的 SSID</string>
     <string name="network_frequency_headline">頻率</string>
     <string name="network_signal_strength_headline">訊號強度</string>
     <string name="network_link_speed_headline">連結速度</string>
@@ -173,7 +173,7 @@
     <!-- Connectivity page -->
     <string name="connectivity_bluetooth_category">藍牙</string>
     <string name="connectivity_bluetooth_name_headline">名稱</string>
-    <string name="connectivity_bluetooth_status_headline">Status</string>
+    <string name="connectivity_bluetooth_status_headline">狀態</string>
     <string name="connectivity_bluetooth_low_energy_headline">低功耗藍牙連線</string>
     <string name="connectivity_bluetooth_connected_devices_headline">已連線裝置</string>
     <string name="connectivity_bluetooth_mac_address_headline">MAC 位址</string>
@@ -282,7 +282,7 @@
 
     <!--
     Legacy strings without new equivalents.
-    
+
     These strings may still be used in the future. Translations are kept just in case.
      -->
     <string name="legacy_deny">拒絕</string>

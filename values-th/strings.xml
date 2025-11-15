@@ -75,7 +75,7 @@
     <string name="device_product_name_headline">ผลิตภัณฑ์</string>
     <string name="device_sku_headline">SKU</string>
     <string name="device_display_id_category">Display #<xliff:g example="1" id="id">%s</xliff:g></string>
-    <string name="device_display_name_headline">Name</string>
+    <string name="device_display_name_headline">ชื่อ</string>
     <string name="device_display_resolution_headline">ความละเอียด</string>
     <string name="device_display_size_headline">ขนาดจอ</string>
     <string name="device_display_aspect_ratio_headline">อัตราส่วน</string>
@@ -121,17 +121,17 @@
     <string name="memory_ram_category">ความจำของอุปกรณ์ (RAM)</string>
     <string name="memory_ram_hardware_headline">ฮาร์ดแวร์</string>
     <string name="memory_ram_total_headline">ทั้งหมด</string>
-    <string name="memory_ram_available_headline">พร้อมใช้งาน</string>
+    <string name="memory_ram_available_headline">Available</string>
     <string name="memory_ram_used_headline">ใช้แล้ว</string>
     <string name="memory_ram_usage_headline">การใช้งาน</string>
     <string name="memory_ram_tile_title">Memory Usage</string>
     <string name="memory_storage_category">พื้นที่จัดเก็บภายใน</string>
     <string name="memory_storage_hardware_headline">ฮาร์ดแวร์</string>
     <string name="memory_storage_total_headline">ทั้งหมด</string>
-    <string name="memory_storage_available_headline">พร้อมใช้งาน</string>
+    <string name="memory_storage_available_headline">Available</string>
     <string name="memory_storage_used_headline">ใช้แล้ว</string>
     <string name="memory_storage_usage_headline">การใช้งาน</string>
-    <string name="memory_storage_tile_title">Internal Storage</string>
+    <string name="memory_storage_tile_title">พื้นที่จัดเก็บภายใน</string>
 
     <!-- Camera page -->
     <string name="camera_accuracy_note">Note: Some devices may report inaccurate camera specifications. [Learn more](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
@@ -152,7 +152,7 @@
     <string name="network_download_speed_headline">ความเร็วดาวน์โหลด</string>
     <string name="network_upload_speed_headline">ความเร็วอัพโหลด</string>
     <string name="network_ssid_headline">ชื่อ SSID</string>
-    <string name="network_ssid_hidden_value">Hidden</string>
+    <string name="network_ssid_hidden_value">ชื่อ SSID ที่ซ่อนไว้</string>
     <string name="network_frequency_headline">ย่านความถี่</string>
     <string name="network_signal_strength_headline">ความแรงของสัญญาณ</string>
     <string name="network_link_speed_headline">ความเร็วการเชื่อมต่อ</string>
@@ -173,7 +173,7 @@
     <!-- Connectivity page -->
     <string name="connectivity_bluetooth_category">บลูธูท</string>
     <string name="connectivity_bluetooth_name_headline">ชื่อ</string>
-    <string name="connectivity_bluetooth_status_headline">Status</string>
+    <string name="connectivity_bluetooth_status_headline">สถานะ</string>
     <string name="connectivity_bluetooth_low_energy_headline">บลูธูทแบบพลังงานต่ำ</string>
     <string name="connectivity_bluetooth_connected_devices_headline">อุปกรณ์ที่ถูกเชื่อมต่อ</string>
     <string name="connectivity_bluetooth_mac_address_headline">MAC Address</string>
@@ -282,7 +282,7 @@
 
     <!--
     Legacy strings without new equivalents.
-    
+
     These strings may still be used in the future. Translations are kept just in case.
      -->
     <string name="legacy_deny">ไม่อนุญาต</string>

@@ -75,7 +75,7 @@
     <string name="device_product_name_headline">محصول</string>
     <string name="device_sku_headline">SKU</string>
     <string name="device_display_id_category">نمایشگر #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
-    <string name="device_display_name_headline">Name</string>
+    <string name="device_display_name_headline">نام</string>
     <string name="device_display_resolution_headline">وضوح</string>
     <string name="device_display_size_headline">اندازه</string>
     <string name="device_display_aspect_ratio_headline">Aspect Ratio</string>
@@ -131,7 +131,7 @@
     <string name="memory_storage_available_headline">در‌دسترس</string>
     <string name="memory_storage_used_headline">استفاده شده</string>
     <string name="memory_storage_usage_headline">مصرف</string>
-    <string name="memory_storage_tile_title">Internal Storage</string>
+    <string name="memory_storage_tile_title">حافظه داخلی</string>
 
     <!-- Camera page -->
     <string name="camera_accuracy_note">Note: Some devices may report inaccurate camera specifications. [Learn more](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
@@ -152,7 +152,7 @@
     <string name="network_download_speed_headline">سرعت دانلود</string>
     <string name="network_upload_speed_headline">سرعت آپلود</string>
     <string name="network_ssid_headline">SSID</string>
-    <string name="network_ssid_hidden_value">Hidden</string>
+    <string name="network_ssid_hidden_value">Hidden SSID</string>
     <string name="network_frequency_headline">Frequency</string>
     <string name="network_signal_strength_headline">Signal Strength</string>
     <string name="network_link_speed_headline">Link Speed</string>
@@ -173,7 +173,7 @@
     <!-- Connectivity page -->
     <string name="connectivity_bluetooth_category">بلوتوث</string>
     <string name="connectivity_bluetooth_name_headline">نام</string>
-    <string name="connectivity_bluetooth_status_headline">Status</string>
+    <string name="connectivity_bluetooth_status_headline">وضعیت</string>
     <string name="connectivity_bluetooth_low_energy_headline">Bluetooth Low Energy</string>
     <string name="connectivity_bluetooth_connected_devices_headline">دستگاه های متصل</string>
     <string name="connectivity_bluetooth_mac_address_headline">MAC Address</string>
@@ -282,7 +282,7 @@
 
     <!--
     Legacy strings without new equivalents.
-    
+
     These strings may still be used in the future. Translations are kept just in case.
      -->
     <string name="legacy_deny">ممنوع</string>

@@ -75,7 +75,7 @@
     <string name="device_product_name_headline">Produkt</string>
     <string name="device_sku_headline">SKU</string>
     <string name="device_display_id_category">Display #<xliff:g example="1" id="id">%s</xliff:g></string>
-    <string name="device_display_name_headline">Name</string>
+    <string name="device_display_name_headline">Nazwa</string>
     <string name="device_display_resolution_headline">Rozdzielczość</string>
     <string name="device_display_size_headline">Rozmiar</string>
     <string name="device_display_aspect_ratio_headline">Proporcje</string>
@@ -121,17 +121,17 @@
     <string name="memory_ram_category">Pamięć urządzenia (RAM)</string>
     <string name="memory_ram_hardware_headline">Sprzęt</string>
     <string name="memory_ram_total_headline">Całkowita</string>
-    <string name="memory_ram_available_headline">Dostępna</string>
+    <string name="memory_ram_available_headline">Available</string>
     <string name="memory_ram_used_headline">Używana</string>
     <string name="memory_ram_usage_headline">Użycie</string>
     <string name="memory_ram_tile_title">Memory Usage</string>
     <string name="memory_storage_category">Pamięć wewnętrzna</string>
     <string name="memory_storage_hardware_headline">Sprzęt</string>
     <string name="memory_storage_total_headline">Całkowita</string>
-    <string name="memory_storage_available_headline">Dostępna</string>
+    <string name="memory_storage_available_headline">Available</string>
     <string name="memory_storage_used_headline">Używana</string>
     <string name="memory_storage_usage_headline">Użycie</string>
-    <string name="memory_storage_tile_title">Internal Storage</string>
+    <string name="memory_storage_tile_title">Pamięć wewnętrzna</string>
 
     <!-- Camera page -->
     <string name="camera_accuracy_note">Note: Some devices may report inaccurate camera specifications. [Learn more](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
@@ -152,7 +152,7 @@
     <string name="network_download_speed_headline">Prędkość pobierania</string>
     <string name="network_upload_speed_headline">Prędkość wysyłania</string>
     <string name="network_ssid_headline">SSID</string>
-    <string name="network_ssid_hidden_value">Hidden</string>
+    <string name="network_ssid_hidden_value">Ukryte SSID</string>
     <string name="network_frequency_headline">Częstotliwość</string>
     <string name="network_signal_strength_headline">Siła sygnału</string>
     <string name="network_link_speed_headline">Prędkość łącza</string>
@@ -282,7 +282,7 @@
 
     <!--
     Legacy strings without new equivalents.
-    
+
     These strings may still be used in the future. Translations are kept just in case.
      -->
     <string name="legacy_deny">Odrzuć</string>

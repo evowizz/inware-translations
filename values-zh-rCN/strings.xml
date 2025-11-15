@@ -75,7 +75,7 @@
     <string name="device_product_name_headline">产品代号</string>
     <string name="device_sku_headline">SKU</string>
     <string name="device_display_id_category">显示屏 <xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
-    <string name="device_display_name_headline">Name</string>
+    <string name="device_display_name_headline">名称</string>
     <string name="device_display_resolution_headline">分辨率</string>
     <string name="device_display_size_headline">尺寸</string>
     <string name="device_display_aspect_ratio_headline">比例</string>
@@ -121,17 +121,17 @@
     <string name="memory_ram_category">内存（RAM）</string>
     <string name="memory_ram_hardware_headline">硬件</string>
     <string name="memory_ram_total_headline">总计</string>
-    <string name="memory_ram_available_headline">可用</string>
+    <string name="memory_ram_available_headline">可用模块</string>
     <string name="memory_ram_used_headline">已用</string>
     <string name="memory_ram_usage_headline">用量</string>
     <string name="memory_ram_tile_title">Memory Usage</string>
     <string name="memory_storage_category">内部存储</string>
     <string name="memory_storage_hardware_headline">硬件</string>
     <string name="memory_storage_total_headline">总计</string>
-    <string name="memory_storage_available_headline">可用</string>
+    <string name="memory_storage_available_headline">可用模块</string>
     <string name="memory_storage_used_headline">已用</string>
     <string name="memory_storage_usage_headline">用量</string>
-    <string name="memory_storage_tile_title">Internal Storage</string>
+    <string name="memory_storage_tile_title">内部存储</string>
 
     <!-- Camera page -->
     <string name="camera_accuracy_note">注意：部分设备可能会报告不准确的相机参数。[了解更多](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
@@ -152,7 +152,7 @@
     <string name="network_download_speed_headline">下行速度</string>
     <string name="network_upload_speed_headline">上行速度</string>
     <string name="network_ssid_headline">SSID</string>
-    <string name="network_ssid_hidden_value">Hidden</string>
+    <string name="network_ssid_hidden_value">隐藏的 SSID</string>
     <string name="network_frequency_headline">频率</string>
     <string name="network_signal_strength_headline">信号强度</string>
     <string name="network_link_speed_headline">连接速率</string>
@@ -173,7 +173,7 @@
     <!-- Connectivity page -->
     <string name="connectivity_bluetooth_category">蓝牙</string>
     <string name="connectivity_bluetooth_name_headline">名称</string>
-    <string name="connectivity_bluetooth_status_headline">Status</string>
+    <string name="connectivity_bluetooth_status_headline">状态</string>
     <string name="connectivity_bluetooth_low_energy_headline">低功耗蓝牙连接</string>
     <string name="connectivity_bluetooth_connected_devices_headline">已连接设备</string>
     <string name="connectivity_bluetooth_mac_address_headline">MAC 地址</string>
@@ -282,7 +282,7 @@
 
     <!--
     Legacy strings without new equivalents.
-    
+
     These strings may still be used in the future. Translations are kept just in case.
      -->
     <string name="legacy_deny">拒绝</string>

@@ -75,7 +75,7 @@
     <string name="device_product_name_headline">Termék</string>
     <string name="device_sku_headline">SKU</string>
     <string name="device_display_id_category">Kijelző #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
-    <string name="device_display_name_headline">Name</string>
+    <string name="device_display_name_headline">Név</string>
     <string name="device_display_resolution_headline">Felbontás</string>
     <string name="device_display_size_headline">Méret</string>
     <string name="device_display_aspect_ratio_headline">Képarány</string>
@@ -131,7 +131,7 @@
     <string name="memory_storage_available_headline">Elérhető</string>
     <string name="memory_storage_used_headline">Használt</string>
     <string name="memory_storage_usage_headline">Használat</string>
-    <string name="memory_storage_tile_title">Internal Storage</string>
+    <string name="memory_storage_tile_title">Belső Tárhely</string>
 
     <!-- Camera page -->
     <string name="camera_accuracy_note">Megjegyzés: Egyes eszközök pontatlan kameraspecifikációkat jelenthetnek. [Tudj meg többet](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
@@ -152,7 +152,7 @@
     <string name="network_download_speed_headline">Letöltési Sebesség</string>
     <string name="network_upload_speed_headline">Feltöltési Sebesség</string>
     <string name="network_ssid_headline">SSID</string>
-    <string name="network_ssid_hidden_value">Hidden</string>
+    <string name="network_ssid_hidden_value">Rejtett SSID</string>
     <string name="network_frequency_headline">Frekvencia</string>
     <string name="network_signal_strength_headline">Jelerősség</string>
     <string name="network_link_speed_headline">Link Sebesség</string>
@@ -173,7 +173,7 @@
     <!-- Connectivity page -->
     <string name="connectivity_bluetooth_category">Bluetooth</string>
     <string name="connectivity_bluetooth_name_headline">Név</string>
-    <string name="connectivity_bluetooth_status_headline">Status</string>
+    <string name="connectivity_bluetooth_status_headline">Státusz</string>
     <string name="connectivity_bluetooth_low_energy_headline">Bluetooth Alacsony Energia</string>
     <string name="connectivity_bluetooth_connected_devices_headline">Csatlakoztatott eszközök</string>
     <string name="connectivity_bluetooth_mac_address_headline">MAC Cím</string>
@@ -282,7 +282,7 @@
 
     <!--
     Legacy strings without new equivalents.
-    
+
     These strings may still be used in the future. Translations are kept just in case.
      -->
     <string name="legacy_deny">Megtagad</string>

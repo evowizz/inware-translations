@@ -75,7 +75,7 @@
     <string name="device_product_name_headline">Produkt</string>
     <string name="device_sku_headline">SKU</string>
     <string name="device_display_id_category">Display #<xliff:g example="1" id="id">%s</xliff:g></string>
-    <string name="device_display_name_headline">Name</string>
+    <string name="device_display_name_headline">Jméno</string>
     <string name="device_display_resolution_headline">Rozlišení</string>
     <string name="device_display_size_headline">Velikost</string>
     <string name="device_display_aspect_ratio_headline">Poměr stran</string>
@@ -121,17 +121,17 @@
     <string name="memory_ram_category">Pamět zařízení (RAM)</string>
     <string name="memory_ram_hardware_headline">Hardware</string>
     <string name="memory_ram_total_headline">Celková</string>
-    <string name="memory_ram_available_headline">Dostupná</string>
+    <string name="memory_ram_available_headline">Available</string>
     <string name="memory_ram_used_headline">Používaná</string>
     <string name="memory_ram_usage_headline">Využití</string>
     <string name="memory_ram_tile_title">Memory Usage</string>
     <string name="memory_storage_category">Interní úložiště</string>
     <string name="memory_storage_hardware_headline">Hardware</string>
     <string name="memory_storage_total_headline">Celková</string>
-    <string name="memory_storage_available_headline">Dostupná</string>
+    <string name="memory_storage_available_headline">Available</string>
     <string name="memory_storage_used_headline">Používaná</string>
     <string name="memory_storage_usage_headline">Využití</string>
-    <string name="memory_storage_tile_title">Internal Storage</string>
+    <string name="memory_storage_tile_title">Interní úložiště</string>
 
     <!-- Camera page -->
     <string name="camera_accuracy_note">Note: Some devices may report inaccurate camera specifications. [Learn more](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
@@ -152,7 +152,7 @@
     <string name="network_download_speed_headline">Rychlost stahování</string>
     <string name="network_upload_speed_headline">Rychlost nahrávání</string>
     <string name="network_ssid_headline">SSID</string>
-    <string name="network_ssid_hidden_value">Hidden</string>
+    <string name="network_ssid_hidden_value">Skryté SSID</string>
     <string name="network_frequency_headline">Frekvence</string>
     <string name="network_signal_strength_headline">Síla signálu</string>
     <string name="network_link_speed_headline">Rychlost spojení</string>
@@ -173,7 +173,7 @@
     <!-- Connectivity page -->
     <string name="connectivity_bluetooth_category">Bluetooth</string>
     <string name="connectivity_bluetooth_name_headline">Jméno</string>
-    <string name="connectivity_bluetooth_status_headline">Status</string>
+    <string name="connectivity_bluetooth_status_headline">Stav</string>
     <string name="connectivity_bluetooth_low_energy_headline">Bluetooth Low Energy</string>
     <string name="connectivity_bluetooth_connected_devices_headline">Spárovaná zařízení</string>
     <string name="connectivity_bluetooth_mac_address_headline">MAC Adresa</string>
@@ -282,7 +282,7 @@
 
     <!--
     Legacy strings without new equivalents.
-    
+
     These strings may still be used in the future. Translations are kept just in case.
      -->
     <string name="legacy_deny">Zakázat</string>

@@ -48,7 +48,7 @@
     <string name="system_security_patch_headline">Патч безопасности</string>
     <string name="system_build_number_headline">Номер сборки</string>
     <string name="system_board_headline">Board</string>
-    <string name="system_hardware_headline">Процессор</string>
+    <string name="system_hardware_headline">Оборудование</string>
     <string name="system_kernel_version_headline">Версия ядра</string>
     <string name="system_baseband_version_headline">Версия модема</string>
     <string name="system_build_tags_headline">Tags</string>
@@ -75,7 +75,7 @@
     <string name="device_product_name_headline">Устройство</string>
     <string name="device_sku_headline">SKU</string>
     <string name="device_display_id_category">Display #<xliff:g example="1" id="id">%s</xliff:g></string>
-    <string name="device_display_name_headline">Name</string>
+    <string name="device_display_name_headline">Имя</string>
     <string name="device_display_resolution_headline">Разрешение</string>
     <string name="device_display_size_headline">Размер</string>
     <string name="device_display_aspect_ratio_headline">Соотношения сторон</string>
@@ -95,7 +95,7 @@
 
     <!-- Hardware page -->
     <string name="hardware_cpu_category">CPU</string>
-    <string name="hardware_cpu_hardware_headline">Процессор</string>
+    <string name="hardware_cpu_hardware_headline">Оборудование</string>
     <string name="hardware_supported_abis_headline">Поддерживаемые ABIS</string>
     <string name="hardware_cores_headline">Ядра</string>
     <string name="hardware_clusters_headline">Кластеры</string>
@@ -119,19 +119,19 @@
 
     <!-- Memory page -->
     <string name="memory_ram_category">Оперативная память (RAM)</string>
-    <string name="memory_ram_hardware_headline">Процессор</string>
+    <string name="memory_ram_hardware_headline">Оборудование</string>
     <string name="memory_ram_total_headline">Всего</string>
-    <string name="memory_ram_available_headline">Доступно</string>
+    <string name="memory_ram_available_headline">Available</string>
     <string name="memory_ram_used_headline">Использование</string>
     <string name="memory_ram_usage_headline">Использование</string>
     <string name="memory_ram_tile_title">Memory Usage</string>
     <string name="memory_storage_category">Внутренняя память</string>
-    <string name="memory_storage_hardware_headline">Процессор</string>
+    <string name="memory_storage_hardware_headline">Оборудование</string>
     <string name="memory_storage_total_headline">Всего</string>
-    <string name="memory_storage_available_headline">Доступно</string>
+    <string name="memory_storage_available_headline">Available</string>
     <string name="memory_storage_used_headline">Использование</string>
     <string name="memory_storage_usage_headline">Использование</string>
-    <string name="memory_storage_tile_title">Internal Storage</string>
+    <string name="memory_storage_tile_title">Внутренняя память</string>
 
     <!-- Camera page -->
     <string name="camera_accuracy_note">Note: Some devices may report inaccurate camera specifications. [Learn more](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
@@ -152,7 +152,7 @@
     <string name="network_download_speed_headline">Скорость загрузки</string>
     <string name="network_upload_speed_headline">Скорость передачи</string>
     <string name="network_ssid_headline">SSID</string>
-    <string name="network_ssid_hidden_value">Hidden</string>
+    <string name="network_ssid_hidden_value">Скрытый SSID</string>
     <string name="network_frequency_headline">Частота</string>
     <string name="network_signal_strength_headline">Сила сигнала</string>
     <string name="network_link_speed_headline">Скорость сети</string>
@@ -173,7 +173,7 @@
     <!-- Connectivity page -->
     <string name="connectivity_bluetooth_category">Bluetooth</string>
     <string name="connectivity_bluetooth_name_headline">Имя</string>
-    <string name="connectivity_bluetooth_status_headline">Status</string>
+    <string name="connectivity_bluetooth_status_headline">Статус</string>
     <string name="connectivity_bluetooth_low_energy_headline">Bluetooth Low Energy</string>
     <string name="connectivity_bluetooth_connected_devices_headline">Подключённые устройства</string>
     <string name="connectivity_bluetooth_mac_address_headline">MAC Адрес</string>
@@ -282,7 +282,7 @@
 
     <!--
     Legacy strings without new equivalents.
-    
+
     These strings may still be used in the future. Translations are kept just in case.
      -->
     <string name="legacy_deny">Отклонить</string>

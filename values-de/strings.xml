@@ -121,17 +121,17 @@
     <string name="memory_ram_category">Gerätespeicher (RAM)</string>
     <string name="memory_ram_hardware_headline">Hardware</string>
     <string name="memory_ram_total_headline">Total</string>
-    <string name="memory_ram_available_headline">Verfügbar</string>
+    <string name="memory_ram_available_headline">Available</string>
     <string name="memory_ram_used_headline">Genutzt</string>
     <string name="memory_ram_usage_headline">Auslastung</string>
     <string name="memory_ram_tile_title">Memory Usage</string>
     <string name="memory_storage_category">Interner Speicher</string>
     <string name="memory_storage_hardware_headline">Hardware</string>
     <string name="memory_storage_total_headline">Total</string>
-    <string name="memory_storage_available_headline">Verfügbar</string>
+    <string name="memory_storage_available_headline">Available</string>
     <string name="memory_storage_used_headline">Genutzt</string>
     <string name="memory_storage_usage_headline">Auslastung</string>
-    <string name="memory_storage_tile_title">Internal Storage</string>
+    <string name="memory_storage_tile_title">Interner Speicher</string>
 
     <!-- Camera page -->
     <string name="camera_accuracy_note">Note: Some devices may report inaccurate camera specifications. [Learn more](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
@@ -152,7 +152,7 @@
     <string name="network_download_speed_headline">Download-Geschwindigkeit</string>
     <string name="network_upload_speed_headline">Upload-Geschwindigkeit</string>
     <string name="network_ssid_headline">SSID</string>
-    <string name="network_ssid_hidden_value">Hidden</string>
+    <string name="network_ssid_hidden_value">Versteckte SSID</string>
     <string name="network_frequency_headline">Frequenz</string>
     <string name="network_signal_strength_headline">Signalstärke</string>
     <string name="network_link_speed_headline">Verbindungsgeschwindigkeit</string>
@@ -282,7 +282,7 @@
 
     <!--
     Legacy strings without new equivalents.
-    
+
     These strings may still be used in the future. Translations are kept just in case.
      -->
     <string name="legacy_deny">Ablehnen</string>

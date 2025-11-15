@@ -48,7 +48,7 @@
     <string name="system_security_patch_headline">নিরাপত্তা তথ্য</string>
     <string name="system_build_number_headline">বিল্ড নম্বর</string>
     <string name="system_board_headline">বোর্ড</string>
-    <string name="system_hardware_headline">হার্ডওয়ার</string>
+    <string name="system_hardware_headline">হার্ডওয়্যার</string>
     <string name="system_kernel_version_headline">কার্নেল সংস্করণ</string>
     <string name="system_baseband_version_headline">বেসব্যান্ড সংস্করণ</string>
     <string name="system_build_tags_headline">ট্যাগসমূহ</string>
@@ -75,7 +75,7 @@
     <string name="device_product_name_headline">পণ্য</string>
     <string name="device_sku_headline">SKU</string>
     <string name="device_display_id_category">Display #<xliff:g example="1" id="id">%s</xliff:g></string>
-    <string name="device_display_name_headline">Name</string>
+    <string name="device_display_name_headline">নাম</string>
     <string name="device_display_resolution_headline">রেজুলেশন</string>
     <string name="device_display_size_headline">মাপ</string>
     <string name="device_display_aspect_ratio_headline">দৃষ্টি ক্ষেত্রের অনুপাত</string>
@@ -95,7 +95,7 @@
 
     <!-- Hardware page -->
     <string name="hardware_cpu_category">CPU</string>
-    <string name="hardware_cpu_hardware_headline">হার্ডওয়ার</string>
+    <string name="hardware_cpu_hardware_headline">হার্ডওয়্যার</string>
     <string name="hardware_supported_abis_headline">সমর্থিত এবিআইএস</string>
     <string name="hardware_cores_headline">কোর সমূহ</string>
     <string name="hardware_clusters_headline">ক্লাস্টার সমূহ</string>
@@ -119,19 +119,19 @@
 
     <!-- Memory page -->
     <string name="memory_ram_category">ডিভাইস মেমরি (র‌্যাম)</string>
-    <string name="memory_ram_hardware_headline">হার্ডওয়ার</string>
+    <string name="memory_ram_hardware_headline">হার্ডওয়্যার</string>
     <string name="memory_ram_total_headline">মোট</string>
-    <string name="memory_ram_available_headline">পাওয়া গেছে</string>
+    <string name="memory_ram_available_headline">Available</string>
     <string name="memory_ram_used_headline">ব্যবহৃত</string>
     <string name="memory_ram_usage_headline">ব্যবহার</string>
     <string name="memory_ram_tile_title">Memory Usage</string>
     <string name="memory_storage_category">ইন্টারনাল স্টোরেজ</string>
-    <string name="memory_storage_hardware_headline">হার্ডওয়ার</string>
+    <string name="memory_storage_hardware_headline">হার্ডওয়্যার</string>
     <string name="memory_storage_total_headline">মোট</string>
-    <string name="memory_storage_available_headline">পাওয়া গেছে</string>
+    <string name="memory_storage_available_headline">Available</string>
     <string name="memory_storage_used_headline">ব্যবহৃত</string>
     <string name="memory_storage_usage_headline">ব্যবহার</string>
-    <string name="memory_storage_tile_title">Internal Storage</string>
+    <string name="memory_storage_tile_title">ইন্টারনাল স্টোরেজ</string>
 
     <!-- Camera page -->
     <string name="camera_accuracy_note">Note: Some devices may report inaccurate camera specifications. [Learn more](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
@@ -152,7 +152,7 @@
     <string name="network_download_speed_headline">ডাউনলোড স্পীড</string>
     <string name="network_upload_speed_headline">আপলোড স্পীড</string>
     <string name="network_ssid_headline">এসএসআইডি</string>
-    <string name="network_ssid_hidden_value">Hidden</string>
+    <string name="network_ssid_hidden_value">গোপন এসএসআইডি</string>
     <string name="network_frequency_headline">ফ্রিকোয়েন্সি</string>
     <string name="network_signal_strength_headline">সিগনাল এর ক্ষমতা</string>
     <string name="network_link_speed_headline">লিংক এর স্পীড</string>
@@ -173,7 +173,7 @@
     <!-- Connectivity page -->
     <string name="connectivity_bluetooth_category">ব্লুটুথ</string>
     <string name="connectivity_bluetooth_name_headline">নাম</string>
-    <string name="connectivity_bluetooth_status_headline">Status</string>
+    <string name="connectivity_bluetooth_status_headline">অবস্থা</string>
     <string name="connectivity_bluetooth_low_energy_headline">ব্লুটুথ লো এনার্জি</string>
     <string name="connectivity_bluetooth_connected_devices_headline">সংযুক্ত ডিভাইসগুলি</string>
     <string name="connectivity_bluetooth_mac_address_headline">ম্যাক এড্রেস</string>
@@ -282,7 +282,7 @@
 
     <!--
     Legacy strings without new equivalents.
-    
+
     These strings may still be used in the future. Translations are kept just in case.
      -->
     <string name="legacy_deny">প্রত্যাখ্যান</string>

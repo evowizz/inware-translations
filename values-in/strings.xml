@@ -75,7 +75,7 @@
     <string name="device_product_name_headline">Produk</string>
     <string name="device_sku_headline">SKU</string>
     <string name="device_display_id_category">Display #<xliff:g example="1" id="id">%s</xliff:g></string>
-    <string name="device_display_name_headline">Name</string>
+    <string name="device_display_name_headline">Nama</string>
     <string name="device_display_resolution_headline">Resolusi</string>
     <string name="device_display_size_headline">Ukuran</string>
     <string name="device_display_aspect_ratio_headline">Aspek Rasio</string>
@@ -121,17 +121,17 @@
     <string name="memory_ram_category">Memori Perangkat (RAM)</string>
     <string name="memory_ram_hardware_headline">Perangkat Keras</string>
     <string name="memory_ram_total_headline">Total</string>
-    <string name="memory_ram_available_headline">Tersedia</string>
+    <string name="memory_ram_available_headline">Available</string>
     <string name="memory_ram_used_headline">Digunakan</string>
     <string name="memory_ram_usage_headline">Penggunaan</string>
     <string name="memory_ram_tile_title">Memory Usage</string>
     <string name="memory_storage_category">Penyimpanan Internal</string>
     <string name="memory_storage_hardware_headline">Perangkat Keras</string>
     <string name="memory_storage_total_headline">Total</string>
-    <string name="memory_storage_available_headline">Tersedia</string>
+    <string name="memory_storage_available_headline">Available</string>
     <string name="memory_storage_used_headline">Digunakan</string>
     <string name="memory_storage_usage_headline">Penggunaan</string>
-    <string name="memory_storage_tile_title">Internal Storage</string>
+    <string name="memory_storage_tile_title">Penyimpanan Internal</string>
 
     <!-- Camera page -->
     <string name="camera_accuracy_note">Note: Some devices may report inaccurate camera specifications. [Learn more](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
@@ -152,7 +152,7 @@
     <string name="network_download_speed_headline">Kecepatan Download</string>
     <string name="network_upload_speed_headline">Kecepatan Upload</string>
     <string name="network_ssid_headline">SSID</string>
-    <string name="network_ssid_hidden_value">Hidden</string>
+    <string name="network_ssid_hidden_value">SSID Tersembunyi</string>
     <string name="network_frequency_headline">Frekuensi</string>
     <string name="network_signal_strength_headline">Kekuatan Sinyal</string>
     <string name="network_link_speed_headline">Kecepatan Link</string>
@@ -282,7 +282,7 @@
 
     <!--
     Legacy strings without new equivalents.
-    
+
     These strings may still be used in the future. Translations are kept just in case.
      -->
     <string name="legacy_deny">Tolak</string>
@@ -291,8 +291,8 @@
     <string name="legacy_update">Perbarui</string>
     <string name="legacy_later">Nanti Saja</string>
     <string name="legacy_shake_to_report_category">Goncangkan dengan keras</string>
-    <string name="legacy_shake_to_send_feedback">Goncangkan untuk mengirim kritik &amp; saran</string>
-    <string name="legacy_shake_to_send_feedback_summary">Goncangkan perangkat untuk mengirim kritik &amp; saran secara cepat dari semua layar</string>
+    <string name="legacy_shake_to_send_feedback">Goncangkan untuk mengirim kritik & saran</string>
+    <string name="legacy_shake_to_send_feedback_summary">Goncangkan perangkat untuk mengirim kritik & saran secara cepat dari semua layar</string>
     <string name="legacy_sensitivity">Sensitivitas</string>
     <string name="legacy_notifications_category_description">Toggle push notifications</string>
     <string name="legacy_experimental_category_description">Unreleased features, may be unstable</string>
