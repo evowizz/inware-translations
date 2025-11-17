@@ -252,7 +252,8 @@
     <string name="settings_appearance_dynamic_colors_description">Use colors provided by the system</string>
     <string name="settings_appearance_pure_black_headline">Use pure black in dark mode</string>
     <string name="settings_appearance_pure_black_description">Replace the dark mode background with pure black</string>
-
+    <string name="settings_appearance_system_fonts_headline">Use system fonts</string>
+    <string name="settings_appearance_system_fonts_description">Use fonts provided by your device</string>
     <!-- Advanced Settings -->
     <string name="settings_advanced_optional_modules_category">Optional modules</string>
     <string name="settings_advanced_analytics_category">Analytics</string>
