@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
     <!-- Generic strings -->
-    <string name="generic_unknown">Nieznana</string>
+    <string name="generic_unknown">Nieznane</string>
     <string name="generic_enabled">Włączone</string>
     <string name="generic_disabled">Wyłączone</string>
     <string name="generic_supported">Wspierane</string>
@@ -17,16 +17,16 @@
 
     <!-- Permissions -->
     <string name="permission_required_heading">Wymagane uprawnienia</string>
-    <string name="permission_open_settings_label">Enable in settings</string>
+    <string name="permission_open_settings_label">Włącz w ustawieniach</string>
 
     <!-- Top level page titles -->
-    <string name="dashboard_page">Dashboard</string>
-    <string name="explore_page">Explore</string>
+    <string name="dashboard_page">Panel główny</string>
+    <string name="explore_page">Przegląd</string>
     <string name="settings_page">Ustawienia</string>
 
     <!-- Dashboard Hub page -->
-    <string name="dashboard_tiles_empty">No dashboard tiles available yet.</string>
-    <string name="dashboard_empty_hint">Add your first tile to customize your dashboard</string>
+    <string name="dashboard_tiles_empty">Brak dostępnych kart.</string>
+    <string name="dashboard_empty_hint">Dodaj swoją pierwszą kartę, aby dostosować pulpit nawigacyjny.</string>
 
     <!-- Explore Hub page -->
     <string name="system_page">System</string>
@@ -35,18 +35,18 @@
     <string name="memory_page">Pamięć</string>
     <string name="camera_page">Aparat</string>
     <string name="network_page">Sieć</string>
-    <string name="connectivity_page">Łącznośc</string>
+    <string name="connectivity_page">Łączność</string>
     <string name="battery_page">Bateria</string>
-    <string name="media_drm_page">Media DRM</string>
+    <string name="media_drm_page">DRM</string>
 
     <!-- System page -->
-    <string name="system_os_category">OS</string>
+    <string name="system_os_category">System operacyjny</string>
     <string name="system_android_version_headline">Wersja Androida</string>
-    <string name="system_released_with_headline">Wydano z</string>
+    <string name="system_released_with_headline">Wydano z wersją</string>
     <string name="system_min_target_sdk_headline">Minimalne docelowe SDK</string>
-    <string name="system_performance_class_headline">Performance class</string>
-    <string name="system_performance_class_supported">Class <xliff:g example="12" id="class_rating">%s</xliff:g></string>
-    <string name="system_performance_class_none">No class</string>
+    <string name="system_performance_class_headline">Klasa wydajności</string>
+    <string name="system_performance_class_supported">Klasa <xliff:g example="12" id="class_rating">%s</xliff:g></string>
+    <string name="system_performance_class_none">Brak</string>
     <string name="system_mainline_version_headline">Aktualizacja systemu Google Play</string>
     <string name="system_language_headline">Język</string>
     <string name="system_security_patch_headline">Poprawki zabezpieczeń</string>
@@ -75,18 +75,18 @@
     <string name="device_brand_headline">Marka</string>
     <string name="device_manufacturer_headline">Producent</string>
     <string name="device_model_headline">Model</string>
-    <string name="device_model_tile_title">Device model</string>
-    <string name="device_product_name_headline">Produkt</string>
+    <string name="device_model_tile_title">Model urządzenia</string>
+    <string name="device_product_name_headline">Nazwa produktu</string>
     <string name="device_sku_headline">SKU</string>
-    <string name="device_display_id_category">Display #<xliff:g example="1" id="id">%d</xliff:g></string>
+    <string name="device_display_id_category">Wyświetlacz #<xliff:g example="1" id="id">%d</xliff:g></string>
     <string name="device_display_name_headline">Nazwa</string>
     <string name="device_display_resolution_headline">Rozdzielczość</string>
     <string name="device_display_size_headline">Rozmiar</string>
     <string name="device_display_aspect_ratio_headline">Proporcje</string>
     <string name="device_display_refresh_rate_headline">Liczba klatek</string>
-    <string name="device_display_pixel_density_headline">Zagęszczenie</string>
-    <string name="device_display_current_density_headline">Current density</string>
-    <string name="device_display_default_density_headline">Default density</string>
+    <string name="device_display_pixel_density_headline">Gęstość pikseli</string>
+    <string name="device_display_current_density_headline">Aktualna gęstość pikseli</string>
+    <string name="device_display_default_density_headline">Domyślna gęstość pikseli</string>
     <string name="device_display_default_orientation_headline">Domyślna orientacja</string>
     <string name="device_display_default_orientation_portrait">Pionowo</string>
     <string name="device_display_default_orientation_landscape">Poziomo</string>
@@ -98,52 +98,52 @@
     <string name="device_file_based_encryption_headline">Szyfrowanie plików</string>
 
     <!-- Hardware page -->
-    <string name="hardware_cpu_category">CPU</string>
+    <string name="hardware_cpu_category">Procesor (CPU)</string>
     <string name="hardware_cpu_hardware_headline">Sprzęt</string>
     <string name="hardware_supported_abis_headline">Wspierane ABI</string>
-    <string name="hardware_cores_headline">Rdzenie</string>
-    <string name="hardware_clusters_headline">Klastry</string>
+    <string name="hardware_cores_headline">Liczba rdzeni</string>
+    <string name="hardware_clusters_headline">Liczba klastrów</string>
     <string name="hardware_cpu_usage_headline">Użycie</string>
-    <string name="hardware_cluster_category">Klastry #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
+    <string name="hardware_cluster_category">Klaster #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
     <string name="hardware_cluster_minimum_frequency_headline">Minimalne taktowanie</string>
     <string name="hardware_cluster_maximum_frequency_headline">Maksymalne taktowanie</string>
-    <string name="hardware_cluster_governor_headline">Zarządca</string>
+    <string name="hardware_cluster_governor_headline">Tryb pracy</string>
     <string name="hardware_cpu_usage_category">Użycie procesora</string>
-    <string name="hardware_core_headline">Rdzenie <xliff:g example="3" id="number_of_core">%d</xliff:g></string>
+    <string name="hardware_core_headline">Rdzeń <xliff:g example="3" id="number_of_core">%d</xliff:g></string>
     <string name="hardware_core_offline">Wyłączony</string>
     <string name="hardware_core_frequency"><xliff:g example="857" id="frequency">%d</xliff:g> MHz</string>
-    <string name="hardware_gpu_category">GPU</string>
+    <string name="hardware_gpu_category">Procesor graficzny (GPU)</string>
     <string name="hardware_gpu_vendor_headline">Producent</string>
-    <string name="hardware_gpu_renderer_headline">Renderer</string>
+    <string name="hardware_gpu_renderer_headline">Układ renderujący</string>
     <string name="hardware_gpu_current_frequency_headline">Aktualne taktowanie</string>
     <string name="hardware_gpu_minimum_frequency_headline">Minimalne taktowanie</string>
     <string name="hardware_gpu_maximum_frequency_headline">Maksymalne taktowanie</string>
-    <string name="hardware_gpu_governor_headline">Zarządca</string>
+    <string name="hardware_gpu_governor_headline">Tryb pracy</string>
     <string name="hardware_gpu_usage_headline">Użycie</string>
 
     <!-- Memory page -->
     <string name="memory_ram_category">Pamięć urządzenia (RAM)</string>
     <string name="memory_ram_hardware_headline">Sprzęt</string>
     <string name="memory_ram_total_headline">Całkowita</string>
-    <string name="memory_ram_available_headline">Available</string>
-    <string name="memory_ram_used_headline">Używana</string>
+    <string name="memory_ram_available_headline">Dostępna</string>
+    <string name="memory_ram_used_headline">W użyciu</string>
     <string name="memory_ram_usage_headline">Użycie</string>
-    <string name="memory_ram_tile_title">Memory Usage</string>
+    <string name="memory_ram_tile_title">Zużycie pamięci</string>
     <string name="memory_storage_category">Pamięć wewnętrzna</string>
     <string name="memory_storage_hardware_headline">Sprzęt</string>
     <string name="memory_storage_total_headline">Całkowita</string>
-    <string name="memory_storage_available_headline">Available</string>
-    <string name="memory_storage_used_headline">Używana</string>
+    <string name="memory_storage_available_headline">Dostępna</string>
+    <string name="memory_storage_used_headline">W użyciu</string>
     <string name="memory_storage_usage_headline">Użycie</string>
     <string name="memory_storage_tile_title">Pamięć wewnętrzna</string>
 
     <!-- Camera page -->
-    <string name="camera_accuracy_note">Note: Some devices may report inaccurate camera specifications. [Learn more](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
+    <string name="camera_accuracy_note">Uwaga: Niektóre urządzenia mogą przekazywać nieprawidłowe parametry aparatu. [Dowiedz się więcej](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
     <string name="camera_lens_front">Aparat przedni</string>
     <string name="camera_lens_back">Aparat tylny</string>
     <string name="camera_lens_external">Aparat zewnętrzny</string>
     <string name="camera_megapixels_headline">Megapiksele</string>
-    <string name="camera_megapixels_value"><xliff:g example="16" id="number_of_megapixel">%d</xliff:g> Mpx</string>
+    <string name="camera_megapixels_value"><xliff:g example="16" id="number_of_megapixel">%d</xliff:g> Mpix</string>
     <string name="camera_available_apertures_headline">Dostępne przesłony</string>
     <string name="camera_ois_headline">Optyczna stabilizacja obrazu (OIS)</string>
     <string name="camera_eis_headline">Elektroniczna stabilizacja obrazu (EIS)</string>
@@ -152,11 +152,11 @@
     <!-- Network page -->
     <string name="network_wifi_category">Wi-Fi</string>
     <string name="network_type_headline">Typ sieci</string>
-    <string name="network_type_cellular">Cellular</string>
+    <string name="network_type_cellular">Dane mobilne</string>
     <string name="network_download_speed_headline">Prędkość pobierania</string>
     <string name="network_upload_speed_headline">Prędkość wysyłania</string>
     <string name="network_ssid_headline">SSID</string>
-    <string name="network_ssid_hidden_value">Ukryte SSID</string>
+    <string name="network_ssid_hidden_value">Ukryte</string>
     <string name="network_frequency_headline">Częstotliwość</string>
     <string name="network_signal_strength_headline">Siła sygnału</string>
     <string name="network_link_speed_headline">Prędkość łącza</string>
@@ -165,13 +165,13 @@
     <string name="network_mac_address_headline">Adres MAC</string>
     <string name="network_gateway_headline">Brama</string>
     <string name="network_subnet_mask_headline">Maska podsieci</string>
-    <string name="network_dns_headline">DNS</string>
+    <string name="network_dns_headline">Adres DNS</string>
     <string name="network_dhcp_lease_time_headline">Czas dzierżawy DHCP</string>
     <string name="network_lease_time_more_than_a_week">Więcej niż tydzień: <xliff:g id="seconds">%d</xliff:g> sekund</string>
-    <string name="network_location_permission_explainer">Without the precise location permission, the current Wi‑Fi SSID cannot be displayed.</string>
+    <string name="network_location_permission_explainer">Bez podania dokładnej lokalizacji nie można wyświetlić bieżącego identyfikatora SSID sieci Wi-Fi.</string>
     <string name="network_signal_weak">Słaba</string>
-    <string name="network_signal_fair">Dobra</string>
-    <string name="network_signal_good">Dobry</string>
+    <string name="network_signal_fair">Średnia</string>
+    <string name="network_signal_good">Dobra</string>
     <string name="network_signal_excellent">Świetna</string>
 
     <!-- Connectivity page -->
@@ -187,7 +187,7 @@
     <string name="connectivity_bluetooth_status_disabled">Wyłączone</string>
     <string name="connectivity_bluetooth_status_turning_on">Włączanie</string>
     <string name="connectivity_bluetooth_status_turning_off">Wyłączanie</string>
-    <string name="connectivity_bluetooth_permission_explainer">Without the Nearby devices permission, the app cannot display Bluetooth details.</string>
+    <string name="connectivity_bluetooth_permission_explainer">Aplikacja nie może wyświetlać szczegółów Bluetooth bez uprawnienia „Urządzenia w pobliżu”.</string>
 
     <!-- Battery page -->
     <string name="battery_health_headline">Kondycja</string>
@@ -207,15 +207,15 @@
     <string name="battery_status_charging">Ładowanie</string>
     <string name="battery_status_discharging">Rozładowywanie</string>
     <string name="battery_status_full">Pełna</string>
-    <string name="battery_health_good">Dobry</string>
+    <string name="battery_health_good">Dobra</string>
     <string name="battery_health_overheated">Przegrzana</string>
     <string name="battery_health_dead">Martwa</string>
-    <string name="battery_health_overvoltage">Przepięcie</string>
+    <string name="battery_health_overvoltage">Przepięcie baterii</string>
     <string name="battery_health_unspecified_failure">Niezidentyfikowana usterka</string>
     <string name="battery_health_cold">Zimna</string>
     <string name="battery_source_ac">Ładowarka (AC)</string>
     <string name="battery_source_usb">USB</string>
-    <string name="battery_source_wireless">Bezprzewodowe</string>
+    <string name="battery_source_wireless">Ładowanie bezprzewodowe</string>
 
     <!-- Media DRM page -->
     <string name="media_drm_algorithms_headline">Algorytmy</string>
@@ -225,13 +225,13 @@
     <string name="media_drm_security_level_headline">Poziom zabezpieczeń</string>
 
     <!-- Settings Hub page -->
-    <string name="settings_general_entry_headline">General</string>
-    <string name="settings_general_entry_description">Security, clipboard and units</string>
-    <string name="settings_appearance_entry_headline">Appearance</string>
-    <string name="settings_appearance_entry_description">Dark mode and colors</string>
-    <string name="settings_advanced_entry_headline">Advanced</string>
-    <string name="settings_advanced_entry_description">Optional modules, analytics</string>
-    <string name="settings_about_entry_headline">O</string>
+    <string name="settings_general_entry_headline">Główne</string>
+    <string name="settings_general_entry_description">Bezpieczeństwo, schowek i jednostki</string>
+    <string name="settings_appearance_entry_headline">Wygląd</string>
+    <string name="settings_appearance_entry_description">Tryb ciemny i kolory</string>
+    <string name="settings_advanced_entry_headline">Zaawansowane</string>
+    <string name="settings_advanced_entry_description">Moduły opcjonalne, analityka</string>
+    <string name="settings_about_entry_headline">O aplikacji</string>
 
     <!-- General Settings -->
     <string name="settings_general_clipboard_category">Schowek</string>
@@ -239,50 +239,50 @@
     <string name="settings_general_long_press_to_copy_description">Skopiuj wartości elementów poprzez dłuższe przytrzymanie</string>
     <string name="settings_general_copy_values_with_labels_headline">Kopiuj wartości z etykietami</string>
     <string name="settings_general_copy_values_with_labels_description">Uwzględnij etykiety wartości podczas kopiowania</string>
-    <string name="settings_general_security_category">Security</string>
-    <string name="settings_general_block_screen_capture_headline">Block screen capture</string>
-    <string name="settings_general_block_screen_capture_description">Prevent the capture of screen content</string>
-    <string name="settings_general_hide_3rd_party_overlays_headline">Hide third-party overlays</string>
-    <string name="settings_general_hide_3rd_party_overlays_description">Hide overlays created by non-system apps</string>
+    <string name="settings_general_security_category">Bezpieczeństwo</string>
+    <string name="settings_general_block_screen_capture_headline">Blokuj przechwytywanie ekranu</string>
+    <string name="settings_general_block_screen_capture_description">Uniemożliw przechwycanie zawartości ekranu</string>
+    <string name="settings_general_hide_3rd_party_overlays_headline">Ukryj nakładki firm trzecich</string>
+    <string name="settings_general_hide_3rd_party_overlays_description">Ukryj nakładki utworzone spoza aplikacji systemowych</string>
     <string name="settings_general_units_category">Jednostki</string>
     <string name="settings_general_temperature_headline">Temperatura</string>
 
     <!-- Appearance Settings -->
-    <string name="settings_appearance_dark_mode_headline">Dark mode</string>
-    <string name="settings_appearance_dark_mode_off">Off</string>
-    <string name="settings_appearance_dark_mode_on">On</string>
-    <string name="settings_appearance_dark_mode_follow_system">Follow system</string>
-    <string name="settings_appearance_dynamic_colors_headline">Use system colors</string>
-    <string name="settings_appearance_dynamic_colors_description">Use colors provided by the system</string>
-    <string name="settings_appearance_pure_black_headline">Use pure black in dark mode</string>
-    <string name="settings_appearance_pure_black_description">Replace the dark mode background with pure black</string>
+    <string name="settings_appearance_dark_mode_headline">Tryb ciemny</string>
+    <string name="settings_appearance_dark_mode_off">Wył</string>
+    <string name="settings_appearance_dark_mode_on">Wł</string>
+    <string name="settings_appearance_dark_mode_follow_system">Użyj systemowego</string>
+    <string name="settings_appearance_dynamic_colors_headline">Użyj kolorów systemowych</string>
+    <string name="settings_appearance_dynamic_colors_description">Użyj kolorów dostarczanych przez system</string>
+    <string name="settings_appearance_pure_black_headline">Użyj czarnego koloru w trybie ciemnym</string>
+    <string name="settings_appearance_pure_black_description">Zamienia tło trybu ciemnego na kolor czarny</string>
 
     <!-- Advanced Settings -->
-    <string name="settings_advanced_optional_modules_category">Optional modules</string>
-    <string name="settings_advanced_analytics_category">Analytics</string>
-    <string name="settings_advanced_allow_analytics_headline">Allow analytics</string>
-    <string name="settings_advanced_allow_analytics_description">Send anonymous data to help us improve Inware</string>
-    <string name="settings_advanced_reset_analytics_headline">Reset device\'s identity</string>
-    <string name="settings_advanced_reset_analytics_success">Successfully reset</string>
+    <string name="settings_advanced_optional_modules_category">Moduły opcjonalne</string>
+    <string name="settings_advanced_analytics_category">Analityka</string>
+    <string name="settings_advanced_allow_analytics_headline">Włącz analitykę</string>
+    <string name="settings_advanced_allow_analytics_description">Zbieraj anonimowe dane, aby pomóc ulepszać Inware</string>
+    <string name="settings_advanced_reset_analytics_headline">Zresetuj tożsamość urządzenia</string>
+    <string name="settings_advanced_reset_analytics_success">Zresetowano pomyślnie</string>
     <string name="settings_advanced_experimental_category">Eksperymentalne</string>
-    <string name="settings_advanced_developer_options_category">Developer options</string>
+    <string name="settings_advanced_developer_options_category">Opcje deweloperskie</string>
 
     <!-- About Settings -->
     <string name="settings_about_privacy_policy_headline">Polityka prywatności</string>
     <string name="settings_about_licenses_headline">Licencje</string>
-    <string name="settings_about_button_channel">Channel</string>
-    <string name="settings_about_button_group">Group</string>
+    <string name="settings_about_button_channel">Kanał Telegram</string>
+    <string name="settings_about_button_group">Grupa</string>
     <string name="settings_about_button_github">GitHub</string>
     <string name="settings_about_button_twitter">Twitter</string>
-    <string name="settings_about_button_website">Website</string>
+    <string name="settings_about_button_website">Strona</string>
     <string name="settings_about_button_email">Email</string>
-    <string name="settings_about_thanks_to_category">Dzięki</string>
-    <string name="settings_about_translate_title">Help translate Inware</string>
-    <string name="settings_about_translate_summary">Join the community project to localize new features.</string>
-    <string name="settings_about_translate_action">Open project</string>
-    <string name="settings_developer_options_warning_title">Enable developer options?</string>
-    <string name="settings_developer_options_warning_message">Developer options contain advanced settings that may affect app stability and performance.\n\nEnable only if you understand the potential risks.</string>
-    <string name="settings_developer_options_warning_proceed">Proceed</string>
+    <string name="settings_about_thanks_to_category">Podziękowania</string>
+    <string name="settings_about_translate_title">Pomóż przetłumaczyć Inware</string>
+    <string name="settings_about_translate_summary">Dołącz do projektu, aby przetłumaczać nowe funkcje.</string>
+    <string name="settings_about_translate_action">Otwórz projekt</string>
+    <string name="settings_developer_options_warning_title">Włączyć opcje deweloperskie?</string>
+    <string name="settings_developer_options_warning_message">Opcje programisty zawierają zaawansowane ustawienia, które mogą wpływać na stabilność i wydajność aplikacji.\n\nWłącz je tylko wtedy, gdy rozumiesz potencjalne ryzyko.</string>
+    <string name="settings_developer_options_warning_proceed">Kontynuuj</string>
 
     <!--
     Legacy strings without new equivalents.
@@ -290,22 +290,22 @@
     These strings may still be used in the future. Translations are kept just in case.
      -->
     <string name="legacy_deny">Odrzuć</string>
-    <string name="legacy_new_version_available">Dostępna nowa wersja</string>
-    <string name="legacy_new_version_dialog_message">Uaktualnij do najnowszej wersji dla najlepszych efektów</string>
-    <string name="legacy_update">Aktualizacja</string>
+    <string name="legacy_new_version_available">Dostępna jest nowa wersja</string>
+    <string name="legacy_new_version_dialog_message">Zaktualizuj do najnowszej wersji, aby uzyskać najlepsze efekty</string>
+    <string name="legacy_update">Aktualizuj</string>
     <string name="legacy_later">Później</string>
     <string name="legacy_shake_to_report_category">Potrząśnij by wysłać raport</string>
     <string name="legacy_shake_to_send_feedback">Potrząśnij by wysłać opinię</string>
     <string name="legacy_shake_to_send_feedback_summary">Potrząśnij urządzeniem by szybko wysłać opinię z dowolnego ekranu</string>
     <string name="legacy_sensitivity">Czułość</string>
     <string name="legacy_notifications_category_description">Przełącz powiadomienia push</string>
-    <string name="legacy_experimental_category_description">Nieoficjalne funkcje, mogą być niestabilne</string>
+    <string name="legacy_experimental_category_description">Nieoficjalne funkcje, mogą działać nieprawidłowo</string>
     <string name="legacy_shake_to_report_category_description">Potrząśnij urządzeniem by wysłać opinię</string>
     <string name="legacy_identifiers">Identyfikatory</string>
     <string name="legacy_stopped">Zatrzymano</string>
     <string name="legacy_augmented_reality">Rozszerzona rzeczywistość</string>
-    <string name="legacy_permission_dialog_learn_more">Learn More</string>
-    <string name="legacy_memory_storage_permission_explanation">The storage permission is required to be able to display storage-related details.</string>
-    <string name="legacy_analytics_dialog_title">Allow analytics?</string>
-    <string name="legacy_analytics_dialog_message">With your permission, Inware can collect anonymous usage analytics from this device to help us improve the app.\n\nYou can turn this off or reset your device\'s identity in Settings.</string>
+    <string name="legacy_permission_dialog_learn_more">Dowiedz się więcej</string>
+    <string name="legacy_memory_storage_permission_explanation">Aby wyświetlić szczegóły pamięci, aplikacja potrzebuje uprawnienia do pamięci masowej.</string>
+    <string name="legacy_analytics_dialog_title">Włączyć analitykę?</string>
+    <string name="legacy_analytics_dialog_message">Za Twoją zgodą Inware może zbierać anonimowe dane dotyczące korzystania z tego urządzenia, aby pomóc nam w ulepszaniu aplikacji.\n\nMożesz wyłączyć tę funkcję lub zresetować tożsamość urządzenia w Ustawieniach.</string>
 </resources>
