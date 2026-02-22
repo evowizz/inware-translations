@@ -17,16 +17,16 @@
 
     <!-- Permissions -->
     <string name="permission_required_heading">需要授权</string>
-    <string name="permission_open_settings_label">Enable in settings</string>
+    <string name="permission_open_settings_label">在设置中启用</string>
 
     <!-- Top level page titles -->
-    <string name="dashboard_page">Dashboard</string>
-    <string name="explore_page">Explore</string>
+    <string name="dashboard_page">仪表板</string>
+    <string name="explore_page">探索</string>
     <string name="settings_page">设置</string>
 
     <!-- Dashboard Hub page -->
-    <string name="dashboard_tiles_empty">No dashboard tiles available yet.</string>
-    <string name="dashboard_empty_hint">Add your first tile to customize your dashboard</string>
+    <string name="dashboard_tiles_empty">暂无可用的仪表板卡片。</string>
+    <string name="dashboard_empty_hint">添加第一张卡片以自定义仪表板</string>
 
     <!-- Explore Hub page -->
     <string name="system_page">系统</string>
@@ -62,8 +62,8 @@
     <string name="system_up_time_headline">已开机时间</string>
     <string name="system_usb_debugging_headline">USB 调试</string>
     <string name="system_selinux_headline">SELinux</string>
-    <string name="system_selinux_enforcing">Enforcing</string>
-    <string name="system_selinux_permissive">Permissive</string>
+    <string name="system_selinux_enforcing">强制</string>
+    <string name="system_selinux_permissive">宽容</string>
     <string name="system_extra_category">其他</string>
     <string name="system_treble_headline">Treble</string>
     <string name="system_seamless_updates_headline">无缝更新</string>
@@ -75,7 +75,7 @@
     <string name="device_brand_headline">品牌</string>
     <string name="device_manufacturer_headline">制造商</string>
     <string name="device_model_headline">型号</string>
-    <string name="device_model_tile_title">Device model</string>
+    <string name="device_model_tile_title">设备型号</string>
     <string name="device_product_name_headline">产品代号</string>
     <string name="device_sku_headline">SKU</string>
     <string name="device_display_id_category">显示屏 <xliff:g example="1" id="id">%d</xliff:g></string>
@@ -85,8 +85,8 @@
     <string name="device_display_aspect_ratio_headline">比例</string>
     <string name="device_display_refresh_rate_headline">刷新率</string>
     <string name="device_display_pixel_density_headline">密度</string>
-    <string name="device_display_current_density_headline">Current density</string>
-    <string name="device_display_default_density_headline">Default density</string>
+    <string name="device_display_current_density_headline">当前密度</string>
+    <string name="device_display_default_density_headline">默认密度</string>
     <string name="device_display_default_orientation_headline">默认方向</string>
     <string name="device_display_default_orientation_portrait">纵向</string>
     <string name="device_display_default_orientation_landscape">横向</string>
@@ -128,7 +128,7 @@
     <string name="memory_ram_available_headline">可用模块</string>
     <string name="memory_ram_used_headline">已用</string>
     <string name="memory_ram_usage_headline">用量</string>
-    <string name="memory_ram_tile_title">Memory Usage</string>
+    <string name="memory_ram_tile_title">内存使用情况</string>
     <string name="memory_storage_category">内部存储</string>
     <string name="memory_storage_hardware_headline">硬件</string>
     <string name="memory_storage_total_headline">总计</string>
@@ -152,7 +152,7 @@
     <!-- Network page -->
     <string name="network_wifi_category">Wi-Fi</string>
     <string name="network_type_headline">网络类型</string>
-    <string name="network_type_cellular">Cellular</string>
+    <string name="network_type_cellular">移动网络</string>
     <string name="network_download_speed_headline">下行速度</string>
     <string name="network_upload_speed_headline">上行速度</string>
     <string name="network_ssid_headline">SSID</string>
@@ -254,8 +254,8 @@
     <string name="settings_appearance_dark_mode_follow_system">跟随系统</string>
     <string name="settings_appearance_dynamic_colors_headline">使用系统配色</string>
     <string name="settings_appearance_dynamic_colors_description">使用由系统提供的配色方案</string>
-    <string name="settings_appearance_pure_black_headline">Use pure black in dark mode</string>
-    <string name="settings_appearance_pure_black_description">Replace the dark mode background with pure black</string>
+    <string name="settings_appearance_pure_black_headline">暗色模式时使用纯黑</string>
+    <string name="settings_appearance_pure_black_description">将暗色模式背景替换为纯黑</string>
 
     <!-- Advanced Settings -->
     <string name="settings_advanced_optional_modules_category">可选模块</string>
@@ -270,19 +270,19 @@
     <!-- About Settings -->
     <string name="settings_about_privacy_policy_headline">隐私策略</string>
     <string name="settings_about_licenses_headline">许可</string>
-    <string name="settings_about_button_channel">Channel</string>
-    <string name="settings_about_button_group">Group</string>
+    <string name="settings_about_button_channel">频道</string>
+    <string name="settings_about_button_group">群组</string>
     <string name="settings_about_button_github">GitHub</string>
     <string name="settings_about_button_twitter">Twitter</string>
-    <string name="settings_about_button_website">Website</string>
-    <string name="settings_about_button_email">Email</string>
+    <string name="settings_about_button_website">网站</string>
+    <string name="settings_about_button_email">电子邮件</string>
     <string name="settings_about_thanks_to_category">鸣谢</string>
-    <string name="settings_about_translate_title">Help translate Inware</string>
-    <string name="settings_about_translate_summary">Join the community project to localize new features.</string>
-    <string name="settings_about_translate_action">Open project</string>
-    <string name="settings_developer_options_warning_title">Enable developer options?</string>
-    <string name="settings_developer_options_warning_message">Developer options contain advanced settings that may affect app stability and performance.\n\nEnable only if you understand the potential risks.</string>
-    <string name="settings_developer_options_warning_proceed">Proceed</string>
+    <string name="settings_about_translate_title">帮助翻译 Inware</string>
+    <string name="settings_about_translate_summary">加入社区项目，一起本地化新功能。</string>
+    <string name="settings_about_translate_action">打开项目</string>
+    <string name="settings_developer_options_warning_title">启用开发者选项？</string>
+    <string name="settings_developer_options_warning_message">开发者选项包含高级设置，可能影响应用稳定性和性能。\n\n仅在你了解潜在风险时启用。</string>
+    <string name="settings_developer_options_warning_proceed">继续</string>
 
     <!--
     Legacy strings without new equivalents.
