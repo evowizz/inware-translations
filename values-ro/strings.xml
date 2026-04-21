@@ -8,14 +8,14 @@
     <string name="generic_not_supported">Neacceptat(ă)</string>
     <string name="generic_detected">Detectat(ă)</string>
     <string name="generic_not_detected">Nedetectat(ă)</string>
-    <string name="generic_yes">Yes</string>
-    <string name="generic_no">No</string>
+    <string name="generic_yes">Da</string>
+    <string name="generic_no">Nu</string>
     <string name="generic_allow">Permiteți</string>
     <string name="generic_deny">Refuzați</string>
     <string name="generic_copied_to_clipboard">Copiat în clipboard</string>
-    <string name="generic_copy">Copy</string>
-    <string name="generic_copy_value">Copy value</string>
-    <string name="generic_share">Share</string>
+    <string name="generic_copy">Copiați</string>
+    <string name="generic_copy_value">Copiați valoarea</string>
+    <string name="generic_share">Distribuiți</string>
     <string name="generic_iec_bytes"><xliff:g id="size" example="36">%s</xliff:g> B</string>
     <string name="generic_iec_kilobytes"><xliff:g id="size" example="36">%s</xliff:g> KB</string>
     <string name="generic_iec_megabytes"><xliff:g id="size" example="36">%s</xliff:g> MB</string>
@@ -35,7 +35,7 @@
 
     <!-- Permissions -->
     <string name="permission_required_heading">Permisiune necesară</string>
-    <string name="permission_open_settings_label">Activați în setări</string>
+    <string name="permission_open_settings_label">Activați în Setări</string>
 
     <!-- Top level page titles -->
     <string name="dashboard_page">Tablou de bord</string>
@@ -49,29 +49,29 @@
     <!-- Dashboard tiles -->
     <string name="system_android_version_tile_title">Android</string>
     <string name="device_model_tile_title">Model dispozitiv</string>
-    <string name="hardware_cpu_tile_title">CPU Usage</string>
+    <string name="hardware_cpu_tile_title">Utilizare CPU</string>
     <string name="memory_ram_tile_title">Utilizare memorie</string>
     <string name="memory_storage_tile_title">Stocare internă</string>
 
     <!-- Explore Hub page -->
     <string name="system_page">Sistem</string>
-    <string name="system_page_description">Android version, build info</string>
+    <string name="system_page_description">Versiune Android, informații despre build</string>
     <string name="device_page">Dispozitiv</string>
-    <string name="device_page_description">Brand, model, display and features</string>
+    <string name="device_page_description">Marcă, model, afișaj și caracteristici</string>
     <string name="hardware_page">Hardware</string>
-    <string name="hardware_page_description">CPU, GPU usage and frequencies</string>
+    <string name="hardware_page_description">Utilizare CPU, GPU și frecvențe</string>
     <string name="memory_page">Memorie</string>
-    <string name="memory_page_description">RAM and storage usage</string>
+    <string name="memory_page_description">Utilizare RAM și stocare</string>
     <string name="camera_page">Cameră</string>
-    <string name="camera_page_description">Lenses, megapixels and stabilization</string>
-    <string name="sensors_page">Sensors</string>
-    <string name="sensors_page_description">Accelerometer, light, proximity and more</string>
+    <string name="camera_page_description">Lentile, megapixeli și stabilizare</string>
+    <string name="sensors_page">Senzori</string>
+    <string name="sensors_page_description">Accelerometru, lumină, proximitate și mai multe</string>
     <string name="connectivity_page">Conectivitate</string>
-    <string name="connectivity_page_description">Bluetooth and paired devices</string>
+    <string name="connectivity_page_description">Bluetooth și dispozitive asociate</string>
     <string name="battery_page">Baterie</string>
-    <string name="battery_page_description">Health, level, temperature and cycles</string>
+    <string name="battery_page_description">Sănătate, nivel, temperatură și cicluri</string>
     <string name="media_drm_page">DRM media</string>
-    <string name="media_drm_page_description">Vendor, version and security level</string>
+    <string name="media_drm_page_description">Furnizor, versiune și nivel de securitate</string>
 
     <!-- System page -->
     <string name="system_android_category">Android</string>
@@ -105,7 +105,7 @@
     <string name="system_seamless_updates_headline">Actualizări de sistem A/B</string>
     <string name="system_active_slot_headline">Slot activ</string>
     <string name="system_root_headline">Root</string>
-    <string name="system_page_size_headline">Page size</string>
+    <string name="system_page_size_headline">Mărime pagină</string>
     <string name="system_emulator_headline">Emulator</string>
 
     <!-- Device page -->
@@ -127,12 +127,12 @@
     <string name="device_display_default_orientation_portrait">Portret</string>
     <string name="device_display_default_orientation_landscape">Peisaj</string>
     <string name="device_display_supports_hdr_headline">HDR</string>
-    <string name="device_display_adaptive_refresh_rate_headline">Adaptive refresh rate</string>
-    <string name="device_security_category">Security chip</string>
-    <string name="device_security_chip_manufacturer_headline">Manufacturer</string>
+    <string name="device_display_adaptive_refresh_rate_headline">Rată de reîmprospătare adaptivă</string>
+    <string name="device_security_category">Chip de securitate</string>
+    <string name="device_security_chip_manufacturer_headline">Producător</string>
     <string name="device_security_chip_model_headline">Model</string>
-    <string name="device_display_hdr_supported_with_ratio">Supported (<xliff:g id="ratio" example="2.5x">%s</xliff:g>)</string>
-    <string name="device_display_supported_refresh_rates_headline">Supported refresh rates (Hz)</string>
+    <string name="device_display_hdr_supported_with_ratio">Acceptat (<xliff:g id="ratio" example="2.5x">%s</xliff:g>)</string>
+    <string name="device_display_supported_refresh_rates_headline">Rate de reîmprospătare acceptate (Hz)</string>
     <string name="device_features_category">Caracteristici</string>
     <string name="device_fingerprint_authentication_headline">Autentificare cu amprentă</string>
     <string name="device_face_authentication_headline">Autentificare cu față</string>
@@ -157,8 +157,8 @@
     <string name="hardware_gpu_category">GPU</string>
     <string name="hardware_gpu_vendor_headline">Furnizor</string>
     <string name="hardware_gpu_renderer_headline">Randor</string>
-    <string name="hardware_gpu_gl_version_headline">OpenGL ES version</string>
-    <string name="hardware_gpu_vulkan_version_headline">Vulkan version</string>
+    <string name="hardware_gpu_gl_version_headline">Versiune OpenGL ES</string>
+    <string name="hardware_gpu_vulkan_version_headline">Versiune Vulkan</string>
     <string name="hardware_gpu_current_frequency_headline">Frecvență curentă</string>
     <string name="hardware_gpu_minimum_frequency_headline">Frecvență minimă</string>
     <string name="hardware_gpu_maximum_frequency_headline">Frecvență maximă</string>
@@ -172,7 +172,7 @@
     <string name="memory_ram_available_headline">Disponibil</string>
     <string name="memory_ram_used_headline">Utilizat</string>
     <string name="memory_ram_usage_headline">Utilizare</string>
-    <string name="memory_ram_low_ram_headline">Low RAM</string>
+    <string name="memory_ram_low_ram_headline">RAM redus</string>
     <string name="memory_storage_category">Stocare internă</string>
     <string name="memory_storage_hardware_headline">Hardware</string>
     <string name="memory_storage_total_headline">Total</string>
@@ -193,25 +193,25 @@
     <string name="camera_flash_headline">Lanternă</string>
 
     <!-- Sensors page -->
-    <string name="sensor_accelerometer_headline">Accelerometer</string>
-    <string name="sensor_gyroscope_headline">Gyroscope</string>
-    <string name="sensor_magnetic_field_headline">Magnetic field</string>
-    <string name="sensor_pressure_headline">Barometer</string>
-    <string name="sensor_proximity_headline">Proximity</string>
-    <string name="sensor_light_headline">Ambient light</string>
-    <string name="sensor_ambient_temperature_headline">Ambient temperature</string>
-    <string name="sensor_relative_humidity_headline">Relative humidity</string>
-    <string name="sensor_gravity_headline">Gravity</string>
-    <string name="sensor_linear_acceleration_headline">Linear acceleration</string>
-    <string name="sensor_step_counter_headline">Step counter</string>
-    <string name="sensor_readings_headline">Readings</string>
-    <string name="sensor_vendor_headline">Vendor</string>
-    <string name="sensor_type_headline">Type</string>
-    <string name="sensor_max_range_headline">Max range</string>
-    <string name="sensor_resolution_headline">Resolution</string>
-    <string name="sensor_power_headline">Power</string>
+    <string name="sensor_accelerometer_headline">Accelerometru</string>
+    <string name="sensor_gyroscope_headline">Giroscop</string>
+    <string name="sensor_magnetic_field_headline">Câmp magnetic</string>
+    <string name="sensor_pressure_headline">Barometru</string>
+    <string name="sensor_proximity_headline">Proximitate</string>
+    <string name="sensor_light_headline">Lumină ambientală</string>
+    <string name="sensor_ambient_temperature_headline">Temperatură ambientală</string>
+    <string name="sensor_relative_humidity_headline">Umiditate relativă</string>
+    <string name="sensor_gravity_headline">Gravitație</string>
+    <string name="sensor_linear_acceleration_headline">Accelerație liniară</string>
+    <string name="sensor_step_counter_headline">Contor de pași</string>
+    <string name="sensor_readings_headline">Citiri</string>
+    <string name="sensor_vendor_headline">Furnizor</string>
+    <string name="sensor_type_headline">Tip</string>
+    <string name="sensor_max_range_headline">Interval maxim</string>
+    <string name="sensor_resolution_headline">Rezoluție</string>
+    <string name="sensor_power_headline">Putere</string>
     <string name="sensor_power_value">%s mA</string>
-    <string name="sensor_version_headline">Version</string>
+    <string name="sensor_version_headline">Versiune</string>
 
     <!-- Connectivity page -->
     <string name="connectivity_network_category">Rețea</string>
@@ -251,9 +251,9 @@
     <string name="connectivity_bluetooth_status_turning_on">Se pornește</string>
     <string name="connectivity_bluetooth_status_turning_off">Se oprește</string>
     <string name="connectivity_bluetooth_permission_explainer">Permisiunea \"Dispozitive din apropiere\" este necesară pentru a afișa anumite detalii despre Bluetooth.</string>
-    <string name="connectivity_features_category">Features</string>
-    <string name="connectivity_thread_network_headline">Thread network</string>
-    <string name="connectivity_ble_channel_sounding_headline">Bluetooth channel sounding</string>
+    <string name="connectivity_features_category">Caracteristici</string>
+    <string name="connectivity_thread_network_headline">Rețea Thread</string>
+    <string name="connectivity_ble_channel_sounding_headline">Sondarea canalului Bluetooth</string>
 
     <!-- Battery page -->
     <string name="battery_health_headline">Sănătate</string>
@@ -264,16 +264,16 @@
     <string name="battery_power_headline">Alimentare</string>
     <string name="battery_voltage_headline">Tensiune</string>
     <string name="battery_temperature_headline">Temperatură</string>
-    <string name="battery_thermal_throttling_headline">Thermal throttling</string>
-    <string name="battery_thermal_throttling_none">None</string>
-    <string name="battery_thermal_throttling_light">Light</string>
-    <string name="battery_thermal_throttling_moderate">Moderate</string>
-    <string name="battery_thermal_throttling_severe">Severe</string>
-    <string name="battery_thermal_throttling_critical">Critical</string>
-    <string name="battery_thermal_throttling_emergency">Emergency</string>
-    <string name="battery_thermal_throttling_shutdown">Shutdown</string>
+    <string name="battery_thermal_throttling_headline">Limitare termică</string>
+    <string name="battery_thermal_throttling_none">Niciuna</string>
+    <string name="battery_thermal_throttling_light">Ușoară</string>
+    <string name="battery_thermal_throttling_moderate">Moderată</string>
+    <string name="battery_thermal_throttling_severe">Severă</string>
+    <string name="battery_thermal_throttling_critical">Critică</string>
+    <string name="battery_thermal_throttling_emergency">Urgență</string>
+    <string name="battery_thermal_throttling_shutdown">Închidere</string>
     <string name="battery_technology_headline">Tehnologie</string>
-    <string name="battery_cycle_count_headline">Cycle count</string>
+    <string name="battery_cycle_count_headline">Număr de cicluri</string>
     <string name="battery_current_display_value"><xliff:g id="current" example="304">%1$d</xliff:g> mA</string>
     <string name="battery_voltage_display_value"><xliff:g id="voltage" example="4.384">%1$.3f</xliff:g> V</string>
     <string name="battery_power_display_value"><xliff:g id="power" example="18">%1$.2f</xliff:g> W</string>
@@ -314,13 +314,13 @@
     <string name="settings_general_block_screen_capture_description">Împiedicați capturarea conținutului de pe ecran</string>
     <string name="settings_general_hide_3rd_party_overlays_headline">Ascundeți suprapunerile terțe</string>
     <string name="settings_general_hide_3rd_party_overlays_description">Ascundeți suprapunerile create de aplicații non-sistem</string>
-    <string name="settings_general_interactive_haptics_category">Interactive haptics</string>
-    <string name="settings_general_feedback_level_headline">Touch feedback</string>
-    <string name="settings_general_feedback_level_description">Vibrate on touch interactions</string>
-    <string name="settings_general_feedback_level_none">None</string>
-    <string name="settings_general_feedback_level_minimal">Minimal</string>
-    <string name="settings_general_feedback_level_default">Default</string>
-    <string name="settings_general_feedback_level_expressive">Expressive</string>
+    <string name="settings_general_interactive_haptics_category">Feedback haptic interactiv</string>
+    <string name="settings_general_feedback_level_headline">Feedback tactil</string>
+    <string name="settings_general_feedback_level_description">Vibrează la interacțiuni tactile</string>
+    <string name="settings_general_feedback_level_none">Deloc</string>
+    <string name="settings_general_feedback_level_minimal">Minim</string>
+    <string name="settings_general_feedback_level_default">Prestabilit</string>
+    <string name="settings_general_feedback_level_expressive">Expresiv</string>
     <string name="settings_general_units_category">Unități</string>
     <string name="settings_general_temperature_headline">Temperatură</string>
 
