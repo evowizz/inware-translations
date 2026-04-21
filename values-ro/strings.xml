@@ -55,7 +55,7 @@
 
     <!-- Explore Hub page -->
     <string name="system_page">Sistem</string>
-    <string name="system_page_description">Versiune Android, informații despre build</string>
+    <string name="system_page_description">Versiune Android, informații despre generare</string>
     <string name="device_page">Dispozitiv</string>
     <string name="device_page_description">Marcă, model, afișaj și caracteristici</string>
     <string name="hardware_page">Hardware</string>
@@ -75,7 +75,7 @@
 
     <!-- System page -->
     <string name="system_android_category">Android</string>
-    <string name="system_build_category">Build</string>
+    <string name="system_build_category">Generare</string>
     <string name="system_status_category">Status</string>
     <string name="system_android_version_headline">Versiune Android</string>
     <string name="system_released_with_headline">Lansat cu</string>
@@ -359,7 +359,7 @@
     <string name="settings_about_translate_summary">Alăturați-vă proiectului colaborativ pentru a ajuta la traducerea noilor funcționalități.</string>
     <string name="settings_about_translate_action">Deschideți proiectul</string>
     <string name="settings_developer_options_warning_title">Activați opțiunile pentru dezvoltatori?</string>
-    <string name="settings_developer_options_warning_message">Opțiunile pentru dezvoltatori conțin setări avansate ce pot afecta stabilitatea și performanța aplicațiilor.\n\nActivați doar dacă înțelegeți riscurile.</string>
+    <string name="settings_developer_options_warning_message">Opțiunile pentru dezvoltatori conțin setări avansate ce pot afecta stabilitatea și performanța aplicației.\n\nActivați doar dacă înțelegeți riscurile.</string>
     <string name="settings_developer_options_warning_proceed">Continuați</string>
 
     <!--
