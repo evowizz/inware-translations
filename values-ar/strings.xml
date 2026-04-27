@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <!-- Generic strings -->
+    <string name="generic_unknown">غير معروف</string>
+    <string name="generic_enabled">مفعّل</string>
+    <string name="generic_disabled">معطّل</string>
+    <string name="generic_supported">مدعوم</string>
+    <string name="generic_not_supported">غير مدعوم</string>
+    <string name="generic_detected">تم الكشف</string>
+    <string name="generic_not_detected">لم يتم الكشف</string>
+    <string name="generic_yes">نعم</string>
+    <string name="generic_no">لا</string>
+    <string name="generic_allow">سماح</string>
+    <string name="generic_deny">رفض</string>
+    <string name="generic_copied_to_clipboard">تم النسخ إلى الحافظة</string>
+    <string name="generic_copy">نسخ</string>
+    <string name="generic_copy_value">نسخ القيمة</string>
+    <string name="generic_share">مشاركة</string>
+    <!-- IEC size units (1024-based). SI sizes use ICU's MeasureFormat instead. -->
+    <string name="generic_iec_bytes"><xliff:g id="size" example="36">%s</xliff:g> بايت</string>
+    <string name="generic_iec_kilobytes"><xliff:g id="size" example="36">%s</xliff:g> كيلوبايت</string>
+    <string name="generic_iec_megabytes"><xliff:g id="size" example="36">%s</xliff:g> ميجابايت</string>
+    <string name="generic_iec_gigabytes"><xliff:g id="size" example="36">%s</xliff:g> جيجابايت</string>
+    <string name="generic_iec_terabytes"><xliff:g id="size" example="36">%s</xliff:g> تيرابايت</string>
+    <string name="generic_iec_petabytes"><xliff:g id="size" example="36">%s</xliff:g> بيتابايت</string>
+    <string name="generic_bytes_per_second"><xliff:g id="speed" example="36">%s</xliff:g> بايت/ث</string>
+    <string name="generic_kb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> كيلوبايت/ث</string>
+    <string name="generic_mb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> ميجابايت/ث</string>
+    <string name="generic_gb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> جيجابايت/ث</string>
+    <string name="generic_tb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> تيرابايت/ث</string>
+    <string name="generic_pb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> بيتابايت/ث</string>
+    
+    <!-- Analytics consent -->
+    <string name="analytics_consent_title">السماح بالتحليلات؟</string>
+    <string name="analytics_consent_message">بإذنك، يمكن لتطبيق Inware جمع بيانات استخدام مجهولة المصدر من هذا الجهاز لمساعدتنا في تحسين التطبيق.\n\nيمكنك إيقاف هذا أو إعادة تعيين هوية جهازك في الإعدادات.</string>
+
+    <!-- Permissions -->
+    <string name="permission_required_heading">الإذن مطلوب</string>
+    <string name="permission_open_settings_label">تفعيل في الإعدادات</string>
+
+    <!-- Top level page titles -->
+    <string name="dashboard_page">لوحة التحكم</string>
+    <string name="explore_page">استكشاف</string>
+    <string name="settings_page">الإعدادات</string>
+
+    <!-- Dashboard Hub page -->
+    <string name="dashboard_tiles_empty">لا توجد مربعات لوحة تحكم متاحة بعد.</string>
+    <string name="dashboard_empty_hint">أضف مربعك الأول لتخصيص لوحة التحكم</string>
+
+    <!-- Dashboard tiles -->
+    <string name="system_android_version_tile_title">أندرويد</string>
+    <string name="device_model_tile_title">طراز الجهاز</string>
+    <string name="hardware_cpu_tile_title">استخدام المعالج</string>
+    <string name="memory_ram_tile_title">استخدام الذاكرة</string>
+    <string name="memory_storage_tile_title">التخزين الداخلي</string>
+
+    <!-- Explore Hub page -->
+    <string name="system_page">النظام</string>
+    <string name="system_page_description">إصدار أندرويد، معلومات البناء</string>
+    <string name="device_page">الجهاز</string>
+    <string name="device_page_description">العلامة التجارية، الطراز، الشاشة والميزات</string>
+    <string name="hardware_page">الأجهزة</string>
+    <string name="hardware_page_description">استخدام المعالج، كرت الشاشة والترددات</string>
+    <string name="memory_page">الذاكرة</string>
+    <string name="memory_page_description">استخدام ذاكرة الوصول العشوائي والتخزين</string>
+    <string name="camera_page">الكاميرا</string>
+    <string name="camera_page_description">العدسات، الميجابكسل والتثبيت</string>
+    <string name="sensors_page">المستشعرات</string>
+    <string name="sensors_page_description">المتسارع، الضوء، القرب والمزيد</string>
+    <string name="connectivity_page">الاتصال</string>
+    <string name="connectivity_page_description">Wi-Fi، البلوتوث وحالة الشبكة</string>
+    <string name="battery_page">البطارية</string>
+    <string name="battery_page_description">الصحة، المستوى، الحرارة والدورات</string>
+    <string name="media_drm_page">Media DRM</string>
+    <string name="media_drm_page_description">المورّد، الإصدار ومستوى الأمان</string>
+
+    <!-- System page -->
+    <string name="system_android_category">أندرويد</string>
+    <string name="system_build_category">البناء</string>
+    <string name="system_status_category">الحالة</string>
+    <string name="system_android_version_headline">إصدار أندرويد</string>
+    <string name="system_released_with_headline">صدر مع</string>
+    <string name="system_min_target_sdk_headline">الحد الأدنى للـ SDK المستهدف</string>
+    <string name="system_performance_class_headline">فئة الأداء</string>
+    <string name="system_performance_class_supported">الفئة <xliff:g example="12" id="class_rating">%s</xliff:g></string>
+    <string name="system_performance_class_none">بدون فئة</string>
+    <string name="system_mainline_version_headline">تحديث نظام Google Play</string>
+    <string name="system_language_headline">اللغة</string>
+    <string name="system_security_patch_headline">تصحيح الأمان</string>
+    <string name="system_build_number_headline">رقم البناء</string>
+    <string name="system_board_headline">اللوحة</string>
+    <string name="system_hardware_headline">الأجهزة</string>
+    <string name="system_kernel_version_headline">إصدار النواة</string>
+    <string name="system_baseband_version_headline">إصدار النطاق الأساسي</string>
+    <string name="system_build_tags_headline">وسوم البناء</string>
+    <string name="system_build_fingerprint_headline">بصمة البناء</string>
+    <string name="system_build_type_headline">نوع البناء</string>
+    <string name="system_bootloader_version_headline">إصدار محمّل الإقلاع</string>
+    <string name="system_up_time_headline">وقت التشغيل</string>
+    <string name="system_usb_debugging_headline">تصحيح USB</string>
+    <string name="system_selinux_headline">SELinux</string>
+    <string name="system_selinux_enforcing">إلزامي</string>
+    <string name="system_selinux_permissive">مسموح</string>
+    <string name="system_extra_category">إضافي</string>
+    <string name="system_treble_headline">Treble</string>
+    <string name="system_seamless_updates_headline">التحديثات السلسة</string>
+    <string name="system_active_slot_headline">الفتحة النشطة</string>
+    <string name="system_root_headline">صلاحيات الجذر</string>
+    <string name="system_page_size_headline">حجم الصفحة</string>
+    <string name="system_emulator_headline">المحاكي</string>
+
+    <!-- Device page -->
+    <string name="device_brand_headline">العلامة التجارية</string>
+    <string name="device_manufacturer_headline">الشركة المصنّعة</string>
+    <string name="device_model_headline">الطراز</string>
+    <string name="device_product_name_headline">المنتج</string>
+    <string name="device_sku_headline">SKU</string>
+    <string name="device_display_id_category">الشاشة #<xliff:g example="1" id="id">%d</xliff:g></string>
+    <string name="device_display_name_headline">الاسم</string>
+    <string name="device_display_resolution_headline">الدقة</string>
+    <string name="device_display_size_headline">الحجم</string>
+    <string name="device_display_aspect_ratio_headline">نسبة العرض للارتفاع</string>
+    <string name="device_display_refresh_rate_headline">معدل التحديث</string>
+    <string name="device_display_pixel_density_headline">كثافة البكسل</string>
+    <string name="device_display_current_density_headline">الكثافة الحالية</string>
+    <string name="device_display_default_density_headline">الكثافة الافتراضية</string>
+    <string name="device_display_default_orientation_headline">الاتجاه الافتراضي</string>
+    <string name="device_display_default_orientation_portrait">عمودي</string>
+    <string name="device_display_default_orientation_landscape">أفقي</string>
+    <string name="device_display_supports_hdr_headline">HDR</string>
+    <string name="device_display_hdr_supported_with_ratio">مدعوم (<xliff:g id="ratio" example="2.5x">%s</xliff:g>)</string>
+    <string name="device_display_supported_refresh_rates_headline">معدلات التحديث المدعومة (هرتز)</string>
+    <string name="device_display_adaptive_refresh_rate_headline">معدل التحديث التكيّفي</string>
+    <string name="device_security_category">شريحة الأمان</string>
+    <string name="device_security_chip_manufacturer_headline">الشركة المصنّعة</string>
+    <string name="device_security_chip_model_headline">الطراز</string>
+    <string name="device_features_category">الميزات</string>
+    <string name="device_fingerprint_authentication_headline">مصادقة بصمة الإصبع</string>
+    <string name="device_face_authentication_headline">مصادقة الوجه</string>
+    <string name="device_vulkan_headline">Vulkan</string>
+    <string name="device_file_based_encryption_headline">التشفير المبني على الملفات</string>
+
+    <!-- Hardware page -->
+    <string name="hardware_cpu_category">المعالج</string>
+    <string name="hardware_cpu_hardware_headline">الأجهزة</string>
+    <string name="hardware_supported_abis_headline">ABI المدعومة</string>
+    <string name="hardware_cores_headline">الأنوية</string>
+    <string name="hardware_clusters_headline">المجموعات</string>
+    <string name="hardware_cpu_usage_headline">الاستخدام</string>
+    <string name="hardware_cluster_category">المجموعة #<xliff:g example="1" id="cluster_number">%d</xliff:g></string>
+    <string name="hardware_cluster_minimum_frequency_headline">التردد الأدنى</string>
+    <string name="hardware_cluster_maximum_frequency_headline">التردد الأقصى</string>
+    <string name="hardware_cluster_governor_headline">المُدير</string>
+    <string name="hardware_cpu_usage_category">استخدام المعالج</string>
+    <string name="hardware_core_headline">النواة <xliff:g example="1" id="core_number">%d</xliff:g></string>
+    <string name="hardware_core_offline">غير متصل</string>
+    <string name="hardware_core_frequency"><xliff:g example="1800" id="frequency">%d</xliff:g> ميجاهرتز</string>
+    <string name="hardware_gpu_category">كرت الشاشة</string>
+    <string name="hardware_gpu_vendor_headline">المورّد</string>
+    <string name="hardware_gpu_renderer_headline">المُصيّر</string>
+    <string name="hardware_gpu_gl_version_headline">إصدار OpenGL ES</string>
+    <string name="hardware_gpu_vulkan_version_headline">إصدار Vulkan</string>
+    <string name="hardware_gpu_current_frequency_headline">التردد الحالي</string>
+    <string name="hardware_gpu_minimum_frequency_headline">التردد الأدنى</string>
+    <string name="hardware_gpu_maximum_frequency_headline">التردد الأقصى</string>
+    <string name="hardware_gpu_governor_headline">المُدير</string>
+    <string name="hardware_gpu_usage_headline">الاستخدام</string>
+
+    <!-- Memory page -->
+    <string name="memory_ram_category">ذاكرة الوصول العشوائي</string>
+    <string name="memory_ram_hardware_headline">الأجهزة</string>
+    <string name="memory_ram_total_headline">الإجمالي</string>
+    <string name="memory_ram_available_headline">المتاح</string>
+    <string name="memory_ram_used_headline">المُستخدم</string>
+    <string name="memory_ram_usage_headline">الاستخدام</string>
+    <string name="memory_ram_low_ram_headline">ذاكرة عشوائية منخفضة</string>
+    <string name="memory_storage_category">التخزين الداخلي</string>
+    <string name="memory_storage_hardware_headline">الأجهزة</string>
+    <string name="memory_storage_total_headline">الإجمالي</string>
+    <string name="memory_storage_available_headline">المتاح</string>
+    <string name="memory_storage_used_headline">المُستخدم</string>
+    <string name="memory_storage_usage_headline">الاستخدام</string>
+
+    <!-- Camera page -->
+    <string name="camera_accuracy_note">ملاحظة: قد تُبلّغ بعض الأجهزة عن مواصفات كاميرا غير دقيقة. [تعلّم المزيد](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
+    <string name="camera_lens_front">الكاميرا الأمامية</string>
+    <string name="camera_lens_back">الكاميرا الخلفية</string>
+    <string name="camera_lens_external">الكاميرا الخارجية</string>
+    <string name="camera_megapixels_headline">الميجابكسل</string>
+    <string name="camera_megapixels_value"><xliff:g example="16" id="number_of_megapixel">%d</xliff:g> ميجابكسل</string>
+    <string name="camera_available_apertures_headline">الفتحات المتاحة</string>
+    <string name="camera_ois_headline">التثبيت البصري</string>
+    <string name="camera_eis_headline">التثبيت الإلكتروني</string>
+    <string name="camera_flash_headline">الفلاش</string>
+
+    <!-- Sensors page -->
+    <string name="sensor_accelerometer_headline">المتسارع</string>
+    <string name="sensor_gyroscope_headline">الجيروسكوب</string>
+    <string name="sensor_magnetic_field_headline">المجال المغناطيسي</string>
+    <string name="sensor_pressure_headline">البارومتر</string>
+    <string name="sensor_proximity_headline">القرب</string>
+    <string name="sensor_light_headline">الضوء المحيط</string>
+    <string name="sensor_ambient_temperature_headline">درجة الحرارة المحيطة</string>
+    <string name="sensor_relative_humidity_headline">الرطوبة النسبية</string>
+    <string name="sensor_gravity_headline">الجاذبية</string>
+    <string name="sensor_linear_acceleration_headline">التسارع الخطي</string>
+    <string name="sensor_step_counter_headline">عداد الخطوات</string>
+    <string name="sensor_readings_headline">القراءات</string>
+    <string name="sensor_vendor_headline">المورّد</string>
+    <string name="sensor_type_headline">النوع</string>
+    <string name="sensor_max_range_headline">النطاق الأقصى</string>
+    <string name="sensor_resolution_headline">الدقة</string>
+    <string name="sensor_power_headline">الطاقة</string>
+    <string name="sensor_power_value">%s ملي أمبير</string>
+    <string name="sensor_version_headline">الإصدار</string>
+
+    <!-- Connectivity page -->
+    <string name="connectivity_network_category">الشبكة</string>
+    <string name="connectivity_type_headline">نوع الشبكة</string>
+    <string name="connectivity_type_cellular">خلوي</string>
+    <string name="connectivity_download_speed_headline">سرعة التنزيل</string>
+    <string name="connectivity_upload_speed_headline">سرعة الرفع</string>
+    <string name="connectivity_wifi_category">Wi‑Fi</string>
+    <string name="connectivity_ssid_headline">SSID</string>
+    <string name="connectivity_ssid_hidden_value">مخفي</string>
+    <string name="connectivity_frequency_headline">التردد</string>
+    <string name="connectivity_signal_strength_headline">قوة الإشارة</string>
+    <string name="connectivity_signal_weak">ضعيفة</string>
+    <string name="connectivity_signal_fair">متوسطة</string>
+    <string name="connectivity_signal_good">جيدة</string>
+    <string name="connectivity_signal_excellent">ممتازة</string>
+    <string name="connectivity_link_speed_headline">سرعة الرابط</string>
+    <string name="connectivity_local_ip_ipv4_headline">العنوان المحلي (IPv4)</string>
+    <string name="connectivity_local_ip_ipv6_headline">العنوان المحلي (IPv6)</string>
+    <string name="connectivity_mac_address_headline">عنوان MAC</string>
+    <string name="connectivity_gateway_headline">البوابة</string>
+    <string name="connectivity_subnet_mask_headline">قناع الشبكة الفرعية</string>
+    <string name="connectivity_dns_headline">DNS</string>
+    <string name="connectivity_dhcp_lease_time_headline">وقت تأجير DHCP</string>
+    <string name="connectivity_lease_time_more_than_a_week">أكثر من أسبوع (<xliff:g id="seconds" example="604801">%d</xliff:g> ث)</string>
+    <string name="connectivity_location_permission_explainer">بدون إذن الموقع الدقيق، لا يمكن عرض SSID الـ Wi-Fi الحالي.</string>
+    <string name="connectivity_bluetooth_category">البلوتوث</string>
+    <string name="connectivity_bluetooth_name_headline">الاسم</string>
+    <string name="connectivity_bluetooth_status_headline">الحالة</string>
+    <string name="connectivity_bluetooth_low_energy_headline">البلوتوث منخفض الطاقة</string>
+    <string name="connectivity_bluetooth_connected_devices_headline">الأجهزة المتصلة</string>
+    <string name="connectivity_bluetooth_mac_address_headline">عنوان MAC</string>
+    <string name="connectivity_bluetooth_turn_on_bluetooth">تشغيل البلوتوث</string>
+    <string name="connectivity_bluetooth_zero_device_connected">0 جهاز متصل</string>
+    <string name="connectivity_bluetooth_status_enabled">مفعّل</string>
+    <string name="connectivity_bluetooth_status_disabled">معطّل</string>
+    <string name="connectivity_bluetooth_status_turning_on">يتم التشغيل</string>
+    <string name="connectivity_bluetooth_status_turning_off">يتم الإيقاف</string>
+    <string name="connectivity_bluetooth_permission_explainer">بدون إذن الأجهزة المجاورة، لا يمكن للتطبيق عرض تفاصيل البلوتوث.</string>
+    <string name="connectivity_features_category">الميزات</string>
+    <string name="connectivity_thread_network_headline">شبكة Thread</string>
+    <string name="connectivity_ble_channel_sounding_headline">Bluetooth channel sounding</string>
+
+    <!-- Battery page -->
+    <string name="battery_health_headline">الصحة</string>
+    <string name="battery_status_headline">الحالة</string>
+    <string name="battery_level_headline">المستوى</string>
+    <string name="battery_source_headline">المصدر</string>
+    <string name="battery_current_headline">التيار</string>
+    <string name="battery_power_headline">الطاقة</string>
+    <string name="battery_voltage_headline">الجهد</string>
+    <string name="battery_temperature_headline">درجة الحرارة</string>
+    <string name="battery_thermal_throttling_headline">خنق الحرارة</string>
+    <string name="battery_thermal_throttling_none">لا شيء</string>
+    <string name="battery_thermal_throttling_light">خفيف</string>
+    <string name="battery_thermal_throttling_moderate">متوسط</string>
+    <string name="battery_thermal_throttling_severe">شديد</string>
+    <string name="battery_thermal_throttling_critical">حرج</string>
+    <string name="battery_thermal_throttling_emergency">طوارئ</string>
+    <string name="battery_thermal_throttling_shutdown">إيقاف التشغيل</string>
+    <string name="battery_technology_headline">التقنية</string>
+    <string name="battery_cycle_count_headline">عدد الدورات</string>
+    <string name="battery_current_display_value"><xliff:g id="current" example="304">%1$d</xliff:g> ملي أمبير</string>
+    <string name="battery_voltage_display_value"><xliff:g id="voltage" example="4.384">%1$.3f</xliff:g> فولت</string>
+    <string name="battery_power_display_value"><xliff:g id="power" example="18">%1$.2f</xliff:g> واط</string>
+    <string name="battery_power_not_charging">غير مشحون</string>
+    <string name="battery_status_not_charging">لا يشحن</string>
+    <string name="battery_status_charging">يشحن</string>
+    <string name="battery_status_discharging">يُفرّغ</string>
+    <string name="battery_status_full">ممتلئ</string>
+    <string name="battery_health_good">جيدة</string>
+    <string name="battery_health_overheated">مسخّن</string>
+    <string name="battery_health_dead">ميت</string>
+    <string name="battery_health_overvoltage">جهد زائد</string>
+    <string name="battery_health_unspecified_failure">عطل غير محدد</string>
+    <string name="battery_health_cold">بارد</string>
+    <string name="battery_source_ac">شاحن (AC)</string>
+    <string name="battery_source_usb">USB</string>
+    <string name="battery_source_wireless">لاسلكي</string>
+
+    <!-- Media DRM page -->
+    <string name="media_drm_algorithms_headline">الخوارزميات</string>
+    <string name="media_drm_device_unique_id_headline">معرّف الجهاز الفريد</string>
+    <string name="media_drm_vendor_headline">المورّد</string>
+    <string name="media_drm_version_headline">الإصدار</string>
+    <string name="media_drm_security_level_headline">مستوى الأمان</string>
+
+    <!-- Settings Hub page -->
+    <string name="settings_general_entry_headline">عام</string>
+    <string name="settings_general_entry_description">الأمان، الحافظة، الاهتزازات والوحدات</string>
+    <string name="settings_appearance_entry_headline">المظهر</string>
+    <string name="settings_appearance_entry_description">الوضع الداكن والألوان</string>
+    <string name="settings_advanced_entry_headline">متقدم</string>
+    <string name="settings_advanced_entry_description">الوحدات الاختيارية، التحليلات</string>
+    <string name="settings_about_entry_headline">حول</string>
+
+    <!-- General Settings -->
+    <string name="settings_general_security_category">الأمان</string>
+    <string name="settings_general_block_screen_capture_headline">حظر التقاط الشاشة</string>
+    <string name="settings_general_block_screen_capture_description">منع التقاط محتوى الشاشة</string>
+    <string name="settings_general_hide_3rd_party_overlays_headline">إخفاء التراكبات من طرف ثالث</string>
+    <string name="settings_general_hide_3rd_party_overlays_description">إخفاء التراكبات التي أنشأتها تطبيقات غير النظام</string>
+    <string name="settings_general_interactive_haptics_category">الاهتزازات التفاعلية</string>
+    <string name="settings_general_feedback_level_headline">التغذية الراجعة باللمس</string>
+    <string name="settings_general_feedback_level_description">اهتزاز عند تفاعلات اللمس</string>
+    <string name="settings_general_feedback_level_none">لا شيء</string>
+    <string name="settings_general_feedback_level_minimal">أدنى</string>
+    <string name="settings_general_feedback_level_default">افتراضي</string>
+    <string name="settings_general_feedback_level_expressive">معبّر</string>
+    <string name="settings_general_units_category">الوحدات</string>
+    <string name="settings_general_temperature_headline">درجة الحرارة</string>
+
+    <!-- Appearance Settings -->
+    <string name="settings_appearance_dark_mode_headline">الوضع الداكن</string>
+    <string name="settings_appearance_dark_mode_off">معطّل</string>
+    <string name="settings_appearance_dark_mode_on">مفعّل</string>
+    <string name="settings_appearance_dark_mode_follow_system">اتباع النظام</string>
+    <string name="settings_appearance_dynamic_colors_headline">استخدام ألوان النظام</string>
+    <string name="settings_appearance_dynamic_colors_description">استخدام الألوان المقدمة من النظام</string>
+    <string name="settings_appearance_pure_black_headline">استخدام الأسود الخالص في الوضع الداكن</string>
+    <string name="settings_appearance_pure_black_description">استبدال خلفية الوضع الداكن بالأسود الخالص</string>
+    <string name="settings_appearance_system_fonts_headline">استخدام خطوط النظام</string>
+    <string name="settings_appearance_system_fonts_description">استخدام الخطوط المقدمة من جهازك</string>
+    <!-- Advanced Settings -->
+    <string name="settings_advanced_optional_modules_category">الوحدات الاختيارية</string>
+    <string name="settings_advanced_analytics_category">التحليلات</string>
+    <string name="settings_advanced_allow_analytics_headline">السماح بالتحليلات</string>
+    <string name="settings_advanced_allow_analytics_description">إرسال بيانات مجهولة لمساعدتنا في تحسين Inware</string>
+    <string name="settings_advanced_reset_analytics_headline">إعادة تعيين هوية الجهاز</string>
+    <string name="settings_advanced_reset_analytics_success">تمت إعادة التعيين بنجاح</string>
+    <string name="settings_advanced_experimental_category">تجريبي</string>
+    <string name="settings_advanced_developer_options_category">خيارات المطوّر</string>
+
+    <!-- About Settings -->
+    <string name="settings_about_privacy_policy_headline">سياسة الخصوصية</string>
+    <string name="settings_about_licenses_headline">التراخيص</string>
+    <string name="settings_about_button_channel">القناة</string>
+    <string name="settings_about_button_group">المجموعة</string>
+    <string name="settings_about_button_github">GitHub</string>
+    <string name="settings_about_button_twitter">تويتر</string>
+    <string name="settings_about_button_website">الموقع الإلكتروني</string>
+    <string name="settings_about_button_email">البريد الإلكتروني</string>
+    <string name="settings_about_thanks_to_category">شكراً لـ</string>
+    <string name="settings_about_translate_title">ساعد في ترجمة Inware</string>
+    <string name="settings_about_translate_summary">انضم إلى مشروع المجتمع لترجمة الميزات الجديدة.</string>
+    <string name="settings_about_translate_action">افتح المشروع</string>
+    <string name="settings_developer_options_warning_title">تفعيل خيارات المطوّر؟</string>
+    <string name="settings_developer_options_warning_message">تحتوي خيارات المطوّر على إعدادات متقدمة قد تؤثر على استقرار التطبيق وأدائه.\n\nفعّلها فقط إذا كنت تفهم المخاطر المحتملة.</string>
+    <string name="settings_developer_options_warning_proceed">متابعة</string>
+
+    <!--
+    Legacy strings without new equivalents.
+
+    These strings may still be used in the future. Translations are kept just in case.
+     -->
+    <string name="legacy_new_version_available">إصدار جديد متاح</string>
+    <string name="legacy_new_version_dialog_message">رقِّ إلى أحدث إصدار لتجربة أفضل</string>
+    <string name="legacy_update">تحديث</string>
+    <string name="legacy_later">لاحقاً</string>
+    <string name="legacy_shake_to_report_category">الهز للإبلاغ</string>
+    <string name="legacy_shake_to_send_feedback">الهز لإرسال التعليقات</string>
+    <string name="legacy_shake_to_send_feedback_summary">اهز جهازك لإرسال تعليقات بسرعة من أي شاشة</string>
+    <string name="legacy_sensitivity">الحساسية</string>
+    <string name="legacy_notifications_category_description">تبديل الإشعارات الفورية</string>
+    <string name="legacy_experimental_category_description">ميزات غير مُطلقة، قد تكون غير مستقرة</string>
+    <string name="legacy_shake_to_report_category_description">اهز الجهاز لإرسال تعليقات</string>
+    <string name="legacy_identifiers">المعرّفات</string>
+    <string name="legacy_stopped">متوقف</string>
+    <string name="legacy_augmented_reality">الواقع المعزّز</string>
+    <string name="legacy_permission_dialog_learn_more">تعلّم المزيد</string>
+    <string name="legacy_memory_storage_permission_explanation">إذن التخزين مطلوب لتتمكن من عرض تفاصيل التخزين.</string>
+</resources>
