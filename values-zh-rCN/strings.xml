@@ -8,29 +8,29 @@
     <string name="generic_not_supported">不支持</string>
     <string name="generic_detected">已检测到</string>
     <string name="generic_not_detected">未检测到</string>
-    <string name="generic_yes">Yes</string>
-    <string name="generic_no">No</string>
+    <string name="generic_yes">是</string>
+    <string name="generic_no">否</string>
     <string name="generic_allow">允许</string>
     <string name="generic_deny">拒绝</string>
     <string name="generic_copied_to_clipboard">已复制到剪贴板</string>
-    <string name="generic_copy">Copy</string>
-    <string name="generic_copy_value">Copy value</string>
-    <string name="generic_share">Share</string>
+    <string name="generic_copy">复制</string>
+    <string name="generic_copy_value">复制值</string>
+    <string name="generic_share">分享</string>
     <string name="generic_iec_bytes"><xliff:g id="size" example="36">%s</xliff:g> B</string>
     <string name="generic_iec_kilobytes"><xliff:g id="size" example="36">%s</xliff:g> KB</string>
     <string name="generic_iec_megabytes"><xliff:g id="size" example="36">%s</xliff:g> MB</string>
     <string name="generic_iec_gigabytes"><xliff:g id="size" example="36">%s</xliff:g> GB</string>
     <string name="generic_iec_terabytes"><xliff:g id="size" example="36">%s</xliff:g> TB</string>
     <string name="generic_iec_petabytes"><xliff:g id="size" example="36">%s</xliff:g> PB</string>
-    <string name="generic_bytes_per_second"><xliff:g id="speed" example="36">%s</xliff:g> B/s</string>
+    <string name="generic_bytes_per_second"><xliff:g id="speed" example="36">%s</xliff:g> B/秒</string>
     <string name="generic_kb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> KB/秒</string>
     <string name="generic_mb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> MB/秒</string>
     <string name="generic_gb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> GB/秒</string>
     <string name="generic_tb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> TB/秒</string>
-    <string name="generic_pb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> PB/s</string>
+    <string name="generic_pb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> PB/秒</string>
 
     <!-- Analytics consent -->
-    <string name="analytics_consent_title">允许我们分析您的设备吗？</string>
+    <string name="analytics_consent_title">是否我们分析您的设备？</string>
     <string name="analytics_consent_message">若您允许，Inware 将从该设备收集匿名使用分析，以帮助我们改进应用程序。\n\n您可以在设置中关闭或重置您的设备身份。</string>
 
     <!-- Permissions -->
@@ -49,34 +49,34 @@
     <!-- Dashboard tiles -->
     <string name="system_android_version_tile_title">Android</string>
     <string name="device_model_tile_title">设备型号</string>
-    <string name="hardware_cpu_tile_title">CPU Usage</string>
-    <string name="memory_ram_tile_title">内存使用情况</string>
-    <string name="memory_storage_tile_title">内部存储</string>
+    <string name="hardware_cpu_tile_title">CPU 使用率</string>
+    <string name="memory_ram_tile_title">内存使用率</string>
+    <string name="memory_storage_tile_title">存储</string>
 
     <!-- Explore Hub page -->
     <string name="system_page">系统</string>
-    <string name="system_page_description">Android version, build info</string>
+    <string name="system_page_description">Android 版本、构建信息</string>
     <string name="device_page">设备</string>
-    <string name="device_page_description">Brand, model, display and features</string>
+    <string name="device_page_description">品牌、型号、显示与功能</string>
     <string name="hardware_page">硬件</string>
-    <string name="hardware_page_description">CPU, GPU usage and frequencies</string>
+    <string name="hardware_page_description">CPU, GPU 使用率及频率</string>
     <string name="memory_page">内存</string>
-    <string name="memory_page_description">RAM and storage usage</string>
+    <string name="memory_page_description">运行内存与存储使用率</string>
     <string name="camera_page">相机</string>
-    <string name="camera_page_description">Lenses, megapixels and stabilization</string>
-    <string name="sensors_page">Sensors</string>
-    <string name="sensors_page_description">Accelerometer, light, proximity and more</string>
+    <string name="camera_page_description">镜头信息、像素与防抖</string>
+    <string name="sensors_page">传感器</string>
+    <string name="sensors_page_description">加速度计、光线、距离传感器及更多</string>
     <string name="connectivity_page">连接</string>
-    <string name="connectivity_page_description">Bluetooth and paired devices</string>
+    <string name="connectivity_page_description">蓝牙与已配对设备</string>
     <string name="battery_page">电池</string>
-    <string name="battery_page_description">Health, level, temperature and cycles</string>
+    <string name="battery_page_description">健康度、电量、温度与循环次数</string>
     <string name="media_drm_page">媒体 DRM</string>
-    <string name="media_drm_page_description">Vendor, version and security level</string>
+    <string name="media_drm_page_description">制造商、版本与安全级别</string>
 
     <!-- System page -->
     <string name="system_android_category">Android</string>
-    <string name="system_build_category">Build</string>
-    <string name="system_status_category">Status</string>
+    <string name="system_build_category">构建信息</string>
+    <string name="system_status_category">状态</string>
     <string name="system_android_version_headline">Android 版本</string>
     <string name="system_released_with_headline">出厂版本</string>
     <string name="system_min_target_sdk_headline">最低目标 SDK</string>
@@ -105,8 +105,8 @@
     <string name="system_seamless_updates_headline">无缝更新</string>
     <string name="system_active_slot_headline">活动分区</string>
     <string name="system_root_headline">Root</string>
-    <string name="system_page_size_headline">Page size</string>
-    <string name="system_emulator_headline">Emulator</string>
+    <string name="system_page_size_headline">页面大小</string>
+    <string name="system_emulator_headline">模拟器</string>
 
     <!-- Device page -->
     <string name="device_brand_headline">品牌</string>
@@ -127,12 +127,12 @@
     <string name="device_display_default_orientation_portrait">纵向</string>
     <string name="device_display_default_orientation_landscape">横向</string>
     <string name="device_display_supports_hdr_headline">HDR</string>
-    <string name="device_display_adaptive_refresh_rate_headline">Adaptive refresh rate</string>
-    <string name="device_security_category">Security chip</string>
-    <string name="device_security_chip_manufacturer_headline">Manufacturer</string>
-    <string name="device_security_chip_model_headline">Model</string>
-    <string name="device_display_hdr_supported_with_ratio">Supported (<xliff:g id="ratio" example="2.5x">%s</xliff:g>)</string>
-    <string name="device_display_supported_refresh_rates_headline">Supported refresh rates (Hz)</string>
+    <string name="device_display_adaptive_refresh_rate_headline"自适应刷新率</string>
+    <string name="device_security_category">安全芯片</string>
+    <string name="device_security_chip_manufacturer_headline">制造商</string>
+    <string name="device_security_chip_model_headline">型号</string>
+    <string name="device_display_hdr_supported_with_ratio">支持 (<xliff:g id="ratio" example="2.5x">%s</xliff:g>)</string>
+    <string name="device_display_supported_refresh_rates_headline">支持的刷新率 (Hz)</string>
     <string name="device_features_category">功能</string>
     <string name="device_fingerprint_authentication_headline">指纹识别</string>
     <string name="device_face_authentication_headline">面部识别</string>
@@ -150,15 +150,15 @@
     <string name="hardware_cluster_minimum_frequency_headline">最低频率</string>
     <string name="hardware_cluster_maximum_frequency_headline">最高频率</string>
     <string name="hardware_cluster_governor_headline">调度器</string>
-    <string name="hardware_cpu_usage_category">CPU 用量</string>
+    <string name="hardware_cpu_usage_category">CPU 占用率</string>
     <string name="hardware_core_headline">核心 <xliff:g example="3" id="number_of_core">%d</xliff:g></string>
     <string name="hardware_core_offline">离线</string>
     <string name="hardware_core_frequency"><xliff:g example="857" id="frequency">%d</xliff:g> MHz</string>
     <string name="hardware_gpu_category">GPU</string>
     <string name="hardware_gpu_vendor_headline">供应商</string>
     <string name="hardware_gpu_renderer_headline">渲染器</string>
-    <string name="hardware_gpu_gl_version_headline">OpenGL ES version</string>
-    <string name="hardware_gpu_vulkan_version_headline">Vulkan version</string>
+    <string name="hardware_gpu_gl_version_headline">OpenGL ES 版本</string>
+    <string name="hardware_gpu_vulkan_version_headline">Vulkan 版本</string>
     <string name="hardware_gpu_current_frequency_headline">当前频率</string>
     <string name="hardware_gpu_minimum_frequency_headline">最低频率</string>
     <string name="hardware_gpu_maximum_frequency_headline">最高频率</string>
@@ -166,13 +166,13 @@
     <string name="hardware_gpu_usage_headline">用量</string>
 
     <!-- Memory page -->
-    <string name="memory_ram_category">内存（RAM）</string>
+    <string name="memory_ram_category">运行内存</string>
     <string name="memory_ram_hardware_headline">硬件</string>
     <string name="memory_ram_total_headline">总计</string>
     <string name="memory_ram_available_headline">可用模块</string>
     <string name="memory_ram_used_headline">已用</string>
     <string name="memory_ram_usage_headline">用量</string>
-    <string name="memory_ram_low_ram_headline">Low RAM</string>
+    <string name="memory_ram_low_ram_headline">低运行内存</string>
     <string name="memory_storage_category">内部存储</string>
     <string name="memory_storage_hardware_headline">硬件</string>
     <string name="memory_storage_total_headline">总计</string>
@@ -186,32 +186,32 @@
     <string name="camera_lens_back">后置相机</string>
     <string name="camera_lens_external">外部相机</string>
     <string name="camera_megapixels_headline">像素（百万）</string>
-    <string name="camera_megapixels_value"><xliff:g example="16" id="number_of_megapixel">%d</xliff:g> Mpx</string>
+    <string name="camera_megapixels_value"><xliff:g example="16" id="number_of_megapixel">%d</xliff:g> 百万像素</string>
     <string name="camera_available_apertures_headline">可用光圈</string>
     <string name="camera_ois_headline">光学防抖（OIS）</string>
     <string name="camera_eis_headline">电子防抖（EIS）</string>
     <string name="camera_flash_headline">闪光灯</string>
 
     <!-- Sensors page -->
-    <string name="sensor_accelerometer_headline">Accelerometer</string>
-    <string name="sensor_gyroscope_headline">Gyroscope</string>
-    <string name="sensor_magnetic_field_headline">Magnetic field</string>
-    <string name="sensor_pressure_headline">Barometer</string>
-    <string name="sensor_proximity_headline">Proximity</string>
-    <string name="sensor_light_headline">Ambient light</string>
-    <string name="sensor_ambient_temperature_headline">Ambient temperature</string>
-    <string name="sensor_relative_humidity_headline">Relative humidity</string>
-    <string name="sensor_gravity_headline">Gravity</string>
-    <string name="sensor_linear_acceleration_headline">Linear acceleration</string>
-    <string name="sensor_step_counter_headline">Step counter</string>
-    <string name="sensor_readings_headline">Readings</string>
-    <string name="sensor_vendor_headline">Vendor</string>
-    <string name="sensor_type_headline">Type</string>
-    <string name="sensor_max_range_headline">Max range</string>
-    <string name="sensor_resolution_headline">Resolution</string>
-    <string name="sensor_power_headline">Power</string>
+    <string name="sensor_accelerometer_headline">加速度计</string>
+    <string name="sensor_gyroscope_headline">陀螺仪</string>
+    <string name="sensor_magnetic_field_headline">磁场</string>
+    <string name="sensor_pressure_headline">气压计</string>
+    <string name="sensor_proximity_headline">接近感应器</string>
+    <string name="sensor_light_headline">环境光</string>
+    <string name="sensor_ambient_temperature_headline">环境温度</string>
+    <string name="sensor_relative_humidity_headline">相对湿度</string>
+    <string name="sensor_gravity_headline">重力</string>
+    <string name="sensor_linear_acceleration_headline">线性加速度</string>
+    <string name="sensor_step_counter_headline">计步器</string>
+    <string name="sensor_readings_headline">读数</string>
+    <string name="sensor_vendor_headline">厂商</string>
+    <string name="sensor_type_headline">类型</string>
+    <string name="sensor_max_range_headline">最大量程</string>
+    <string name="sensor_resolution_headline">分辨率</string>
+    <string name="sensor_power_headline">功耗</string>
     <string name="sensor_power_value">%s mA</string>
-    <string name="sensor_version_headline">Version</string>
+    <string name="sensor_version_headline">版本</string>
 
     <!-- Connectivity page -->
     <string name="connectivity_network_category">网络</string>
@@ -251,9 +251,9 @@
     <string name="connectivity_bluetooth_status_turning_on">正在开启</string>
     <string name="connectivity_bluetooth_status_turning_off">正在关闭</string>
     <string name="connectivity_bluetooth_permission_explainer">需要 \"附近的设备\" 权限才能显示某些蓝牙信息。</string>
-    <string name="connectivity_features_category">Features</string>
-    <string name="connectivity_thread_network_headline">Thread network</string>
-    <string name="connectivity_ble_channel_sounding_headline">Bluetooth channel sounding</string>
+    <string name="connectivity_features_category">功能</string>
+    <string name="connectivity_thread_network_headline">Thread 网络</string>
+    <string name="connectivity_ble_channel_sounding_headline">蓝牙信道探测</string>
 
     <!-- Battery page -->
     <string name="battery_health_headline">健康</string>
@@ -264,16 +264,16 @@
     <string name="battery_power_headline">电源</string>
     <string name="battery_voltage_headline">电压</string>
     <string name="battery_temperature_headline">温度</string>
-    <string name="battery_thermal_throttling_headline">Thermal throttling</string>
-    <string name="battery_thermal_throttling_none">None</string>
-    <string name="battery_thermal_throttling_light">Light</string>
-    <string name="battery_thermal_throttling_moderate">Moderate</string>
-    <string name="battery_thermal_throttling_severe">Severe</string>
-    <string name="battery_thermal_throttling_critical">Critical</string>
-    <string name="battery_thermal_throttling_emergency">Emergency</string>
-    <string name="battery_thermal_throttling_shutdown">Shutdown</string>
+    <string name="battery_thermal_throttling_headline">温控限频</string>
+    <string name="battery_thermal_throttling_none">无</string>
+    <string name="battery_thermal_throttling_light">轻微</string>
+    <string name="battery_thermal_throttling_moderate">中度</string>
+    <string name="battery_thermal_throttling_severe">重度</string>
+    <string name="battery_thermal_throttling_critical">极重</string>
+    <string name="battery_thermal_throttling_emergency">紧急</string>
+    <string name="battery_thermal_throttling_shutdown">关机</string>
     <string name="battery_technology_headline">电池技术</string>
-    <string name="battery_cycle_count_headline">Cycle count</string>
+    <string name="battery_cycle_count_headline">循环次数</string>
     <string name="battery_current_display_value"><xliff:g id="current" example="304">%1$d</xliff:g> mA</string>
     <string name="battery_voltage_display_value"><xliff:g id="voltage" example="4.384">%1$.3f</xliff:g> V</string>
     <string name="battery_power_display_value"><xliff:g id="power" example="18">%1$.2f</xliff:g> W</string>
@@ -314,13 +314,13 @@
     <string name="settings_general_block_screen_capture_description">阻止截取屏幕内容</string>
     <string name="settings_general_hide_3rd_party_overlays_headline">隐藏第三方叠加层</string>
     <string name="settings_general_hide_3rd_party_overlays_description">隐藏非系统应用创建的叠加层</string>
-    <string name="settings_general_interactive_haptics_category">Interactive haptics</string>
-    <string name="settings_general_feedback_level_headline">Touch feedback</string>
-    <string name="settings_general_feedback_level_description">Vibrate on touch interactions</string>
-    <string name="settings_general_feedback_level_none">None</string>
-    <string name="settings_general_feedback_level_minimal">Minimal</string>
-    <string name="settings_general_feedback_level_default">Default</string>
-    <string name="settings_general_feedback_level_expressive">Expressive</string>
+    <string name="settings_general_interactive_haptics_category">交互触感</string>
+    <string name="settings_general_feedback_level_headline">触摸反馈</string>
+    <string name="settings_general_feedback_level_description">触摸交互时振动</string>
+    <string name="settings_general_feedback_level_none">无</string>
+    <string name="settings_general_feedback_level_minimal">微弱</string>
+    <string name="settings_general_feedback_level_default">默认</string>
+    <string name="settings_general_feedback_level_expressive">强烈</string>
     <string name="settings_general_units_category">单位</string>
     <string name="settings_general_temperature_headline">温度</string>
 
@@ -333,8 +333,8 @@
     <string name="settings_appearance_dynamic_colors_description">使用由系统提供的配色方案</string>
     <string name="settings_appearance_pure_black_headline">暗色模式时使用纯黑</string>
     <string name="settings_appearance_pure_black_description">将暗色模式背景替换为纯黑</string>
-    <string name="settings_appearance_system_fonts_headline">Use system fonts</string>
-    <string name="settings_appearance_system_fonts_description">Use fonts provided by your device</string>
+    <string name="settings_appearance_system_fonts_headline">使用系统字体</string>
+    <string name="settings_appearance_system_fonts_description">使用你的设备提供的字体</string>
 
     <!-- Advanced Settings -->
     <string name="settings_advanced_optional_modules_category">可选模块</string>
