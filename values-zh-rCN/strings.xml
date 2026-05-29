@@ -49,8 +49,8 @@
     <!-- Dashboard tiles -->
     <string name="system_android_version_tile_title">Android</string>
     <string name="device_model_tile_title">设备型号</string>
-    <string name="hardware_cpu_tile_title">CPU 使用率</string>
-    <string name="memory_ram_tile_title">内存使用率</string>
+    <string name="hardware_cpu_tile_title">CPU 占用率</string>
+    <string name="memory_ram_tile_title">RAM 占用率</string>
     <string name="memory_storage_tile_title">存储</string>
 
     <!-- Explore Hub page -->
@@ -59,9 +59,9 @@
     <string name="device_page">设备</string>
     <string name="device_page_description">品牌、型号、显示与功能</string>
     <string name="hardware_page">硬件</string>
-    <string name="hardware_page_description">CPU, GPU 使用率及频率</string>
-    <string name="memory_page">内存</string>
-    <string name="memory_page_description">运行内存与存储使用率</string>
+    <string name="hardware_page_description">CPU, GPU 占用率及频率</string>
+    <string name="memory_page">RAM</string>
+    <string name="memory_page_description">RAM 与 ROM 占用率</string>
     <string name="camera_page">相机</string>
     <string name="camera_page_description">镜头信息、像素与防抖</string>
     <string name="sensors_page">传感器</string>
@@ -71,7 +71,7 @@
     <string name="battery_page">电池</string>
     <string name="battery_page_description">健康度、电量、温度与循环次数</string>
     <string name="media_drm_page">媒体 DRM</string>
-    <string name="media_drm_page_description">制造商、版本与安全级别</string>
+    <string name="media_drm_page_description">制造商、版本与安全等级</string>
 
     <!-- System page -->
     <string name="system_android_category">Android</string>
@@ -155,7 +155,7 @@
     <string name="hardware_core_offline">离线</string>
     <string name="hardware_core_frequency"><xliff:g example="857" id="frequency">%d</xliff:g> MHz</string>
     <string name="hardware_gpu_category">GPU</string>
-    <string name="hardware_gpu_vendor_headline">供应商</string>
+    <string name="hardware_gpu_vendor_headline">制造商</string>
     <string name="hardware_gpu_renderer_headline">渲染器</string>
     <string name="hardware_gpu_gl_version_headline">OpenGL ES 版本</string>
     <string name="hardware_gpu_vulkan_version_headline">Vulkan 版本</string>
@@ -166,14 +166,14 @@
     <string name="hardware_gpu_usage_headline">用量</string>
 
     <!-- Memory page -->
-    <string name="memory_ram_category">运行内存</string>
+    <string name="memory_ram_category">RAM</string>
     <string name="memory_ram_hardware_headline">硬件</string>
     <string name="memory_ram_total_headline">总计</string>
     <string name="memory_ram_available_headline">可用模块</string>
     <string name="memory_ram_used_headline">已用</string>
     <string name="memory_ram_usage_headline">用量</string>
-    <string name="memory_ram_low_ram_headline">低运行内存</string>
-    <string name="memory_storage_category">内部存储</string>
+    <string name="memory_ram_low_ram_headline">低 RAM</string>
+    <string name="memory_storage_category">存储</string>
     <string name="memory_storage_hardware_headline">硬件</string>
     <string name="memory_storage_total_headline">总计</string>
     <string name="memory_storage_available_headline">可用模块</string>
@@ -295,7 +295,7 @@
     <!-- Media DRM page -->
     <string name="media_drm_algorithms_headline">算法</string>
     <string name="media_drm_device_unique_id_headline">设备唯一标识</string>
-    <string name="media_drm_vendor_headline">供应商</string>
+    <string name="media_drm_vendor_headline">制造商</string>
     <string name="media_drm_version_headline">版本</string>
     <string name="media_drm_security_level_headline">安全等级</string>
 
