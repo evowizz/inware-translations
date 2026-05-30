@@ -127,7 +127,7 @@
     <string name="device_display_default_orientation_portrait">纵向</string>
     <string name="device_display_default_orientation_landscape">横向</string>
     <string name="device_display_supports_hdr_headline">HDR</string>
-    <string name="device_display_adaptive_refresh_rate_headline"自适应刷新率</string>
+    <string name="device_display_adaptive_refresh_rate_headline">自适应刷新率</string>
     <string name="device_security_category">安全芯片</string>
     <string name="device_security_chip_manufacturer_headline">制造商</string>
     <string name="device_security_chip_model_headline">型号</string>
