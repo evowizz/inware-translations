@@ -51,7 +51,7 @@
     <string name="device_model_tile_title">设备型号</string>
     <string name="hardware_cpu_tile_title">CPU 占用率</string>
     <string name="memory_ram_tile_title">RAM 占用率</string>
-    <string name="memory_storage_tile_title">存储</string>
+    <string name="memory_storage_tile_title">ROM</string>
 
     <!-- Explore Hub page -->
     <string name="system_page">系统</string>
@@ -173,7 +173,7 @@
     <string name="memory_ram_used_headline">已用</string>
     <string name="memory_ram_usage_headline">用量</string>
     <string name="memory_ram_low_ram_headline">低 RAM</string>
-    <string name="memory_storage_category">存储</string>
+    <string name="memory_storage_category">ROM</string>
     <string name="memory_storage_hardware_headline">硬件</string>
     <string name="memory_storage_total_headline">总计</string>
     <string name="memory_storage_available_headline">可用模块</string>
