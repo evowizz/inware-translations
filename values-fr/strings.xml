@@ -323,6 +323,9 @@
     <string name="settings_general_feedback_level_expressive">Expressif</string>
     <string name="settings_general_units_category">Unités</string>
     <string name="settings_general_temperature_headline">Température</string>
+    <string name="settings_general_temperature_celsius">Celsius</string>
+    <string name="settings_general_temperature_fahrenheit">Fahrenheit</string>
+    <string name="settings_general_temperature_kelvin">Kelvin</string>
 
     <!-- Appearance Settings -->
     <string name="settings_appearance_dark_mode_headline">Mode sombre</string>

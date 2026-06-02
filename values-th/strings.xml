@@ -323,6 +323,9 @@
     <string name="settings_general_feedback_level_expressive">Expressive</string>
     <string name="settings_general_units_category">Units</string>
     <string name="settings_general_temperature_headline">อุณหภูมิ</string>
+    <string name="settings_general_temperature_celsius">Celsius</string>
+    <string name="settings_general_temperature_fahrenheit">Fahrenheit</string>
+    <string name="settings_general_temperature_kelvin">Kelvin</string>
 
     <!-- Appearance Settings -->
     <string name="settings_appearance_dark_mode_headline">Dark mode</string>

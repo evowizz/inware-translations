@@ -323,6 +323,9 @@
     <string name="settings_general_feedback_level_expressive">Expressive</string>
     <string name="settings_general_units_category">Mga unit</string>
     <string name="settings_general_temperature_headline">Temperature</string>
+    <string name="settings_general_temperature_celsius">Celsius</string>
+    <string name="settings_general_temperature_fahrenheit">Fahrenheit</string>
+    <string name="settings_general_temperature_kelvin">Kelvin</string>
 
     <!-- Appearance Settings -->
     <string name="settings_appearance_dark_mode_headline">Madilim na mode</string>

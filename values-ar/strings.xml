@@ -324,6 +324,9 @@
     <string name="settings_general_feedback_level_expressive">معبّر</string>
     <string name="settings_general_units_category">الوحدات</string>
     <string name="settings_general_temperature_headline">درجة الحرارة</string>
+    <string name="settings_general_temperature_celsius">Celsius</string>
+    <string name="settings_general_temperature_fahrenheit">Fahrenheit</string>
+    <string name="settings_general_temperature_kelvin">Kelvin</string>
 
     <!-- Appearance Settings -->
     <string name="settings_appearance_dark_mode_headline">الوضع الداكن</string>
