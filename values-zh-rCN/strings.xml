@@ -51,7 +51,7 @@
     <string name="device_model_tile_title">设备型号</string>
     <string name="hardware_cpu_tile_title">CPU 占用率</string>
     <string name="memory_ram_tile_title">RAM 占用率</string>
-    <string name="memory_storage_tile_title">ROM</string>
+    <string name="memory_storage_tile_title">ROM 占用率</string>
 
     <!-- Explore Hub page -->
     <string name="system_page">系统</string>
