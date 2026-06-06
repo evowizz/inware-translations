@@ -195,7 +195,7 @@
     <!-- Sensors page -->
     <string name="sensor_accelerometer_headline">加速度计</string>
     <string name="sensor_gyroscope_headline">陀螺仪</string>
-    <string name="sensor_magnetic_field_headline">磁场</string>
+    <string name="sensor_magnetic_field_headline">磁力计</string>
     <string name="sensor_pressure_headline">气压计</string>
     <string name="sensor_proximity_headline">接近感应器</string>
     <string name="sensor_light_headline">环境光</string>
@@ -323,9 +323,9 @@
     <string name="settings_general_feedback_level_expressive">强烈</string>
     <string name="settings_general_units_category">单位</string>
     <string name="settings_general_temperature_headline">温度</string>
-    <string name="settings_general_temperature_celsius">Celsius</string>
-    <string name="settings_general_temperature_fahrenheit">Fahrenheit</string>
-    <string name="settings_general_temperature_kelvin">Kelvin</string>
+    <string name="settings_general_temperature_celsius">摄氏度 (°C)</string>
+    <string name="settings_general_temperature_fahrenheit">华氏度 (°F)</string>
+    <string name="settings_general_temperature_kelvin">开尔文 (K)</string>
 
     <!-- Appearance Settings -->
     <string name="settings_appearance_dark_mode_headline">暗色模式</string>
