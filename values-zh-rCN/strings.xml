@@ -60,7 +60,7 @@
     <string name="device_page_description">品牌、型号、显示与功能</string>
     <string name="hardware_page">硬件</string>
     <string name="hardware_page_description">CPU, GPU 占用率及频率</string>
-    <string name="memory_page">运行内存</string>
+    <string name="memory_page">存储器</string>
     <string name="memory_page_description">运行内存与内置存储占用率</string>
     <string name="camera_page">相机</string>
     <string name="camera_page_description">镜头信息、像素与防抖</string>
@@ -197,12 +197,12 @@
     <string name="sensor_gyroscope_headline">陀螺仪</string>
     <string name="sensor_magnetic_field_headline">磁力计</string>
     <string name="sensor_pressure_headline">气压计</string>
-    <string name="sensor_proximity_headline">接近感应器</string>
-    <string name="sensor_light_headline">环境光</string>
-    <string name="sensor_ambient_temperature_headline">环境温度</string>
-    <string name="sensor_relative_humidity_headline">相对湿度</string>
-    <string name="sensor_gravity_headline">重力</string>
-    <string name="sensor_linear_acceleration_headline">线性加速度</string>
+    <string name="sensor_proximity_headline">距离传感器</string>
+    <string name="sensor_light_headline">环境光传感器</string>
+    <string name="sensor_ambient_temperature_headline">环境温度传感器</string>
+    <string name="sensor_relative_humidity_headline">相对湿度传感器</string>
+    <string name="sensor_gravity_headline">重力传感器</string>
+    <string name="sensor_linear_acceleration_headline">线性加速度计</string>
     <string name="sensor_step_counter_headline">计步器</string>
     <string name="sensor_readings_headline">读数</string>
     <string name="sensor_vendor_headline">厂商</string>
