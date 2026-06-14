@@ -16,6 +16,7 @@
     <string name="generic_copy">Copy</string>
     <string name="generic_copy_value">Copy value</string>
     <string name="generic_share">Share</string>
+    <!-- IEC size units (1024-based). SI sizes use ICU's MeasureFormat instead. -->
     <string name="generic_iec_bytes"><xliff:g id="size" example="36">%s</xliff:g> B</string>
     <string name="generic_iec_kilobytes"><xliff:g id="size" example="36">%s</xliff:g> KB</string>
     <string name="generic_iec_megabytes"><xliff:g id="size" example="36">%s</xliff:g> MB</string>
@@ -42,16 +43,25 @@
     <string name="explore_page">探索</string>
     <string name="settings_page">設定</string>
 
-    <!-- Dashboard Hub page -->
-    <string name="dashboard_tiles_empty">尚無可用的儀表板卡片。</string>
-    <string name="dashboard_empty_hint">新增第一張卡片以自訂儀表板</string>
-
     <!-- Dashboard tiles -->
     <string name="system_android_version_tile_title">Android</string>
     <string name="device_model_tile_title">裝置型號</string>
     <string name="hardware_cpu_tile_title">CPU Usage</string>
     <string name="memory_ram_tile_title">記憶體使用情況</string>
     <string name="memory_storage_tile_title">內部儲存</string>
+
+    <!-- Dashboard editing -->
+    <string name="dashboard_edit_a11y_add_tile">Add to dashboard</string>
+    <string name="dashboard_edit_a11y_done">Done</string>
+    <string name="dashboard_edit_a11y_move_down">Move down</string>
+    <string name="dashboard_edit_a11y_move_up">Move up</string>
+    <string name="dashboard_edit_a11y_tile_added">Added to dashboard</string>
+    <string name="dashboard_edit_a11y_tile_position">Position %1$d of %2$d</string>
+    <string name="dashboard_edit_a11y_tile_position_selected">Selected, position %1$d of %2$d</string>
+    <string name="dashboard_edit_a11y_undo">Undo</string>
+    <string name="dashboard_edit_remove">Remove</string>
+    <string name="dashboard_edit_reset_tiles">Reset tiles</string>
+    <string name="dashboard_edit_title">Edit dashboard</string>
 
     <!-- Explore Hub page -->
     <string name="system_page">系統</string>
@@ -127,12 +137,12 @@
     <string name="device_display_default_orientation_portrait">縱向</string>
     <string name="device_display_default_orientation_landscape">橫向</string>
     <string name="device_display_supports_hdr_headline">HDR</string>
+    <string name="device_display_hdr_supported_with_ratio">Supported (<xliff:g id="ratio" example="2.5x">%s</xliff:g>)</string>
+    <string name="device_display_supported_refresh_rates_headline">Supported refresh rates (Hz)</string>
     <string name="device_display_adaptive_refresh_rate_headline">Adaptive refresh rate</string>
     <string name="device_security_category">Security chip</string>
     <string name="device_security_chip_manufacturer_headline">Manufacturer</string>
     <string name="device_security_chip_model_headline">Model</string>
-    <string name="device_display_hdr_supported_with_ratio">Supported (<xliff:g id="ratio" example="2.5x">%s</xliff:g>)</string>
-    <string name="device_display_supported_refresh_rates_headline">Supported refresh rates (Hz)</string>
     <string name="device_features_category">功能</string>
     <string name="device_fingerprint_authentication_headline">指紋辨識</string>
     <string name="device_face_authentication_headline">臉部辨識</string>
@@ -159,11 +169,6 @@
     <string name="hardware_gpu_renderer_headline">渲染器</string>
     <string name="hardware_gpu_gl_version_headline">OpenGL ES version</string>
     <string name="hardware_gpu_vulkan_version_headline">Vulkan version</string>
-    <string name="hardware_gpu_current_frequency_headline">當前頻率</string>
-    <string name="hardware_gpu_minimum_frequency_headline">最低頻率</string>
-    <string name="hardware_gpu_maximum_frequency_headline">最高頻率</string>
-    <string name="hardware_gpu_governor_headline">排程器</string>
-    <string name="hardware_gpu_usage_headline">用量</string>
 
     <!-- Memory page -->
     <string name="memory_ram_category">記憶體（RAM）</string>
@@ -295,9 +300,14 @@
     <!-- Media DRM page -->
     <string name="media_drm_algorithms_headline">演算法</string>
     <string name="media_drm_device_unique_id_headline">裝置唯一識別碼</string>
+    <string name="media_drm_system_id_headline">System ID</string>
     <string name="media_drm_vendor_headline">供應商</string>
     <string name="media_drm_version_headline">版本</string>
     <string name="media_drm_security_level_headline">安全等級</string>
+    <string name="media_drm_hdcp_level_headline">HDCP level</string>
+    <string name="media_drm_max_hdcp_level_headline">Maximum HDCP level</string>
+    <string name="media_drm_hdcp_none">None</string>
+    <string name="media_drm_hdcp_no_digital_output">No digital output</string>
 
     <!-- Settings Hub page -->
     <string name="settings_general_entry_headline">一般</string>

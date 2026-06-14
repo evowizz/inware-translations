@@ -16,6 +16,7 @@
     <string name="generic_copy">Copy</string>
     <string name="generic_copy_value">Copy value</string>
     <string name="generic_share">Share</string>
+    <!-- IEC size units (1024-based). SI sizes use ICU's MeasureFormat instead. -->
     <string name="generic_iec_bytes"><xliff:g id="size" example="36">%s</xliff:g> B</string>
     <string name="generic_iec_kilobytes"><xliff:g id="size" example="36">%s</xliff:g> KB</string>
     <string name="generic_iec_megabytes"><xliff:g id="size" example="36">%s</xliff:g> MB</string>
@@ -42,16 +43,25 @@
     <string name="explore_page">Explore</string>
     <string name="settings_page">Pengaturan</string>
 
-    <!-- Dashboard Hub page -->
-    <string name="dashboard_tiles_empty">No dashboard tiles available yet.</string>
-    <string name="dashboard_empty_hint">Add your first tile to customize your dashboard</string>
-
     <!-- Dashboard tiles -->
     <string name="system_android_version_tile_title">Android</string>
     <string name="device_model_tile_title">Device model</string>
     <string name="hardware_cpu_tile_title">CPU Usage</string>
     <string name="memory_ram_tile_title">Memory Usage</string>
     <string name="memory_storage_tile_title">Penyimpanan Internal</string>
+
+    <!-- Dashboard editing -->
+    <string name="dashboard_edit_a11y_add_tile">Add to dashboard</string>
+    <string name="dashboard_edit_a11y_done">Done</string>
+    <string name="dashboard_edit_a11y_move_down">Move down</string>
+    <string name="dashboard_edit_a11y_move_up">Move up</string>
+    <string name="dashboard_edit_a11y_tile_added">Added to dashboard</string>
+    <string name="dashboard_edit_a11y_tile_position">Position %1$d of %2$d</string>
+    <string name="dashboard_edit_a11y_tile_position_selected">Selected, position %1$d of %2$d</string>
+    <string name="dashboard_edit_a11y_undo">Undo</string>
+    <string name="dashboard_edit_remove">Remove</string>
+    <string name="dashboard_edit_reset_tiles">Reset tiles</string>
+    <string name="dashboard_edit_title">Edit dashboard</string>
 
     <!-- Explore Hub page -->
     <string name="system_page">Sistem</string>
@@ -127,12 +137,12 @@
     <string name="device_display_default_orientation_portrait">Portrait</string>
     <string name="device_display_default_orientation_landscape">Landscape</string>
     <string name="device_display_supports_hdr_headline">HDR</string>
+    <string name="device_display_hdr_supported_with_ratio">Supported (<xliff:g id="ratio" example="2.5x">%s</xliff:g>)</string>
+    <string name="device_display_supported_refresh_rates_headline">Supported refresh rates (Hz)</string>
     <string name="device_display_adaptive_refresh_rate_headline">Adaptive refresh rate</string>
     <string name="device_security_category">Security chip</string>
     <string name="device_security_chip_manufacturer_headline">Manufacturer</string>
     <string name="device_security_chip_model_headline">Model</string>
-    <string name="device_display_hdr_supported_with_ratio">Supported (<xliff:g id="ratio" example="2.5x">%s</xliff:g>)</string>
-    <string name="device_display_supported_refresh_rates_headline">Supported refresh rates (Hz)</string>
     <string name="device_features_category">Fitur</string>
     <string name="device_fingerprint_authentication_headline">Autentifikasi Sidik Jari</string>
     <string name="device_face_authentication_headline">Autentifikasi Wajah</string>
@@ -159,11 +169,6 @@
     <string name="hardware_gpu_renderer_headline">Renderer</string>
     <string name="hardware_gpu_gl_version_headline">OpenGL ES version</string>
     <string name="hardware_gpu_vulkan_version_headline">Vulkan version</string>
-    <string name="hardware_gpu_current_frequency_headline">Frekuensi Sekarang</string>
-    <string name="hardware_gpu_minimum_frequency_headline">Frekuensi Minimum</string>
-    <string name="hardware_gpu_maximum_frequency_headline">Frekuensi Maksimum</string>
-    <string name="hardware_gpu_governor_headline">Pengatur</string>
-    <string name="hardware_gpu_usage_headline">Penggunaan</string>
 
     <!-- Memory page -->
     <string name="memory_ram_category">Memori Perangkat (RAM)</string>
@@ -295,9 +300,14 @@
     <!-- Media DRM page -->
     <string name="media_drm_algorithms_headline">Algorithms</string>
     <string name="media_drm_device_unique_id_headline">Device Unique ID</string>
+    <string name="media_drm_system_id_headline">System ID</string>
     <string name="media_drm_vendor_headline">Vendor</string>
     <string name="media_drm_version_headline">Version</string>
     <string name="media_drm_security_level_headline">Security level</string>
+    <string name="media_drm_hdcp_level_headline">HDCP level</string>
+    <string name="media_drm_max_hdcp_level_headline">Maximum HDCP level</string>
+    <string name="media_drm_hdcp_none">None</string>
+    <string name="media_drm_hdcp_no_digital_output">No digital output</string>
 
     <!-- Settings Hub page -->
     <string name="settings_general_entry_headline">General</string>

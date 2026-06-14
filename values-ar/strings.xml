@@ -29,7 +29,7 @@
     <string name="generic_gb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> جيجابايت/ث</string>
     <string name="generic_tb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> تيرابايت/ث</string>
     <string name="generic_pb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> بيتابايت/ث</string>
-    
+
     <!-- Analytics consent -->
     <string name="analytics_consent_title">السماح بالتحليلات؟</string>
     <string name="analytics_consent_message">بإذنك، يمكن لتطبيق Inware جمع بيانات استخدام مجهولة المصدر من هذا الجهاز لمساعدتنا في تحسين التطبيق.\n\nيمكنك إيقاف هذا أو إعادة تعيين هوية جهازك في الإعدادات.</string>
@@ -43,16 +43,25 @@
     <string name="explore_page">استكشاف</string>
     <string name="settings_page">الإعدادات</string>
 
-    <!-- Dashboard Hub page -->
-    <string name="dashboard_tiles_empty">لا توجد مربعات لوحة تحكم متاحة بعد.</string>
-    <string name="dashboard_empty_hint">أضف مربعك الأول لتخصيص لوحة التحكم</string>
-
     <!-- Dashboard tiles -->
     <string name="system_android_version_tile_title">أندرويد</string>
     <string name="device_model_tile_title">طراز الجهاز</string>
     <string name="hardware_cpu_tile_title">استخدام المعالج</string>
     <string name="memory_ram_tile_title">استخدام الذاكرة</string>
     <string name="memory_storage_tile_title">التخزين الداخلي</string>
+
+    <!-- Dashboard editing -->
+    <string name="dashboard_edit_a11y_add_tile">Add to dashboard</string>
+    <string name="dashboard_edit_a11y_done">Done</string>
+    <string name="dashboard_edit_a11y_move_down">Move down</string>
+    <string name="dashboard_edit_a11y_move_up">Move up</string>
+    <string name="dashboard_edit_a11y_tile_added">Added to dashboard</string>
+    <string name="dashboard_edit_a11y_tile_position">Position %1$d of %2$d</string>
+    <string name="dashboard_edit_a11y_tile_position_selected">Selected, position %1$d of %2$d</string>
+    <string name="dashboard_edit_a11y_undo">Undo</string>
+    <string name="dashboard_edit_remove">Remove</string>
+    <string name="dashboard_edit_reset_tiles">Reset tiles</string>
+    <string name="dashboard_edit_title">Edit dashboard</string>
 
     <!-- Explore Hub page -->
     <string name="system_page">النظام</string>
@@ -160,11 +169,6 @@
     <string name="hardware_gpu_renderer_headline">المُصيّر</string>
     <string name="hardware_gpu_gl_version_headline">إصدار OpenGL ES</string>
     <string name="hardware_gpu_vulkan_version_headline">إصدار Vulkan</string>
-    <string name="hardware_gpu_current_frequency_headline">التردد الحالي</string>
-    <string name="hardware_gpu_minimum_frequency_headline">التردد الأدنى</string>
-    <string name="hardware_gpu_maximum_frequency_headline">التردد الأقصى</string>
-    <string name="hardware_gpu_governor_headline">المُدير</string>
-    <string name="hardware_gpu_usage_headline">الاستخدام</string>
 
     <!-- Memory page -->
     <string name="memory_ram_category">ذاكرة الوصول العشوائي</string>
@@ -296,9 +300,14 @@
     <!-- Media DRM page -->
     <string name="media_drm_algorithms_headline">الخوارزميات</string>
     <string name="media_drm_device_unique_id_headline">معرّف الجهاز الفريد</string>
+    <string name="media_drm_system_id_headline">System ID</string>
     <string name="media_drm_vendor_headline">المورّد</string>
     <string name="media_drm_version_headline">الإصدار</string>
     <string name="media_drm_security_level_headline">مستوى الأمان</string>
+    <string name="media_drm_hdcp_level_headline">HDCP level</string>
+    <string name="media_drm_max_hdcp_level_headline">Maximum HDCP level</string>
+    <string name="media_drm_hdcp_none">None</string>
+    <string name="media_drm_hdcp_no_digital_output">No digital output</string>
 
     <!-- Settings Hub page -->
     <string name="settings_general_entry_headline">عام</string>
@@ -339,6 +348,7 @@
     <string name="settings_appearance_pure_black_description">استبدال خلفية الوضع الداكن بالأسود الخالص</string>
     <string name="settings_appearance_system_fonts_headline">استخدام خطوط النظام</string>
     <string name="settings_appearance_system_fonts_description">استخدام الخطوط المقدمة من جهازك</string>
+
     <!-- Advanced Settings -->
     <string name="settings_advanced_optional_modules_category">الوحدات الاختيارية</string>
     <string name="settings_advanced_analytics_category">التحليلات</string>

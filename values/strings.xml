@@ -43,16 +43,25 @@
     <string name="explore_page">Explore</string>
     <string name="settings_page">Settings</string>
 
-    <!-- Dashboard Hub page -->
-    <string name="dashboard_tiles_empty">No dashboard tiles available yet.</string>
-    <string name="dashboard_empty_hint">Add your first tile to customize your dashboard</string>
-
     <!-- Dashboard tiles -->
     <string name="system_android_version_tile_title">Android</string>
     <string name="device_model_tile_title">Device model</string>
     <string name="hardware_cpu_tile_title">CPU Usage</string>
     <string name="memory_ram_tile_title">Memory Usage</string>
     <string name="memory_storage_tile_title">Internal Storage</string>
+
+    <!-- Dashboard editing -->
+    <string name="dashboard_edit_a11y_add_tile">Add to dashboard</string>
+    <string name="dashboard_edit_a11y_done">Done</string>
+    <string name="dashboard_edit_a11y_move_down">Move down</string>
+    <string name="dashboard_edit_a11y_move_up">Move up</string>
+    <string name="dashboard_edit_a11y_tile_added">Added to dashboard</string>
+    <string name="dashboard_edit_a11y_tile_position">Position %1$d of %2$d</string>
+    <string name="dashboard_edit_a11y_tile_position_selected">Selected, position %1$d of %2$d</string>
+    <string name="dashboard_edit_a11y_undo">Undo</string>
+    <string name="dashboard_edit_remove">Remove</string>
+    <string name="dashboard_edit_reset_tiles">Reset tiles</string>
+    <string name="dashboard_edit_title">Edit dashboard</string>
 
     <!-- Explore Hub page -->
     <string name="system_page">System</string>
@@ -160,11 +169,6 @@
     <string name="hardware_gpu_renderer_headline">Renderer</string>
     <string name="hardware_gpu_gl_version_headline">OpenGL ES version</string>
     <string name="hardware_gpu_vulkan_version_headline">Vulkan version</string>
-    <string name="hardware_gpu_current_frequency_headline">Current frequency</string>
-    <string name="hardware_gpu_minimum_frequency_headline">Minimum frequency</string>
-    <string name="hardware_gpu_maximum_frequency_headline">Maximum frequency</string>
-    <string name="hardware_gpu_governor_headline">Governor</string>
-    <string name="hardware_gpu_usage_headline">Usage</string>
 
     <!-- Memory page -->
     <string name="memory_ram_category">RAM</string>
@@ -296,9 +300,14 @@
     <!-- Media DRM page -->
     <string name="media_drm_algorithms_headline">Algorithms</string>
     <string name="media_drm_device_unique_id_headline">Device Unique ID</string>
+    <string name="media_drm_system_id_headline">System ID</string>
     <string name="media_drm_vendor_headline">Vendor</string>
     <string name="media_drm_version_headline">Version</string>
     <string name="media_drm_security_level_headline">Security level</string>
+    <string name="media_drm_hdcp_level_headline">HDCP level</string>
+    <string name="media_drm_max_hdcp_level_headline">Maximum HDCP level</string>
+    <string name="media_drm_hdcp_none">None</string>
+    <string name="media_drm_hdcp_no_digital_output">No digital output</string>
 
     <!-- Settings Hub page -->
     <string name="settings_general_entry_headline">General</string>
@@ -339,6 +348,7 @@
     <string name="settings_appearance_pure_black_description">Replace the dark mode background with pure black</string>
     <string name="settings_appearance_system_fonts_headline">Use system fonts</string>
     <string name="settings_appearance_system_fonts_description">Use fonts provided by your device</string>
+
     <!-- Advanced Settings -->
     <string name="settings_advanced_optional_modules_category">Optional modules</string>
     <string name="settings_advanced_analytics_category">Analytics</string>
