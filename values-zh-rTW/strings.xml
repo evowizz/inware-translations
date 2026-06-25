@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
     <!-- Generic strings -->
+    <string name="generic_a11y_navigate_up">Navigate up</string>
+    <string name="generic_a11y_more_options">More options</string>
     <string name="generic_unknown">未知</string>
     <string name="generic_enabled">已啟用</string>
     <string name="generic_disabled">已停用</string>
@@ -198,6 +200,7 @@
     <string name="camera_flash_headline">閃光燈</string>
 
     <!-- Sensors page -->
+    <string name="sensor_a11y_view_details">View details</string>
     <string name="sensor_accelerometer_headline">Accelerometer</string>
     <string name="sensor_gyroscope_headline">Gyroscope</string>
     <string name="sensor_magnetic_field_headline">Magnetic field</string>
