@@ -46,9 +46,9 @@
     <!-- Dashboard tiles -->
     <string name="system_android_version_tile_title">Android</string>
     <string name="device_model_tile_title">设备型号</string>
-    <string name="hardware_cpu_tile_title">CPU 占用率</string>
-    <string name="memory_ram_tile_title">RAM 占用率</string>
-    <string name="memory_storage_tile_title">ROM</string>
+    <string name="hardware_cpu_tile_title">CPU</string>
+    <string name="memory_ram_tile_title">运行内存</string>
+    <string name="memory_storage_tile_title">内置存储</string>
 
     <!-- Dashboard editing -->
     <string name="dashboard_edit_a11y_add_tile">Add to dashboard</string>
@@ -70,8 +70,8 @@
     <string name="device_page_description">品牌、型号、显示与功能</string>
     <string name="hardware_page">硬件</string>
     <string name="hardware_page_description">CPU, GPU 占用率及频率</string>
-    <string name="memory_page">RAM</string>
-    <string name="memory_page_description">RAM 与 ROM 占用率</string>
+    <string name="memory_page">存储器</string>
+    <string name="memory_page_description">运行内存与内置存储占用率</string>
     <string name="camera_page">相机</string>
     <string name="camera_page_description">镜头信息、像素与防抖</string>
     <string name="sensors_page">传感器</string>
@@ -171,14 +171,14 @@
     <string name="hardware_gpu_vulkan_version_headline">Vulkan 版本</string>
 
     <!-- Memory page -->
-    <string name="memory_ram_category">RAM</string>
+    <string name="memory_ram_category">运行内存</string>
     <string name="memory_ram_hardware_headline">硬件</string>
     <string name="memory_ram_total_headline">总计</string>
     <string name="memory_ram_available_headline">可用模块</string>
     <string name="memory_ram_used_headline">已用</string>
     <string name="memory_ram_usage_headline">用量</string>
-    <string name="memory_ram_low_ram_headline">低 RAM</string>
-    <string name="memory_storage_category">ROM</string>
+    <string name="memory_ram_low_ram_headline">低运行内存</string>
+    <string name="memory_storage_category">内置存储</string>
     <string name="memory_storage_hardware_headline">硬件</string>
     <string name="memory_storage_total_headline">总计</string>
     <string name="memory_storage_available_headline">可用模块</string>
@@ -200,14 +200,14 @@
     <!-- Sensors page -->
     <string name="sensor_accelerometer_headline">加速度计</string>
     <string name="sensor_gyroscope_headline">陀螺仪</string>
-    <string name="sensor_magnetic_field_headline">磁场</string>
+    <string name="sensor_magnetic_field_headline">磁力计</string>
     <string name="sensor_pressure_headline">气压计</string>
-    <string name="sensor_proximity_headline">接近感应器</string>
-    <string name="sensor_light_headline">环境光</string>
-    <string name="sensor_ambient_temperature_headline">环境温度</string>
-    <string name="sensor_relative_humidity_headline">相对湿度</string>
-    <string name="sensor_gravity_headline">重力</string>
-    <string name="sensor_linear_acceleration_headline">线性加速度</string>
+    <string name="sensor_proximity_headline">距离传感器</string>
+    <string name="sensor_light_headline">环境光传感器</string>
+    <string name="sensor_ambient_temperature_headline">环境温度传感器</string>
+    <string name="sensor_relative_humidity_headline">相对湿度传感器</string>
+    <string name="sensor_gravity_headline">重力传感器</string>
+    <string name="sensor_linear_acceleration_headline">线性加速度计</string>
     <string name="sensor_step_counter_headline">计步器</string>
     <string name="sensor_readings_headline">读数</string>
     <string name="sensor_vendor_headline">厂商</string>
@@ -333,9 +333,9 @@
     <string name="settings_general_feedback_level_expressive">强烈</string>
     <string name="settings_general_units_category">单位</string>
     <string name="settings_general_temperature_headline">温度</string>
-    <string name="settings_general_temperature_celsius">Celsius</string>
-    <string name="settings_general_temperature_fahrenheit">Fahrenheit</string>
-    <string name="settings_general_temperature_kelvin">Kelvin</string>
+    <string name="settings_general_temperature_celsius">摄氏度</string>
+    <string name="settings_general_temperature_fahrenheit">华氏度</string>
+    <string name="settings_general_temperature_kelvin">开尔文</string>
 
     <!-- Appearance Settings -->
     <string name="settings_appearance_dark_mode_headline">暗色模式</string>
