@@ -90,6 +90,7 @@
     <string name="system_build_category">Build</string>
     <string name="system_status_category">Status</string>
     <string name="system_android_version_headline">Bersyon n Android</string>
+    <string name="system_api_level_headline">API level</string>
     <string name="system_released_with_headline">Nilabas ng</string>
     <string name="system_min_target_sdk_headline">Pinakamababang Target na SDK</string>
     <string name="system_performance_class_headline">Klase ng performance</string>
@@ -222,6 +223,7 @@
     <string name="sensor_version_headline">Version</string>
 
     <!-- Connectivity page -->
+    <string name="connectivity_a11y_view_paired_devices">View paired devices</string>
     <string name="connectivity_network_category">Network</string>
     <string name="connectivity_type_headline">Uri ng Network</string>
     <string name="connectivity_type_cellular">Cellular</string>
@@ -250,10 +252,9 @@
     <string name="connectivity_bluetooth_name_headline">Pangalan</string>
     <string name="connectivity_bluetooth_status_headline">Estado</string>
     <string name="connectivity_bluetooth_low_energy_headline">Bluetooth Low Energy</string>
-    <string name="connectivity_bluetooth_connected_devices_headline">Mga nakakonektang device</string>
+    <string name="connectivity_bluetooth_paired_devices_headline">Paired devices</string>
     <string name="connectivity_bluetooth_mac_address_headline">MAC Address</string>
     <string name="connectivity_bluetooth_turn_on_bluetooth">Buksan ang Bluetooth</string>
-    <string name="connectivity_bluetooth_zero_device_connected">Walang nakakonektang device</string>
     <string name="connectivity_bluetooth_status_enabled">Nakabukas</string>
     <string name="connectivity_bluetooth_status_disabled">Nakasara</string>
     <string name="connectivity_bluetooth_status_turning_on">Binubuksan</string>

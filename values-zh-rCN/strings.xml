@@ -90,6 +90,7 @@
     <string name="system_build_category">构建信息</string>
     <string name="system_status_category">状态</string>
     <string name="system_android_version_headline">Android 版本</string>
+    <string name="system_api_level_headline">API level</string>
     <string name="system_released_with_headline">出厂版本</string>
     <string name="system_min_target_sdk_headline">最低目标 SDK</string>
     <string name="system_performance_class_headline">性能等级</string>
@@ -222,6 +223,7 @@
     <string name="sensor_version_headline">版本</string>
 
     <!-- Connectivity page -->
+    <string name="connectivity_a11y_view_paired_devices">View paired devices</string>
     <string name="connectivity_network_category">网络</string>
     <string name="connectivity_type_headline">网络类型</string>
     <string name="connectivity_type_cellular">移动网络</string>
@@ -250,10 +252,9 @@
     <string name="connectivity_bluetooth_name_headline">名称</string>
     <string name="connectivity_bluetooth_status_headline">状态</string>
     <string name="connectivity_bluetooth_low_energy_headline">低功耗蓝牙连接</string>
-    <string name="connectivity_bluetooth_connected_devices_headline">已连接设备</string>
+    <string name="connectivity_bluetooth_paired_devices_headline">Paired devices</string>
     <string name="connectivity_bluetooth_mac_address_headline">MAC 地址</string>
     <string name="connectivity_bluetooth_turn_on_bluetooth">打开蓝牙</string>
-    <string name="connectivity_bluetooth_zero_device_connected">无设备连接</string>
     <string name="connectivity_bluetooth_status_enabled">已启用</string>
     <string name="connectivity_bluetooth_status_disabled">已禁用</string>
     <string name="connectivity_bluetooth_status_turning_on">正在开启</string>

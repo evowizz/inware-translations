@@ -90,6 +90,7 @@
     <string name="system_build_category">البناء</string>
     <string name="system_status_category">الحالة</string>
     <string name="system_android_version_headline">إصدار أندرويد</string>
+    <string name="system_api_level_headline">API level</string>
     <string name="system_released_with_headline">صدر مع</string>
     <string name="system_min_target_sdk_headline">الحد الأدنى للـ SDK المستهدف</string>
     <string name="system_performance_class_headline">فئة الأداء</string>
@@ -222,6 +223,7 @@
     <string name="sensor_version_headline">الإصدار</string>
 
     <!-- Connectivity page -->
+    <string name="connectivity_a11y_view_paired_devices">View paired devices</string>
     <string name="connectivity_network_category">الشبكة</string>
     <string name="connectivity_type_headline">نوع الشبكة</string>
     <string name="connectivity_type_cellular">خلوي</string>
@@ -250,10 +252,9 @@
     <string name="connectivity_bluetooth_name_headline">الاسم</string>
     <string name="connectivity_bluetooth_status_headline">الحالة</string>
     <string name="connectivity_bluetooth_low_energy_headline">البلوتوث منخفض الطاقة</string>
-    <string name="connectivity_bluetooth_connected_devices_headline">الأجهزة المتصلة</string>
+    <string name="connectivity_bluetooth_paired_devices_headline">Paired devices</string>
     <string name="connectivity_bluetooth_mac_address_headline">عنوان MAC</string>
     <string name="connectivity_bluetooth_turn_on_bluetooth">تشغيل البلوتوث</string>
-    <string name="connectivity_bluetooth_zero_device_connected">0 جهاز متصل</string>
     <string name="connectivity_bluetooth_status_enabled">مفعّل</string>
     <string name="connectivity_bluetooth_status_disabled">معطّل</string>
     <string name="connectivity_bluetooth_status_turning_on">يتم التشغيل</string>

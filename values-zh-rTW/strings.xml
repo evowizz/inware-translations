@@ -90,6 +90,7 @@
     <string name="system_build_category">Build</string>
     <string name="system_status_category">Status</string>
     <string name="system_android_version_headline">Android 版本</string>
+    <string name="system_api_level_headline">API level</string>
     <string name="system_released_with_headline">出廠版本</string>
     <string name="system_min_target_sdk_headline">最低目標 SDK</string>
     <string name="system_performance_class_headline">效能類別</string>
@@ -222,6 +223,7 @@
     <string name="sensor_version_headline">Version</string>
 
     <!-- Connectivity page -->
+    <string name="connectivity_a11y_view_paired_devices">View paired devices</string>
     <string name="connectivity_network_category">網路</string>
     <string name="connectivity_type_headline">網路類型</string>
     <string name="connectivity_type_cellular">行動網路</string>
@@ -250,10 +252,9 @@
     <string name="connectivity_bluetooth_name_headline">名稱</string>
     <string name="connectivity_bluetooth_status_headline">狀態</string>
     <string name="connectivity_bluetooth_low_energy_headline">低功耗藍牙連線</string>
-    <string name="connectivity_bluetooth_connected_devices_headline">已連線裝置</string>
+    <string name="connectivity_bluetooth_paired_devices_headline">Paired devices</string>
     <string name="connectivity_bluetooth_mac_address_headline">MAC 位址</string>
     <string name="connectivity_bluetooth_turn_on_bluetooth">開啟藍牙</string>
-    <string name="connectivity_bluetooth_zero_device_connected">無裝置連線</string>
     <string name="connectivity_bluetooth_status_enabled">已啟用</string>
     <string name="connectivity_bluetooth_status_disabled">已停用</string>
     <string name="connectivity_bluetooth_status_turning_on">正在開啟</string>

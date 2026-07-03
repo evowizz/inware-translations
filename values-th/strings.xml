@@ -90,6 +90,7 @@
     <string name="system_build_category">Build</string>
     <string name="system_status_category">Status</string>
     <string name="system_android_version_headline">เวอร์ชั่นแอนดรอยด์</string>
+    <string name="system_api_level_headline">API level</string>
     <string name="system_released_with_headline">ออกมาพร้อมกับ</string>
     <string name="system_min_target_sdk_headline">Minimum target SDK</string>
     <string name="system_performance_class_headline">Performance class</string>
@@ -222,6 +223,7 @@
     <string name="sensor_version_headline">Version</string>
 
     <!-- Connectivity page -->
+    <string name="connectivity_a11y_view_paired_devices">View paired devices</string>
     <string name="connectivity_network_category">เน็ตเวิร์ค</string>
     <string name="connectivity_type_headline">ประเภทการเชื่อมต่อ</string>
     <string name="connectivity_type_cellular">Cellular</string>
@@ -250,10 +252,9 @@
     <string name="connectivity_bluetooth_name_headline">ชื่อ</string>
     <string name="connectivity_bluetooth_status_headline">สถานะ</string>
     <string name="connectivity_bluetooth_low_energy_headline">บลูธูทแบบพลังงานต่ำ</string>
-    <string name="connectivity_bluetooth_connected_devices_headline">อุปกรณ์ที่ถูกเชื่อมต่อ</string>
+    <string name="connectivity_bluetooth_paired_devices_headline">Paired devices</string>
     <string name="connectivity_bluetooth_mac_address_headline">MAC Address</string>
     <string name="connectivity_bluetooth_turn_on_bluetooth">เปิดบลูทูธ</string>
-    <string name="connectivity_bluetooth_zero_device_connected">มี 0 อุปกรณ์ที่เชื่อมต่ออยู่</string>
     <string name="connectivity_bluetooth_status_enabled">เปิดอยู่</string>
     <string name="connectivity_bluetooth_status_disabled">ปิดอยู่</string>
     <string name="connectivity_bluetooth_status_turning_on">กำลังเปิด</string>

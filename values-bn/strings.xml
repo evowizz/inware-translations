@@ -90,6 +90,7 @@
     <string name="system_build_category">Build</string>
     <string name="system_status_category">Status</string>
     <string name="system_android_version_headline">অ্যান্ড্রয়েড সংস্করণ</string>
+    <string name="system_api_level_headline">API level</string>
     <string name="system_released_with_headline">সাথে মুক্তি পেয়েছে</string>
     <string name="system_min_target_sdk_headline">সর্বনিম্ন টার্গেট এসডিকে</string>
     <string name="system_performance_class_headline">Performance class</string>
@@ -222,6 +223,7 @@
     <string name="sensor_version_headline">Version</string>
 
     <!-- Connectivity page -->
+    <string name="connectivity_a11y_view_paired_devices">View paired devices</string>
     <string name="connectivity_network_category">নেটওয়ার্ক</string>
     <string name="connectivity_type_headline">নেটওয়ার্ক এর ধরণ</string>
     <string name="connectivity_type_cellular">Cellular</string>
@@ -250,10 +252,9 @@
     <string name="connectivity_bluetooth_name_headline">নাম</string>
     <string name="connectivity_bluetooth_status_headline">অবস্থা</string>
     <string name="connectivity_bluetooth_low_energy_headline">ব্লুটুথ লো এনার্জি</string>
-    <string name="connectivity_bluetooth_connected_devices_headline">সংযুক্ত ডিভাইসগুলি</string>
+    <string name="connectivity_bluetooth_paired_devices_headline">Paired devices</string>
     <string name="connectivity_bluetooth_mac_address_headline">ম্যাক এড্রেস</string>
     <string name="connectivity_bluetooth_turn_on_bluetooth">ব্লুটুথ চালু করুন</string>
-    <string name="connectivity_bluetooth_zero_device_connected">0 ডিভাইস সংযুক্ত</string>
     <string name="connectivity_bluetooth_status_enabled">চালু করা হয়েছে</string>
     <string name="connectivity_bluetooth_status_disabled">বন্ধ করা হয়েছে</string>
     <string name="connectivity_bluetooth_status_turning_on">চালু হচ্ছে</string>

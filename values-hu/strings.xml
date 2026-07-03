@@ -90,6 +90,7 @@
     <string name="system_build_category">Build</string>
     <string name="system_status_category">Status</string>
     <string name="system_android_version_headline">Android Verzió</string>
+    <string name="system_api_level_headline">API level</string>
     <string name="system_released_with_headline">Megjelent ezzel</string>
     <string name="system_min_target_sdk_headline">Minimális Cél SDK</string>
     <string name="system_performance_class_headline">Teljesítmény Osztály</string>
@@ -222,6 +223,7 @@
     <string name="sensor_version_headline">Version</string>
 
     <!-- Connectivity page -->
+    <string name="connectivity_a11y_view_paired_devices">View paired devices</string>
     <string name="connectivity_network_category">Hálózat</string>
     <string name="connectivity_type_headline">Hálózat Típusa</string>
     <string name="connectivity_type_cellular">Cellular</string>
@@ -250,10 +252,9 @@
     <string name="connectivity_bluetooth_name_headline">Név</string>
     <string name="connectivity_bluetooth_status_headline">Státusz</string>
     <string name="connectivity_bluetooth_low_energy_headline">Bluetooth Alacsony Energia</string>
-    <string name="connectivity_bluetooth_connected_devices_headline">Csatlakoztatott eszközök</string>
+    <string name="connectivity_bluetooth_paired_devices_headline">Paired devices</string>
     <string name="connectivity_bluetooth_mac_address_headline">MAC Cím</string>
     <string name="connectivity_bluetooth_turn_on_bluetooth">Bluetooth Bekapcsolása</string>
-    <string name="connectivity_bluetooth_zero_device_connected">0 Eszköz Csatlakoztatva</string>
     <string name="connectivity_bluetooth_status_enabled">Engedélyezve</string>
     <string name="connectivity_bluetooth_status_disabled">Letiltva</string>
     <string name="connectivity_bluetooth_status_turning_on">Bekapcsolás</string>

@@ -90,6 +90,7 @@
     <string name="system_build_category">Build</string>
     <string name="system_status_category">Status</string>
     <string name="system_android_version_headline">Versión de Android</string>
+    <string name="system_api_level_headline">API level</string>
     <string name="system_released_with_headline">Lanzado con</string>
     <string name="system_min_target_sdk_headline">Nivel mínimo de SDK objetivo</string>
     <string name="system_performance_class_headline">Clase de rendimiento</string>
@@ -222,6 +223,7 @@
     <string name="sensor_version_headline">Version</string>
 
     <!-- Connectivity page -->
+    <string name="connectivity_a11y_view_paired_devices">View paired devices</string>
     <string name="connectivity_network_category">Redes</string>
     <string name="connectivity_type_headline">Tipo de red</string>
     <string name="connectivity_type_cellular">Cellular</string>
@@ -250,10 +252,9 @@
     <string name="connectivity_bluetooth_name_headline">Nombre de dispositivo</string>
     <string name="connectivity_bluetooth_status_headline">Estado</string>
     <string name="connectivity_bluetooth_low_energy_headline">Bluetooth de baja energía (LE)</string>
-    <string name="connectivity_bluetooth_connected_devices_headline">Dispositivos conectados</string>
+    <string name="connectivity_bluetooth_paired_devices_headline">Paired devices</string>
     <string name="connectivity_bluetooth_mac_address_headline">Dirección MAC</string>
     <string name="connectivity_bluetooth_turn_on_bluetooth">Encender Bluetooth para mostrar</string>
-    <string name="connectivity_bluetooth_zero_device_connected">Sin dispositivos conectados</string>
     <string name="connectivity_bluetooth_status_enabled">Activado</string>
     <string name="connectivity_bluetooth_status_disabled">Desactivado</string>
     <string name="connectivity_bluetooth_status_turning_on">Encendiendo</string>
