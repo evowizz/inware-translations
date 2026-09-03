@@ -32,9 +32,22 @@
     <string name="generic_tb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> TB/s</string>
     <string name="generic_pb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> PB/s</string>
 
-    <!-- Analytics consent -->
-    <string name="analytics_consent_title">Permiteți date analitice?</string>
-    <string name="analytics_consent_message">Cu permisiunea dumneavoastră, Inware poate colecta date analitice de utilizare anonime de pe acest dispozitiv pentru îmbunătățirea aplicației.\n\nPuteți opri colectarea sau reseta identitatea dispozitivului dvs. în Setări.</string>
+    <!-- Telemetry consent -->
+    <string name="telemetry_consent_title">Data sharing</string>
+    <string name="telemetry_consent_first_use_message">Choose whether to enable usage analytics and crash reporting. Review the choices below, then save.</string>
+    <string name="telemetry_consent_upgrade_message">Starting with version 7.1.0, Inware lets you control usage analytics and crash reporting separately. Review the choices below, then save.</string>
+    <string name="telemetry_consent_first_use_policy_message">Read the [Privacy Policy](<xliff:g id="link" example="https://example.com">%1$s</xliff:g>) for details.</string>
+    <string name="telemetry_consent_upgrade_policy_message">The [Privacy Policy](<xliff:g id="link" example="https://example.com">%1$s</xliff:g>) has been updated to reflect these changes.</string>
+    <!-- Defaults to the Settings string and may be translated independently. -->
+    <string name="telemetry_usage_analytics_headline">@string/settings_data_privacy_usage_analytics_headline</string>
+    <!-- Defaults to the Settings string and may be translated independently. -->
+    <string name="telemetry_usage_analytics_description">@string/settings_data_privacy_usage_analytics_description</string>
+    <!-- Defaults to the Settings string and may be translated independently. -->
+    <string name="telemetry_crash_reports_headline">@string/settings_data_privacy_crash_reports_headline</string>
+    <!-- Defaults to the Settings string and may be translated independently. -->
+    <string name="telemetry_crash_reports_description">@string/settings_data_privacy_crash_reports_description</string>
+    <string name="telemetry_consent_save">Save</string>
+    <string name="telemetry_consent_decline_all">Decline all</string>
 
     <!-- Permissions -->
     <string name="permission_required_heading">Permisiune necesară</string>
@@ -151,6 +164,7 @@
     <string name="device_face_authentication_headline">Autentificare cu față</string>
     <string name="device_vulkan_headline">Vulkan</string>
     <string name="device_file_based_encryption_headline">Criptare sistem de fișiere</string>
+    <string name="device_npu_headline">Neural processing unit</string>
 
     <!-- Hardware page -->
     <string name="hardware_cpu_category">CPU</string>
@@ -193,6 +207,10 @@
     <string name="camera_lens_front">Cameră frontală</string>
     <string name="camera_lens_back">Cameră spate</string>
     <string name="camera_lens_external">Cameră externă</string>
+    <string name="camera_device_type_headline">Device type</string>
+    <string name="camera_device_type_built_in">Built-in</string>
+    <string name="camera_device_type_external">External</string>
+    <string name="camera_device_type_virtual">Virtual</string>
     <string name="camera_megapixels_headline">Megapixeli</string>
     <string name="camera_megapixels_value"><xliff:g example="16" id="number_of_megapixel">%d</xliff:g> Mpx</string>
     <string name="camera_available_apertures_headline">Aperturi disponibile</string>
@@ -318,8 +336,8 @@
     <string name="settings_general_entry_description">Securitate, clipboard și unități</string>
     <string name="settings_appearance_entry_headline">Aspect</string>
     <string name="settings_appearance_entry_description">Mod întunecat și culori</string>
-    <string name="settings_advanced_entry_headline">Avansat</string>
-    <string name="settings_advanced_entry_description">Module opționale, date analitice</string>
+    <string name="settings_data_privacy_entry_headline">Data &amp; privacy</string>
+    <string name="settings_data_privacy_entry_description">Optional data sharing and data controls</string>
     <string name="settings_about_entry_headline">Despre</string>
 
     <!-- General Settings -->
@@ -353,15 +371,15 @@
     <string name="settings_appearance_system_fonts_headline">Utilizați fonturile sistemului</string>
     <string name="settings_appearance_system_fonts_description">Utilizați fonturile furnizate de către dispozitivul dvs.</string>
 
-    <!-- Advanced Settings -->
-    <string name="settings_advanced_optional_modules_category">Module opționale</string>
-    <string name="settings_advanced_analytics_category">Date analitice</string>
-    <string name="settings_advanced_allow_analytics_headline">Permiteți date analitice</string>
-    <string name="settings_advanced_allow_analytics_description">Trimite date anonime pentru a ne ajuta să îmbunătățim Inware</string>
-    <string name="settings_advanced_reset_analytics_headline">Resetați identitatea dispozitivului</string>
-    <string name="settings_advanced_reset_analytics_success">S-a resetat cu succes</string>
-    <string name="settings_advanced_experimental_category">Experimente</string>
-    <string name="settings_advanced_developer_options_category">Opțiuni pentru dezvoltatori</string>
+    <!-- Data and Privacy Settings -->
+    <string name="settings_data_privacy_optional_data_category">Data sharing</string>
+    <string name="settings_data_privacy_usage_analytics_headline">Usage analytics</string>
+    <string name="settings_data_privacy_usage_analytics_description">Used to guide improvements to Inware\'s features and performance</string>
+    <string name="settings_data_privacy_crash_reports_headline">Send crash reports</string>
+    <string name="settings_data_privacy_crash_reports_description">Used to identify, investigate, and fix crashes more effectively</string>
+    <string name="settings_data_privacy_reset_app_identity">Reset app identity</string>
+    <string name="settings_data_privacy_reset_app_identity_failed">Couldn\'t reset app identity. Try again.</string>
+    <string name="settings_data_privacy_consent_save_failed">Couldn\'t save your choice. Try again.</string>
 
     <!-- About Settings -->
     <string name="settings_about_privacy_policy_headline">Politica de confidențialitate</string>

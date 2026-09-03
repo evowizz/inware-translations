@@ -32,9 +32,22 @@
     <string name="generic_tb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> تيرابايت/ث</string>
     <string name="generic_pb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> بيتابايت/ث</string>
 
-    <!-- Analytics consent -->
-    <string name="analytics_consent_title">السماح بالتحليلات؟</string>
-    <string name="analytics_consent_message">بإذنك، يمكن لتطبيق Inware جمع بيانات استخدام مجهولة المصدر من هذا الجهاز لمساعدتنا في تحسين التطبيق.\n\nيمكنك إيقاف هذا أو إعادة تعيين هوية جهازك في الإعدادات.</string>
+    <!-- Telemetry consent -->
+    <string name="telemetry_consent_title">Data sharing</string>
+    <string name="telemetry_consent_first_use_message">Choose whether to enable usage analytics and crash reporting. Review the choices below, then save.</string>
+    <string name="telemetry_consent_upgrade_message">Starting with version 7.1.0, Inware lets you control usage analytics and crash reporting separately. Review the choices below, then save.</string>
+    <string name="telemetry_consent_first_use_policy_message">Read the [Privacy Policy](<xliff:g id="link" example="https://example.com">%1$s</xliff:g>) for details.</string>
+    <string name="telemetry_consent_upgrade_policy_message">The [Privacy Policy](<xliff:g id="link" example="https://example.com">%1$s</xliff:g>) has been updated to reflect these changes.</string>
+    <!-- Defaults to the Settings string and may be translated independently. -->
+    <string name="telemetry_usage_analytics_headline">@string/settings_data_privacy_usage_analytics_headline</string>
+    <!-- Defaults to the Settings string and may be translated independently. -->
+    <string name="telemetry_usage_analytics_description">@string/settings_data_privacy_usage_analytics_description</string>
+    <!-- Defaults to the Settings string and may be translated independently. -->
+    <string name="telemetry_crash_reports_headline">@string/settings_data_privacy_crash_reports_headline</string>
+    <!-- Defaults to the Settings string and may be translated independently. -->
+    <string name="telemetry_crash_reports_description">@string/settings_data_privacy_crash_reports_description</string>
+    <string name="telemetry_consent_save">Save</string>
+    <string name="telemetry_consent_decline_all">Decline all</string>
 
     <!-- Permissions -->
     <string name="permission_required_heading">الإذن مطلوب</string>
@@ -151,6 +164,7 @@
     <string name="device_face_authentication_headline">مصادقة الوجه</string>
     <string name="device_vulkan_headline">Vulkan</string>
     <string name="device_file_based_encryption_headline">التشفير المبني على الملفات</string>
+    <string name="device_npu_headline">Neural processing unit</string>
 
     <!-- Hardware page -->
     <string name="hardware_cpu_category">المعالج</string>
@@ -193,6 +207,10 @@
     <string name="camera_lens_front">الكاميرا الأمامية</string>
     <string name="camera_lens_back">الكاميرا الخلفية</string>
     <string name="camera_lens_external">الكاميرا الخارجية</string>
+    <string name="camera_device_type_headline">Device type</string>
+    <string name="camera_device_type_built_in">Built-in</string>
+    <string name="camera_device_type_external">External</string>
+    <string name="camera_device_type_virtual">Virtual</string>
     <string name="camera_megapixels_headline">الميجابكسل</string>
     <string name="camera_megapixels_value"><xliff:g example="16" id="number_of_megapixel">%d</xliff:g> ميجابكسل</string>
     <string name="camera_available_apertures_headline">الفتحات المتاحة</string>
@@ -318,8 +336,8 @@
     <string name="settings_general_entry_description">الأمان، الحافظة، الاهتزازات والوحدات</string>
     <string name="settings_appearance_entry_headline">المظهر</string>
     <string name="settings_appearance_entry_description">الوضع الداكن والألوان</string>
-    <string name="settings_advanced_entry_headline">متقدم</string>
-    <string name="settings_advanced_entry_description">الوحدات الاختيارية، التحليلات</string>
+    <string name="settings_data_privacy_entry_headline">Data &amp; privacy</string>
+    <string name="settings_data_privacy_entry_description">Optional data sharing and data controls</string>
     <string name="settings_about_entry_headline">حول</string>
 
     <!-- General Settings -->
@@ -353,15 +371,15 @@
     <string name="settings_appearance_system_fonts_headline">استخدام خطوط النظام</string>
     <string name="settings_appearance_system_fonts_description">استخدام الخطوط المقدمة من جهازك</string>
 
-    <!-- Advanced Settings -->
-    <string name="settings_advanced_optional_modules_category">الوحدات الاختيارية</string>
-    <string name="settings_advanced_analytics_category">التحليلات</string>
-    <string name="settings_advanced_allow_analytics_headline">السماح بالتحليلات</string>
-    <string name="settings_advanced_allow_analytics_description">إرسال بيانات مجهولة لمساعدتنا في تحسين Inware</string>
-    <string name="settings_advanced_reset_analytics_headline">إعادة تعيين هوية الجهاز</string>
-    <string name="settings_advanced_reset_analytics_success">تمت إعادة التعيين بنجاح</string>
-    <string name="settings_advanced_experimental_category">تجريبي</string>
-    <string name="settings_advanced_developer_options_category">خيارات المطوّر</string>
+    <!-- Data and Privacy Settings -->
+    <string name="settings_data_privacy_optional_data_category">Data sharing</string>
+    <string name="settings_data_privacy_usage_analytics_headline">Usage analytics</string>
+    <string name="settings_data_privacy_usage_analytics_description">Used to guide improvements to Inware\'s features and performance</string>
+    <string name="settings_data_privacy_crash_reports_headline">Send crash reports</string>
+    <string name="settings_data_privacy_crash_reports_description">Used to identify, investigate, and fix crashes more effectively</string>
+    <string name="settings_data_privacy_reset_app_identity">Reset app identity</string>
+    <string name="settings_data_privacy_reset_app_identity_failed">Couldn\'t reset app identity. Try again.</string>
+    <string name="settings_data_privacy_consent_save_failed">Couldn\'t save your choice. Try again.</string>
 
     <!-- About Settings -->
     <string name="settings_about_privacy_policy_headline">سياسة الخصوصية</string>
