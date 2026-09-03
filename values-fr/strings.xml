@@ -33,11 +33,11 @@
     <string name="generic_pb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> Po/s</string>
 
     <!-- Telemetry consent -->
-    <string name="telemetry_consent_title">Data sharing</string>
-    <string name="telemetry_consent_first_use_message">Choose whether to enable usage analytics and crash reporting. Review the choices below, then save.</string>
-    <string name="telemetry_consent_upgrade_message">Starting with version 7.1.0, Inware lets you control usage analytics and crash reporting separately. Review the choices below, then save.</string>
-    <string name="telemetry_consent_first_use_policy_message">Read the [Privacy Policy](<xliff:g id="link" example="https://example.com">%1$s</xliff:g>) for details.</string>
-    <string name="telemetry_consent_upgrade_policy_message">The [Privacy Policy](<xliff:g id="link" example="https://example.com">%1$s</xliff:g>) has been updated to reflect these changes.</string>
+    <string name="telemetry_consent_title">Partage de données</string>
+    <string name="telemetry_consent_first_use_message">Choisissez si vous souhaitez activer les statistiques d\'utilisation et les rapports de plantage. Vérifiez les choix ci-dessous, puis enregistrez.</string>
+    <string name="telemetry_consent_upgrade_message">À partir de la version 7.1.0, Inware vous permet de contrôler séparément les statistiques d\'utilisation et les rapports de plantage. Vérifiez les choix ci-dessous, puis enregistrez.</string>
+    <string name="telemetry_consent_first_use_policy_message">Consultez la [Politique de confidentialité](<xliff:g id="link" example="https://example.com">%1$s</xliff:g>) pour plus de détails.</string>
+    <string name="telemetry_consent_upgrade_policy_message">La [Politique de confidentialité](<xliff:g id="link" example="https://example.com">%1$s</xliff:g>) a été mise à jour pour refléter ces changements.</string>
     <!-- Defaults to the Settings string and may be translated independently. -->
     <string name="telemetry_usage_analytics_headline">@string/settings_data_privacy_usage_analytics_headline</string>
     <!-- Defaults to the Settings string and may be translated independently. -->
@@ -46,8 +46,8 @@
     <string name="telemetry_crash_reports_headline">@string/settings_data_privacy_crash_reports_headline</string>
     <!-- Defaults to the Settings string and may be translated independently. -->
     <string name="telemetry_crash_reports_description">@string/settings_data_privacy_crash_reports_description</string>
-    <string name="telemetry_consent_save">Save</string>
-    <string name="telemetry_consent_decline_all">Decline all</string>
+    <string name="telemetry_consent_save">Enregistrer</string>
+    <string name="telemetry_consent_decline_all">Tout refuser</string>
 
     <!-- Permissions -->
     <string name="permission_required_heading">Autorisation requise</string>
@@ -164,7 +164,7 @@
     <string name="device_face_authentication_headline">Authentication par reconnaissance faciale</string>
     <string name="device_vulkan_headline">Vulkan</string>
     <string name="device_file_based_encryption_headline">Chiffrement basé sur un fichier (FBE)</string>
-    <string name="device_npu_headline">Neural processing unit</string>
+    <string name="device_npu_headline">Unité de traitement neuronal</string>
 
     <!-- Hardware page -->
     <string name="hardware_cpu_category">CPU</string>
@@ -207,10 +207,10 @@
     <string name="camera_lens_front">Appareil photo avant</string>
     <string name="camera_lens_back">Appareil photo arrière</string>
     <string name="camera_lens_external">Appareil photo externe</string>
-    <string name="camera_device_type_headline">Device type</string>
-    <string name="camera_device_type_built_in">Built-in</string>
-    <string name="camera_device_type_external">External</string>
-    <string name="camera_device_type_virtual">Virtual</string>
+    <string name="camera_device_type_headline">Type d\'appareil</string>
+    <string name="camera_device_type_built_in">Intégrée</string>
+    <string name="camera_device_type_external">Externe</string>
+    <string name="camera_device_type_virtual">Virtuelle</string>
     <string name="camera_megapixels_headline">Mégapixels</string>
     <string name="camera_megapixels_value"><xliff:g id="number_of_megapixel" example="16">%d</xliff:g> Mpx</string>
     <string name="camera_available_apertures_headline">Ouvertures disponibles</string>
@@ -336,8 +336,8 @@
     <string name="settings_general_entry_description">Sécurité, presse-papier, haptique et unités</string>
     <string name="settings_appearance_entry_headline">Apparence</string>
     <string name="settings_appearance_entry_description">Mode sombre et couleurs</string>
-    <string name="settings_data_privacy_entry_headline">Data &amp; privacy</string>
-    <string name="settings_data_privacy_entry_description">Optional data sharing and data controls</string>
+    <string name="settings_data_privacy_entry_headline">Données et confidentialité</string>
+    <string name="settings_data_privacy_entry_description">Partage de données optionnel, contrôle des données</string>
     <string name="settings_about_entry_headline">À propos</string>
 
     <!-- General Settings -->
@@ -372,17 +372,17 @@
     <string name="settings_appearance_system_fonts_description">Utiliser les polices fournies par votre appareil</string>
 
     <!-- Data and Privacy Settings -->
-    <string name="settings_data_privacy_optional_data_category">Data sharing</string>
-    <string name="settings_data_privacy_usage_analytics_headline">Usage analytics</string>
-    <string name="settings_data_privacy_usage_analytics_description">Used to guide improvements to Inware\'s features and performance</string>
-    <string name="settings_data_privacy_crash_reports_headline">Send crash reports</string>
-    <string name="settings_data_privacy_crash_reports_description">Used to identify, investigate, and fix crashes more effectively</string>
-    <string name="settings_data_privacy_reset_app_identity">Reset app identity</string>
-    <string name="settings_data_privacy_reset_app_identity_failed">Couldn\'t reset app identity. Try again.</string>
-    <string name="settings_data_privacy_consent_save_failed">Couldn\'t save your choice. Try again.</string>
+    <string name="settings_data_privacy_optional_data_category">Partage de données</string>
+    <string name="settings_data_privacy_usage_analytics_headline">Statistiques d\'utilisation</string>
+    <string name="settings_data_privacy_usage_analytics_description">Utilisées pour orienter les améliorations des fonctionnalités et des performances d\'Inware</string>
+    <string name="settings_data_privacy_crash_reports_headline">Envoyer les rapports de plantage</string>
+    <string name="settings_data_privacy_crash_reports_description">Utilisés pour identifier, analyser et corriger les plantages plus efficacement</string>
+    <string name="settings_data_privacy_reset_app_identity">Réinitialiser l\'identité de l\'application</string>
+    <string name="settings_data_privacy_reset_app_identity_failed">Impossible de réinitialiser l\'identité de l\'application. Réessayez.</string>
+    <string name="settings_data_privacy_consent_save_failed">Impossible d\'enregistrer votre choix. Réessayez.</string>
 
     <!-- About Settings -->
-    <string name="settings_about_privacy_policy_headline">Politique de Confidentialité</string>
+    <string name="settings_about_privacy_policy_headline">Politique de confidentialité</string>
     <string name="settings_about_licenses_headline">Licences</string>
     <string name="settings_about_button_channel">Canal</string>
     <string name="settings_about_button_group">Groupe</string>
