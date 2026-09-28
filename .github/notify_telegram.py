@@ -1,6 +1,7 @@
 import html
 import os
 import subprocess
+import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ElementTree
@@ -26,6 +27,15 @@ def git(*args):
 def parse_strings(xml):
     root = ElementTree.fromstring(xml)
     return {element.get('name'): ''.join(element.itertext()) for element in root.iter('string')}
+
+
+def base_revision():
+    # A force push replaces the previous head, and the checkout doesn't have it.
+    if github_event_before.strip('0'):
+        exists = subprocess.run(['git', 'cat-file', '-e', f'{github_event_before}^{{commit}}'], capture_output=True)
+        if exists.returncode == 0:
+            return github_event_before
+    return git('rev-parse', f'{github_sha}~1')
 
 
 def strings_at(revision):
@@ -54,11 +64,9 @@ def message(strings, compare_url, repository_url):
 
 def main():
     repository_url = f'https://github.com/{github_repository}'
-    before = github_event_before
-    if not before.strip('0'):
-        before = git('rev-parse', f'{github_sha}~1')
+    before = base_revision()
 
-    strings = strings_to_translate(strings_at(before), strings_at(github_sha))
+    strings =strings_to_translate(strings_at(before), strings_at(github_sha))
     if not strings:
         print('No new or changed strings, not notifying')
         return
@@ -76,8 +84,12 @@ def main():
         f'https://api.telegram.org/bot{telegram_token}/sendMessage',
         data=urllib.parse.urlencode(data).encode(),
     )
-    with urllib.request.urlopen(request) as response:
-        print(response.read().decode())
+    try:
+        with urllib.request.urlopen(request) as response:
+            print(response.read().decode())
+    except urllib.error.HTTPError as error:
+        print(error.read().decode())
+        raise
 
 
 if __name__ == '__main__':

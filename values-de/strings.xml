@@ -53,6 +53,11 @@
     <string name="permission_required_heading">Berechtigung erforderlich</string>
     <string name="permission_open_settings_label">In den Einstellungen aktivieren</string>
 
+    <!-- Incomplete install -->
+    <string name="incomplete_install_title">Inware can\'t start</string>
+    <string name="incomplete_install_message">Some required files are missing. Reinstall Inware from Google Play to restore them.</string>
+    <string name="incomplete_install_action">Open Google Play</string>
+
     <!-- Top level page titles -->
     <string name="dashboard_page">Dashboard</string>
     <string name="explore_page">Entdecken</string>
@@ -207,6 +212,7 @@
     <string name="camera_lens_front">Vordere Kamera</string>
     <string name="camera_lens_back">Hintere Kamera</string>
     <string name="camera_lens_external">Externe Kamera</string>
+    <string name="camera_lens_numbered"><xliff:g id="lens" example="Back camera">%1$s</xliff:g> #<xliff:g id="number" example="1">%2$d</xliff:g></string>
     <string name="camera_device_type_headline">Device type</string>
     <string name="camera_device_type_built_in">Built-in</string>
     <string name="camera_device_type_external">External</string>
@@ -330,6 +336,16 @@
     <string name="media_drm_max_hdcp_level_headline">Maximum HDCP level</string>
     <string name="media_drm_hdcp_none">None</string>
     <string name="media_drm_hdcp_no_digital_output">No digital output</string>
+
+    <!-- Search -->
+    <string name="search_a11y_clear">Clear search</string>
+    <string name="search_a11y_field">Search</string>
+    <string name="search_a11y_results_available">Results below</string>
+    <string name="search_action">Search</string>
+    <string name="search_prompt">Search device information</string>
+    <string name="search_empty_hint">Search by name or category</string>
+    <string name="search_no_results">No results found</string>
+    <string name="search_result_breadcrumb"><xliff:g id="page" example="System">%1$s</xliff:g> &gt; <xliff:g id="category" example="Android">%2$s</xliff:g></string>
 
     <!-- Settings Hub page -->
     <string name="settings_general_entry_headline">Allgemein</string>
