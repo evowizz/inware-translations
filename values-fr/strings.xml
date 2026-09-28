@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
     <!-- Generic strings -->
-    <string name="generic_a11y_go_back">Go back</string>
-    <string name="generic_a11y_more_options">More options</string>
+    <string name="generic_a11y_go_back">Retour</string>
+    <string name="generic_a11y_more_options">Autres options</string>
     <string name="generic_unknown">Inconnu</string>
     <string name="generic_enabled">Activé</string>
     <string name="generic_disabled">Désactivé</string>
@@ -54,9 +54,9 @@
     <string name="permission_open_settings_label">Activer dans les paramètres</string>
 
     <!-- Incomplete install -->
-    <string name="incomplete_install_title">Inware can\'t start</string>
-    <string name="incomplete_install_message">Some required files are missing. Reinstall Inware from Google Play to restore them.</string>
-    <string name="incomplete_install_action">Open Google Play</string>
+    <string name="incomplete_install_title">Impossible de lancer Inware</string>
+    <string name="incomplete_install_message">Certains fichiers requis sont manquants. Réinstallez Inware depuis Google Play pour les restaurer.</string>
+    <string name="incomplete_install_action">Ouvrir Google Play</string>
 
     <!-- Top level page titles -->
     <string name="dashboard_page">Dashboard</string>
@@ -225,7 +225,7 @@
     <string name="camera_flash_headline">Flash</string>
 
     <!-- Sensors page -->
-    <string name="sensor_a11y_view_details">View details</string>
+    <string name="sensor_a11y_view_details">Afficher les détails</string>
     <string name="sensor_accelerometer_headline">Accéléromètre</string>
     <string name="sensor_gyroscope_headline">Gyroscope</string>
     <string name="sensor_magnetic_field_headline">Champ magnétique</string>
@@ -338,13 +338,13 @@
     <string name="media_drm_hdcp_no_digital_output">Aucune sortie numérique</string>
 
     <!-- Search -->
-    <string name="search_a11y_clear">Clear search</string>
-    <string name="search_a11y_field">Search</string>
-    <string name="search_a11y_results_available">Results below</string>
-    <string name="search_action">Search</string>
-    <string name="search_prompt">Search device information</string>
-    <string name="search_empty_hint">Search by name or category</string>
-    <string name="search_no_results">No results found</string>
+    <string name="search_a11y_clear">Effacer la recherche</string>
+    <string name="search_a11y_field">Rechercher</string>
+    <string name="search_a11y_results_available">Résultats ci-dessous</string>
+    <string name="search_action">Rechercher</string>
+    <string name="search_prompt">Rechercher des infos sur l\'appareil</string>
+    <string name="search_empty_hint">Recherchez par nom ou par catégorie</string>
+    <string name="search_no_results">Aucun résultat trouvé</string>
     <string name="search_result_breadcrumb"><xliff:g id="page" example="System">%1$s</xliff:g> &gt; <xliff:g id="category" example="Android">%2$s</xliff:g></string>
 
     <!-- Settings Hub page -->
