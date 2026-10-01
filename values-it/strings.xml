@@ -208,7 +208,7 @@
     <string name="memory_storage_usage_headline">Utilizzo</string>
 
     <!-- Camera page -->
-    <string name="camera_accuracy_note">Note: Some devices may report inaccurate camera specifications. [Learn more](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
+    <string name="camera_accuracy_note">Some devices may report inaccurate camera specifications. [Learn more](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
     <string name="camera_lens_front">Fotocamera frontale</string>
     <string name="camera_lens_back">Fotocamera posteriore</string>
     <string name="camera_lens_external">Fotocamera esterna</string>

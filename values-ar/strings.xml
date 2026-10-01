@@ -208,7 +208,7 @@
     <string name="memory_storage_usage_headline">الاستخدام</string>
 
     <!-- Camera page -->
-    <string name="camera_accuracy_note">ملاحظة: قد تُبلّغ بعض الأجهزة عن مواصفات كاميرا غير دقيقة. [تعلّم المزيد](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
+    <string name="camera_accuracy_note">قد تُبلّغ بعض الأجهزة عن مواصفات كاميرا غير دقيقة. [تعلّم المزيد](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
     <string name="camera_lens_front">الكاميرا الأمامية</string>
     <string name="camera_lens_back">الكاميرا الخلفية</string>
     <string name="camera_lens_external">الكاميرا الخارجية</string>

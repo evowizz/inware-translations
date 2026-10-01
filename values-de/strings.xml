@@ -208,7 +208,7 @@
     <string name="memory_storage_usage_headline">Auslastung</string>
 
     <!-- Camera page -->
-    <string name="camera_accuracy_note">Achtung: Einige Geräte geben möglicherweise ungenaue Spezifikationen zurück. [Mehr erfahren](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
+    <string name="camera_accuracy_note">Einige Geräte geben möglicherweise ungenaue Spezifikationen zurück. [Mehr erfahren](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
     <string name="camera_lens_front">Vordere Kamera</string>
     <string name="camera_lens_back">Hintere Kamera</string>
     <string name="camera_lens_external">Externe Kamera</string>

@@ -208,7 +208,7 @@
     <string name="memory_storage_usage_headline">ব্যবহার</string>
 
     <!-- Camera page -->
-    <string name="camera_accuracy_note">Note: Some devices may report inaccurate camera specifications. [Learn more](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
+    <string name="camera_accuracy_note">Some devices may report inaccurate camera specifications. [Learn more](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
     <string name="camera_lens_front">সামনের ক্যামেরা</string>
     <string name="camera_lens_back">পিছনের ক্যামেরা</string>
     <string name="camera_lens_external">অতিরিক্ত ক্যামেরা</string>

@@ -208,7 +208,7 @@
     <string name="memory_storage_usage_headline">Użycie</string>
 
     <!-- Camera page -->
-    <string name="camera_accuracy_note">Uwaga: Niektóre urządzenia mogą przekazywać nieprawidłowe parametry aparatu. [Dowiedz się więcej](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
+    <string name="camera_accuracy_note">Niektóre urządzenia mogą przekazywać nieprawidłowe parametry aparatu. [Dowiedz się więcej](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
     <string name="camera_lens_front">Aparat przedni</string>
     <string name="camera_lens_back">Aparat tylny</string>
     <string name="camera_lens_external">Aparat zewnętrzny</string>

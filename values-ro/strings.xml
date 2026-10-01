@@ -208,7 +208,7 @@
     <string name="memory_storage_usage_headline">Utilizare</string>
 
     <!-- Camera page -->
-    <string name="camera_accuracy_note">Observație: Unele dispozitive pot raporta specificații greșite pentru cameră. [Mai multe](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
+    <string name="camera_accuracy_note">Unele dispozitive pot raporta specificații greșite pentru cameră. [Mai multe](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
     <string name="camera_lens_front">Cameră frontală</string>
     <string name="camera_lens_back">Cameră spate</string>
     <string name="camera_lens_external">Cameră externă</string>
