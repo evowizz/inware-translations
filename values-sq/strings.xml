@@ -298,8 +298,8 @@
     <string name="connectivity_sim_support_single_sim">Single SIM</string>
     <string name="connectivity_sim_support_esim">eSIM</string>
     <string name="connectivity_sim_support_dual_sim">Dual SIM</string>
-    <string name="connectivity_sim_support_dual_sim_and_esim">Dual SIM and eSIM</string>
-    <string name="connectivity_sim_support_dual_sim_and_dual_esim">Dual SIM and dual eSIM</string>
+    <string name="connectivity_sim_support_dual_sim_and_esim">Dual SIM &amp; eSIM</string>
+    <string name="connectivity_sim_support_dual_sim_and_dual_esim">Dual SIM &amp; dual eSIM</string>
     <string name="connectivity_bluetooth_category">Bluetooth</string>
     <string name="connectivity_bluetooth_name_headline">Emri</string>
     <string name="connectivity_bluetooth_status_headline">Statusi</string>
