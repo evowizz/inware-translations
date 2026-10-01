@@ -3,6 +3,7 @@
     <!-- Generic strings -->
     <string name="generic_a11y_go_back">Go back</string>
     <string name="generic_a11y_more_options">More options</string>
+    <string name="generic_a11y_drag_handle">Drag handle</string>
     <string name="generic_unknown">Sconosciuto</string>
     <string name="generic_enabled">Attivato</string>
     <string name="generic_disabled">Disattivato</string>
@@ -74,6 +75,8 @@
     <string name="dashboard_edit_a11y_add_tile">Add to dashboard</string>
     <string name="dashboard_edit_a11y_done">Done</string>
     <string name="dashboard_edit_a11y_move_down">Move down</string>
+    <string name="dashboard_edit_a11y_move_left">Move left</string>
+    <string name="dashboard_edit_a11y_move_right">Move right</string>
     <string name="dashboard_edit_a11y_move_up">Move up</string>
     <string name="dashboard_edit_a11y_tile_added">Added to dashboard</string>
     <string name="dashboard_edit_a11y_tile_position">Position %1$d of %2$d</string>
@@ -208,6 +211,7 @@
     <string name="memory_storage_usage_headline">Utilizzo</string>
 
     <!-- Camera page -->
+    <string name="camera_a11y_view_features">View features</string>
     <string name="camera_accuracy_note">Some devices may report inaccurate camera specifications. [Learn more](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
     <string name="camera_lens_front">Fotocamera frontale</string>
     <string name="camera_lens_back">Fotocamera posteriore</string>
@@ -219,10 +223,21 @@
     <string name="camera_device_type_virtual">Virtual</string>
     <string name="camera_megapixels_headline">Megapixel</string>
     <string name="camera_megapixels_value"><xliff:g example="16" id="number_of_megapixel">%d</xliff:g> Mpx</string>
+    <string name="camera_megapixels_decimal_value"><xliff:g example="12.6" id="megapixels">%1$.1f</xliff:g> Mpx</string>
+    <string name="camera_sensor_size_headline">Sensor size</string>
+    <string name="camera_sensor_size_value"><xliff:g example="8.0" id="width">%1$.1f</xliff:g> x <xliff:g example="6.0" id="height">%2$.1f</xliff:g> mm</string>
+    <string name="camera_focal_length_headline">Focal length</string>
+    <string name="camera_equivalent_focal_length_headline">Equivalent focal length (35 mm)</string>
+    <string name="camera_focal_length_value"><xliff:g example="2.71" id="millimeters">%1$s</xliff:g> mm</string>
+    <string name="camera_focal_length_with_equivalent_value"><xliff:g example="5.28" id="millimeters">%1$s</xliff:g> mm (<xliff:g example="23" id="equivalent_millimeters">%2$d</xliff:g> mm equivalent)</string>
+    <string name="camera_field_of_view_headline">Field of view</string>
+    <string name="camera_field_of_view_value"><xliff:g example="84" id="degrees">%1$d</xliff:g>°</string>
     <string name="camera_available_apertures_headline">Aperture disponibili</string>
+    <string name="camera_autofocus_headline">Autofocus</string>
     <string name="camera_ois_headline">Stabilizzazione ottica dell\'immagine (OIS)</string>
     <string name="camera_eis_headline">Stabilizzazione elettronica dell\'immagine (EIS)</string>
     <string name="camera_flash_headline">Torcia</string>
+    <string name="camera_features_headline">Features</string>
 
     <!-- Sensors page -->
     <string name="sensor_a11y_view_details">View details</string>
@@ -272,6 +287,19 @@
     <string name="connectivity_dhcp_lease_time_headline">Tempo di lease del DHCP</string>
     <string name="connectivity_lease_time_more_than_a_week">Più di una settimana: <xliff:g id="seconds">%d</xliff:g> secondi</string>
     <string name="connectivity_location_permission_explainer">Without the precise location permission, the current Wi‑Fi SSID cannot be displayed.</string>
+    <string name="connectivity_mobile_network_category">Mobile network</string>
+    <string name="connectivity_carrier_headline">Carrier</string>
+    <string name="connectivity_carrier_no_sim">No SIM</string>
+    <string name="connectivity_carrier_sim_locked">SIM is locked</string>
+    <string name="connectivity_carrier_sim_unusable">Unusable SIM</string>
+    <string name="connectivity_carrier_sim_invalid">Invalid card</string>
+    <string name="connectivity_mobile_network_type_headline">Mobile data network type</string>
+    <string name="connectivity_sim_support_headline">SIM support</string>
+    <string name="connectivity_sim_support_single_sim">Single SIM</string>
+    <string name="connectivity_sim_support_esim">eSIM</string>
+    <string name="connectivity_sim_support_dual_sim">Dual SIM</string>
+    <string name="connectivity_sim_support_dual_sim_and_esim">Dual SIM and eSIM</string>
+    <string name="connectivity_sim_support_dual_sim_and_dual_esim">Dual SIM and dual eSIM</string>
     <string name="connectivity_bluetooth_category">Bluetooth</string>
     <string name="connectivity_bluetooth_name_headline">Nome</string>
     <string name="connectivity_bluetooth_status_headline">Stato</string>
@@ -289,6 +317,10 @@
     <string name="connectivity_ble_channel_sounding_headline">Bluetooth channel sounding</string>
 
     <!-- Battery page -->
+    <string name="battery_condition_category">Condition</string>
+    <string name="battery_charge_category">Charge</string>
+    <string name="battery_thermal_category">Thermal</string>
+    <string name="battery_visualize">Visualize</string>
     <string name="battery_health_headline">Salute</string>
     <string name="battery_status_headline">Stato</string>
     <string name="battery_level_headline">Livello</string>
@@ -307,7 +339,10 @@
     <string name="battery_thermal_throttling_shutdown">Shutdown</string>
     <string name="battery_technology_headline">Tecnologia</string>
     <string name="battery_cycle_count_headline">Cycle count</string>
+    <string name="battery_capacity_headline">Capacity</string>
+    <string name="battery_health_with_capacity"><xliff:g id="health" example="Good">%1$s</xliff:g> (<xliff:g id="capacity" example="98%">%2$s</xliff:g>)</string>
     <string name="battery_current_display_value"><xliff:g id="current" example="304">%1$d</xliff:g> mA</string>
+    <string name="battery_capacity_display_value"><xliff:g id="capacity" example="4890">%1$d</xliff:g> mAh</string>
     <string name="battery_voltage_display_value"><xliff:g id="voltage" example="4.384">%1$.3f</xliff:g> V</string>
     <string name="battery_power_display_value"><xliff:g id="power" example="18">%1$.2f</xliff:g> W</string>
     <string name="battery_power_not_charging">Non in carica</string>
@@ -315,12 +350,18 @@
     <string name="battery_status_charging">In carica</string>
     <string name="battery_status_discharging">In scarica</string>
     <string name="battery_status_full">Pieno</string>
+    <string name="battery_level_full_by">Full by <xliff:g id="time" example="5:30 PM">%1$s</xliff:g></string>
+    <string name="battery_level_done_charging">Done charging</string>
+    <string name="battery_level_done_charging_by">Done charging by <xliff:g id="time" example="5:30 PM">%1$s</xliff:g></string>
     <string name="battery_health_good">Buono</string>
     <string name="battery_health_overheated">Surriscaldato</string>
     <string name="battery_health_dead">Morto</string>
     <string name="battery_health_overvoltage">Sovratensione</string>
     <string name="battery_health_unspecified_failure">Guasto non specificato</string>
     <string name="battery_health_cold">Freddo</string>
+    <string name="battery_health_capacity_reduced">Capacity reduced</string>
+    <string name="battery_health_undetectable">Can\'t detect</string>
+    <string name="battery_health_recalibrating">Recalibrating</string>
     <string name="battery_source_ac">Caricatore (AC)</string>
     <string name="battery_source_usb">USB</string>
     <string name="battery_source_wireless">Wireless</string>
@@ -354,6 +395,8 @@
     <string name="settings_appearance_entry_description">Dark mode and colors</string>
     <string name="settings_data_privacy_entry_headline">Data &amp; privacy</string>
     <string name="settings_data_privacy_entry_description">Optional data sharing and data controls</string>
+    <string name="settings_shizuku_entry_headline">Shizuku</string>
+    <string name="settings_shizuku_entry_description">Status and access</string>
     <string name="settings_about_entry_headline">Informazioni</string>
 
     <!-- General Settings -->
@@ -396,6 +439,23 @@
     <string name="settings_data_privacy_reset_app_identity">Reset app identity</string>
     <string name="settings_data_privacy_reset_app_identity_failed">Couldn\'t reset app identity. Try again.</string>
     <string name="settings_data_privacy_consent_save_failed">Couldn\'t save your choice. Try again.</string>
+
+    <!-- Shizuku Settings -->
+    <string name="settings_shizuku_switch_title">Use Shizuku</string>
+    <string name="settings_shizuku_status_category">Status</string>
+    <string name="settings_shizuku_service_headline">Service</string>
+    <string name="settings_shizuku_service_running"><xliff:g id="app" example="Shizuku">%1$s</xliff:g>, running</string>
+    <string name="settings_shizuku_service_not_running"><xliff:g id="app" example="Shizuku">%1$s</xliff:g>, not running</string>
+    <string name="settings_shizuku_service_needs_update"><xliff:g id="app" example="Shizuku">%1$s</xliff:g> needs an update</string>
+    <string name="settings_shizuku_service_inware_needs_update">Inware needs an update</string>
+    <string name="settings_shizuku_service_not_installed">Not installed</string>
+    <string name="settings_shizuku_access_headline">Access</string>
+    <string name="settings_shizuku_access_allowed">Allowed</string>
+    <string name="settings_shizuku_access_not_allowed">Not allowed</string>
+    <string name="settings_shizuku_access_blocked">Blocked, allow Inware from Shizuku or Porter</string>
+    <string name="settings_shizuku_running_as_headline">Running as</string>
+    <string name="settings_shizuku_running_as_uid">UID <xliff:g id="uid" example="2000">%1$d</xliff:g></string>
+    <string name="settings_shizuku_open_app">Open <xliff:g id="app" example="Shizuku">%1$s</xliff:g></string>
 
     <!-- About Settings -->
     <string name="settings_about_privacy_policy_headline">Politica sulla privacy</string>
