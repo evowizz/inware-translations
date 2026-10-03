@@ -383,7 +383,7 @@
     <string name="search_a11y_field">Search</string>
     <string name="search_a11y_results_available">Results below</string>
     <string name="search_action">Search</string>
-    <string name="search_prompt">Search device information</string>
+    <string name="search_prompt">Search Inware</string>
     <string name="search_empty_hint">Search by name or category</string>
     <string name="search_no_results">No results found</string>
     <string name="search_result_breadcrumb"><xliff:g id="page" example="System">%1$s</xliff:g> &gt; <xliff:g id="category" example="Android">%2$s</xliff:g></string>
@@ -456,6 +456,38 @@
     <string name="settings_shizuku_running_as_headline">Running as</string>
     <string name="settings_shizuku_running_as_uid">UID <xliff:g id="uid" example="2000">%1$d</xliff:g></string>
     <string name="settings_shizuku_open_app">Open <xliff:g id="app" example="Shizuku">%1$s</xliff:g></string>
+
+    <!-- Live stats Settings -->
+    <string name="live_stats_a11y_add">Add stat</string>
+    <string name="live_stats_a11y_remove">Remove <xliff:g id="stat" example="CPU usage">%1$s</xliff:g></string>
+    <string name="live_stats_title">Live stats</string>
+    <string name="live_stats_summary">Notification and stats</string>
+    <string name="live_stats_switch_title">Use Live stats</string>
+    <string name="live_stats_note_wide_stats">Some stats need more room, so they only fit next to one other stat</string>
+    <string name="live_stats_stat_ram_used">RAM used</string>
+    <string name="live_stats_stat_ram_usage">RAM usage</string>
+    <string name="live_stats_notifications_off_title">Notifications are off</string>
+    <string name="live_stats_notifications_off_body">Live stats needs notifications to show your stats</string>
+    <string name="live_stats_restricted_title">Battery use is restricted</string>
+    <string name="live_stats_restricted_body">Live stats can\'t run while battery use for Inware is set to Restricted</string>
+    <string name="live_stats_restricted_action">Open battery settings</string>
+    <string name="live_stats_channel_description">Shows the stats you pick in Live stats</string>
+    <!-- Short labels drawn under each value in the notification. Keep them as short as possible. -->
+    <string name="live_stats_label_battery_level">Battery</string>
+    <string name="live_stats_label_battery_temperature">Temp</string>
+    <string name="live_stats_label_battery_voltage">Voltage</string>
+    <string name="live_stats_label_battery_current">Current</string>
+    <string name="live_stats_label_battery_power">Power</string>
+    <string name="live_stats_label_cpu_usage">CPU</string>
+    <string name="live_stats_label_ram_used">RAM used</string>
+    <string name="live_stats_label_ram_usage">RAM</string>
+    <string name="live_stats_label_download_speed">Download</string>
+    <string name="live_stats_label_upload_speed">Upload</string>
+    <string name="live_stats_label_thermal_status">Throttling</string>
+    <string name="live_stats_unit_volts">V</string>
+    <string name="live_stats_unit_milliamps">mA</string>
+    <string name="live_stats_unit_watts">W</string>
+    <string name="live_stats_notification_item"><xliff:g id="label" example="Battery">%1$s</xliff:g> <xliff:g id="value" example="85%">%2$s</xliff:g></string>
 
     <!-- About Settings -->
     <string name="settings_about_privacy_policy_headline">นโยบายความเป็นส่วนตัว</string>
