@@ -266,8 +266,8 @@
     <string name="connectivity_network_category">Réseau</string>
     <string name="connectivity_type_headline">Type de réseau</string>
     <string name="connectivity_type_cellular">Cellulaire</string>
-    <string name="connectivity_download_speed_headline">Vitesse de téléchargement</string>
-    <string name="connectivity_upload_speed_headline">Vitesse de téléversement</string>
+    <string name="connectivity_download_speed_headline">Débit descendant</string>
+    <string name="connectivity_upload_speed_headline">Débit montant</string>
     <string name="connectivity_wifi_category">Wi-Fi</string>
     <string name="connectivity_ssid_headline">SSID</string>
     <string name="connectivity_ssid_hidden_value">Masqué</string>
@@ -383,7 +383,7 @@
     <string name="search_a11y_field">Rechercher</string>
     <string name="search_a11y_results_available">Résultats ci-dessous</string>
     <string name="search_action">Rechercher</string>
-    <string name="search_prompt">Rechercher des infos sur l\'appareil</string>
+    <string name="search_prompt">Rechercher dans Inware</string>
     <string name="search_empty_hint">Recherchez par nom ou par catégorie</string>
     <string name="search_no_results">Aucun résultat trouvé</string>
     <string name="search_result_breadcrumb"><xliff:g id="page" example="System">%1$s</xliff:g> &gt; <xliff:g id="category" example="Android">%2$s</xliff:g></string>
@@ -458,32 +458,32 @@
     <string name="settings_shizuku_open_app">Ouvrir <xliff:g id="app" example="Shizuku">%1$s</xliff:g></string>
 
     <!-- Live stats Settings -->
-    <string name="live_stats_a11y_add">Add stat</string>
-    <string name="live_stats_a11y_remove">Remove <xliff:g id="stat" example="CPU usage">%1$s</xliff:g></string>
-    <string name="live_stats_title">Live stats</string>
-    <string name="live_stats_summary">Notification and stats</string>
-    <string name="live_stats_switch_title">Use Live stats</string>
-    <string name="live_stats_note_wide_stats">Some stats need more room, so they only fit next to one other stat</string>
-    <string name="live_stats_stat_ram_used">RAM used</string>
-    <string name="live_stats_stat_ram_usage">RAM usage</string>
-    <string name="live_stats_notifications_off_title">Notifications are off</string>
-    <string name="live_stats_notifications_off_body">Live stats needs notifications to show your stats</string>
-    <string name="live_stats_restricted_title">Battery use is restricted</string>
-    <string name="live_stats_restricted_body">Live stats can\'t run while battery use for Inware is set to Restricted</string>
-    <string name="live_stats_restricted_action">Open battery settings</string>
-    <string name="live_stats_channel_description">Shows the stats you pick in Live stats</string>
+    <string name="live_stats_a11y_add">Ajouter une stat</string>
+    <string name="live_stats_a11y_remove">Retirer <xliff:g id="stat" example="CPU usage">%1$s</xliff:g></string>
+    <string name="live_stats_title">Stats en direct</string>
+    <string name="live_stats_summary">Notification et stats</string>
+    <string name="live_stats_switch_title">Utiliser les stats en direct</string>
+    <string name="live_stats_note_wide_stats">Certaines stats ont besoin de plus de place et ne tiennent qu\'à côté d\'une seule autre</string>
+    <string name="live_stats_stat_ram_used">RAM utilisée</string>
+    <string name="live_stats_stat_ram_usage">Utilisation RAM</string>
+    <string name="live_stats_notifications_off_title">Les notifications sont désactivées</string>
+    <string name="live_stats_notifications_off_body">Autorisez les notifications pour afficher vos stats en direct</string>
+    <string name="live_stats_restricted_title">L\'utilisation de la batterie est limitée</string>
+    <string name="live_stats_restricted_body">Les stats en direct ne peuvent pas fonctionner tant que l\'utilisation de la batterie d\'Inware est définie sur Limitée</string>
+    <string name="live_stats_restricted_action">Ouvrir les paramètres de la batterie</string>
+    <string name="live_stats_channel_description">Affiche les stats que vous choisissez dans Stats en direct</string>
     <!-- Short labels drawn under each value in the notification. Keep them as short as possible. -->
-    <string name="live_stats_label_battery_level">Battery</string>
-    <string name="live_stats_label_battery_temperature">Temp</string>
-    <string name="live_stats_label_battery_voltage">Voltage</string>
-    <string name="live_stats_label_battery_current">Current</string>
-    <string name="live_stats_label_battery_power">Power</string>
+    <string name="live_stats_label_battery_level">Batterie</string>
+    <string name="live_stats_label_battery_temperature">Temp.</string>
+    <string name="live_stats_label_battery_voltage">Tension</string>
+    <string name="live_stats_label_battery_current">Courant</string>
+    <string name="live_stats_label_battery_power">Puissance</string>
     <string name="live_stats_label_cpu_usage">CPU</string>
-    <string name="live_stats_label_ram_used">RAM used</string>
+    <string name="live_stats_label_ram_used">RAM utilisée</string>
     <string name="live_stats_label_ram_usage">RAM</string>
-    <string name="live_stats_label_download_speed">Download</string>
-    <string name="live_stats_label_upload_speed">Upload</string>
-    <string name="live_stats_label_thermal_status">Throttling</string>
+    <string name="live_stats_label_download_speed">Descendant</string>
+    <string name="live_stats_label_upload_speed">Montant</string>
+    <string name="live_stats_label_thermal_status">Limitation</string>
     <string name="live_stats_unit_volts">V</string>
     <string name="live_stats_unit_milliamps">mA</string>
     <string name="live_stats_unit_watts">W</string>
