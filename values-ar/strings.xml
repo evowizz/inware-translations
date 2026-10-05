@@ -65,6 +65,8 @@
     <string name="settings_page">الإعدادات</string>
 
     <!-- Dashboard tiles -->
+    <string name="dashboard_a11y_next_page">Next page</string>
+    <string name="dashboard_a11y_previous_page">Previous page</string>
     <string name="system_android_version_tile_title">أندرويد</string>
     <string name="device_model_tile_title">طراز الجهاز</string>
     <string name="hardware_cpu_tile_title">استخدام المعالج</string>

@@ -65,6 +65,8 @@
     <string name="settings_page">Beállítások</string>
 
     <!-- Dashboard tiles -->
+    <string name="dashboard_a11y_next_page">Next page</string>
+    <string name="dashboard_a11y_previous_page">Previous page</string>
     <string name="system_android_version_tile_title">Android</string>
     <string name="device_model_tile_title">Device model</string>
     <string name="hardware_cpu_tile_title">CPU Usage</string>
