@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
     <!-- Generic strings -->
-    <string name="generic_a11y_go_back">Go back</string>
-    <string name="generic_a11y_more_options">More options</string>
-    <string name="generic_a11y_drag_handle">Drag handle</string>
+    <string name="generic_a11y_go_back">Vissza</string>
+    <string name="generic_a11y_more_options">További lehetőségek</string>
+    <string name="generic_a11y_drag_handle">Húzási fogópont</string>
     <string name="generic_unknown">Ismeretlen</string>
     <string name="generic_enabled">Engedélyezve</string>
     <string name="generic_disabled">Letiltva</string>
     <string name="generic_supported">Támogatott</string>
-    <string name="generic_not_supported">Nem Támogatott</string>
-    <string name="generic_detected">Észlelt</string>
-    <string name="generic_not_detected">Nem Található</string>
-    <string name="generic_yes">Yes</string>
-    <string name="generic_no">No</string>
-    <string name="generic_allow">Engedélyez</string>
-    <string name="generic_deny">Megtagad</string>
+    <string name="generic_not_supported">Nem támogatott</string>
+    <string name="generic_detected">Észlelve</string>
+    <string name="generic_not_detected">Nincs észlelve</string>
+    <string name="generic_yes">Igen</string>
+    <string name="generic_no">Nem</string>
+    <string name="generic_allow">Engedélyezés</string>
+    <string name="generic_deny">Elutasítás</string>
     <string name="generic_copied_to_clipboard">Vágólapra másolva</string>
-    <string name="generic_copy">Copy</string>
-    <string name="generic_copy_value">Copy value</string>
-    <string name="generic_share">Share</string>
+    <string name="generic_copy">Másolás</string>
+    <string name="generic_copy_value">Érték másolása</string>
+    <string name="generic_share">Megosztás</string>
     <!-- IEC size units (1024-based). SI sizes use ICU's MeasureFormat instead. -->
     <string name="generic_iec_bytes"><xliff:g id="size" example="36">%s</xliff:g> B</string>
     <string name="generic_iec_kilobytes"><xliff:g id="size" example="36">%s</xliff:g> KB</string>
@@ -34,11 +34,11 @@
     <string name="generic_pb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> PB/s</string>
 
     <!-- Telemetry consent -->
-    <string name="telemetry_consent_title">Data sharing</string>
-    <string name="telemetry_consent_first_use_message">Choose whether to enable usage analytics and crash reporting. Review the choices below, then save.</string>
-    <string name="telemetry_consent_upgrade_message">Starting with version 7.1.0, Inware lets you control usage analytics and crash reporting separately. Review the choices below, then save.</string>
-    <string name="telemetry_consent_first_use_policy_message">Read the [Privacy Policy](<xliff:g id="link" example="https://example.com">%1$s</xliff:g>) for details.</string>
-    <string name="telemetry_consent_upgrade_policy_message">The [Privacy Policy](<xliff:g id="link" example="https://example.com">%1$s</xliff:g>) has been updated to reflect these changes.</string>
+    <string name="telemetry_consent_title">Adatmegosztás</string>
+    <string name="telemetry_consent_first_use_message">Döntsd el, hogy engedélyezed-e a használati statisztikák gyűjtését és az összeomlási jelentések küldését. Nézd át az alábbi lehetőségeket, majd mentsd el a választásod.</string>
+    <string name="telemetry_consent_upgrade_message">A 7.1.0-s verziótól kezdve az Inware-ben külön szabályozhatod a használati statisztikák gyűjtését és az összeomlási jelentések küldését. Nézd át az alábbi lehetőségeket, majd mentsd el a választásod.</string>
+    <string name="telemetry_consent_first_use_policy_message">A részletekért olvasd el az [Adatvédelmi irányelveket](<xliff:g id="link" example="https://example.com">%1$s</xliff:g>).</string>
+    <string name="telemetry_consent_upgrade_policy_message">Az [Adatvédelmi irányelveket](<xliff:g id="link" example="https://example.com">%1$s</xliff:g>) ezeknek a változásoknak megfelelően frissítettük.</string>
     <!-- Defaults to the Settings string and may be translated independently. -->
     <string name="telemetry_usage_analytics_headline">@string/settings_data_privacy_usage_analytics_headline</string>
     <!-- Defaults to the Settings string and may be translated independently. -->
@@ -47,102 +47,102 @@
     <string name="telemetry_crash_reports_headline">@string/settings_data_privacy_crash_reports_headline</string>
     <!-- Defaults to the Settings string and may be translated independently. -->
     <string name="telemetry_crash_reports_description">@string/settings_data_privacy_crash_reports_description</string>
-    <string name="telemetry_consent_save">Save</string>
-    <string name="telemetry_consent_decline_all">Decline all</string>
+    <string name="telemetry_consent_save">Mentés</string>
+    <string name="telemetry_consent_decline_all">Összes elutasítása</string>
 
     <!-- Permissions -->
     <string name="permission_required_heading">Engedély szükséges</string>
-    <string name="permission_open_settings_label">Enable in settings</string>
+    <string name="permission_open_settings_label">Engedélyezés a beállításokban</string>
 
     <!-- Incomplete install -->
-    <string name="incomplete_install_title">Inware can\'t start</string>
-    <string name="incomplete_install_message">Some required files are missing. Reinstall Inware from Google Play to restore them.</string>
-    <string name="incomplete_install_action">Open Google Play</string>
+    <string name="incomplete_install_title">Az Inware nem tud elindulni</string>
+    <string name="incomplete_install_message">Néhány szükséges fájl hiányzik. A visszaállításukhoz telepítsd újra az Inware-t a Google Playről.</string>
+    <string name="incomplete_install_action">Google Play megnyitása</string>
 
     <!-- Top level page titles -->
-    <string name="dashboard_page">Dashboard</string>
-    <string name="explore_page">Explore</string>
+    <string name="dashboard_page">Irányítópult</string>
+    <string name="explore_page">Felfedezés</string>
     <string name="settings_page">Beállítások</string>
 
     <!-- Dashboard tiles -->
-    <string name="dashboard_a11y_next_page">Next page</string>
-    <string name="dashboard_a11y_previous_page">Previous page</string>
+    <string name="dashboard_a11y_next_page">Következő oldal</string>
+    <string name="dashboard_a11y_previous_page">Előző oldal</string>
     <string name="system_android_version_tile_title">Android</string>
-    <string name="device_model_tile_title">Device model</string>
-    <string name="hardware_cpu_tile_title">CPU Usage</string>
-    <string name="memory_ram_tile_title">Memory Usage</string>
-    <string name="memory_storage_tile_title">Belső Tárhely</string>
+    <string name="device_model_tile_title">Eszközmodell</string>
+    <string name="hardware_cpu_tile_title">CPU-használat</string>
+    <string name="memory_ram_tile_title">Memóriahasználat</string>
+    <string name="memory_storage_tile_title">Belső tárhely</string>
 
     <!-- Dashboard editing -->
-    <string name="dashboard_edit_a11y_add_tile">Add to dashboard</string>
-    <string name="dashboard_edit_a11y_done">Done</string>
-    <string name="dashboard_edit_a11y_move_down">Move down</string>
-    <string name="dashboard_edit_a11y_move_left">Move left</string>
-    <string name="dashboard_edit_a11y_move_right">Move right</string>
-    <string name="dashboard_edit_a11y_move_up">Move up</string>
-    <string name="dashboard_edit_a11y_tile_added">Added to dashboard</string>
-    <string name="dashboard_edit_a11y_tile_position">Position %1$d of %2$d</string>
-    <string name="dashboard_edit_a11y_tile_position_selected">Selected, position %1$d of %2$d</string>
-    <string name="dashboard_edit_a11y_undo">Undo</string>
-    <string name="dashboard_edit_remove">Remove</string>
-    <string name="dashboard_edit_reset_tiles">Reset tiles</string>
-    <string name="dashboard_edit_title">Edit dashboard</string>
+    <string name="dashboard_edit_a11y_add_tile">Hozzáadás az irányítópulthoz</string>
+    <string name="dashboard_edit_a11y_done">Kész</string>
+    <string name="dashboard_edit_a11y_move_down">Mozgatás lefelé</string>
+    <string name="dashboard_edit_a11y_move_left">Mozgatás balra</string>
+    <string name="dashboard_edit_a11y_move_right">Mozgatás jobbra</string>
+    <string name="dashboard_edit_a11y_move_up">Mozgatás felfelé</string>
+    <string name="dashboard_edit_a11y_tile_added">Hozzáadva az irányítópulthoz</string>
+    <string name="dashboard_edit_a11y_tile_position">%1$d. pozíció (összesen %2$d)</string>
+    <string name="dashboard_edit_a11y_tile_position_selected">Kijelölve, %1$d. pozíció (összesen %2$d)</string>
+    <string name="dashboard_edit_a11y_undo">Visszavonás</string>
+    <string name="dashboard_edit_remove">Eltávolítás</string>
+    <string name="dashboard_edit_reset_tiles">Csempék visszaállítása</string>
+    <string name="dashboard_edit_title">Irányítópult szerkesztése</string>
 
     <!-- Explore Hub page -->
     <string name="system_page">Rendszer</string>
-    <string name="system_page_description">Android version, build info</string>
+    <string name="system_page_description">Android-verzió, buildadatok</string>
     <string name="device_page">Eszköz</string>
-    <string name="device_page_description">Brand, model, display and features</string>
+    <string name="device_page_description">Márka, modell, kijelző és funkciók</string>
     <string name="hardware_page">Hardver</string>
-    <string name="hardware_page_description">CPU, GPU usage and frequencies</string>
+    <string name="hardware_page_description">CPU- és GPU-használat, frekvenciák</string>
     <string name="memory_page">Memória</string>
-    <string name="memory_page_description">RAM and storage usage</string>
+    <string name="memory_page_description">RAM- és tárhelyhasználat</string>
     <string name="camera_page">Kamera</string>
-    <string name="camera_page_description">Lenses, megapixels and stabilization</string>
-    <string name="sensors_page">Sensors</string>
-    <string name="sensors_page_description">Accelerometer, light, proximity and more</string>
+    <string name="camera_page_description">Objektívek, megapixel és képstabilizálás</string>
+    <string name="sensors_page">Érzékelők</string>
+    <string name="sensors_page_description">Gyorsulásmérő, fény- és közelségérzékelő, és egyebek</string>
     <string name="connectivity_page">Kapcsolódás</string>
-    <string name="connectivity_page_description">Bluetooth and paired devices</string>
+    <string name="connectivity_page_description">Bluetooth és párosított eszközök</string>
     <string name="battery_page">Akkumulátor</string>
-    <string name="battery_page_description">Health, level, temperature and cycles</string>
-    <string name="media_drm_page">Média DRM</string>
-    <string name="media_drm_page_description">Vendor, version and security level</string>
+    <string name="battery_page_description">Állapot, töltöttség, hőmérséklet és ciklusok</string>
+    <string name="media_drm_page">Média-DRM</string>
+    <string name="media_drm_page_description">Gyártó, verzió és biztonsági szint</string>
 
     <!-- System page -->
     <string name="system_android_category">Android</string>
     <string name="system_build_category">Build</string>
-    <string name="system_status_category">Status</string>
-    <string name="system_android_version_headline">Android Verzió</string>
-    <string name="system_api_level_headline">API level</string>
-    <string name="system_released_with_headline">Megjelent ezzel</string>
-    <string name="system_min_target_sdk_headline">Minimális Cél SDK</string>
-    <string name="system_performance_class_headline">Teljesítmény Osztály</string>
+    <string name="system_status_category">Állapot</string>
+    <string name="system_android_version_headline">Android-verzió</string>
+    <string name="system_api_level_headline">API-szint</string>
+    <string name="system_released_with_headline">Megjelenéskori verzió</string>
+    <string name="system_min_target_sdk_headline">Minimális cél-SDK</string>
+    <string name="system_performance_class_headline">Teljesítményosztály</string>
     <string name="system_performance_class_supported">Osztály <xliff:g example="12" id="class_rating">%s</xliff:g></string>
     <string name="system_performance_class_none">Nincs osztály</string>
-    <string name="system_mainline_version_headline">Google Play rendszerfrissítés</string>
+    <string name="system_mainline_version_headline">Google Play-rendszerfrissítés</string>
     <string name="system_language_headline">Nyelv</string>
-    <string name="system_security_patch_headline">Biztonsági Javítás</string>
-    <string name="system_build_number_headline">Build Szám</string>
+    <string name="system_security_patch_headline">Biztonsági javítócsomag</string>
+    <string name="system_build_number_headline">Buildszám</string>
     <string name="system_board_headline">Alaplap</string>
     <string name="system_hardware_headline">Hardver</string>
-    <string name="system_kernel_version_headline">Kernel Verzió</string>
-    <string name="system_baseband_version_headline">Alapsáv Verzió</string>
+    <string name="system_kernel_version_headline">Kernelverzió</string>
+    <string name="system_baseband_version_headline">Alapsáv verziója</string>
     <string name="system_build_tags_headline">Címkék</string>
     <string name="system_build_fingerprint_headline">Ujjlenyomat</string>
-    <string name="system_build_type_headline">Build Típus</string>
+    <string name="system_build_type_headline">Buildtípus</string>
     <string name="system_bootloader_version_headline">Rendszerbetöltő</string>
-    <string name="system_up_time_headline">Készenléti Idő</string>
-    <string name="system_usb_debugging_headline">USB Hibakeresés</string>
+    <string name="system_up_time_headline">Üzemidő</string>
+    <string name="system_usb_debugging_headline">USB-hibakeresés</string>
     <string name="system_selinux_headline">SELinux</string>
-    <string name="system_selinux_enforcing">Enforcing</string>
-    <string name="system_selinux_permissive">Permissive</string>
-    <string name="system_extra_category">Extra</string>
+    <string name="system_selinux_enforcing">Kényszerítő</string>
+    <string name="system_selinux_permissive">Engedékeny</string>
+    <string name="system_extra_category">Egyéb</string>
     <string name="system_treble_headline">Treble</string>
-    <string name="system_seamless_updates_headline">Zökkenőmentes Frissítések</string>
-    <string name="system_active_slot_headline">Aktív Szlot</string>
+    <string name="system_seamless_updates_headline">Zökkenőmentes frissítések</string>
+    <string name="system_active_slot_headline">Aktív slot</string>
     <string name="system_root_headline">Root</string>
-    <string name="system_page_size_headline">Page size</string>
-    <string name="system_emulator_headline">Emulator</string>
+    <string name="system_page_size_headline">Memórialap mérete</string>
+    <string name="system_emulator_headline">Emulátor</string>
 
     <!-- Device page -->
     <string name="device_brand_headline">Márka</string>
@@ -155,193 +155,193 @@
     <string name="device_display_resolution_headline">Felbontás</string>
     <string name="device_display_size_headline">Méret</string>
     <string name="device_display_aspect_ratio_headline">Képarány</string>
-    <string name="device_display_refresh_rate_headline">Frissítési Ráta</string>
-    <string name="device_display_pixel_density_headline">Sűrűség</string>
-    <string name="device_display_current_density_headline">Current density</string>
-    <string name="device_display_default_density_headline">Default density</string>
-    <string name="device_display_default_orientation_headline">Alapértelmezett Tájolás</string>
+    <string name="device_display_refresh_rate_headline">Frissítési gyakoriság</string>
+    <string name="device_display_pixel_density_headline">Képpontsűrűség</string>
+    <string name="device_display_current_density_headline">Jelenlegi sűrűség</string>
+    <string name="device_display_default_density_headline">Alapértelmezett sűrűség</string>
+    <string name="device_display_default_orientation_headline">Alapértelmezett tájolás</string>
     <string name="device_display_default_orientation_portrait">Álló</string>
     <string name="device_display_default_orientation_landscape">Fekvő</string>
     <string name="device_display_supports_hdr_headline">HDR</string>
-    <string name="device_display_hdr_supported_with_ratio">Supported (<xliff:g id="ratio" example="2.5x">%s</xliff:g>)</string>
-    <string name="device_display_supported_refresh_rates_headline">Supported refresh rates (Hz)</string>
-    <string name="device_display_adaptive_refresh_rate_headline">Adaptive refresh rate</string>
-    <string name="device_security_category">Security chip</string>
-    <string name="device_security_chip_manufacturer_headline">Manufacturer</string>
-    <string name="device_security_chip_model_headline">Model</string>
-    <string name="device_features_category">Jellemzők</string>
-    <string name="device_fingerprint_authentication_headline">Ujjlenyomat-hitelesítés</string>
-    <string name="device_face_authentication_headline">Arc hitelesítés</string>
-    <string name="device_vulkan_headline">Vulkán</string>
-    <string name="device_file_based_encryption_headline">Fájl Alapú Titkosítás</string>
-    <string name="device_npu_headline">Neural processing unit</string>
+    <string name="device_display_hdr_supported_with_ratio">Támogatott (<xliff:g id="ratio" example="2.5x">%s</xliff:g>)</string>
+    <string name="device_display_supported_refresh_rates_headline">Támogatott frissítési gyakoriságok (Hz)</string>
+    <string name="device_display_adaptive_refresh_rate_headline">Adaptív frissítési gyakoriság</string>
+    <string name="device_security_category">Biztonsági chip</string>
+    <string name="device_security_chip_manufacturer_headline">Gyártó</string>
+    <string name="device_security_chip_model_headline">Modell</string>
+    <string name="device_features_category">Funkciók</string>
+    <string name="device_fingerprint_authentication_headline">Ujjlenyomatos hitelesítés</string>
+    <string name="device_face_authentication_headline">Arcalapú hitelesítés</string>
+    <string name="device_vulkan_headline">Vulkan</string>
+    <string name="device_file_based_encryption_headline">Fájlalapú titkosítás</string>
+    <string name="device_npu_headline">Neurális feldolgozóegység (NPU)</string>
 
     <!-- Hardware page -->
     <string name="hardware_cpu_category">CPU</string>
     <string name="hardware_cpu_hardware_headline">Hardver</string>
-    <string name="hardware_supported_abis_headline">Támogatott ABIS</string>
+    <string name="hardware_supported_abis_headline">Támogatott ABI-k</string>
     <string name="hardware_cores_headline">Magok</string>
     <string name="hardware_clusters_headline">Klaszterek</string>
     <string name="hardware_cpu_usage_headline">Használat</string>
     <string name="hardware_cluster_category">Klaszter #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
-    <string name="hardware_cluster_minimum_frequency_headline">Minimum Frekvencia</string>
-    <string name="hardware_cluster_maximum_frequency_headline">Maximum Frekvencia</string>
-    <string name="hardware_cluster_governor_headline">Vezérlő</string>
+    <string name="hardware_cluster_minimum_frequency_headline">Minimális frekvencia</string>
+    <string name="hardware_cluster_maximum_frequency_headline">Maximális frekvencia</string>
+    <string name="hardware_cluster_governor_headline">Frekvenciaszabályzó</string>
     <string name="hardware_cpu_usage_category">CPU-használat</string>
-    <string name="hardware_core_headline">Mag <xliff:g example="3" id="number_of_core">%d</xliff:g></string>
-    <string name="hardware_core_offline">Offline</string>
+    <string name="hardware_core_headline"><xliff:g example="3" id="number_of_core">%d</xliff:g>. mag</string>
+    <string name="hardware_core_offline">Inaktív</string>
     <string name="hardware_core_frequency"><xliff:g example="857" id="frequency">%d</xliff:g> MHz</string>
     <string name="hardware_gpu_category">GPU</string>
-    <string name="hardware_gpu_vendor_headline">Vendor</string>
-    <string name="hardware_gpu_renderer_headline">Renderer</string>
-    <string name="hardware_gpu_gl_version_headline">OpenGL ES version</string>
-    <string name="hardware_gpu_vulkan_version_headline">Vulkan version</string>
+    <string name="hardware_gpu_vendor_headline">Gyártó</string>
+    <string name="hardware_gpu_renderer_headline">Renderelő</string>
+    <string name="hardware_gpu_gl_version_headline">OpenGL ES-verzió</string>
+    <string name="hardware_gpu_vulkan_version_headline">Vulkan-verzió</string>
 
     <!-- Memory page -->
     <string name="memory_ram_category">Eszközmemória (RAM)</string>
     <string name="memory_ram_hardware_headline">Hardver</string>
-    <string name="memory_ram_total_headline">Teljes</string>
+    <string name="memory_ram_total_headline">Összesen</string>
     <string name="memory_ram_available_headline">Elérhető</string>
     <string name="memory_ram_used_headline">Használt</string>
     <string name="memory_ram_usage_headline">Használat</string>
-    <string name="memory_ram_low_ram_headline">Low RAM</string>
-    <string name="memory_storage_category">Belső Tárhely</string>
+    <string name="memory_ram_low_ram_headline">Kevés RAM-os eszköz</string>
+    <string name="memory_storage_category">Belső tárhely</string>
     <string name="memory_storage_hardware_headline">Hardver</string>
-    <string name="memory_storage_total_headline">Teljes</string>
+    <string name="memory_storage_total_headline">Összesen</string>
     <string name="memory_storage_available_headline">Elérhető</string>
     <string name="memory_storage_used_headline">Használt</string>
     <string name="memory_storage_usage_headline">Használat</string>
 
     <!-- Camera page -->
-    <string name="camera_a11y_view_features">View features</string>
-    <string name="camera_accuracy_note">Egyes eszközök pontatlan kameraspecifikációkat jelenthetnek. [Tudj meg többet](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
-    <string name="camera_lens_front">Elülső Kamera</string>
-    <string name="camera_lens_back">Hátsó Kamera</string>
-    <string name="camera_lens_external">Külső Kamera</string>
+    <string name="camera_a11y_view_features">Funkciók megtekintése</string>
+    <string name="camera_accuracy_note">Egyes eszközök pontatlan kameraadatokat jelezhetnek. [További információ](<xliff:g id="link" example="https://example.com">%s</xliff:g>)</string>
+    <string name="camera_lens_front">Előlapi kamera</string>
+    <string name="camera_lens_back">Hátlapi kamera</string>
+    <string name="camera_lens_external">Külső kamera</string>
     <string name="camera_lens_numbered"><xliff:g id="lens" example="Back camera">%1$s</xliff:g> #<xliff:g id="number" example="1">%2$d</xliff:g></string>
-    <string name="camera_device_type_headline">Device type</string>
-    <string name="camera_device_type_built_in">Built-in</string>
-    <string name="camera_device_type_external">External</string>
-    <string name="camera_device_type_virtual">Virtual</string>
-    <string name="camera_megapixels_headline">Megapixelek</string>
-    <string name="camera_megapixels_value"><xliff:g example="16" id="number_of_megapixel">%d</xliff:g> Mpx</string>
-    <string name="camera_megapixels_decimal_value"><xliff:g example="12.6" id="megapixels">%1$.1f</xliff:g> Mpx</string>
-    <string name="camera_sensor_size_headline">Sensor size</string>
+    <string name="camera_device_type_headline">Eszköztípus</string>
+    <string name="camera_device_type_built_in">Beépített</string>
+    <string name="camera_device_type_external">Külső</string>
+    <string name="camera_device_type_virtual">Virtuális</string>
+    <string name="camera_megapixels_headline">Megapixel</string>
+    <string name="camera_megapixels_value"><xliff:g example="16" id="number_of_megapixel">%d</xliff:g> MP</string>
+    <string name="camera_megapixels_decimal_value"><xliff:g example="12.6" id="megapixels">%1$.1f</xliff:g> MP</string>
+    <string name="camera_sensor_size_headline">Érzékelőméret</string>
     <string name="camera_sensor_size_value"><xliff:g example="8.0" id="width">%1$.1f</xliff:g> x <xliff:g example="6.0" id="height">%2$.1f</xliff:g> mm</string>
-    <string name="camera_focal_length_headline">Focal length</string>
-    <string name="camera_equivalent_focal_length_headline">Equivalent focal length (35 mm)</string>
+    <string name="camera_focal_length_headline">Gyújtótávolság</string>
+    <string name="camera_equivalent_focal_length_headline">Egyenértékű gyújtótávolság (35 mm)</string>
     <string name="camera_focal_length_value"><xliff:g example="2.71" id="millimeters">%1$s</xliff:g> mm</string>
-    <string name="camera_focal_length_with_equivalent_value"><xliff:g example="5.28" id="millimeters">%1$s</xliff:g> mm (<xliff:g example="23" id="equivalent_millimeters">%2$d</xliff:g> mm equivalent)</string>
-    <string name="camera_field_of_view_headline">Field of view</string>
+    <string name="camera_focal_length_with_equivalent_value"><xliff:g example="5.28" id="millimeters">%1$s</xliff:g> mm (<xliff:g example="23" id="equivalent_millimeters">%2$d</xliff:g> mm-nek megfelelő)</string>
+    <string name="camera_field_of_view_headline">Látószög</string>
     <string name="camera_field_of_view_value"><xliff:g example="84" id="degrees">%1$d</xliff:g>°</string>
-    <string name="camera_available_apertures_headline">Rendelkezésre Álló Rekeszek</string>
-    <string name="camera_autofocus_headline">Autofocus</string>
-    <string name="camera_ois_headline">Optikai Kép Stabilizáció (OIS)</string>
-    <string name="camera_eis_headline">Elektronikus Kép Stabilizáció (EIS)</string>
-    <string name="camera_flash_headline">Zseblámpa</string>
-    <string name="camera_features_headline">Features</string>
+    <string name="camera_available_apertures_headline">Elérhető rekeszértékek</string>
+    <string name="camera_autofocus_headline">Autofókusz</string>
+    <string name="camera_ois_headline">Optikai képstabilizálás (OIS)</string>
+    <string name="camera_eis_headline">Elektronikus képstabilizálás (EIS)</string>
+    <string name="camera_flash_headline">Vaku</string>
+    <string name="camera_features_headline">Funkciók</string>
 
     <!-- Sensors page -->
-    <string name="sensor_a11y_view_details">View details</string>
-    <string name="sensor_accelerometer_headline">Accelerometer</string>
-    <string name="sensor_gyroscope_headline">Gyroscope</string>
-    <string name="sensor_magnetic_field_headline">Magnetic field</string>
-    <string name="sensor_pressure_headline">Barometer</string>
-    <string name="sensor_proximity_headline">Proximity</string>
-    <string name="sensor_light_headline">Ambient light</string>
-    <string name="sensor_ambient_temperature_headline">Ambient temperature</string>
-    <string name="sensor_relative_humidity_headline">Relative humidity</string>
-    <string name="sensor_gravity_headline">Gravity</string>
-    <string name="sensor_linear_acceleration_headline">Linear acceleration</string>
-    <string name="sensor_step_counter_headline">Step counter</string>
-    <string name="sensor_readings_headline">Readings</string>
-    <string name="sensor_vendor_headline">Vendor</string>
-    <string name="sensor_type_headline">Type</string>
-    <string name="sensor_max_range_headline">Max range</string>
-    <string name="sensor_resolution_headline">Resolution</string>
-    <string name="sensor_power_headline">Power</string>
+    <string name="sensor_a11y_view_details">Részletek megtekintése</string>
+    <string name="sensor_accelerometer_headline">Gyorsulásmérő</string>
+    <string name="sensor_gyroscope_headline">Giroszkóp</string>
+    <string name="sensor_magnetic_field_headline">Mágneses mező</string>
+    <string name="sensor_pressure_headline">Barométer</string>
+    <string name="sensor_proximity_headline">Közelségérzékelő</string>
+    <string name="sensor_light_headline">Környezeti fény</string>
+    <string name="sensor_ambient_temperature_headline">Környezeti hőmérséklet</string>
+    <string name="sensor_relative_humidity_headline">Relatív páratartalom</string>
+    <string name="sensor_gravity_headline">Gravitáció</string>
+    <string name="sensor_linear_acceleration_headline">Lineáris gyorsulás</string>
+    <string name="sensor_step_counter_headline">Lépésszámláló</string>
+    <string name="sensor_readings_headline">Mért értékek</string>
+    <string name="sensor_vendor_headline">Gyártó</string>
+    <string name="sensor_type_headline">Típus</string>
+    <string name="sensor_max_range_headline">Maximális tartomány</string>
+    <string name="sensor_resolution_headline">Felbontás</string>
+    <string name="sensor_power_headline">Áramfelvétel</string>
     <string name="sensor_power_value">%s mA</string>
-    <string name="sensor_version_headline">Version</string>
+    <string name="sensor_version_headline">Verzió</string>
 
     <!-- Connectivity page -->
-    <string name="connectivity_a11y_view_paired_devices">View paired devices</string>
+    <string name="connectivity_a11y_view_paired_devices">Párosított eszközök megtekintése</string>
     <string name="connectivity_network_category">Hálózat</string>
-    <string name="connectivity_type_headline">Hálózat Típusa</string>
-    <string name="connectivity_type_cellular">Cellular</string>
-    <string name="connectivity_download_speed_headline">Letöltési Sebesség</string>
-    <string name="connectivity_upload_speed_headline">Feltöltési Sebesség</string>
+    <string name="connectivity_type_headline">Hálózat típusa</string>
+    <string name="connectivity_type_cellular">Mobilhálózat</string>
+    <string name="connectivity_download_speed_headline">Letöltési sebesség</string>
+    <string name="connectivity_upload_speed_headline">Feltöltési sebesség</string>
     <string name="connectivity_wifi_category">Wi-Fi</string>
     <string name="connectivity_ssid_headline">SSID</string>
     <string name="connectivity_ssid_hidden_value">Rejtett SSID</string>
     <string name="connectivity_frequency_headline">Frekvencia</string>
     <string name="connectivity_signal_strength_headline">Jelerősség</string>
     <string name="connectivity_signal_weak">Gyenge</string>
-    <string name="connectivity_signal_fair">Méltányos</string>
+    <string name="connectivity_signal_fair">Közepes</string>
     <string name="connectivity_signal_good">Jó</string>
     <string name="connectivity_signal_excellent">Kiváló</string>
-    <string name="connectivity_link_speed_headline">Link Sebesség</string>
-    <string name="connectivity_local_ip_ipv4_headline">Helyi IP (IPv4)</string>
-    <string name="connectivity_local_ip_ipv6_headline">Helyi IP (IPv6)</string>
-    <string name="connectivity_mac_address_headline">MAC Cím</string>
+    <string name="connectivity_link_speed_headline">Kapcsolati sebesség</string>
+    <string name="connectivity_local_ip_ipv4_headline">Helyi IP-cím (IPv4)</string>
+    <string name="connectivity_local_ip_ipv6_headline">Helyi IP-cím (IPv6)</string>
+    <string name="connectivity_mac_address_headline">MAC-cím</string>
     <string name="connectivity_gateway_headline">Átjáró</string>
-    <string name="connectivity_subnet_mask_headline">Alhálózati Maszk</string>
+    <string name="connectivity_subnet_mask_headline">Alhálózati maszk</string>
     <string name="connectivity_dns_headline">DNS</string>
-    <string name="connectivity_dhcp_lease_time_headline">DHCP Bérleti Idő</string>
-    <string name="connectivity_lease_time_more_than_a_week">Több mint egy hete: <xliff:g id="seconds">%d</xliff:g> másodpercek</string>
-    <string name="connectivity_location_permission_explainer">A Wi-Fi SSID megjelenítéséhez pontos helyengedély szükséges.</string>
-    <string name="connectivity_mobile_network_category">Mobile network</string>
-    <string name="connectivity_carrier_headline">Carrier</string>
-    <string name="connectivity_carrier_no_sim">No SIM</string>
-    <string name="connectivity_carrier_sim_locked">SIM is locked</string>
-    <string name="connectivity_carrier_sim_unusable">Unusable SIM</string>
-    <string name="connectivity_carrier_sim_invalid">Invalid card</string>
-    <string name="connectivity_mobile_network_type_headline">Mobile data network type</string>
-    <string name="connectivity_sim_support_headline">SIM support</string>
-    <string name="connectivity_sim_support_single_sim">Single SIM</string>
+    <string name="connectivity_dhcp_lease_time_headline">DHCP-bérleti idő</string>
+    <string name="connectivity_lease_time_more_than_a_week">Több mint egy hét: <xliff:g id="seconds">%d</xliff:g> másodperc</string>
+    <string name="connectivity_location_permission_explainer">A Wi-Fi SSID megjelenítéséhez pontos helymeghatározási engedély szükséges.</string>
+    <string name="connectivity_mobile_network_category">Mobilhálózat</string>
+    <string name="connectivity_carrier_headline">Szolgáltató</string>
+    <string name="connectivity_carrier_no_sim">Nincs SIM-kártya</string>
+    <string name="connectivity_carrier_sim_locked">A SIM-kártya zárolva van</string>
+    <string name="connectivity_carrier_sim_unusable">Nem használható SIM-kártya</string>
+    <string name="connectivity_carrier_sim_invalid">Érvénytelen kártya</string>
+    <string name="connectivity_mobile_network_type_headline">Mobiladat-hálózat típusa</string>
+    <string name="connectivity_sim_support_headline">SIM-támogatás</string>
+    <string name="connectivity_sim_support_single_sim">Egy SIM</string>
     <string name="connectivity_sim_support_esim">eSIM</string>
-    <string name="connectivity_sim_support_dual_sim">Dual SIM</string>
-    <string name="connectivity_sim_support_dual_sim_and_esim">Dual SIM &amp; eSIM</string>
-    <string name="connectivity_sim_support_dual_sim_and_dual_esim">Dual SIM &amp; dual eSIM</string>
+    <string name="connectivity_sim_support_dual_sim">Két SIM</string>
+    <string name="connectivity_sim_support_dual_sim_and_esim">Két SIM és eSIM</string>
+    <string name="connectivity_sim_support_dual_sim_and_dual_esim">Két SIM és két eSIM</string>
     <string name="connectivity_bluetooth_category">Bluetooth</string>
     <string name="connectivity_bluetooth_name_headline">Név</string>
-    <string name="connectivity_bluetooth_status_headline">Státusz</string>
-    <string name="connectivity_bluetooth_low_energy_headline">Bluetooth Alacsony Energia</string>
-    <string name="connectivity_bluetooth_paired_devices_headline">Paired devices</string>
-    <string name="connectivity_bluetooth_mac_address_headline">MAC Cím</string>
-    <string name="connectivity_bluetooth_turn_on_bluetooth">Bluetooth Bekapcsolása</string>
-    <string name="connectivity_bluetooth_status_enabled">Engedélyezve</string>
-    <string name="connectivity_bluetooth_status_disabled">Letiltva</string>
-    <string name="connectivity_bluetooth_status_turning_on">Bekapcsolás</string>
-    <string name="connectivity_bluetooth_status_turning_off">Kikapcsolás</string>
-    <string name="connectivity_bluetooth_permission_explainer">A \"Közeli eszközök\" engedély szükséges bizonyos Bluetooth-részletek megjelenítéséhez.</string>
-    <string name="connectivity_features_category">Features</string>
-    <string name="connectivity_thread_network_headline">Thread network</string>
-    <string name="connectivity_ble_channel_sounding_headline">Bluetooth channel sounding</string>
+    <string name="connectivity_bluetooth_status_headline">Állapot</string>
+    <string name="connectivity_bluetooth_low_energy_headline">Bluetooth Low Energy</string>
+    <string name="connectivity_bluetooth_paired_devices_headline">Párosított eszközök</string>
+    <string name="connectivity_bluetooth_mac_address_headline">MAC-cím</string>
+    <string name="connectivity_bluetooth_turn_on_bluetooth">Bluetooth bekapcsolása</string>
+    <string name="connectivity_bluetooth_status_enabled">Bekapcsolva</string>
+    <string name="connectivity_bluetooth_status_disabled">Kikapcsolva</string>
+    <string name="connectivity_bluetooth_status_turning_on">Bekapcsolás folyamatban</string>
+    <string name="connectivity_bluetooth_status_turning_off">Kikapcsolás folyamatban</string>
+    <string name="connectivity_bluetooth_permission_explainer">Egyes Bluetooth-adatok megjelenítéséhez a „Közeli eszközök” engedély szükséges.</string>
+    <string name="connectivity_features_category">Funkciók</string>
+    <string name="connectivity_thread_network_headline">Thread-hálózat</string>
+    <string name="connectivity_ble_channel_sounding_headline">Bluetooth Channel Sounding</string>
 
     <!-- Battery page -->
-    <string name="battery_condition_category">Condition</string>
-    <string name="battery_charge_category">Charge</string>
-    <string name="battery_thermal_category">Thermal</string>
-    <string name="battery_visualize">Visualize</string>
+    <string name="battery_condition_category">Állapot</string>
+    <string name="battery_charge_category">Töltés</string>
+    <string name="battery_thermal_category">Hőkezelés</string>
+    <string name="battery_visualize">Megjelenítés</string>
     <string name="battery_health_headline">Egészség</string>
-    <string name="battery_status_headline">Státusz</string>
-    <string name="battery_level_headline">Szint</string>
-    <string name="battery_source_headline">Forrás</string>
-    <string name="battery_current_headline">Jelenlegi</string>
-    <string name="battery_power_headline">Energia</string>
+    <string name="battery_status_headline">Töltési állapot</string>
+    <string name="battery_level_headline">Töltöttségi szint</string>
+    <string name="battery_source_headline">Áramforrás</string>
+    <string name="battery_current_headline">Áramerősség</string>
+    <string name="battery_power_headline">Teljesítmény</string>
     <string name="battery_voltage_headline">Feszültség</string>
     <string name="battery_temperature_headline">Hőmérséklet</string>
-    <string name="battery_thermal_throttling_headline">Thermal throttling</string>
-    <string name="battery_thermal_throttling_none">None</string>
-    <string name="battery_thermal_throttling_light">Light</string>
-    <string name="battery_thermal_throttling_moderate">Moderate</string>
-    <string name="battery_thermal_throttling_severe">Severe</string>
-    <string name="battery_thermal_throttling_critical">Critical</string>
-    <string name="battery_thermal_throttling_emergency">Emergency</string>
-    <string name="battery_thermal_throttling_shutdown">Shutdown</string>
+    <string name="battery_thermal_throttling_headline">Hőkorlátozás</string>
+    <string name="battery_thermal_throttling_none">Nincs</string>
+    <string name="battery_thermal_throttling_light">Enyhe</string>
+    <string name="battery_thermal_throttling_moderate">Mérsékelt</string>
+    <string name="battery_thermal_throttling_severe">Súlyos</string>
+    <string name="battery_thermal_throttling_critical">Kritikus</string>
+    <string name="battery_thermal_throttling_emergency">Vészhelyzet</string>
+    <string name="battery_thermal_throttling_shutdown">Leállás</string>
     <string name="battery_technology_headline">Technológia</string>
-    <string name="battery_cycle_count_headline">Cycle count</string>
-    <string name="battery_capacity_headline">Capacity</string>
+    <string name="battery_cycle_count_headline">Töltési ciklusok száma</string>
+    <string name="battery_capacity_headline">Kapacitás</string>
     <string name="battery_health_with_capacity"><xliff:g id="health" example="Good">%1$s</xliff:g> (<xliff:g id="capacity" example="98%">%2$s</xliff:g>)</string>
     <string name="battery_current_display_value"><xliff:g id="current" example="304">%1$d</xliff:g> mA</string>
     <string name="battery_capacity_display_value"><xliff:g id="capacity" example="4890">%1$d</xliff:g> mAh</string>
@@ -349,184 +349,184 @@
     <string name="battery_power_display_value"><xliff:g id="power" example="18">%1$.2f</xliff:g> W</string>
     <string name="battery_power_not_charging">Nem tölt</string>
     <string name="battery_status_not_charging">Nem tölt</string>
-    <string name="battery_status_charging">Töltés</string>
-    <string name="battery_status_discharging">Kisütés</string>
-    <string name="battery_status_full">Tele</string>
-    <string name="battery_level_full_by">Full by <xliff:g id="time" example="5:30 PM">%1$s</xliff:g></string>
-    <string name="battery_level_done_charging">Done charging</string>
-    <string name="battery_level_done_charging_by">Done charging by <xliff:g id="time" example="5:30 PM">%1$s</xliff:g></string>
+    <string name="battery_status_charging">Töltődik</string>
+    <string name="battery_status_discharging">Merül</string>
+    <string name="battery_status_full">Feltöltve</string>
+    <string name="battery_level_full_by">Feltöltve várhatóan: <xliff:g id="time" example="5:30 PM">%1$s</xliff:g></string>
+    <string name="battery_level_done_charging">Töltés befejezve</string>
+    <string name="battery_level_done_charging_by">Töltés vége várhatóan: <xliff:g id="time" example="5:30 PM">%1$s</xliff:g></string>
     <string name="battery_health_good">Jó</string>
     <string name="battery_health_overheated">Túlmelegedett</string>
-    <string name="battery_health_dead">Halott</string>
+    <string name="battery_health_dead">Tönkrement</string>
     <string name="battery_health_overvoltage">Túlfeszültség</string>
     <string name="battery_health_unspecified_failure">Meghatározatlan hiba</string>
     <string name="battery_health_cold">Hideg</string>
-    <string name="battery_health_capacity_reduced">Capacity reduced</string>
-    <string name="battery_health_undetectable">Can\'t detect</string>
-    <string name="battery_health_recalibrating">Recalibrating</string>
-    <string name="battery_source_ac">Töltő (AC)</string>
+    <string name="battery_health_capacity_reduced">Csökkent kapacitás</string>
+    <string name="battery_health_undetectable">Nem észlelhető</string>
+    <string name="battery_health_recalibrating">Újrakalibrálás folyamatban</string>
+    <string name="battery_source_ac">Hálózati töltő (AC)</string>
     <string name="battery_source_usb">USB</string>
     <string name="battery_source_wireless">Vezeték nélküli</string>
 
     <!-- Media DRM page -->
     <string name="media_drm_algorithms_headline">Algoritmusok</string>
-    <string name="media_drm_device_unique_id_headline">Eszköz Egyedi Azonosítója</string>
-    <string name="media_drm_system_id_headline">System ID</string>
-    <string name="media_drm_vendor_headline">Vendor</string>
+    <string name="media_drm_device_unique_id_headline">Egyedi eszközazonosító</string>
+    <string name="media_drm_system_id_headline">Rendszerazonosító</string>
+    <string name="media_drm_vendor_headline">Gyártó</string>
     <string name="media_drm_version_headline">Verzió</string>
-    <string name="media_drm_security_level_headline">Biztonsági Színt</string>
-    <string name="media_drm_hdcp_level_headline">HDCP level</string>
-    <string name="media_drm_max_hdcp_level_headline">Maximum HDCP level</string>
-    <string name="media_drm_hdcp_none">None</string>
-    <string name="media_drm_hdcp_no_digital_output">No digital output</string>
+    <string name="media_drm_security_level_headline">Biztonsági szint</string>
+    <string name="media_drm_hdcp_level_headline">HDCP-szint</string>
+    <string name="media_drm_max_hdcp_level_headline">Maximális HDCP-szint</string>
+    <string name="media_drm_hdcp_none">Nincs</string>
+    <string name="media_drm_hdcp_no_digital_output">Nincs digitális kimenet</string>
 
     <!-- Search -->
-    <string name="search_a11y_clear">Clear search</string>
-    <string name="search_a11y_field">Search</string>
-    <string name="search_a11y_results_available">Results below</string>
-    <string name="search_action">Search</string>
-    <string name="search_prompt">Search Inware</string>
-    <string name="search_empty_hint">Search by name or category</string>
-    <string name="search_no_results">No results found</string>
+    <string name="search_a11y_clear">Keresés törlése</string>
+    <string name="search_a11y_field">Keresés</string>
+    <string name="search_a11y_results_available">Az eredmények lent láthatók</string>
+    <string name="search_action">Keresés</string>
+    <string name="search_prompt">Keresés az Inware-ben</string>
+    <string name="search_empty_hint">Keress név vagy kategória alapján</string>
+    <string name="search_no_results">Nincs találat</string>
     <string name="search_result_breadcrumb"><xliff:g id="page" example="System">%1$s</xliff:g> &gt; <xliff:g id="category" example="Android">%2$s</xliff:g></string>
 
     <!-- Settings Hub page -->
     <string name="settings_general_entry_headline">Általános</string>
-    <string name="settings_general_entry_description">Biztonság, vágólap és egységek</string>
-    <string name="settings_appearance_entry_headline">Kinézet</string>
+    <string name="settings_general_entry_description">Biztonság, vágólap és mértékegységek</string>
+    <string name="settings_appearance_entry_headline">Megjelenés</string>
     <string name="settings_appearance_entry_description">Sötét mód és színek</string>
-    <string name="settings_data_privacy_entry_headline">Data &amp; privacy</string>
-    <string name="settings_data_privacy_entry_description">Optional data sharing and data controls</string>
+    <string name="settings_data_privacy_entry_headline">Adatok és adatvédelem</string>
+    <string name="settings_data_privacy_entry_description">Opcionális adatmegosztás és adatkezelési beállítások</string>
     <string name="settings_shizuku_entry_headline">Shizuku</string>
-    <string name="settings_shizuku_entry_description">Status and access</string>
-    <string name="settings_about_entry_headline">Az Alkalmazásról</string>
+    <string name="settings_shizuku_entry_description">Állapot és hozzáférés</string>
+    <string name="settings_about_entry_headline">Névjegy</string>
 
     <!-- General Settings -->
     <string name="settings_general_security_category">Biztonság</string>
-    <string name="settings_general_block_screen_capture_headline">Képernyőfelvétel letiltása</string>
+    <string name="settings_general_block_screen_capture_headline">Képernyőrögzítés letiltása</string>
     <string name="settings_general_block_screen_capture_description">A képernyőn megjelenő tartalom rögzítésének megakadályozása</string>
-    <string name="settings_general_hide_3rd_party_overlays_headline">Harmadik féltől származó átfedések elrejtése</string>
-    <string name="settings_general_hide_3rd_party_overlays_description">A nem rendszeralkalmazások által létrehozott átfedések elrejtése</string>
-    <string name="settings_general_interactive_haptics_category">Interactive haptics</string>
-    <string name="settings_general_feedback_level_headline">Touch feedback</string>
-    <string name="settings_general_feedback_level_description">Vibrate on touch interactions</string>
-    <string name="settings_general_feedback_level_none">None</string>
-    <string name="settings_general_feedback_level_minimal">Minimal</string>
-    <string name="settings_general_feedback_level_default">Default</string>
-    <string name="settings_general_feedback_level_expressive">Expressive</string>
-    <string name="settings_general_units_category">Egységek</string>
+    <string name="settings_general_hide_3rd_party_overlays_headline">Külső fedvények elrejtése</string>
+    <string name="settings_general_hide_3rd_party_overlays_description">A nem rendszeralkalmazások által megjelenített fedvények elrejtése</string>
+    <string name="settings_general_interactive_haptics_category">Interaktív rezgés</string>
+    <string name="settings_general_feedback_level_headline">Érintési visszajelzés</string>
+    <string name="settings_general_feedback_level_description">Rezgés érintéskor</string>
+    <string name="settings_general_feedback_level_none">Nincs</string>
+    <string name="settings_general_feedback_level_minimal">Minimális</string>
+    <string name="settings_general_feedback_level_default">Alapértelmezett</string>
+    <string name="settings_general_feedback_level_expressive">Kifejező</string>
+    <string name="settings_general_units_category">Mértékegységek</string>
     <string name="settings_general_temperature_headline">Hőmérséklet</string>
     <string name="settings_general_temperature_celsius">Celsius</string>
     <string name="settings_general_temperature_fahrenheit">Fahrenheit</string>
     <string name="settings_general_temperature_kelvin">Kelvin</string>
 
     <!-- Appearance Settings -->
-    <string name="settings_appearance_dark_mode_headline">Sötét Mód</string>
+    <string name="settings_appearance_dark_mode_headline">Sötét mód</string>
     <string name="settings_appearance_dark_mode_off">Ki</string>
     <string name="settings_appearance_dark_mode_on">Be</string>
-    <string name="settings_appearance_dark_mode_follow_system">Kövesse a Rendszert</string>
+    <string name="settings_appearance_dark_mode_follow_system">Rendszerbeállítás követése</string>
     <string name="settings_appearance_dynamic_colors_headline">Rendszerszínek használata</string>
-    <string name="settings_appearance_dynamic_colors_description">Használja a rendszer által biztosított színeket</string>
-    <string name="settings_appearance_pure_black_headline">Use pure black in dark mode</string>
-    <string name="settings_appearance_pure_black_description">Replace the dark mode background with pure black</string>
-    <string name="settings_appearance_system_fonts_headline">Use system fonts</string>
-    <string name="settings_appearance_system_fonts_description">Use fonts provided by your device</string>
+    <string name="settings_appearance_dynamic_colors_description">A rendszer által biztosított színek használata</string>
+    <string name="settings_appearance_pure_black_headline">Tiszta fekete használata sötét módban</string>
+    <string name="settings_appearance_pure_black_description">A sötét mód hátterének cseréje tiszta feketére</string>
+    <string name="settings_appearance_system_fonts_headline">Rendszer-betűtípusok használata</string>
+    <string name="settings_appearance_system_fonts_description">Az eszköz által biztosított betűtípusok használata</string>
 
     <!-- Data and Privacy Settings -->
-    <string name="settings_data_privacy_optional_data_category">Data sharing</string>
-    <string name="settings_data_privacy_usage_analytics_headline">Usage analytics</string>
-    <string name="settings_data_privacy_usage_analytics_description">Used to guide improvements to Inware\'s features and performance</string>
-    <string name="settings_data_privacy_crash_reports_headline">Send crash reports</string>
-    <string name="settings_data_privacy_crash_reports_description">Used to identify, investigate, and fix crashes more effectively</string>
-    <string name="settings_data_privacy_reset_app_identity">Reset app identity</string>
-    <string name="settings_data_privacy_reset_app_identity_failed">Couldn\'t reset app identity. Try again.</string>
-    <string name="settings_data_privacy_consent_save_failed">Couldn\'t save your choice. Try again.</string>
+    <string name="settings_data_privacy_optional_data_category">Adatmegosztás</string>
+    <string name="settings_data_privacy_usage_analytics_headline">Használati statisztikák</string>
+    <string name="settings_data_privacy_usage_analytics_description">Az Inware funkcióinak és teljesítményének fejlesztését segíti</string>
+    <string name="settings_data_privacy_crash_reports_headline">Összeomlási jelentések küldése</string>
+    <string name="settings_data_privacy_crash_reports_description">Segít az összeomlások hatékonyabb azonosításában, kivizsgálásában és javításában</string>
+    <string name="settings_data_privacy_reset_app_identity">Alkalmazásazonosító visszaállítása</string>
+    <string name="settings_data_privacy_reset_app_identity_failed">Nem sikerült visszaállítani az alkalmazásazonosítót. Próbáld újra.</string>
+    <string name="settings_data_privacy_consent_save_failed">Nem sikerült menteni a választásod. Próbáld újra.</string>
 
     <!-- Shizuku Settings -->
-    <string name="settings_shizuku_switch_title">Use Shizuku</string>
-    <string name="settings_shizuku_status_category">Status</string>
-    <string name="settings_shizuku_service_headline">Service</string>
-    <string name="settings_shizuku_service_running"><xliff:g id="app" example="Shizuku">%1$s</xliff:g>, running</string>
-    <string name="settings_shizuku_service_not_running"><xliff:g id="app" example="Shizuku">%1$s</xliff:g>, not running</string>
-    <string name="settings_shizuku_service_needs_update"><xliff:g id="app" example="Shizuku">%1$s</xliff:g> needs an update</string>
-    <string name="settings_shizuku_service_inware_needs_update">Inware needs an update</string>
-    <string name="settings_shizuku_service_not_installed">Not installed</string>
-    <string name="settings_shizuku_access_headline">Access</string>
-    <string name="settings_shizuku_access_allowed">Allowed</string>
-    <string name="settings_shizuku_access_not_allowed">Not allowed</string>
-    <string name="settings_shizuku_access_blocked">Blocked, allow Inware from Shizuku or Porter</string>
-    <string name="settings_shizuku_running_as_headline">Running as</string>
+    <string name="settings_shizuku_switch_title">Shizuku használata</string>
+    <string name="settings_shizuku_status_category">Állapot</string>
+    <string name="settings_shizuku_service_headline">Szolgáltatás</string>
+    <string name="settings_shizuku_service_running"><xliff:g id="app" example="Shizuku">%1$s</xliff:g>, fut</string>
+    <string name="settings_shizuku_service_not_running"><xliff:g id="app" example="Shizuku">%1$s</xliff:g>, nem fut</string>
+    <string name="settings_shizuku_service_needs_update"><xliff:g id="app" example="Shizuku">%1$s</xliff:g>: frissítés szükséges</string>
+    <string name="settings_shizuku_service_inware_needs_update">Az Inware-t frissíteni kell</string>
+    <string name="settings_shizuku_service_not_installed">Nincs telepítve</string>
+    <string name="settings_shizuku_access_headline">Hozzáférés</string>
+    <string name="settings_shizuku_access_allowed">Engedélyezve</string>
+    <string name="settings_shizuku_access_not_allowed">Nincs engedélyezve</string>
+    <string name="settings_shizuku_access_blocked">Letiltva, engedélyezd az Inware-t a Shizukuban vagy a Porterben</string>
+    <string name="settings_shizuku_running_as_headline">Futtatva mint</string>
     <string name="settings_shizuku_running_as_uid">UID <xliff:g id="uid" example="2000">%1$d</xliff:g></string>
-    <string name="settings_shizuku_open_app">Open <xliff:g id="app" example="Shizuku">%1$s</xliff:g></string>
+    <string name="settings_shizuku_open_app"><xliff:g id="app" example="Shizuku">%1$s</xliff:g> megnyitása</string>
 
     <!-- Live stats Settings -->
-    <string name="live_stats_a11y_add">Add stat</string>
-    <string name="live_stats_a11y_remove">Remove <xliff:g id="stat" example="CPU usage">%1$s</xliff:g></string>
-    <string name="live_stats_title">Live stats</string>
-    <string name="live_stats_summary">Notification and stats</string>
-    <string name="live_stats_switch_title">Use Live stats</string>
-    <string name="live_stats_note_wide_stats">Some stats need more room, so they only fit next to one other stat</string>
-    <string name="live_stats_stat_ram_used">RAM used</string>
-    <string name="live_stats_stat_ram_usage">RAM usage</string>
-    <string name="live_stats_notifications_off_title">Notifications are off</string>
-    <string name="live_stats_notifications_off_body">Live stats needs notifications to show your stats</string>
-    <string name="live_stats_restricted_title">Battery use is restricted</string>
-    <string name="live_stats_restricted_body">Live stats can\'t run while battery use for Inware is set to Restricted</string>
-    <string name="live_stats_restricted_action">Open battery settings</string>
-    <string name="live_stats_channel_description">Shows the stats you pick in Live stats</string>
+    <string name="live_stats_a11y_add">Statisztika hozzáadása</string>
+    <string name="live_stats_a11y_remove"><xliff:g id="stat" example="CPU usage">%1$s</xliff:g> eltávolítása</string>
+    <string name="live_stats_title">Élő statisztikák</string>
+    <string name="live_stats_summary">Értesítés és statisztikák</string>
+    <string name="live_stats_switch_title">Élő statisztikák használata</string>
+    <string name="live_stats_note_wide_stats">Egyes statisztikák több helyet igényelnek, ezért csak egy másik statisztika mellett férnek el</string>
+    <string name="live_stats_stat_ram_used">Használt RAM</string>
+    <string name="live_stats_stat_ram_usage">RAM-használat</string>
+    <string name="live_stats_notifications_off_title">Az értesítések ki vannak kapcsolva</string>
+    <string name="live_stats_notifications_off_body">Az Élő statisztikák funkciónak értesítésekre van szüksége a statisztikák megjelenítéséhez</string>
+    <string name="live_stats_restricted_title">Az akkumulátorhasználat korlátozva van</string>
+    <string name="live_stats_restricted_body">Az Élő statisztikák funkció nem futhat, amíg az Inware akkumulátorhasználata „Korlátozott” beállításon van</string>
+    <string name="live_stats_restricted_action">Akkumulátorbeállítások megnyitása</string>
+    <string name="live_stats_channel_description">Az Élő statisztikákban kiválasztott adatokat jeleníti meg</string>
     <!-- Short labels drawn under each value in the notification. Keep them as short as possible. -->
-    <string name="live_stats_label_battery_level">Battery</string>
-    <string name="live_stats_label_battery_temperature">Temp</string>
-    <string name="live_stats_label_battery_voltage">Voltage</string>
-    <string name="live_stats_label_battery_current">Current</string>
-    <string name="live_stats_label_battery_power">Power</string>
+    <string name="live_stats_label_battery_level">Akku</string>
+    <string name="live_stats_label_battery_temperature">Hőm.</string>
+    <string name="live_stats_label_battery_voltage">Fesz.</string>
+    <string name="live_stats_label_battery_current">Áram</string>
+    <string name="live_stats_label_battery_power">Telj.</string>
     <string name="live_stats_label_cpu_usage">CPU</string>
-    <string name="live_stats_label_ram_used">RAM used</string>
+    <string name="live_stats_label_ram_used">Haszn. RAM</string>
     <string name="live_stats_label_ram_usage">RAM</string>
-    <string name="live_stats_label_download_speed">Download</string>
-    <string name="live_stats_label_upload_speed">Upload</string>
-    <string name="live_stats_label_thermal_status">Throttling</string>
+    <string name="live_stats_label_download_speed">Letöltés</string>
+    <string name="live_stats_label_upload_speed">Feltöltés</string>
+    <string name="live_stats_label_thermal_status">Hőkorlát</string>
     <string name="live_stats_unit_volts">V</string>
     <string name="live_stats_unit_milliamps">mA</string>
     <string name="live_stats_unit_watts">W</string>
     <string name="live_stats_notification_item"><xliff:g id="label" example="Battery">%1$s</xliff:g> <xliff:g id="value" example="85%">%2$s</xliff:g></string>
 
     <!-- About Settings -->
-    <string name="settings_about_privacy_policy_headline">Adatvédelmi Irányelvek</string>
+    <string name="settings_about_privacy_policy_headline">Adatvédelmi irányelvek</string>
     <string name="settings_about_licenses_headline">Licencek</string>
-    <string name="settings_about_button_channel">Channel</string>
-    <string name="settings_about_button_group">Group</string>
+    <string name="settings_about_button_channel">Csatorna</string>
+    <string name="settings_about_button_group">Csoport</string>
     <string name="settings_about_button_github">GitHub</string>
     <string name="settings_about_button_twitter">Twitter</string>
-    <string name="settings_about_button_website">Website</string>
-    <string name="settings_about_button_email">Email</string>
-    <string name="settings_about_thanks_to_category">Köszönet a</string>
-    <string name="settings_about_translate_title">Help translate Inware</string>
-    <string name="settings_about_translate_summary">Join the community project to localize new features.</string>
-    <string name="settings_about_translate_action">Open project</string>
-    <string name="settings_developer_options_warning_title">Enable developer options?</string>
-    <string name="settings_developer_options_warning_message">Developer options contain advanced settings that may affect app stability and performance.\n\nEnable only if you understand the potential risks.</string>
-    <string name="settings_developer_options_warning_proceed">Proceed</string>
+    <string name="settings_about_button_website">Weboldal</string>
+    <string name="settings_about_button_email">E-mail</string>
+    <string name="settings_about_thanks_to_category">Köszönet</string>
+    <string name="settings_about_translate_title">Segíts lefordítani az Inware-t</string>
+    <string name="settings_about_translate_summary">Csatlakozz a közösségi projekthez, és segíts lefordítani az új funkciókat.</string>
+    <string name="settings_about_translate_action">Projekt megnyitása</string>
+    <string name="settings_developer_options_warning_title">Bekapcsolod a fejlesztői beállításokat?</string>
+    <string name="settings_developer_options_warning_message">A fejlesztői beállítások olyan speciális beállításokat tartalmaznak, amelyek befolyásolhatják az alkalmazás stabilitását és teljesítményét.\n\nCsak akkor kapcsold be őket, ha tisztában vagy a lehetséges kockázatokkal.</string>
+    <string name="settings_developer_options_warning_proceed">Tovább</string>
 
     <!--
     Legacy strings without new equivalents.
 
     These strings may still be used in the future. Translations are kept just in case.
      -->
-    <string name="legacy_new_version_available">Új verzió elérhető</string>
-    <string name="legacy_new_version_dialog_message">Frissítsen a legújabb verzióra a jobb élmény érdekében</string>
+    <string name="legacy_new_version_available">Új verzió érhető el</string>
+    <string name="legacy_new_version_dialog_message">A jobb élmény érdekében frissíts a legújabb verzióra</string>
     <string name="legacy_update">Frissítés</string>
     <string name="legacy_later">Később</string>
-    <string name="legacy_shake_to_report_category">Rázza meg a jelentéshez</string>
-    <string name="legacy_shake_to_send_feedback">Rázza meg a visszajelzés küldéséhez</string>
-    <string name="legacy_shake_to_send_feedback_summary">Rázza meg az eszközét, hogy gyorsan küldjön visszajelzést bármely képernyőről</string>
+    <string name="legacy_shake_to_report_category">Rázás a jelentéshez</string>
+    <string name="legacy_shake_to_send_feedback">Rázás a visszajelzés küldéséhez</string>
+    <string name="legacy_shake_to_send_feedback_summary">Rázd meg az eszközt, hogy bármelyik képernyőről gyorsan visszajelzést küldhess</string>
     <string name="legacy_sensitivity">Érzékenység</string>
-    <string name="legacy_notifications_category_description">A Push értesítések be- és kikapcsolása</string>
-    <string name="legacy_experimental_category_description">Kiadatlan Jellemzők, instabilok lehetnek</string>
-    <string name="legacy_shake_to_report_category_description">Rázza meg az eszközt a visszajelzés küldéséhez</string>
+    <string name="legacy_notifications_category_description">Push-értesítések be- és kikapcsolása</string>
+    <string name="legacy_experimental_category_description">Még ki nem adott funkciók, instabilak lehetnek</string>
+    <string name="legacy_shake_to_report_category_description">Rázd meg az eszközt a visszajelzés küldéséhez</string>
     <string name="legacy_identifiers">Azonosítók</string>
-    <string name="legacy_stopped">Megállt</string>
-    <string name="legacy_augmented_reality">Kibővített Valóság</string>
-    <string name="legacy_permission_dialog_learn_more">Tudj meg többet</string>
-    <string name="legacy_memory_storage_permission_explanation">Tárhely engedély szükséges a tárolással kapcsolatos részletek megjelenítéséhez.</string>
+    <string name="legacy_stopped">Leállítva</string>
+    <string name="legacy_augmented_reality">Kiterjesztett valóság</string>
+    <string name="legacy_permission_dialog_learn_more">További információ</string>
+    <string name="legacy_memory_storage_permission_explanation">A tárhellyel kapcsolatos részletek megjelenítéséhez tárhely-hozzáférési engedély szükséges.</string>
 </resources>
