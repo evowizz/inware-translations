@@ -305,7 +305,7 @@
     <string name="connectivity_bluetooth_category">Bluetooth</string>
     <string name="connectivity_bluetooth_name_headline">Nombre de dispositivo</string>
     <string name="connectivity_bluetooth_status_headline">Estado</string>
-    <string name="connectivity_bluetooth_low_energy_headline">Bluetooth de baja energía (LE)</string>
+    <string name="connectivity_bluetooth_low_energy_headline">Bluetooth de baja energía (BLE)</string>
     <string name="connectivity_bluetooth_paired_devices_headline">Dispositivos emparejados</string>
     <string name="connectivity_bluetooth_mac_address_headline">Dirección MAC</string>
     <string name="connectivity_bluetooth_turn_on_bluetooth">Encender Bluetooth para mostrar</string>
@@ -352,9 +352,9 @@
     <string name="battery_status_charging">Cargando</string>
     <string name="battery_status_discharging">Descargando</string>
     <string name="battery_status_full">Llena</string>
-    <string name="battery_level_full_by">Llena para <xliff:g id="time" example="5:30 PM">%1$s</xliff:g></string>
+    <string name="battery_level_full_by">Llena para las <xliff:g id="time" example="5:30 PM">%1$s</xliff:g></string>
     <string name="battery_level_done_charging">Carga completa</string>
-    <string name="battery_level_done_charging_by"Carga completa para <xliff:g id="time" example="5:30 PM">%1$s</xliff:g></string>
+    <string name="battery_level_done_charging_by"Carga completa para las <xliff:g id="time" example="5:30 PM">%1$s</xliff:g></string>
     <string name="battery_health_good">Buena</string>
     <string name="battery_health_overheated">Sobrecalentada</string>
     <string name="battery_health_dead">Sin actividad</string>
@@ -383,10 +383,10 @@
     <!-- Search -->
     <string name="search_a11y_clear">Borrar todo</string>
     <string name="search_a11y_field">Buscar</string>
-    <string name="search_a11y_results_available">Resultados debajo</string>
+    <string name="search_a11y_results_available">Resultados disponibles</string>
     <string name="search_action">Buscar</string>
     <string name="search_prompt">Buscar en Inware</string>
-    <string name="search_empty_hint">Buscar por nombre o catagoría</string>
+    <string name="search_empty_hint">Buscar por nombre o categoría</string>
     <string name="search_no_results">Sin resulados</string>
     <string name="search_result_breadcrumb"><xliff:g id="page" example="System">%1$s</xliff:g> &gt; <xliff:g id="category" example="Android">%2$s</xliff:g></string>
 
@@ -437,7 +437,7 @@
     <string name="settings_data_privacy_usage_analytics_headline">Estadísticas de uso</string>
     <string name="settings_data_privacy_usage_analytics_description">Usado para mejorar las mejoras, características y rendimiento de Inware</string>
     <string name="settings_data_privacy_crash_reports_headline">Enviar informes de erroes</string>
-    <string name="settings_data_privacy_crash_reports_description">Usado to para identificar, investigar y arreglar crasheos con mayor eficiencia</string>
+    <string name="settings_data_privacy_crash_reports_description">Usado para identificar, investigar y arreglar crasheos con mayor eficiencia</string>
     <string name="settings_data_privacy_reset_app_identity">Reiniciar la identidad de la app</string>
     <string name="settings_data_privacy_reset_app_identity_failed">No se pudo reiniciar la identidad de la app. Inténtalo de nuevo.</string>
     <string name="settings_data_privacy_consent_save_failed">No se pudo guardar tu elección. Inténtalo de nuevo.</string>
