@@ -457,7 +457,7 @@
     <string name="settings_shizuku_access_blocked">Bloqueado, permite Inware desde Shizuku o Porter</string>
     <string name="settings_shizuku_running_as_headline">Ejecutándose como</string>
     <string name="settings_shizuku_running_as_uid">UID <xliff:g id="uid" example="2000">%1$d</xliff:g></string>
-    <string name="settings_shizuku_open_app">Abrir <xliff:g id="app" example="Shizuku">%1$s</xliff:g></string>
+    <string name="settings_shizuku_open_app">Abrir<xliff:g id="app" example="Shizuku">%1$s</xliff:g></string>
 
     <!-- Live stats Settings -->
     <string name="live_stats_a11y_add">Añadir</string>
