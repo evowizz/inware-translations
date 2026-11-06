@@ -316,7 +316,7 @@
     <string name="connectivity_bluetooth_permission_explainer">Se requiere el permiso de dispositivos cercanos para mostrar detalles del Bluetooth.</string>
     <string name="connectivity_features_category">Características</string>
     <string name="connectivity_thread_network_headline">Red Thread</string>
-    <string name="connectivity_ble_channel_sounding_headline">Bluetooth channel sounding</string>
+    <string name="connectivity_ble_channel_sounding_headline">Bluetooth Channel Sounding</string>
 
     <!-- Battery page -->
     <string name="battery_condition_category">Estado</string>
