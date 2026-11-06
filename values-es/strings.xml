@@ -36,9 +36,9 @@
     <!-- Telemetry consent -->
     <string name="telemetry_consent_title">Datos compartidos</string>
     <string name="telemetry_consent_first_use_message">Elige si activar las estadísticas de uso y el informe de errores. Revisa las opciones debajo, y entonces guárdalas.</string>
-    <string name="telemetry_consent_upgrade_message">Desde la versión 7.1.0, Inware te deja you controlar las estadísticas de uso y el informe de errores por separado. Revisa las opciones debajo, y entonces guárdalas.</string>
-    <string name="telemetry_consent_first_use_policy_message">Read the [Privacy Policy](<xliff:g id="link" example="https://example.com">%1$s</xliff:g>) for details.</string>
-    <string name="telemetry_consent_upgrade_policy_message">The [Privacy Policy](<xliff:g id="link" example="https://example.com">%1$s</xliff:g>) has been updated to reflect these changes.</string>
+    <string name="telemetry_consent_upgrade_message">Desde la versión 7.1.0, Inware te deja controlar las estadísticas de uso y el informe de errores por separado. Revisa las opciones debajo, y entonces guárdalas.</string>
+    <string name="telemetry_consent_first_use_policy_message">Leed la [Política de Privacidad](<xliff:g id="link" example="https://example.com">%1$s</xliff:g>) para más detalles.</string>
+    <string name="telemetry_consent_upgrade_policy_message">La [Política de Privacidad](<xliff:g id="link" example="https://example.com">%1$s</xliff:g>) ha sido actualizada para reflejar estos cambios.</string>
     <!-- Defaults to the Settings string and may be translated independently. -->
     <string name="telemetry_usage_analytics_headline">@string/settings_data_privacy_usage_analytics_headline</string>
     <!-- Defaults to the Settings string and may be translated independently. -->
