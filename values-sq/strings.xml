@@ -4,6 +4,10 @@
     <string name="generic_a11y_go_back">Go back</string>
     <string name="generic_a11y_more_options">More options</string>
     <string name="generic_a11y_drag_handle">Drag handle</string>
+    <string name="generic_a11y_expanded">Expanded</string>
+    <string name="generic_a11y_collapsed">Collapsed</string>
+    <string name="generic_a11y_close_menu">Close menu</string>
+    <string name="generic_a11y_show_actions">Show actions</string>
     <string name="generic_unknown">E panjohur</string>
     <string name="generic_enabled">Aktivizuar</string>
     <string name="generic_disabled">Çaktivizuar</string>
@@ -27,16 +31,16 @@
     <string name="generic_iec_terabytes"><xliff:g id="size" example="36">%s</xliff:g> TB</string>
     <string name="generic_iec_petabytes"><xliff:g id="size" example="36">%s</xliff:g> PB</string>
     <string name="generic_bytes_per_second"><xliff:g id="speed" example="36">%s</xliff:g> B/s</string>
-    <string name="generic_kb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> KB/s</string>
-    <string name="generic_mb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> MB/s</string>
-    <string name="generic_gb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> GB/s</string>
-    <string name="generic_tb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> TB/s</string>
+    <string name="generic_kb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> KB/s</string>
+    <string name="generic_mb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> MB/s</string>
+    <string name="generic_gb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> GB/s</string>
+    <string name="generic_tb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> TB/s</string>
     <string name="generic_pb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> PB/s</string>
 
     <!-- Telemetry consent -->
     <string name="telemetry_consent_title">Data sharing</string>
-    <string name="telemetry_consent_first_use_message">Choose whether to enable usage analytics and crash reporting. Review the choices below, then save.</string>
-    <string name="telemetry_consent_upgrade_message">Starting with version 7.1.0, Inware lets you control usage analytics and crash reporting separately. Review the choices below, then save.</string>
+    <string name="telemetry_consent_first_use_body">Inware can share usage analytics and crash reports to help improve the app. Nothing is shared unless you choose to, and you can change this anytime in Settings.</string>
+    <string name="telemetry_consent_upgrade_body">Starting with version 7.1.0, Inware lets you control usage analytics and crash reporting separately. Nothing is shared unless you choose to, and you can change this anytime in Settings.</string>
     <string name="telemetry_consent_first_use_policy_message">Read the [Privacy Policy](<xliff:g id="link" example="https://example.com">%1$s</xliff:g>) for details.</string>
     <string name="telemetry_consent_upgrade_policy_message">The [Privacy Policy](<xliff:g id="link" example="https://example.com">%1$s</xliff:g>) has been updated to reflect these changes.</string>
     <!-- Defaults to the Settings string and may be translated independently. -->
@@ -47,8 +51,11 @@
     <string name="telemetry_crash_reports_headline">@string/settings_data_privacy_crash_reports_headline</string>
     <!-- Defaults to the Settings string and may be translated independently. -->
     <string name="telemetry_crash_reports_description">@string/settings_data_privacy_crash_reports_description</string>
-    <string name="telemetry_consent_save">Save</string>
+    <string name="telemetry_consent_customize">Customize</string>
+    <string name="telemetry_consent_customize_summary">Usage analytics and crash reports</string>
     <string name="telemetry_consent_decline_all">Decline all</string>
+    <string name="telemetry_consent_allow_all">Allow all</string>
+    <string name="telemetry_consent_save_choices">Save choices</string>
 
     <!-- Permissions -->
     <string name="permission_required_heading">Permission required</string>
@@ -102,7 +109,7 @@
     <string name="sensors_page">Sensors</string>
     <string name="sensors_page_description">Accelerometer, light, proximity and more</string>
     <string name="connectivity_page">Lidhja me rrjetin</string>
-    <string name="connectivity_page_description">Bluetooth and paired devices</string>
+    <string name="connectivity_page_description">Wi-Fi, Bluetooth and network status</string>
     <string name="battery_page">Bateria</string>
     <string name="battery_page_description">Health, level, temperature and cycles</string>
     <string name="media_drm_page">Media DRM</string>
@@ -130,15 +137,15 @@
     <string name="system_build_tags_headline">Etiketat</string>
     <string name="system_build_fingerprint_headline">Shenjuesi i gishtit</string>
     <string name="system_build_type_headline">Tipi i Build</string>
-    <string name="system_bootloader_version_headline">Bootloader</string>
+    <string name="system_bootloader_version_headline">Bootloader version</string>
     <string name="system_up_time_headline">Koha qe paisja eshte ndezur</string>
-    <string name="system_usb_debugging_headline">USB Debugging</string>
+    <string name="system_usb_debugging_headline">USB debugging</string>
     <string name="system_selinux_headline">SELinux</string>
     <string name="system_selinux_enforcing">Enforcing</string>
     <string name="system_selinux_permissive">Permissive</string>
     <string name="system_extra_category">Ekstra</string>
     <string name="system_treble_headline">Treble</string>
-    <string name="system_seamless_updates_headline">Seamless Updates</string>
+    <string name="system_seamless_updates_headline">Seamless updates</string>
     <string name="system_active_slot_headline">Pjesa aktive</string>
     <string name="system_root_headline">Root</string>
     <string name="system_page_size_headline">Page size</string>
@@ -150,11 +157,16 @@
     <string name="device_model_headline">Modeli</string>
     <string name="device_product_name_headline">Produkti</string>
     <string name="device_sku_headline">SKU</string>
-    <string name="device_display_id_category">Display #<xliff:g example="1" id="id">%d</xliff:g></string>
+    <string name="device_display_type_built_in">Display</string>
+    <string name="device_display_type_inner">Inner display</string>
+    <string name="device_display_type_outer">Outer display</string>
+    <string name="device_display_type_external">External display</string>
+    <string name="device_display_numbered"><xliff:g id="display" example="Outer display">%1$s</xliff:g> #<xliff:g id="number" example="1">%2$d</xliff:g></string>
     <string name="device_display_name_headline">Emri</string>
+    <string name="device_display_more_details">More details</string>
     <string name="device_display_resolution_headline">Rezolucioni</string>
     <string name="device_display_size_headline">Madhesia</string>
-    <string name="device_display_aspect_ratio_headline">Aspect Ratio</string>
+    <string name="device_display_aspect_ratio_headline">Aspect ratio</string>
     <string name="device_display_refresh_rate_headline">Shpeshtesia per sekond</string>
     <string name="device_display_pixel_density_headline">Pixel density</string>
     <string name="device_display_current_density_headline">Current density</string>
@@ -164,6 +176,7 @@
     <string name="device_display_default_orientation_landscape">Per se gjeri</string>
     <string name="device_display_supports_hdr_headline">HDR</string>
     <string name="device_display_hdr_supported_with_ratio">Supported (<xliff:g id="ratio" example="2.5x">%s</xliff:g>)</string>
+    <string name="device_display_hdr_formats_headline">HDR formats</string>
     <string name="device_display_supported_refresh_rates_headline">Supported refresh rates (Hz)</string>
     <string name="device_display_adaptive_refresh_rate_headline">Adaptive refresh rate</string>
     <string name="device_security_category">Security chip</string>
@@ -190,7 +203,7 @@
     <string name="hardware_cpu_usage_category">Perdorimi i procesorit</string>
     <string name="hardware_core_headline">Berthama <xliff:g example="3" id="number_of_core">%d</xliff:g></string>
     <string name="hardware_core_offline">I paaktivizuar</string>
-    <string name="hardware_core_frequency"><xliff:g example="857" id="frequency">%d</xliff:g> MHz</string>
+    <string name="hardware_core_frequency"><xliff:g example="1800" id="frequency">%d</xliff:g> MHz</string>
     <string name="hardware_gpu_category">GPU</string>
     <string name="hardware_gpu_vendor_headline">Vendori</string>
     <string name="hardware_gpu_renderer_headline">Renderer</string>
@@ -239,6 +252,7 @@
     <string name="camera_ois_headline">Stabilizim optik i imazhit (OIS)</string>
     <string name="camera_eis_headline">Stabilizim elektronik i imazhit (EIS)</string>
     <string name="camera_flash_headline">Blici</string>
+    <string name="camera_low_light_boost_headline">Low light boost</string>
     <string name="camera_features_headline">Features</string>
 
     <!-- Sensors page -->
@@ -270,7 +284,7 @@
     <string name="connectivity_type_cellular">Cellular</string>
     <string name="connectivity_download_speed_headline">Shpejtesia e shkarkimit</string>
     <string name="connectivity_upload_speed_headline">Shpejtesia e ngarkimit</string>
-    <string name="connectivity_wifi_category">Wi-Fi</string>
+    <string name="connectivity_wifi_category">Wi‑Fi</string>
     <string name="connectivity_ssid_headline">SSID</string>
     <string name="connectivity_ssid_hidden_value">SSID e fshehur</string>
     <string name="connectivity_frequency_headline">Frekuenca</string>
@@ -317,6 +331,7 @@
     <string name="connectivity_features_category">Features</string>
     <string name="connectivity_thread_network_headline">Thread network</string>
     <string name="connectivity_ble_channel_sounding_headline">Bluetooth channel sounding</string>
+    <string name="connectivity_uwb_headline">Ultra-wideband</string>
 
     <!-- Battery page -->
     <string name="battery_condition_category">Condition</string>
@@ -392,7 +407,7 @@
 
     <!-- Settings Hub page -->
     <string name="settings_general_entry_headline">General</string>
-    <string name="settings_general_entry_description">Security, clipboard and units</string>
+    <string name="settings_general_entry_description">Security, clipboard, haptics and units</string>
     <string name="settings_appearance_entry_headline">Appearance</string>
     <string name="settings_appearance_entry_description">Dark mode and colors</string>
     <string name="settings_data_privacy_entry_headline">Data &amp; privacy</string>

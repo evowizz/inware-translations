@@ -4,6 +4,10 @@
     <string name="generic_a11y_go_back">Retour</string>
     <string name="generic_a11y_more_options">Autres options</string>
     <string name="generic_a11y_drag_handle">Poignée de déplacement</string>
+    <string name="generic_a11y_expanded">Expanded</string>
+    <string name="generic_a11y_collapsed">Collapsed</string>
+    <string name="generic_a11y_close_menu">Close menu</string>
+    <string name="generic_a11y_show_actions">Show actions</string>
     <string name="generic_unknown">Inconnu</string>
     <string name="generic_enabled">Activé</string>
     <string name="generic_disabled">Désactivé</string>
@@ -35,8 +39,8 @@
 
     <!-- Telemetry consent -->
     <string name="telemetry_consent_title">Partage de données</string>
-    <string name="telemetry_consent_first_use_message">Choisissez si vous souhaitez activer les statistiques d\'utilisation et les rapports de plantage. Vérifiez les choix ci-dessous, puis enregistrez.</string>
-    <string name="telemetry_consent_upgrade_message">À partir de la version 7.1.0, Inware vous permet de contrôler séparément les statistiques d\'utilisation et les rapports de plantage. Vérifiez les choix ci-dessous, puis enregistrez.</string>
+    <string name="telemetry_consent_first_use_body">Inware can share usage analytics and crash reports to help improve the app. Nothing is shared unless you choose to, and you can change this anytime in Settings.</string>
+    <string name="telemetry_consent_upgrade_body">Starting with version 7.1.0, Inware lets you control usage analytics and crash reporting separately. Nothing is shared unless you choose to, and you can change this anytime in Settings.</string>
     <string name="telemetry_consent_first_use_policy_message">Consultez la [Politique de confidentialité](<xliff:g id="link" example="https://example.com">%1$s</xliff:g>) pour plus de détails.</string>
     <string name="telemetry_consent_upgrade_policy_message">La [Politique de confidentialité](<xliff:g id="link" example="https://example.com">%1$s</xliff:g>) a été mise à jour pour refléter ces changements.</string>
     <!-- Defaults to the Settings string and may be translated independently. -->
@@ -47,8 +51,11 @@
     <string name="telemetry_crash_reports_headline">@string/settings_data_privacy_crash_reports_headline</string>
     <!-- Defaults to the Settings string and may be translated independently. -->
     <string name="telemetry_crash_reports_description">@string/settings_data_privacy_crash_reports_description</string>
-    <string name="telemetry_consent_save">Enregistrer</string>
+    <string name="telemetry_consent_customize">Customize</string>
+    <string name="telemetry_consent_customize_summary">Usage analytics and crash reports</string>
     <string name="telemetry_consent_decline_all">Tout refuser</string>
+    <string name="telemetry_consent_allow_all">Allow all</string>
+    <string name="telemetry_consent_save_choices">Save choices</string>
 
     <!-- Permissions -->
     <string name="permission_required_heading">Autorisation requise</string>
@@ -130,7 +137,7 @@
     <string name="system_build_tags_headline">Étiquettes</string>
     <string name="system_build_fingerprint_headline">Empreinte</string>
     <string name="system_build_type_headline">Type de build</string>
-    <string name="system_bootloader_version_headline">Bootloader</string>
+    <string name="system_bootloader_version_headline">Bootloader version</string>
     <string name="system_up_time_headline">Durée de fonctionnement</string>
     <string name="system_usb_debugging_headline">Débogage USB</string>
     <string name="system_selinux_headline">SELinux</string>
@@ -150,8 +157,13 @@
     <string name="device_model_headline">Modèle</string>
     <string name="device_product_name_headline">Produit</string>
     <string name="device_sku_headline">SKU</string>
-    <string name="device_display_id_category">Affichage #<xliff:g example="1" id="id">%d</xliff:g></string>
+    <string name="device_display_type_built_in">Display</string>
+    <string name="device_display_type_inner">Inner display</string>
+    <string name="device_display_type_outer">Outer display</string>
+    <string name="device_display_type_external">External display</string>
+    <string name="device_display_numbered"><xliff:g id="display" example="Outer display">%1$s</xliff:g> #<xliff:g id="number" example="1">%2$d</xliff:g></string>
     <string name="device_display_name_headline">Nom</string>
+    <string name="device_display_more_details">More details</string>
     <string name="device_display_resolution_headline">Résolution</string>
     <string name="device_display_size_headline">Taille</string>
     <string name="device_display_aspect_ratio_headline">Ratio d\'aspect</string>
@@ -164,6 +176,7 @@
     <string name="device_display_default_orientation_landscape">Paysage</string>
     <string name="device_display_supports_hdr_headline">HDR</string>
     <string name="device_display_hdr_supported_with_ratio">Pris en charge (<xliff:g id="ratio" example="2.5x">%s</xliff:g>)</string>
+    <string name="device_display_hdr_formats_headline">HDR formats</string>
     <string name="device_display_supported_refresh_rates_headline">Fréquences d\'actualisation prises en charge (Hz)</string>
     <string name="device_display_adaptive_refresh_rate_headline">Fréquence d\'actualisation adaptative</string>
     <string name="device_security_category">Puce de sécurité</string>
@@ -239,6 +252,7 @@
     <string name="camera_ois_headline">Stabilisation optique de l\'image (OIS)</string>
     <string name="camera_eis_headline">Stabilisation électronique de l\'image (EIS)</string>
     <string name="camera_flash_headline">Flash</string>
+    <string name="camera_low_light_boost_headline">Low light boost</string>
     <string name="camera_features_headline">Fonctionnalités</string>
 
     <!-- Sensors page -->
@@ -270,7 +284,7 @@
     <string name="connectivity_type_cellular">Cellulaire</string>
     <string name="connectivity_download_speed_headline">Débit descendant</string>
     <string name="connectivity_upload_speed_headline">Débit montant</string>
-    <string name="connectivity_wifi_category">Wi-Fi</string>
+    <string name="connectivity_wifi_category">Wi‑Fi</string>
     <string name="connectivity_ssid_headline">SSID</string>
     <string name="connectivity_ssid_hidden_value">Masqué</string>
     <string name="connectivity_frequency_headline">Fréquence</string>
@@ -317,6 +331,7 @@
     <string name="connectivity_features_category">Fonctionnalités</string>
     <string name="connectivity_thread_network_headline">Réseau Thread</string>
     <string name="connectivity_ble_channel_sounding_headline">Sondage des canaux Bluetooth</string>
+    <string name="connectivity_uwb_headline">Ultra-wideband</string>
 
     <!-- Battery page -->
     <string name="battery_condition_category">État</string>
