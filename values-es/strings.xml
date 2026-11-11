@@ -37,7 +37,7 @@
     <string name="telemetry_consent_title">Datos compartidos</string>
     <string name="telemetry_consent_first_use_message">Elige si activar las estadísticas de uso y el informe de errores. Revisa las opciones debajo, y entonces guárdalas.</string>
     <string name="telemetry_consent_upgrade_message">Desde la versión 7.1.0, Inware te deja controlar las estadísticas de uso y el informe de errores por separado. Revisa las opciones debajo, y entonces guárdalas.</string>
-    <string name="telemetry_consent_first_use_policy_message">Leed la [Política de Privacidad](<xliff:g id="link" example="https://example.com">%1$s</xliff:g>) para más detalles.</string>
+    <string name="telemetry_consent_first_use_policy_message">Lee la [Política de Privacidad](<xliff:g id="link" example="https://example.com">%1$s</xliff:g>) para más detalles.</string>
     <string name="telemetry_consent_upgrade_policy_message">La [Política de Privacidad](<xliff:g id="link" example="https://example.com">%1$s</xliff:g>) ha sido actualizada para reflejar estos cambios.</string>
     <!-- Defaults to the Settings string and may be translated independently. -->
     <string name="telemetry_usage_analytics_headline">@string/settings_data_privacy_usage_analytics_headline</string>
@@ -219,7 +219,7 @@
     <string name="camera_lens_back">Cámara trasera</string>
     <string name="camera_lens_external">Cámara externa</string>
     <string name="camera_lens_numbered"><xliff:g id="lens" example="Back camera">%1$s</xliff:g> #<xliff:g id="number" example="1">%2$d</xliff:g></string>
-    <string name="camera_device_type_headline">Device type</string>
+    <string name="camera_device_type_headline">Tipo</string>
     <string name="camera_device_type_built_in">Interna</string>
     <string name="camera_device_type_external">Externa</string>
     <string name="camera_device_type_virtual">Virtual</string>
@@ -300,8 +300,8 @@
     <string name="connectivity_sim_support_single_sim">Solo una SIM</string>
     <string name="connectivity_sim_support_esim">eSIM</string>
     <string name="connectivity_sim_support_dual_sim">SIM dual</string>
-    <string name="connectivity_sim_support_dual_sim_and_esim">SIM dual &amp; eSIM</string>
-    <string name="connectivity_sim_support_dual_sim_and_dual_esim">SIM dual &amp; eSIM dual</string>
+    <string name="connectivity_sim_support_dual_sim_and_esim">SIM dual y eSIM</string>
+    <string name="connectivity_sim_support_dual_sim_and_dual_esim">SIM dual y eSIM dual</string>
     <string name="connectivity_bluetooth_category">Bluetooth</string>
     <string name="connectivity_bluetooth_name_headline">Nombre de dispositivo</string>
     <string name="connectivity_bluetooth_status_headline">Estado</string>
@@ -354,7 +354,7 @@
     <string name="battery_status_full">Llena</string>
     <string name="battery_level_full_by">Llena para las <xliff:g id="time" example="5:30 PM">%1$s</xliff:g></string>
     <string name="battery_level_done_charging">Carga completa</string>
-    <string name="battery_level_done_charging_by"Carga completa para las <xliff:g id="time" example="5:30 PM">%1$s</xliff:g></string>
+    <string name="battery_level_done_charging_by">Carga completa para las <xliff:g id="time" example="5:30 PM">%1$s</xliff:g></string>
     <string name="battery_health_good">Buena</string>
     <string name="battery_health_overheated">Sobrecalentada</string>
     <string name="battery_health_dead">Sin actividad</string>
@@ -395,7 +395,7 @@
     <string name="settings_general_entry_description">Seguridad, portapapeles y unidades</string>
     <string name="settings_appearance_entry_headline">Apariencia</string>
     <string name="settings_appearance_entry_description">Modo oscuro y colores</string>
-    <string name="settings_data_privacy_entry_headline">Datos &amp; privacidad</string>
+    <string name="settings_data_privacy_entry_headline">Datos y privacidad</string>
     <string name="settings_data_privacy_entry_description">Envío de datos opcional y control de datos</string>
     <string name="settings_shizuku_entry_headline">Shizuku</string>
     <string name="settings_shizuku_entry_description">Estado y acceso</string>
@@ -457,11 +457,11 @@
     <string name="settings_shizuku_access_blocked">Bloqueado, permite Inware desde Shizuku o Porter</string>
     <string name="settings_shizuku_running_as_headline">Ejecutándose como</string>
     <string name="settings_shizuku_running_as_uid">UID <xliff:g id="uid" example="2000">%1$d</xliff:g></string>
-    <string name="settings_shizuku_open_app">Abrir<xliff:g id="app" example="Shizuku">%1$s</xliff:g></string>
+    <string name="settings_shizuku_open_app">Abrir <xliff:g id="app" example="Shizuku">%1$s</xliff:g></string>
 
     <!-- Live stats Settings -->
     <string name="live_stats_a11y_add">Añadir</string>
-    <string name="live_stats_a11y_remove">Quitar<xliff:g id="stat" example="CPU usage">%1$s</xliff:g></string>
+    <string name="live_stats_a11y_remove">Quitar <xliff:g id="stat" example="CPU usage">%1$s</xliff:g></string>
     <string name="live_stats_title">Estadísticas en vivo</string>
     <string name="live_stats_summary">Muestra estadísticas de tu dispositivo en una notificación</string>
     <string name="live_stats_switch_title">Usar Estadísticas en vivo</string>
