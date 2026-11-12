@@ -4,6 +4,10 @@
     <string name="generic_a11y_go_back">Go back</string>
     <string name="generic_a11y_more_options">More options</string>
     <string name="generic_a11y_drag_handle">Drag handle</string>
+    <string name="generic_a11y_expanded">Expanded</string>
+    <string name="generic_a11y_collapsed">Collapsed</string>
+    <string name="generic_a11y_close_menu">Close menu</string>
+    <string name="generic_a11y_show_actions">Show actions</string>
     <string name="generic_unknown">Di alam</string>
     <string name="generic_enabled">Nakabukas</string>
     <string name="generic_disabled">Nakasara</string>
@@ -27,16 +31,16 @@
     <string name="generic_iec_terabytes"><xliff:g id="size" example="36">%s</xliff:g> TB</string>
     <string name="generic_iec_petabytes"><xliff:g id="size" example="36">%s</xliff:g> PB</string>
     <string name="generic_bytes_per_second"><xliff:g id="speed" example="36">%s</xliff:g> B/s</string>
-    <string name="generic_kb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> KB/s</string>
-    <string name="generic_mb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> MB/s</string>
-    <string name="generic_gb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> GB/s</string>
-    <string name="generic_tb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> TB/s</string>
+    <string name="generic_kb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> KB/s</string>
+    <string name="generic_mb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> MB/s</string>
+    <string name="generic_gb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> GB/s</string>
+    <string name="generic_tb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> TB/s</string>
     <string name="generic_pb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> PB/s</string>
 
     <!-- Telemetry consent -->
     <string name="telemetry_consent_title">Data sharing</string>
-    <string name="telemetry_consent_first_use_message">Choose whether to enable usage analytics and crash reporting. Review the choices below, then save.</string>
-    <string name="telemetry_consent_upgrade_message">Starting with version 7.1.0, Inware lets you control usage analytics and crash reporting separately. Review the choices below, then save.</string>
+    <string name="telemetry_consent_first_use_body">Inware can share usage analytics and crash reports to help improve the app. Nothing is shared unless you choose to, and you can change this anytime in Settings.</string>
+    <string name="telemetry_consent_upgrade_body">Starting with version 7.1.0, Inware lets you control usage analytics and crash reporting separately. Nothing is shared unless you choose to, and you can change this anytime in Settings.</string>
     <string name="telemetry_consent_first_use_policy_message">Read the [Privacy Policy](<xliff:g id="link" example="https://example.com">%1$s</xliff:g>) for details.</string>
     <string name="telemetry_consent_upgrade_policy_message">The [Privacy Policy](<xliff:g id="link" example="https://example.com">%1$s</xliff:g>) has been updated to reflect these changes.</string>
     <!-- Defaults to the Settings string and may be translated independently. -->
@@ -47,8 +51,11 @@
     <string name="telemetry_crash_reports_headline">@string/settings_data_privacy_crash_reports_headline</string>
     <!-- Defaults to the Settings string and may be translated independently. -->
     <string name="telemetry_crash_reports_description">@string/settings_data_privacy_crash_reports_description</string>
-    <string name="telemetry_consent_save">Save</string>
+    <string name="telemetry_consent_customize">Customize</string>
+    <string name="telemetry_consent_customize_summary">Usage analytics and crash reports</string>
     <string name="telemetry_consent_decline_all">Decline all</string>
+    <string name="telemetry_consent_allow_all">Allow all</string>
+    <string name="telemetry_consent_save_choices">Save choices</string>
 
     <!-- Permissions -->
     <string name="permission_required_heading">Kailangan ng permiso</string>
@@ -102,7 +109,7 @@
     <string name="sensors_page">Sensors</string>
     <string name="sensors_page_description">Accelerometer, light, proximity and more</string>
     <string name="connectivity_page">Koneksyon</string>
-    <string name="connectivity_page_description">Bluetooth and paired devices</string>
+    <string name="connectivity_page_description">Wi-Fi, Bluetooth and network status</string>
     <string name="battery_page">Baterya</string>
     <string name="battery_page_description">Health, level, temperature and cycles</string>
     <string name="media_drm_page">Media DRM</string>
@@ -128,9 +135,9 @@
     <string name="system_kernel_version_headline">Bersyon ng kernel</string>
     <string name="system_baseband_version_headline">Bersyon ng baseband</string>
     <string name="system_build_tags_headline">Mga tag</string>
-    <string name="system_build_fingerprint_headline">Fingerprint</string>
+    <string name="system_build_fingerprint_headline">Build fingerprint</string>
     <string name="system_build_type_headline">Uri ng build</string>
-    <string name="system_bootloader_version_headline">Bootloader</string>
+    <string name="system_bootloader_version_headline">Bootloader version</string>
     <string name="system_up_time_headline">Oras nakabukas</string>
     <string name="system_usb_debugging_headline">Pagde-debug sa USB</string>
     <string name="system_selinux_headline">SELinux</string>
@@ -150,8 +157,13 @@
     <string name="device_model_headline">Modelo</string>
     <string name="device_product_name_headline">Produkto</string>
     <string name="device_sku_headline">SKU</string>
-    <string name="device_display_id_category">Display #<xliff:g example="1" id="id">%d</xliff:g></string>
+    <string name="device_display_type_built_in">Display</string>
+    <string name="device_display_type_inner">Inner display</string>
+    <string name="device_display_type_outer">Outer display</string>
+    <string name="device_display_type_external">External display</string>
+    <string name="device_display_numbered"><xliff:g id="display" example="Outer display">%1$s</xliff:g> #<xliff:g id="number" example="1">%2$d</xliff:g></string>
     <string name="device_display_name_headline">Pangalan</string>
+    <string name="device_display_more_details">More details</string>
     <string name="device_display_resolution_headline">Linaw</string>
     <string name="device_display_size_headline">Sukat</string>
     <string name="device_display_aspect_ratio_headline">Aspect ratio</string>
@@ -164,6 +176,7 @@
     <string name="device_display_default_orientation_landscape">Nakahiga</string>
     <string name="device_display_supports_hdr_headline">HDR</string>
     <string name="device_display_hdr_supported_with_ratio">Supported (<xliff:g id="ratio" example="2.5x">%s</xliff:g>)</string>
+    <string name="device_display_hdr_formats_headline">HDR formats</string>
     <string name="device_display_supported_refresh_rates_headline">Supported refresh rates (Hz)</string>
     <string name="device_display_adaptive_refresh_rate_headline">Adaptive refresh rate</string>
     <string name="device_security_category">Security chip</string>
@@ -173,7 +186,7 @@
     <string name="device_fingerprint_authentication_headline">Pagpapatotoo gamit fingerprint</string>
     <string name="device_face_authentication_headline">Pagpapatotoo gamit mukha</string>
     <string name="device_vulkan_headline">Vulkan</string>
-    <string name="device_file_based_encryption_headline">File Based Encryption</string>
+    <string name="device_file_based_encryption_headline">File-based encryption</string>
     <string name="device_npu_headline">Neural processing unit</string>
 
     <!-- Hardware page -->
@@ -183,14 +196,14 @@
     <string name="hardware_cores_headline">Mga core</string>
     <string name="hardware_clusters_headline">Mga cluster</string>
     <string name="hardware_cpu_usage_headline">Paggamit</string>
-    <string name="hardware_cluster_category">Cluster #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
+    <string name="hardware_cluster_category">Cluster #<xliff:g example="1" id="cluster_number">%d</xliff:g></string>
     <string name="hardware_cluster_minimum_frequency_headline">Pinakamababang frequency</string>
     <string name="hardware_cluster_maximum_frequency_headline">Pinakamataas na frequency</string>
     <string name="hardware_cluster_governor_headline">Governor</string>
     <string name="hardware_cpu_usage_category">Paggamit sa CPU</string>
-    <string name="hardware_core_headline">Core <xliff:g example="3" id="number_of_core">%d</xliff:g></string>
+    <string name="hardware_core_headline">Core <xliff:g example="1" id="core_number">%d</xliff:g></string>
     <string name="hardware_core_offline">Offline</string>
-    <string name="hardware_core_frequency"><xliff:g example="857" id="frequency">%d</xliff:g> MHz</string>
+    <string name="hardware_core_frequency"><xliff:g example="1800" id="frequency">%d</xliff:g> MHz</string>
     <string name="hardware_gpu_category">GPU</string>
     <string name="hardware_gpu_vendor_headline">Tindahan</string>
     <string name="hardware_gpu_renderer_headline">Taga-render</string>
@@ -205,7 +218,7 @@
     <string name="memory_ram_used_headline">Ginamit</string>
     <string name="memory_ram_usage_headline">Paggamit</string>
     <string name="memory_ram_low_ram_headline">Low RAM</string>
-    <string name="memory_storage_category">Internal Storage</string>
+    <string name="memory_storage_category">Internal storage</string>
     <string name="memory_storage_hardware_headline">Hardware</string>
     <string name="memory_storage_total_headline">Kabuuan</string>
     <string name="memory_storage_available_headline">Available</string>
@@ -236,9 +249,10 @@
     <string name="camera_field_of_view_value"><xliff:g example="84" id="degrees">%1$d</xliff:g>°</string>
     <string name="camera_available_apertures_headline">Magagamit na aperture</string>
     <string name="camera_autofocus_headline">Autofocus</string>
-    <string name="camera_ois_headline">Optical Image Stabilization (OIS)</string>
-    <string name="camera_eis_headline">Electronic Image Stabilization (EIS)</string>
+    <string name="camera_ois_headline">Optical image stabilization</string>
+    <string name="camera_eis_headline">Electronic image stabilization</string>
     <string name="camera_flash_headline">Flashlight</string>
+    <string name="camera_low_light_boost_headline">Low light boost</string>
     <string name="camera_features_headline">Features</string>
 
     <!-- Sensors page -->
@@ -270,7 +284,7 @@
     <string name="connectivity_type_cellular">Cellular</string>
     <string name="connectivity_download_speed_headline">Bilis ng pag-download</string>
     <string name="connectivity_upload_speed_headline">Bilis ng pag-upload</string>
-    <string name="connectivity_wifi_category">Wi-Fi</string>
+    <string name="connectivity_wifi_category">Wi‑Fi</string>
     <string name="connectivity_ssid_headline">SSID</string>
     <string name="connectivity_ssid_hidden_value">Nakatagong SSID</string>
     <string name="connectivity_frequency_headline">Frequency</string>
@@ -282,9 +296,9 @@
     <string name="connectivity_link_speed_headline">Bilis ng pag-link</string>
     <string name="connectivity_local_ip_ipv4_headline">Lokal na IP (IPv4)</string>
     <string name="connectivity_local_ip_ipv6_headline">Lokal na IP (IPv6)</string>
-    <string name="connectivity_mac_address_headline">MAC Address</string>
+    <string name="connectivity_mac_address_headline">MAC address</string>
     <string name="connectivity_gateway_headline">Gateway</string>
-    <string name="connectivity_subnet_mask_headline">Subnet Mask</string>
+    <string name="connectivity_subnet_mask_headline">Subnet mask</string>
     <string name="connectivity_dns_headline">DNS</string>
     <string name="connectivity_dhcp_lease_time_headline">Oras ng DHCP Lease</string>
     <string name="connectivity_lease_time_more_than_a_week">Lagpas isang linggo: <xliff:g id="seconds">%d</xliff:g> (na) segundo</string>
@@ -307,7 +321,7 @@
     <string name="connectivity_bluetooth_status_headline">Estado</string>
     <string name="connectivity_bluetooth_low_energy_headline">Bluetooth Low Energy</string>
     <string name="connectivity_bluetooth_paired_devices_headline">Paired devices</string>
-    <string name="connectivity_bluetooth_mac_address_headline">MAC Address</string>
+    <string name="connectivity_bluetooth_mac_address_headline">MAC address</string>
     <string name="connectivity_bluetooth_turn_on_bluetooth">Buksan ang Bluetooth</string>
     <string name="connectivity_bluetooth_status_enabled">Nakabukas</string>
     <string name="connectivity_bluetooth_status_disabled">Nakasara</string>
@@ -317,6 +331,7 @@
     <string name="connectivity_features_category">Features</string>
     <string name="connectivity_thread_network_headline">Thread network</string>
     <string name="connectivity_ble_channel_sounding_headline">Bluetooth channel sounding</string>
+    <string name="connectivity_uwb_headline">Ultra-wideband</string>
 
     <!-- Battery page -->
     <string name="battery_condition_category">Condition</string>
