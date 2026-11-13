@@ -23,6 +23,7 @@
     <string name="generic_copy">Copy</string>
     <string name="generic_copy_value">Copy value</string>
     <string name="generic_share">Share</string>
+    <string name="generic_more_details">More details</string>
     <!-- IEC size units (1024-based). SI sizes use ICU's MeasureFormat instead. -->
     <string name="generic_iec_bytes"><xliff:g id="size" example="36">%s</xliff:g> B</string>
     <string name="generic_iec_kilobytes"><xliff:g id="size" example="36">%s</xliff:g> KB</string>
@@ -139,10 +140,12 @@
     <string name="system_build_type_headline">Build type</string>
     <string name="system_bootloader_version_headline">Bootloader version</string>
     <string name="system_up_time_headline">Up time</string>
+    <string name="system_boot_count_headline">Boot count</string>
     <string name="system_usb_debugging_headline">USB debugging</string>
     <string name="system_selinux_headline">SELinux</string>
     <string name="system_selinux_enforcing">Enforcing</string>
     <string name="system_selinux_permissive">Permissive</string>
+    <string name="system_advanced_protection_headline">Advanced Protection</string>
     <string name="system_extra_category">Extra</string>
     <string name="system_treble_headline">Treble</string>
     <string name="system_seamless_updates_headline">Seamless updates</string>
@@ -157,13 +160,20 @@
     <string name="device_model_headline">Model</string>
     <string name="device_product_name_headline">Product</string>
     <string name="device_sku_headline">SKU</string>
+    <string name="device_type_headline">Device type</string>
+    <string name="device_type_phone">Phone</string>
+    <string name="device_type_tablet">Tablet</string>
+    <string name="device_type_foldable">Foldable</string>
+    <string name="device_type_computer">Computer</string>
+    <string name="device_type_television">TV</string>
+    <string name="device_type_watch">Watch</string>
+    <string name="device_type_automotive">Car</string>
     <string name="device_display_type_built_in">Display</string>
     <string name="device_display_type_inner">Inner display</string>
     <string name="device_display_type_outer">Outer display</string>
     <string name="device_display_type_external">External display</string>
     <string name="device_display_numbered"><xliff:g id="display" example="Outer display">%1$s</xliff:g> #<xliff:g id="number" example="1">%2$d</xliff:g></string>
     <string name="device_display_name_headline">Name</string>
-    <string name="device_display_more_details">More details</string>
     <string name="device_display_resolution_headline">Resolution</string>
     <string name="device_display_size_headline">Size</string>
     <string name="device_display_aspect_ratio_headline">Aspect ratio</string>
@@ -187,6 +197,13 @@
     <string name="device_face_authentication_headline">Face authentication</string>
     <string name="device_vulkan_headline">Vulkan</string>
     <string name="device_file_based_encryption_headline">File-based encryption</string>
+    <string name="device_hardware_keystore_headline">Hardware-backed keystore</string>
+    <string name="device_strongbox_headline">StrongBox</string>
+    <string name="device_camera_privacy_switch_headline">Camera privacy switch</string>
+    <string name="device_microphone_privacy_switch_headline">Microphone privacy switch</string>
+    <string name="device_privacy_switch_software">Software</string>
+    <string name="device_privacy_switch_hardware">Hardware</string>
+    <string name="device_privacy_switch_software_and_hardware">Software and hardware</string>
     <string name="device_npu_headline">Neural processing unit</string>
 
     <!-- Hardware page -->
@@ -218,6 +235,7 @@
     <string name="memory_ram_used_headline">Used</string>
     <string name="memory_ram_usage_headline">Usage</string>
     <string name="memory_ram_low_ram_headline">Low RAM</string>
+    <string name="memory_ram_advertised_headline">Advertised</string>
     <string name="memory_storage_category">Internal storage</string>
     <string name="memory_storage_hardware_headline">Hardware</string>
     <string name="memory_storage_total_headline">Total</string>
@@ -248,11 +266,19 @@
     <string name="camera_field_of_view_headline">Field of view</string>
     <string name="camera_field_of_view_value"><xliff:g example="84" id="degrees">%1$d</xliff:g>°</string>
     <string name="camera_available_apertures_headline">Available apertures</string>
+    <string name="camera_hardware_level_headline">Hardware level</string>
+    <string name="camera_hardware_level_legacy">Legacy</string>
+    <string name="camera_hardware_level_limited">Limited</string>
+    <string name="camera_hardware_level_full">Full</string>
+    <string name="camera_hardware_level_3">Level 3</string>
+    <string name="camera_hardware_level_external">External</string>
+    <string name="camera_hdr_formats_headline">HDR formats</string>
     <string name="camera_autofocus_headline">Autofocus</string>
     <string name="camera_ois_headline">Optical image stabilization</string>
     <string name="camera_eis_headline">Electronic image stabilization</string>
     <string name="camera_flash_headline">Flashlight</string>
     <string name="camera_low_light_boost_headline">Low light boost</string>
+    <string name="camera_raw_capture_headline">RAW capture</string>
     <string name="camera_features_headline">Features</string>
 
     <!-- Sensors page -->
@@ -282,11 +308,27 @@
     <string name="connectivity_network_category">Network</string>
     <string name="connectivity_type_headline">Network type</string>
     <string name="connectivity_type_cellular">Cellular</string>
+    <string name="connectivity_type_ethernet">Ethernet</string>
+    <string name="connectivity_type_usb">USB</string>
+    <string name="connectivity_type_bluetooth">Bluetooth</string>
     <string name="connectivity_download_speed_headline">Download speed</string>
     <string name="connectivity_upload_speed_headline">Upload speed</string>
+    <string name="connectivity_vpn_headline">VPN</string>
+    <string name="connectivity_vpn_connected">Connected</string>
+    <string name="connectivity_vpn_disconnected">Disconnected</string>
+    <string name="connectivity_metered_headline">Network usage</string>
+    <string name="connectivity_metered">Metered</string>
+    <string name="connectivity_unmetered">Unmetered</string>
+    <string name="connectivity_captive_portal_headline">Network sign-in</string>
+    <string name="connectivity_captive_portal_sign_in_required">Sign in required</string>
+    <string name="connectivity_captive_portal_not_required">Not required</string>
+    <string name="connectivity_restricted_network_headline">Restricted network</string>
     <string name="connectivity_wifi_category">Wi‑Fi</string>
     <string name="connectivity_ssid_headline">SSID</string>
     <string name="connectivity_ssid_hidden_value">Hidden</string>
+    <string name="connectivity_wifi_security_headline">Security</string>
+    <string name="connectivity_wifi_security_none">None</string>
+    <string name="connectivity_wifi_security_wpa3_enterprise_192_bit">WPA3-Enterprise 192-bit</string>
     <string name="connectivity_frequency_headline">Frequency</string>
     <string name="connectivity_signal_strength_headline">Signal strength</string>
     <string name="connectivity_signal_weak">Weak</string>
@@ -294,6 +336,7 @@
     <string name="connectivity_signal_good">Good</string>
     <string name="connectivity_signal_excellent">Excellent</string>
     <string name="connectivity_link_speed_headline">Link speed</string>
+    <string name="connectivity_wifi_link_value_with_band"><xliff:g id="value" example="866 Mbps">%1$s</xliff:g> (<xliff:g id="band" example="5 GHz">%2$s</xliff:g>)</string>
     <string name="connectivity_local_ip_ipv4_headline">Local IP (IPv4)</string>
     <string name="connectivity_local_ip_ipv6_headline">Local IP (IPv6)</string>
     <string name="connectivity_mac_address_headline">MAC address</string>
@@ -403,6 +446,7 @@
     <string name="search_prompt">Search Inware</string>
     <string name="search_empty_hint">Search by name or category</string>
     <string name="search_no_results">No results found</string>
+    <string name="search_shortcut">Search</string>
     <string name="search_result_breadcrumb"><xliff:g id="page" example="System">%1$s</xliff:g> &gt; <xliff:g id="category" example="Android">%2$s</xliff:g></string>
 
     <!-- Settings Hub page -->
