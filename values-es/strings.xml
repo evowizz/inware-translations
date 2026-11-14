@@ -4,10 +4,10 @@
     <string name="generic_a11y_go_back">Atrás</string>
     <string name="generic_a11y_more_options">Más opciones</string>
     <string name="generic_a11y_drag_handle">Arrastrar</string>
-    <string name="generic_a11y_expanded">Expanded</string>
-    <string name="generic_a11y_collapsed">Collapsed</string>
-    <string name="generic_a11y_close_menu">Close menu</string>
-    <string name="generic_a11y_show_actions">Show actions</string>
+    <string name="generic_a11y_expanded">Expandido</string>
+    <string name="generic_a11y_collapsed">Colapsado</string>
+    <string name="generic_a11y_close_menu">Cerrar manú</string>
+    <string name="generic_a11y_show_actions">Mostrar acciones</string>
     <string name="generic_unknown">Desconocido</string>
     <string name="generic_enabled">Activado</string>
     <string name="generic_disabled">Desactivado</string>
@@ -39,8 +39,8 @@
 
     <!-- Telemetry consent -->
     <string name="telemetry_consent_title">Datos compartidos</string>
-    <string name="telemetry_consent_first_use_body">Inware can share usage analytics and crash reports to help improve the app. Nothing is shared unless you choose to, and you can change this anytime in Settings.</string>
-    <string name="telemetry_consent_upgrade_body">Starting with version 7.1.0, Inware lets you control usage analytics and crash reporting separately. Nothing is shared unless you choose to, and you can change this anytime in Settings.</string>
+    <string name="telemetry_consent_first_use_body">Inware puede enviar estadísticas de uso y reporte de errores para ayudar a mejorar la app. Nada es compartido sin tu consentimiento, y puedes modificar tu elección cuando quieras en Ajustes.</string>
+    <string name="telemetry_consent_upgrade_body">Desde la versión 7.1.0, Inware te permite controlar el envío de estadísticas de uso y el reporte de errores por separado. Nada es compartido sin tu consentimiento, y puedes modificar tu elección cuando quieras en Ajustes.</string>
     <string name="telemetry_consent_first_use_policy_message">Lee la [Política de Privacidad](<xliff:g id="link" example="https://example.com">%1$s</xliff:g>) para más detalles.</string>
     <string name="telemetry_consent_upgrade_policy_message">La [Política de Privacidad](<xliff:g id="link" example="https://example.com">%1$s</xliff:g>) ha sido actualizada para reflejar estos cambios.</string>
     <!-- Defaults to the Settings string and may be translated independently. -->
@@ -51,11 +51,11 @@
     <string name="telemetry_crash_reports_headline">@string/settings_data_privacy_crash_reports_headline</string>
     <!-- Defaults to the Settings string and may be translated independently. -->
     <string name="telemetry_crash_reports_description">@string/settings_data_privacy_crash_reports_description</string>
-    <string name="telemetry_consent_customize">Customize</string>
-    <string name="telemetry_consent_customize_summary">Usage analytics and crash reports</string>
+    <string name="telemetry_consent_customize">Personalizar</string>
+    <string name="telemetry_consent_customize_summary">Estadísticas de uso y reporte de errores</string>
     <string name="telemetry_consent_decline_all">Rechazar todo</string>
-    <string name="telemetry_consent_allow_all">Allow all</string>
-    <string name="telemetry_consent_save_choices">Save choices</string>
+    <string name="telemetry_consent_allow_all">Permitir todo</string>
+    <string name="telemetry_consent_save_choices">Guardar preferencias</string>
 
     <!-- Permissions -->
     <string name="permission_required_heading">Permiso necesario</string>
@@ -252,7 +252,7 @@
     <string name="camera_ois_headline">Estabilización óptica de imagen (OIS)</string>
     <string name="camera_eis_headline">Estabilización electrónica de imagen (EIS)</string>
     <string name="camera_flash_headline">Flash</string>
-    <string name="camera_low_light_boost_headline">Low light boost</string>
+    <string name="camera_low_light_boost_headline">Mejora en poca luz (LLB)</string>
     <string name="camera_features_headline">Características</string>
 
     <!-- Sensors page -->
@@ -331,7 +331,7 @@
     <string name="connectivity_features_category">Características</string>
     <string name="connectivity_thread_network_headline">Red Thread</string>
     <string name="connectivity_ble_channel_sounding_headline">Bluetooth Channel Sounding</string>
-    <string name="connectivity_uwb_headline">Ultra-wideband</string>
+    <string name="connectivity_uwb_headline">Banda ultraancha</string>
 
     <!-- Battery page -->
     <string name="battery_condition_category">Estado</string>
